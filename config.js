@@ -243,8 +243,8 @@ setupGraphAnalytics();
 
 
 // If alt_header is enabled, these are the items added to the header
-let headerLogoText = "Fossy",
-    headerLogoImgUrl = "",
+let headerLogoText = "",
+    headerLogoImgUrl = "fossy-logo-long.svg",
     headerLinks = [
     {
         name: "Ranking List",

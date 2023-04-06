@@ -2690,16 +2690,17 @@ function addHeader() {
         headerLogoSpan = document.createElement("span"),
         linksList = document.createElement("ul");
     
-    headerButton.className = "header-button";
-    headerLogoElem.className = "logo";
-    headerLogoLink.setAttribute('href', site_url);
-    if (headerLogoText) {
-        headerLogoSpan.innerText = headerLogoText;
-        headerLogoLink.append(headerLogoSpan);
-    } else if (headerLogoImgUrl) {
+        headerButton.className = "header-button";
+        headerLogoElem.className = "logo";
+        headerLogoLink.setAttribute('href', site_url);
+        headerLogoLink.setAttribute('style', "display:inline; white-space:nowrap;");
+        // headerLogoSpan.innerText = headerLogoText;
+        headerLogoSpan.setAttribute('style', "position:absolute; color: #ffffff;");
+        // headerLogoLink.append(headerLogoSpan);
         headerLogoImg.setAttribute("src", headerLogoImgUrl);
+        headerLogoImg.setAttribute('style', "width:50%; margin-left: -15%; fill: #ffffff;");
         headerLogoLink.append(headerLogoImg);
-    }
+    
     
     altHeaderElem.append(headerButton);
     headerLogoElem.append(headerLogoLink);
