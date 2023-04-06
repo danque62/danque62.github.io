@@ -6,19 +6,19 @@ const init_phones = ["Combo Variant 1"],            // Optional. Which graphs to
       default_norm_db = 60,                         // Sets default dB normalization point
       default_norm_hz = 500,                        // Sets default Hz normalization point (500Hz is recommended by IEC)
       max_channel_imbalance = 5,                    // Channel imbalance threshold to show ! in the channel selector
-      alt_layout = false,                           // Toggle between classic and alt layouts
+      alt_layout = true,                           // Toggle between classic and alt layouts
       alt_sticky_graph = true,                      // If active graphs overflows the viewport, does the graph scroll with the page or stick to the viewport?
-      alt_animated = false,                         // Determines if new graphs are drawn with a 1-second animation, or appear instantly
-      alt_header = false,                           // Display a configurable header at the top of the alt layout
+      alt_animated = true,                         // Determines if new graphs are drawn with a 1-second animation, or appear instantly
+      alt_header = true,                           // Display a configurable header at the top of the alt layout
       alt_header_new_tab = true,                    // Clicking alt_header links opens in new tab
       alt_tutorial = false,                         // Display a configurable frequency response guide below the graph
-      alt_augment = false,                          // Display augment card in phone list, e.g. review sore, shop link
+      alt_augment = true,                          // Display augment card in phone list, e.g. review sore, shop link
       site_url = 'graph.html',                      // URL of your graph "homepage"
       share_url = true,                             // If true, enables shareable URLs
-      watermark_text = "CrinGraph",                 // Optional. Watermark appears behind graphs
+      watermark_text = "",                           // Optional. Watermark appears behind graphs
       watermark_image_url = "cringraph-logo.svg",   // Optional. If image file is in same directory as config, can be just the filename
-      page_title = "CrinGraph",                     // Optional. Appended to the page title if share URLs are enabled
-      page_description = "View and compare frequency response graphs for earphones",
+      page_title = "Fossy Graph",                     // Optional. Appended to the page title if share URLs are enabled
+      page_description = "View and compare frequency response graphs for IEMs",
       accessories = false,                          // If true, displays specified HTML at the bottom of the page. Configure further below
       externalLinksBar = true,                      // If true, displays row of pill-shaped links at the bottom of the page. Configure further below
       restricted = false,                           // Enables restricted mode. More restricted options below
@@ -236,12 +236,12 @@ setupGraphAnalytics();
 
 
 // If alt_header is enabled, these are the items added to the header
-let headerLogoText = "CrinGraph",
+let headerLogoText = "Fossy",
     headerLogoImgUrl = "",
     headerLinks = [
     {
-        name: "Sample",
-        url: "https://sample.com"
+        name: "Ranking List",
+        url: "https://docs.google.com/spreadsheets/d/12gYzaCKeFOki6aWa3t8clZwyyqY3JLS0U--ROE0Uw-A/edit?usp=share_link"
     }
 ];
 
