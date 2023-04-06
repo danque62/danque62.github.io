@@ -1,6 +1,6 @@
 // Configuration options
-const init_phones = ["Combo Variant 1"],            // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
-      DIR = "data/",                                // Directory where graph files are stored
+const init_phones = ["IEF Neutral Target", "KATO 2 Xelastec"],            // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
+      DIR = "data_fossy/",                                // Directory where graph files are stored
       default_channels = ["L","R"],                 // Which channels to display. Avoid javascript errors if loading just one channel per phone
       default_normalization = "dB",                 // Sets default graph normalization mode. Accepts "dB" or "Hz"
       default_norm_db = 60,                         // Sets default dB normalization point
@@ -16,19 +16,19 @@ const init_phones = ["Combo Variant 1"],            // Optional. Which graphs to
       site_url = 'graph.html',                      // URL of your graph "homepage"
       share_url = true,                             // If true, enables shareable URLs
       watermark_text = "",                           // Optional. Watermark appears behind graphs
-      watermark_image_url = "cringraph-logo.svg",   // Optional. If image file is in same directory as config, can be just the filename
+      watermark_image_url = "fossy-logo.svg",   // Optional. If image file is in same directory as config, can be just the filename
       page_title = "Fossy Graph",                     // Optional. Appended to the page title if share URLs are enabled
       page_description = "View and compare frequency response graphs for IEMs",
-      accessories = false,                          // If true, displays specified HTML at the bottom of the page. Configure further below
+      accessories = true,                          // If true, displays specified HTML at the bottom of the page. Configure further below
       externalLinksBar = true,                      // If true, displays row of pill-shaped links at the bottom of the page. Configure further below
       restricted = false,                           // Enables restricted mode. More restricted options below
       expandable = false,                           // Enables button to expand iframe over the top of the parent page
       expandableOnly = false,                       // Prevents iframe interactions unless the user has expanded it. Accepts "true" or "false" OR a pixel value; if pixel value, that is used as the maximum width at which expandableOnly is used
       headerHeight = '0px',                         // Optional. If expandable=true, determines how much space to leave for the parent page header
       darkModeButton = true,                        // Adds a "Dark Mode" button the main toolbar to let users set preference
-      targetDashed = false,                         // If true, makes target curves dashed lines
+      targetDashed = true,                         // If true, makes target curves dashed lines
       targetColorCustom = false,                    // If false, targets appear as a random gray value. Can replace with a fixed color value to make all targets the specified color, e.g. "black"
-      labelsPosition = "default",                   // Up to four labels will be grouped in a specified corner. Accepts "top-left," bottom-left," "bottom-right," and "default"
+      labelsPosition = "bottom-left",                   // Up to four labels will be grouped in a specified corner. Accepts "top-left," bottom-left," "bottom-right," and "default"
       stickyLabels = true,                          // "Sticky" labels 
       analyticsEnabled = false,                     // Enables Google Analytics 4 measurement of site usage
       extraEnabled = true,                          // Enable extra features
@@ -40,9 +40,10 @@ const init_phones = ["Combo Variant 1"],            // Optional. Which graphs to
 
 // Specify which targets to display
 const targets = [
-    { type:"Neutral",    files:["Diffuse Field","Etymotic","Free Field","Innerfidelity ID"] },
-    { type:"Reviewer",   files:["Antdroid","Bad Guy","Banbeucmas","Crinacle","Precogvision","Super Review"] },
-    { type:"Preference", files:["Harman","Rtings","Sonarworks"] }
+    { type:"Neutral",     files:["Diffuse Field","Etymotic","Free Field","Innerfidelity ID"] },
+    { type:"IEF Members", files:["Haruto", "Brownie"]},
+    { type:"Reviewer",    files:["Antdroid","Bad Guy","Banbeucmas","IEF Neutral","Precogvision","Super Review"] },
+    { type:"Preference",  files:["Harman IE 2016","Harman IE 2017v1","Harman IE 2017v2","Harman IE 2019v2","Rtings","Sonarworks", "VDSF"] }
 ];
 
 
@@ -67,6 +68,12 @@ function watermark(svg) {
             .attrs({x:0, y:70, "font-size":28, "text-anchor":"middle", "class":"graph-name"})
             .text(watermark_text);
     }
+
+    svg.append("g")
+    .attr("opacity",0.2)
+    .append("text")
+    .attrs({x:765, y:314, "font-size":10, "text-anchor":"end", "class":"graph-name"})
+    .text("danque62.github.io/graph");
 }
 
 
@@ -166,12 +173,28 @@ const linkSets = [
         label: "IEM graph databases",
         links: [
             {
-                name: "Audio Discourse",
-                url: "https://iems.audiodiscourse.com/"
+                name: "In-Ear Fidelity",
+                url: "https://crinacle.com/graphs/iems/graphtool/"
             },
             {
-                name: "Bad Guy",
-                url: "https://hbb.squig.link/"
+                name: "Super* Review",
+                url: "https://squig.link/"
+            },
+            {
+                name: "Precogvision",
+                url: "https://precog.squig.link/"
+            },
+            {
+                name: "HarutoHiroki",
+                url: "https://graphtool.harutohiroki.com/"
+            },
+            {
+                name: "Practiphile",
+                url: "https://practiphile.squig.link/"
+            },
+            {
+                name: "Kurin",
+                url: "https://kurin.squig.link/"
             },
             {
                 name: "Banbeucmas",
@@ -180,22 +203,6 @@ const linkSets = [
             {
                 name: "HypetheSonics",
                 url: "https://www.hypethesonics.com/iemdbc/"
-            },
-            {
-                name: "In-Ear Fidelity",
-                url: "https://crinacle.com/graphs/iems/graphtool/"
-            },
-            {
-                name: "Precogvision",
-                url: "https://precog.squig.link/"
-            },
-            {
-                name: "Rikudou Goku",
-                url: "https://rg.squig.link/"
-            },
-            {
-                name: "Super* Review",
-                url: "https://squig.link/"
             },
         ]
     },

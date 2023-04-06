@@ -1,0 +1,50 @@
+[
+  {
+    "name": "BLON",
+    "phones": [{ "name": "BL03", "file": "BL03" }]
+  },
+  {
+    "name": "FIIL",
+    "phones": [{ "name": "T1 Lite", "file": "FIIL T1 Lite" }]
+  },
+  {
+    "name": "Letshuoer",
+    "phones": [{ "name": "S12", "file": "S12 new" }]
+  },
+  {
+    "name": "JBL",
+    "phones": [{ "name": "Quantum 50", "file": "JBL Quantum 50" }]
+  },
+  {
+    "name": "Moondrop",
+    "phones": [
+      {
+        "name": "KATO",
+        "file": ["KATO 2 Xelastec"],
+        "suffix": ["sample 2 w/ Azla Xelastec"]
+      }
+    ]
+  },
+  {
+    "name": "Sony",
+    "phones": [
+      {
+        "name": "MDR-XB55AP",
+        "file": "MDR-XB55AP"
+      },
+      {
+        "name": "MDR-EX155AP",
+        "file": "MDR-EX155AP"
+      }
+    ]
+  },
+  {
+    "name": "7Hz",
+    "suffix": "Salnotes",
+    "phones": [{ "name": "Zero", "file": "Zero Sal" }]
+  },
+  {
+    "name": "Xiaomi",
+    "phones": [{ "name": "Mi In-Ear Headphones Pro HD", "file": "Mi HD Audio" }]
+  }
+]
