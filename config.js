@@ -1,6 +1,7 @@
 // Configuration options
 const init_phones = ["IEF Neutral Target", "KATO 2 Xelastec"],            // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
       DIR = "data_fossy/",                                // Directory where graph files are stored
+      PHONE_BOOK = "phone_book.json",
       default_channels = ["L","R"],                 // Which channels to display. Avoid javascript errors if loading just one channel per phone
       default_normalization = "dB",                 // Sets default graph normalization mode. Accepts "dB" or "Hz"
       default_norm_db = 60,                         // Sets default dB normalization point
