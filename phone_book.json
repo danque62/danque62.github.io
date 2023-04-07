@@ -56,7 +56,11 @@
               "suffix": [
                   "sample 2 w/ Azla Xelastec"
               ]
-          }
+          },
+		  {
+			  "file": "Quarks DSP",
+              "name": "Quarks DSP"
+		  }
       ]
   },
   {
