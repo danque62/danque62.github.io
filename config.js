@@ -41,10 +41,10 @@ const init_phones = ["IEF Neutral Target", "KATO 2 Xelastec"],            // Opt
 
 // Specify which targets to display
 const targets = [
-    { type:"Neutral",     files:["Diffuse Field","Etymotic","Free Field","Innerfidelity ID"] },
-    { type:"IEF Members", files:["Haruto", "Brownie"]},
-    { type:"Reviewer",    files:["Antdroid","Bad Guy","Banbeucmas","IEF Neutral","Precogvision","Super Review"] },
-    { type:"Preference",  files:["Harman IE 2016","Harman IE 2017v1","Harman IE 2017v2","Harman IE 2019v2","Rtings","Sonarworks", "VDSF"] }
+    { type:"Neutral",     files:["Diffuse Field","Diffuse Field Unsmoothened", "Etymotic","Free Field","Innerfidelity ID"] },
+    { type:"IEF Members", files:["Haruto", "Haruto 🅱️ass" ,"Brownie", "Helene", "Mini"]},
+    { type:"Reviewer",    files:["Antdroid","HBB","Banbeucmas","IEF Neutral","Precogvision","Super 22", "Timmy", "VSG", "Practiphile"] },
+    { type:"Preference",  files:["Oratory 1990", "Oratory 1990 Flat Bass", "Tork V5" ,"Harman IE 2016","Harman IE 2017v1","Harman IE 2017v2","Harman IE 2019v2","Rtings","Sonarworks", "VDSF"] }
 ];
 
 

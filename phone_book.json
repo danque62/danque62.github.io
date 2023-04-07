@@ -3,8 +3,8 @@
       "name": "7Hz",
       "phones": [
           {
-              "file": "Zero Sal",
-              "name": "Zero"
+              "name": "Zero",
+              "file": "Zero Sal"
           }
       ],
       "suffix": "Salnotes"
@@ -13,8 +13,8 @@
       "name": "BLON",
       "phones": [
           {
-              "file": "BL03",
-              "name": "BL03"
+              "name": "BL03",
+              "file": "BL03"
           }
       ]
   },
@@ -22,8 +22,8 @@
       "name": "FIIL",
       "phones": [
           {
-              "file": "FIIL T1 Lite",
-              "name": "T1 Lite"
+              "name": "T1 Lite",
+              "file": "FIIL T1 Lite"
           }
       ]
   },
@@ -31,8 +31,8 @@
       "name": "JBL",
       "phones": [
           {
-              "file": "JBL Quantum 50",
-              "name": "Quantum 50"
+              "name": "Quantum 50",
+              "file": "JBL Quantum 50"
           }
       ]
   },
@@ -40,8 +40,8 @@
       "name": "Letshuoer",
       "phones": [
           {
-              "file": "S12 new",
-              "name": "S12"
+              "name": "S12",
+              "file": "S12 new"
           }
       ]
   },
@@ -49,17 +49,17 @@
       "name": "Moondrop",
       "phones": [
           {
+              "name": "KATO",
               "file": [
                   "KATO 2 Xelastec"
               ],
-              "name": "KATO",
               "suffix": [
                   "sample 2 w/ Azla Xelastec"
               ]
           },
 		  {
-			  "file": "Quarks DSP",
-              "name": "Quarks DSP"
+              "name": "Quarks DSP",
+			  "file": "Quarks DSP"
 		  }
       ]
   },
@@ -67,12 +67,12 @@
       "name": "Sony",
       "phones": [
           {
-              "file": "MDR-EX155AP",
-              "name": "MDR-EX155AP"
+              "name": "MDR-EX155AP",
+              "file": "MDR-EX155AP"
           },
           {
-              "file": "MDR-XB55AP",
-              "name": "MDR-XB55AP"
+              "name": "MDR-XB55AP",
+              "file": "MDR-XB55AP"
           }
       ]
   },
@@ -80,8 +80,8 @@
       "name": "Xiaomi",
       "phones": [
           {
-              "file": "Mi HD Audio",
-              "name": "Mi In-Ear Headphones Pro HD"
+              "name": "Mi In-Ear Headphones Pro HD",
+              "file": "Mi HD Audio"
           }
       ]
   }
