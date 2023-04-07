@@ -1,5 +1,5 @@
 // Configuration options
-const init_phones = ["Helene Target", "KATO Steel W1"],            // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
+const init_phones = [],            // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
       DIR = "data_fossy/",                                // Directory where graph files are stored
       PHONE_BOOK = "phone_book.json",
       default_channels = ["L","R"],                 // Which channels to display. Avoid javascript errors if loading just one channel per phone
