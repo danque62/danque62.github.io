@@ -1,5 +1,5 @@
 // Configuration options
-const init_phones = ["IEF Neutral Target", "KATO 2 Xelastec"],            // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
+const init_phones = ["Helene Target", "KATO Steel W1"],            // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
       DIR = "data_fossy/",                                // Directory where graph files are stored
       PHONE_BOOK = "phone_book.json",
       default_channels = ["L","R"],                 // Which channels to display. Avoid javascript errors if loading just one channel per phone
@@ -70,11 +70,11 @@ function watermark(svg) {
             .text(watermark_text);
     }
 
-    svg.append("g")
-    .attr("opacity",0.2)
-    .append("text")
-    .attrs({x:765, y:314, "font-size":10, "text-anchor":"end", "class":"graph-name"})
-    .text("danque62.github.io/graph");
+    // svg.append("g")
+    // .attr("opacity",0.2)
+    // .append("text")
+    // .attrs({x:765, y:314, "font-size":10, "text-anchor":"end", "class":"graph-name"})
+    // .text("danque62.github.io/graph");
 }
 
 

@@ -1,88 +1,228 @@
 [
-  {
-      "name": "7Hz",
-      "phones": [
-          {
-              "name": "Zero",
-              "file": "Zero Sal"
-          }
-      ],
-      "suffix": "Salnotes"
-  },
-  {
-      "name": "BLON",
-      "phones": [
-          {
-              "name": "BL03",
-              "file": "BL03"
-          }
-      ]
-  },
-  {
-      "name": "FIIL",
-      "phones": [
-          {
-              "name": "T1 Lite",
-              "file": "FIIL T1 Lite"
-          }
-      ]
-  },
-  {
-      "name": "JBL",
-      "phones": [
-          {
-              "name": "Quantum 50",
-              "file": "JBL Quantum 50"
-          }
-      ]
-  },
-  {
-      "name": "Letshuoer",
-      "phones": [
-          {
-              "name": "S12",
-              "file": "S12 new"
-          }
-      ]
-  },
-  {
-      "name": "Moondrop",
-      "phones": [
-          {
-              "name": "KATO",
-              "file": [
-                  "KATO 2 Xelastec"
-              ],
-              "suffix": [
-                  "sample 2 w/ Azla Xelastec"
-              ]
-          },
-		  {
-              "name": "Quarks DSP",
-			  "file": "Quarks DSP"
-		  }
-      ]
-  },
-  {
-      "name": "Sony",
-      "phones": [
-          {
-              "name": "MDR-EX155AP",
-              "file": "MDR-EX155AP"
-          },
-          {
-              "name": "MDR-XB55AP",
-              "file": "MDR-XB55AP"
-          }
-      ]
-  },
-  {
-      "name": "Xiaomi",
-      "phones": [
-          {
-              "name": "Mi In-Ear Headphones Pro HD",
-              "file": "Mi HD Audio"
-          }
-      ]
-  }
+    {
+        "name": "7Hz",
+        "phones": [
+            {
+                "name": "Zero",
+                "file": "Zero Sal"
+            }
+        ],
+        "suffix": "Salnotes"
+    },
+    {
+        "name": "BLON",
+        "phones": [
+            {
+                "name": "BL03",
+                "file": [
+                    "BL03 2",
+                    "BL03"
+                ],
+                "suffix": [
+                    "s2",
+                    "s1"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CCA",
+        "phones": [
+            {
+                "name": "CRA Pre-2023",
+                "file": "CRA"
+            }
+        ]
+    },
+    {
+        "name": "FIIL",
+        "phones": [
+            {
+                "name": "T1 Lite",
+                "file": "FIIL T1 Lite"
+            }
+        ]
+    },
+    {
+        "name": "JBL",
+        "phones": [
+            {
+                "name": "T110BT",
+                "file": "T110BT"
+            },
+            {
+                "name": "Quantum 50",
+                "file": "JBL Quantum 50"
+            }
+        ]
+    },
+    {
+        "name": "Letshuoer",
+        "phones": [
+            {
+                "name": "S12",
+                "file": "S12 2"
+            }
+        ]
+    },
+    {
+        "name": "Moondrop",
+        "phones": [
+            {
+                "name": "Aria",
+                "file": [
+                    "Aria",
+                    "Aria Spring",
+                    "Aria W1"
+                ],
+                "suffix": [
+                    "",
+                    "w/ Spring tips",
+                    "w/ Spinfits W1 tips"
+                ]
+            },
+            {
+                "name": "Chu",
+                "file": [
+                    "Chu",
+                    "Chu Silicone"
+                ],
+                "suffix": [
+                    "w/ Spring tips",
+                    "w/ silicone tips"
+                ]
+            },
+            {
+                "name": "KATO",
+                "file": [
+                    "KATO Steel",
+                    "KATO Steel W1",
+                    "KATO 2 Xelastec",
+                    "KATO Steel CP145",
+                    "KATO Steel Mistips",
+                    "KATO Brass",
+                    "KATO Brass W1",
+                    "KATO Brass CP145",
+                    "KATO Brass Mistips"
+                ],
+                "suffix": [
+                    "w/ Spring tips",
+                    "w/ Spinfits W1 tips",
+                    "s2 w/ Azla Xelastec",
+                    "w/ Spinfits CP145 tips",
+                    "w/ Mistips",
+                    "(brass) w/ Spring tips",
+                    "(brass) w/ Spinfits W1 tips",
+                    "(brass) w/ Spinfits CP145 tips",
+                    "(brass) w/ Mistips"
+                ]
+            },
+            {
+                "name": "Quarks DSP",
+                "file": "Quarks DSP"
+            }
+        ]
+    },
+    {
+        "name": "NiceHCK",
+        "phones": [
+            {
+                "name": "DB3",
+                "file": "DB3"
+            }
+        ]
+    },
+    {
+        "name": "QKZ",
+        "phones": [
+            {
+                "name": "HBB",
+                "file": "QKZ HBB"
+            }
+        ]
+    },
+    {
+        "name": "Samsung",
+        "phones": [
+            {
+                "name": "E0-IG955",
+                "file": "Samsung FreeBuds"
+            },
+            {
+                "name": "Galaxy Buds Pro",
+                "file": [
+                    "Buds Pro",
+                    "Buds Pro Ambient",
+                    "Buds Pro ANC"
+                ],
+                "suffix": [
+                    "Passive",
+                    "Ambient Mode",
+                    "ANC"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Sony",
+        "phones": [
+            {
+                "name": "MDR-EX155AP",
+                "file": "MDR-EX155AP"
+            },
+            {
+                "name": "MDR-XB55AP",
+                "file": "MDR-XB55AP"
+            }
+        ]
+    },
+    {
+        "name": "Truthear",
+        "phones": [
+            {
+                "name": "Zero",
+                "collab": "crinacle",
+                "file": [
+                    "CrinZero",
+                    "CrinZero wide-bore",
+                    "CrinZero foam"
+                ],
+                "suffix": [
+                    "",
+                    "w/ stock wide bore tips",
+                    "w/ stock foam tips"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Xiaomi",
+        "phones": [
+            {
+                "name": "Mi In-Ear Headphones Basic",
+                "file": "Mi In Ear"
+            },
+            {
+                "name": "Mi In-Ear Headphones Pro HD",
+                "file": "Mi HD Audio"
+            },
+            {
+                "name": "Mi Noise Cancelling Earphones (3.5mm)",
+                "file": "Mi ANC 3.5mm"
+            }
+        ]
+    },
+    {
+        "name": "THE HORRIBLE",
+        "phones": [
+            {
+                "name": "FaKG \"Free\"buds",
+                "file": "FaKG FreeBuds"
+            },
+            {
+                "name": "honestly idk",
+                "file": "Blue bullets IDK"
+            }
+        ]
+    }
 ]
