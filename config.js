@@ -41,10 +41,11 @@ const init_phones = [],            // Optional. Which graphs to display on initi
 
 // Specify which targets to display
 const targets = [
-    { type:"Neutral",     files:["Diffuse Field","Diffuse Field Unsmoothened", "Etymotic","Free Field","Innerfidelity ID"] },
-    { type:"IEF Members", files:["Haruto", "Haruto 🅱️ass" ,"Brownie", "Helene", "Mini"]},
-    { type:"Reviewer",    files:["Antdroid","HBB","Banbeucmas","IEF Neutral","Precogvision","Super 22", "Timmy", "VSG", "Practiphile"] },
-    { type:"Preference",  files:["Oratory 1990", "Oratory 1990 Flat Bass", "Tork V5" ,"Harman IE 2016","Harman IE 2017v1","Harman IE 2017v2","Harman IE 2019v2","Rtings","Sonarworks", "VDSF"] }
+    { type: "Personal",   files:["Pleasant"] },
+    { type:"Neutral",     files:["Diffuse Field", "Diffuse Field Unsmoothened", "Etymotic", "Free Field", "Innerfidelity ID"] },
+    { type:"IEF Members", files:["Haruto", "Haruto 🅱️ass", "Brownie", "Helene", "Listener","Xiao 2.0", "Mini"]},
+    { type:"Reviewer",    files:["Antdroid", "HBB", "Banbeucmas", "IEF Neutral 2023", "IEF Neutral", "Precogvision", "Super 22", "Timmy", "VSG", "Practiphile"] },
+    { type:"Preference",  files:["Oratory 1990", "Oratory 1990 Flat Bass", "Tork V5" , "Harman IE 2016", "Harman IE 2017v1", "Harman IE 2017v2", "Harman IE 2019v2", "Rtings", "Sonarworks", "VDSF"] }
 ];
 
 
@@ -250,6 +251,10 @@ let headerLogoText = "",
     {
         name: "Ranking List",
         url: "https://docs.google.com/spreadsheets/d/12gYzaCKeFOki6aWa3t8clZwyyqY3JLS0U--ROE0Uw-A/edit?usp=share_link"
+    },
+    {
+        name: "Misc. Data",
+        url: "https://docs.google.com/spreadsheets/d/1VgCy0LiGyIfdHTKx4jtNQoLFO3MiWNlnUcjGb45h4w8/edit?usp=share_link"
     }
 ];
 
