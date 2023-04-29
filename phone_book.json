@@ -1,13 +1,47 @@
 [
     {
+        "name": "64 Audio",
+        "phones": [
+            {
+                "name": "U12",
+                "file": "U12"
+            }
+        ]
+    },
+    {
         "name": "7Hz",
         "phones": [
             {
+                "name": "Dioko",
+                "file": "Dioko",
+                "collab": "crinacle"
+            },
+            {
+                "name": "Timeless",
+                "file": "Timeless"
+            },
+            {
                 "name": "Zero",
-                "file": "Zero Sal"
+                "file": [
+                    "Salnotes Zero",
+                    "Salnotes Zero S2"
+                ],
+                "suffix": [
+                    "S1",
+                    "S2"
+                ]
             }
         ],
         "suffix": "Salnotes"
+    },
+    {
+        "name": "Audeze",
+        "phones": [
+            {
+                "name": "iSine 10 (left channel only)",
+                "file": "iSine"
+            }
+        ]
     },
     {
         "name": "BLON",
@@ -26,6 +60,15 @@
         ]
     },
     {
+        "name": "Campfire Audio",
+        "phones": [
+            {
+                "name": "Andromeda",
+                "file": "Andromeda"
+            }
+        ]
+    },
+    {
         "name": "CCA",
         "phones": [
             {
@@ -35,11 +78,46 @@
         ]
     },
     {
+        "name": "DUNU",
+        "phones": [
+            {
+                "name": "SA6 MK2",
+                "file": [
+                    "SA6 MK2 Off",
+                    "SA6 MK2 On"
+                ],
+                "suffix": [
+                    "(OFF)",
+                    "(ON)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Effect Audio",
+        "phones": [
+            {
+                "name": "Gaea",
+                "collab": "Elysian Acoustic Labs",
+                "file": "Gaea"
+            }
+        ]
+    },
+    {
         "name": "FIIL",
         "phones": [
             {
                 "name": "T1 Lite",
                 "file": "FIIL T1 Lite"
+            }
+        ]
+    },
+    {
+        "name": "INM Audio",
+        "phones": [
+            {
+                "name": "INM 3",
+                "file": "INM 3"
             }
         ]
     },
@@ -82,6 +160,11 @@
                 ]
             },
             {
+                "name": "Blessing 2: Dusk",
+                "collab": "crinacle",
+                "file": "B2 Dusk"
+            },
+            {
                 "name": "Chu",
                 "file": [
                     "Chu",
@@ -120,6 +203,18 @@
             {
                 "name": "Quarks DSP",
                 "file": "Quarks DSP"
+            },
+            {
+                "name": "SSR",
+                "file": "SSR"
+            },
+            {
+                "name": "Stellaris",
+                "file": "Stellaris"
+            },
+            {
+                "name": "Variations",
+                "file": "Variations"
             }
         ]
     },
@@ -177,8 +272,30 @@
         ]
     },
     {
+        "name": "Thieaudio",
+        "phones": [
+            {
+                "name": "Monarch MK2",
+                "file": "Monarch MK2"
+            }
+        ]
+    },
+    {
+        "name": "Symphonium",
+        "phones": [
+            {
+                "name": "Meteor",
+                "file": "Meteor"
+            }
+        ]
+    },
+    {
         "name": "Truthear",
         "phones": [
+            {
+                "name": "Hexa",
+                "file": "Hexa"
+            },
             {
                 "name": "Zero",
                 "collab": "crinacle",
