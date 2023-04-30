@@ -65,6 +65,10 @@
             {
                 "name": "Andromeda",
                 "file": "Andromeda"
+            },
+            {
+                "name": "Andromeda 2020",
+                "file": "Andromeda 2020"
             }
         ]
     },
@@ -259,8 +263,28 @@
         ]
     },
     {
+        "name": "Sennheiser",
+        "phones":[
+            {
+                "name": "IE200",
+                "file":[
+                    "IE200", "IE200 Half", "IE200 W1"
+                ],
+                "suffix":["", "(half tip depth)", "w/ Spinfits W1 tips"]
+            },
+            {
+                "name": "IE600",
+                "file": "IE600"
+            }
+        ]
+    },
+    {
         "name": "Sony",
         "phones": [
+            {
+                "name": "IER-Z1R",
+                "file": "IER-Z1R"
+            },
             {
                 "name": "MDR-EX155AP",
                 "file": "MDR-EX155AP"
