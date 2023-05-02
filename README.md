@@ -1,4 +1,4 @@
-# [Access to the graph tool.](danque62.github.io/graph)
+# [Access to the graph tool.](graph)
 # Updates (April 30, 2023 - EggHead demo session)
 ___
 Added IEMs:
