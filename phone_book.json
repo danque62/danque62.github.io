@@ -3,8 +3,20 @@
         "name": "64 Audio",
         "phones": [
             {
+                "name": "tia Trio",
+                "file": "tia Trio"
+            },
+            {
                 "name": "U12",
                 "file": "U12"
+            },
+            {
+                "name": "U12t",
+                "file": "U12t"
+            },
+            {
+                "name": "U18t",
+                "file": "U18t"
             }
         ]
     },
@@ -38,6 +50,10 @@
         "name": "Audeze",
         "phones": [
             {
+                "name": "Euclid",
+                "file": "Euclid"
+            },
+            {
                 "name": "iSine 10 (left channel only)",
                 "file": "iSine"
             }
@@ -69,6 +85,10 @@
             {
                 "name": "Andromeda 2020",
                 "file": "Andromeda 2020"
+            },
+            {
+                "name": "Honeydew",
+                "file": "Honeydew"
             }
         ]
     },
@@ -113,6 +133,15 @@
             {
                 "name": "T1 Lite",
                 "file": "FIIL T1 Lite"
+            }
+        ]
+    },
+    {
+        "name": "FiiO",
+        "phones":[
+            {
+                "name": "FH3",
+                "file": "FH3" 
             }
         ]
     },
@@ -286,21 +315,27 @@
                 "file": "IER-Z1R"
             },
             {
+                "name": "Linkbuds S",
+                "file": "Linkbuds S"
+            },
+            {
                 "name": "MDR-EX155AP",
                 "file": "MDR-EX155AP"
             },
             {
                 "name": "MDR-XB55AP",
                 "file": "MDR-XB55AP"
-            }
-        ]
-    },
-    {
-        "name": "Thieaudio",
-        "phones": [
+            },
             {
-                "name": "Monarch MK2",
-                "file": "Monarch MK2"
+                "name": "WF-1000XM4",
+                "file":[
+                    "WF-XM4",
+                    "Ram XM4"
+                ],
+                "suffix": [
+                    "S1",
+                    "S2"
+                ]
             }
         ]
     },
@@ -310,6 +345,15 @@
             {
                 "name": "Meteor",
                 "file": "Meteor"
+            }
+        ]
+    },
+    {
+        "name": "Thieaudio",
+        "phones": [
+            {
+                "name": "Monarch MK2",
+                "file": "Monarch MK2"
             }
         ]
     },
@@ -326,13 +370,24 @@
                 "file": [
                     "CrinZero",
                     "CrinZero wide-bore",
-                    "CrinZero foam"
+                    "CrinZero foam",
+                    "CrinZero Ram"
                 ],
                 "suffix": [
                     "",
                     "w/ stock wide bore tips",
-                    "w/ stock foam tips"
+                    "w/ stock foam tips",
+                    "S2 w/ Spring tips"
                 ]
+            }
+        ]
+    },
+    {
+        "name": "Westone",
+        "phones": [
+            {
+                "name": "Pro X10",
+                "file": "Pro X10"
             }
         ]
     },

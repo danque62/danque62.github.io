@@ -1,4 +1,17 @@
 # [Access to the graph tool.](graph)
+# Updates (May 06, 2023 - EggHead demo session)
+___
+Added IEMs:
+- 64 Audio tia Trio
+- 64 Audio U12t
+- 64 Audio U18t
+- Audeze Euclid
+- Campfire Audio Honeydew
+- FiiO FH3
+- Sony WF-1000XM4 (2 samples)
+- Sony Linkbuds S
+- Truthear Zero (sample 2 w/ Spring tips)
+- Westone Pro X10
 # Updates (April 30, 2023 - EggHead demo session)
 ___
 Added IEMs:
