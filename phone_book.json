@@ -270,6 +270,15 @@
         ]
     },
     {
+        "name": "realme",
+        "phones":[
+            {
+                "name": "Buds T100",
+                "file": "realme Buds T100"
+            }
+        ]
+    },
+    {
         "name": "Samsung",
         "phones": [
             {

@@ -1,6 +1,8 @@
 # [Access to the graph tool.](graph)
+# Updates (May 07, 2023 - Random stroll)
+Added IEM:
+- realme Buds T100
 # Updates (May 06, 2023 - EggHead demo session)
-___
 Added IEMs:
 - 64 Audio tia Trio
 - 64 Audio U12t
@@ -13,14 +15,12 @@ Added IEMs:
 - Truthear Zero (sample 2 w/ Spring tips)
 - Westone Pro X10
 # Updates (April 30, 2023 - EggHead demo session)
-___
 Added IEMs:
 - Campfire Audio Andromeda 2020
 - Sennheiser IE200
 - Sennheiser IE600
 - Sony IER-Z1R
 # Updates (April 29, 2023 - FAC BGC Meetup)
-___
 Added IEMs:
 - 64 Audio U12
 - 7Hz Salnotes x crinacle Dioko
@@ -38,7 +38,6 @@ Added IEMs:
 - Thieaudio Monarch MK2
 - Symphonium Meteor
 - Truthear Hexa
-___
 # The In-Ear Graphing Library
 If you're not weirdly obsessed with headphones you can leave at any time.
 
