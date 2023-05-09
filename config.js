@@ -12,7 +12,7 @@ const init_phones = [],            // Optional. Which graphs to display on initi
       alt_animated = true,                         // Determines if new graphs are drawn with a 1-second animation, or appear instantly
       alt_header = true,                           // Display a configurable header at the top of the alt layout
       alt_header_new_tab = true,                    // Clicking alt_header links opens in new tab
-      alt_tutorial = false,                         // Display a configurable frequency response guide below the graph
+      alt_tutorial = true,                         // Display a configurable frequency response guide below the graph
       alt_augment = true,                          // Display augment card in phone list, e.g. review sore, shop link
       site_url = 'graph.html',                      // URL of your graph "homepage"
       share_url = true,                             // If true, enables shareable URLs
@@ -41,11 +41,12 @@ const init_phones = [],            // Optional. Which graphs to display on initi
 
 // Specify which targets to display
 const targets = [
-    { type: "Personal",   files:["Pleasant"] },
-    { type:"Neutral",     files:["Diffuse Field", "Diffuse Field Unsmoothened", "Etymotic", "Free Field", "Innerfidelity ID"] },
-    { type:"IEF Members", files:["Haruto", "Haruto 🅱️ass", "Brownie", "Helene", "Listener","Xiao 2.0", "Mini"]},
-    { type:"Reviewer",    files:["Antdroid", "HBB", "Banbeucmas", "IEF Neutral 2023", "IEF Neutral", "Precogvision", "Super 22", "Timmy", "VSG", "Practiphile"] },
-    { type:"Preference",  files:["Oratory 1990", "Oratory 1990 Flat Bass", "Tork V5" , "Harman IE 2016", "Harman IE 2017v1", "Harman IE 2017v2", "Harman IE 2019v2", "Rtings", "Sonarworks", "VDSF"] }
+    { type: "Personal",    files:["Pleasant"] },
+    { type: "Neutral",     files:["Diffuse Field", "Diffuse Field Unsmoothened", "Etymotic", "Free Field", "Innerfidelity ID"] },
+    { type: "IEF Members", files:["Haruto", "Haruto 🅱️ass", "Brownie", "Helene", "Listener","Xiao 2.0", "Mini", "Runatera v3", "Mokou Bassmaxxing", "Mokou Beta 1", "Rennsport"]},
+    { type: "Reviewer",    files:["Antdroid", "HBB", "Banbeucmas", "IEF Neutral 2023", "IEF Neutral", "Precogvision", "Super 22", "Timmy", "VSG", "Practiphile Balanced", "Practiphile Neutral"] },
+    { type: "Harman",      files:["Harman IE 2016", "Harman IE 2017v1", "Harman IE 2017v2", "Harman IE 2019v2"]},
+    { type: "Preference",  files:["Oratory 1990", "Oratory 1990 Flat Bass", "Tork V5", "Rtings", "Sonarworks", "VDSF"] }
 ];
 
 
@@ -130,7 +131,15 @@ setRestricted();
 const 
     // Short text, center-aligned, useful for a little side info, credits, links to measurement setup, etc. 
     simpleAbout = `
-        <p class="center">This web software is based on the <a href="https://github.com/mlochbaum/CrinGraph">CrinGraph</a> open source software project.</p>
+        <p class="center">
+        This web software is based on the <a href="https://github.com/mlochbaum/CrinGraph"><b>CrinGraph</b></a> open source software project.
+        <br>
+        Measurements uploaded are made with a clone IEC 60318-4 coupler from <a href="http://www.aliexpress.com/item/4000789796521.html"><b>Sounds Good Store</b></a>
+        <br>
+        And the use of <a href="https://www.roomeqwizard.com/"><b>Room EQ Wizard</b></a> or <a href="https://apps.apple.com/us/app/audiotools-db-sound-audio/id325307477"><b>iOS AudioTools</b></a> as software of choice.
+        <br>
+        Resonance peak is either 8k peak fundamental or a 16k 1st harmonic. This is for cases where an IEM has a lot of  8k Hz that I can't even see the changes when inserting deeper or shallower. 16k is harder to hit as it's more delicate, but it's a fallback.
+        </p>
     `,
     // Slightly different presentation to make more readable paragraphs. Useful for elaborated methodology, etc.
     paragraphs = `
@@ -191,6 +200,10 @@ const linkSets = [
                 url: "https://graphtool.harutohiroki.com/"
             },
             {
+                name: "Side Salad Audio",
+                url: "https://suporsalad.squig.link/"
+            },
+            {
                 name: "Practiphile",
                 url: "https://practiphile.squig.link/"
             },
@@ -218,6 +231,10 @@ const linkSets = [
             {
                 name: "In-Ear Fidelity",
                 url: "https://crinacle.com/graphs/headphones/graphtool/"
+            },
+            {
+                name: "Side Salad Audio",
+                url: "https://suporsalad.squig.link/headphones/"
             },
             {
                 name: "Super* Review",
@@ -263,36 +280,50 @@ let tutorialDefinitions = [
     {
         name: 'Sub bass',
         width: '20.1%',
-        description: 'Lorem ipsum.'
+        description: 
+        `The sense of rumble. Too little sub bass may cause loss of definition while too much would mean low-end clutter`
     },
     {
         name: 'Mid bass',
         width: '19.2%',
-        description: 'Lorem ipsum.'
+        description: 
+        `The presence of bass in terms of its tactility. I usually just rely on the IEM's dynamics. Too much may cause muddiness, and too little may feel anemic`
     },
     {
         name: 'Lower midrange',
         width: '17.4%',
-        description: 'Lorem ipsum.'
+        description: 
+        `Male vocals and low end of guitar. Too much of this can make vocals sound boxy. Can also be associated with muddiness`
     },
     {
         name: 'Upper midrange',
         width: "20%",
-        description: 'Lorem ipsum.'
+        description: 
+        `Vocal placement and the guitar's attack and snap. Too much can have vocals sound very in-your-head and intimate, and may come off as shouty. 
+        Some people prefer recession for the feeling of ethereal vocals, but I just usually find them as less forward.
+        I have 3 targets that differ in this region to represent different levels of vocal forwardness that I can take.
+        `
     },
     {
-        name: 'Presence region',
+        name: 'Lower treble',
         width: '6%',
-        description: 'Lorem ipsum.'
+        description: 
+        `Vocal edge and the guitar's grit. Too much can cause vocals and guitar to sound shrill and harsh. Too little may cause bluntness and maybe lifeless`
     },
     {
         name: 'Mid treble',
         width: '7.3%',
-        description: 'Lorem ipsum.'
+        description: 
+        `Sibilance, and cymbal splashiness, although that can be affected by the IEM's timbre. Too much and it makes cymbals very harsh and maybe metallic sounding
+        and too little can result in a dull and maybe plasticky sound`
     },
     {
         name: 'Air',
         width: '10%',
-        description: 'Lorem ipsum.'
+        description: 
+        `Currently I perceive this more on how it feels like stuff has some reverb to them, like an extra trailing edge. It can also help with the perception of stage.
+        I'll just say that if it is very uneven (not necessarily too much) then it adds an oversharpening filter in every component of music.
+        In reality, you might not hear it, and also IEC711 couplers are not reliable 10k and above anyway.
+        `
     }
 ]

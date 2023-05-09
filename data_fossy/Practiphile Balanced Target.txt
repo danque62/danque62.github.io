@@ -1,3 +1,17 @@
+* Measurement data measured by REW V5.20.13
+* Source: C:\Users\Chika\Downloads\Practiphile.csv
+* Format: Comma/Tab/Space delimited data
+* Dated: 2023/03/04 18:14:23
+* REW Settings:
+*  C-weighting compensation: Off
+*  Target level: 75.0 dB
+* Note: Measurement imported from C:\Users\Chika\Downloads\Practiphile.csv Format: Comma/Tab/Space delimited data 208 values loaded, 21 Hz to 19,670 Hz log spaced
+* Measurement: Practiphile
+* Smoothing: 1/12 octave
+* Frequency Step: 1/48 octave
+* Start Frequency: 21.200 Hz
+*
+* Freq(Hz)	SPL(dB)
 21.200001	68.917
 21.400000	68.908
 21.799999	68.881
