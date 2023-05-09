@@ -158,8 +158,12 @@
         "name": "JBL",
         "phones": [
             {
-                "name": "T110BT",
-                "file": "T110BT"
+                "name": "Tune 110BT",
+                "file": "Tune 110BT"
+            },
+            {
+                "name": "Tune 130NC",
+                "file": "Tune 130NC"
             },
             {
                 "name": "Quantum 50",
