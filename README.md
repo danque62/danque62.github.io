@@ -1,4 +1,11 @@
 # [Access to the graph tool.](graph)
+# Updates (May 11, 2023 - EggHead demo session)
+Added IEM:
+- Etymotic ER2XR
+- Etymotic ER4SR (?)
+- Letshuoer Cadenza 12
+- Letshuoer S12
+- Letshuoer S12 Pro
 # Updates (May 09, 2023 - Random stroll)
 Added IEM:
 - JBL Tune 130NC
