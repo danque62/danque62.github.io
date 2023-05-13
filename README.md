@@ -1,4 +1,7 @@
 # [Access to the graph tool.](graph)
+# Updates (May 13, 2023 - Random squig)
+Added IEM:
+- KZ EDX
 # Updates (May 11, 2023 - EggHead demo session)
 Added IEM:
 - Etymotic ER2XR

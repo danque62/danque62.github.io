@@ -185,6 +185,15 @@
         ]
     },
     {
+        "name": "KZ",
+        "phones":[
+            {
+                "name": "EDX",
+                "file": "EDX"
+            }
+        ]
+    },
+    {
         "name": "Letshuoer",
         "phones": [
             {
