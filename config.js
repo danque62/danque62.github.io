@@ -1,5 +1,5 @@
 // Configuration options
-const init_phones = [],            // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
+const init_phones = ["KATO Steel", "Neutral Target"],            // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
       DIR = "data_fossy/",                                // Directory where graph files are stored
       PHONE_BOOK = "phone_book.json",
       default_channels = ["L","R"],                 // Which channels to display. Avoid javascript errors if loading just one channel per phone
@@ -41,7 +41,7 @@ const init_phones = [],            // Optional. Which graphs to display on initi
 
 // Specify which targets to display
 const targets = [
-    { type: "Personal",    files:["Pleasant"] },
+    { type: "Personal",    files:["Preference", "Neutral", "Pleasant"] },
     { type: "Neutral",     files:["Diffuse Field", "Diffuse Field Unsmoothened", "Etymotic", "Free Field", "Innerfidelity ID"] },
     { type: "IEF Members", files:["Haruto", "Haruto 🅱️ass", "Brownie", "Helene", "Listener","Xiao 2.0", "Mini", "Runatera v3", "Mokou Bassmaxxing", "Mokou Beta 1", "Rennsport v3"]},
     { type: "Reviewer",    files:["Antdroid", "HBB", "Banbeucmas", "IEF Neutral 2023", "IEF Neutral", "Precogvision", "Super 22", "Timmy", "VSG", "Practiphile Balanced", "Practiphile Neutral"] },
