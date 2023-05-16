@@ -47,6 +47,15 @@
         "suffix": "Salnotes"
     },
     {
+        "name":"Anker Soundcore",
+        "phones":[
+            {
+                "name":"Liberty 4",
+                "file":"Soundcore Liberty 4"
+            }
+        ]
+    },
+    {
         "name": "Audeze",
         "phones": [
             {
