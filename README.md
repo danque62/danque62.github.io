@@ -1,4 +1,7 @@
 # [Access to the graph tool.](graph)
+# Updates (May 17, 2023 - Random stroll)
+Added IEM:
+- Sony LinkBuds S (sample 2)
 # Updates (May 16, 2023 - Random stroll)
 Added IEM:
 - Anker Soundcore Liberty 4
@@ -27,7 +30,7 @@ Added IEMs:
 - Campfire Audio Honeydew
 - FiiO FH3
 - Sony WF-1000XM4 (2 samples)
-- Sony Linkbuds S
+- Sony LinkBuds S
 - Truthear Zero (sample 2 w/ Spring tips)
 - Westone Pro X10
 # Updates (April 30, 2023 - EggHead demo session)

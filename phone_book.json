@@ -380,8 +380,14 @@
                 "file": "IER-Z1R"
             },
             {
-                "name": "Linkbuds S",
-                "file": "Linkbuds S"
+                "name": "LinkBuds S",
+                "file": [
+                    "LinkBuds S S2",
+                    "LinkBuds S S1"
+                ],
+                "suffix":[
+                    "S2", "S1"
+                ]
             },
             {
                 "name": "MDR-EX155AP",
