@@ -25,7 +25,8 @@
         "phones": [
             {
                 "name": "Dioko",
-                "file": "Dioko",
+                "file": ["Dioko", "Dioko B"],
+                "suffix":["S1", "S2 w/ Ostry 200 tips"],
                 "collab": "crinacle"
             },
             {
@@ -284,16 +285,27 @@
                 ]
             },
             {
+                "name":"Quarks",
+                "file":"Quarks B"
+            },
+            {
                 "name": "Quarks DSP",
-                "file": "Quarks DSP"
+                "file": ["Quarks DSP B", "Quarks DSP B CP100", "Quarks DSP"],
+                "suffix":["S2", "S2 w/ Spinfits CP100 tips", "S1"]
             },
             {
                 "name": "SSR",
-                "file": "SSR"
+                "file": ["SSR", "SSR UC"],
+                "suffix":["", "w/ Softears UC tips"]
             },
             {
                 "name": "Stellaris",
-                "file": "Stellaris"
+                "file": [
+                    "Stellaris","Stellaris B"
+                ],
+                "suffix":[
+                    "S1", "S2 w/ SSR filter & Azla Vivid tips"
+                ]
             },
             {
                 "name": "Variations",

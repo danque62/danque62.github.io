@@ -1,4 +1,12 @@
 # [Access to the graph tool.](graph)
+# Updates (May 18, 2023 - EggHead demo session w/ Brownie)
+Added IEMs:
+- 7Hz Salnotes x crinacle Dioko (sample 2 w/ Ostry 200 tips)
+- Moondrop Stellaris (sample 2 w/ SSR Filters and Azla Vivid tips)
+- Moondrop Quarks
+- Moondrop Quarks DSP (sample 2)
+Remeasured:
+- Moondrop SSR (added measurement w/ Softears UC tips)
 # Updates (May 17, 2023 - Random stroll)
 Added IEM:
 - Sony LinkBuds S (sample 2)
