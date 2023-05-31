@@ -1,4 +1,7 @@
 # [Access to the graph tool.](graph)
+# Updates (May 28, 2023 - EggHead demo session)
+Added IEM:
+- Letshuoer EJ07M
 # Updates (May 18, 2023 - EggHead demo session w/ Brownie)
 Added IEMs:
 - 7Hz Salnotes x crinacle Dioko (sample 2 w/ Ostry 200 tips)
