@@ -458,13 +458,43 @@
                     "CrinZero",
                     "CrinZero wide-bore",
                     "CrinZero foam",
-                    "CrinZero Ram"
+                    "CrinZero Ram",
+                    "CrinZero 10",
+                    "CrinZero 25",
+                    "CrinZero 50",
+                    "CrinZero 75"
                 ],
                 "suffix": [
                     "",
                     "w/ stock wide bore tips",
                     "w/ stock foam tips",
-                    "S2 w/ Spring tips"
+                    "S2 w/ Spring tips",
+                    "w/ Bass+ (10 Ohm adapter)",
+                    "w/ 25 Ohm adapter",
+                    "w/ 50 Ohm adapter",
+                    "w/ 75 Ohm adapter"
+                ]
+            },
+            {
+                "name": "Zero:Red",
+                "collab": "crinacle",
+                "file": [
+                    "ZeroRed",
+                    "ZeroRed wide bore",
+                    "ZeroRed foam",
+                    "ZeroRed 10",
+                    "ZeroRed 25",
+                    "ZeroRed 50",
+                    "ZeroRed 75"
+                ],
+                "suffix": [
+                    "",
+                    "w/ stock wide bore tips",
+                    "w/ stock foam tips",
+                    "(Bass+)",
+                    "w/ 25 Ohm adapter",
+                    "w/ 50 Ohm adapter",
+                    "w/ 75 Ohm adapter"
                 ]
             }
         ]

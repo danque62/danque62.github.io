@@ -1,4 +1,11 @@
 # [Access to the graph tool.](graph)
+# Updates (July 10, 2023 - Received unit)
+Added IEM:
+- Truthear x crinacle Zero:Red
+Remeasured IEM:
+- Truthear x crinacle Zero
+    - only stock tips
+    - measured with various impedance adapters
 # Updates (May 28, 2023 - EggHead demo session)
 Added IEM:
 - Letshuoer EJ07M
