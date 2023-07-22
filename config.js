@@ -272,6 +272,10 @@ let headerLogoText = "",
     {
         name: "Misc. Data",
         url: "https://docs.google.com/spreadsheets/d/1VgCy0LiGyIfdHTKx4jtNQoLFO3MiWNlnUcjGb45h4w8/edit?usp=share_link"
+    },
+    {
+        name: "Squig.link",
+        url: "https://therollo9.squig.link/"
     }
 ];
 
