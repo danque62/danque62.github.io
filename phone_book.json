@@ -25,8 +25,14 @@
         "phones": [
             {
                 "name": "Dioko",
-                "file": ["Dioko", "Dioko B"],
-                "suffix":["S1", "S2 w/ Ostry 200 tips"],
+                "file": [
+                    "Dioko",
+                    "Dioko B"
+                ],
+                "suffix": [
+                    "S1",
+                    "S2 w/ Ostry 200 tips"
+                ],
                 "collab": "crinacle"
             },
             {
@@ -48,11 +54,11 @@
         "suffix": "Salnotes"
     },
     {
-        "name":"Anker Soundcore",
-        "phones":[
+        "name": "Anker Soundcore",
+        "phones": [
             {
-                "name":"Liberty 4",
-                "file":"Soundcore Liberty 4"
+                "name": "Liberty 4",
+                "file": "Soundcore Liberty 4"
             }
         ]
     },
@@ -196,7 +202,7 @@
     },
     {
         "name": "KZ",
-        "phones":[
+        "phones": [
             {
                 "name": "EDX",
                 "file": "EDX"
@@ -289,26 +295,44 @@
                 ]
             },
             {
-                "name":"Quarks",
-                "file":"Quarks B"
+                "name": "Quarks",
+                "file": "Quarks B"
             },
             {
                 "name": "Quarks DSP",
-                "file": ["Quarks DSP B", "Quarks DSP B CP100", "Quarks DSP"],
-                "suffix":["S2", "S2 w/ Spinfits CP100 tips", "S1"]
+                "file": [
+                    "Quarks DSP S3",
+                    "Quarks DSP B",
+                    "Quarks DSP B CP100",
+                    "Quarks DSP"
+                ],
+                "suffix": [
+                    "S3",
+                    "S2",
+                    "S2 w/ Spinfits CP100 tips",
+                    "S1"
+                ]
             },
             {
                 "name": "SSR",
-                "file": ["SSR", "SSR UC"],
-                "suffix":["", "w/ Softears UC tips"]
+                "file": [
+                    "SSR",
+                    "SSR UC"
+                ],
+                "suffix": [
+                    "",
+                    "w/ Softears UC tips"
+                ]
             },
             {
                 "name": "Stellaris",
                 "file": [
-                    "Stellaris","Stellaris B"
+                    "Stellaris",
+                    "Stellaris B"
                 ],
-                "suffix":[
-                    "S1", "S2 w/ SSR filter & Azla Vivid tips"
+                "suffix": [
+                    "S1",
+                    "S2 w/ SSR filter & Azla Vivid tips"
                 ]
             },
             {
@@ -401,8 +425,9 @@
                     "LinkBuds S S2",
                     "LinkBuds S S1"
                 ],
-                "suffix":[
-                    "S2", "S1"
+                "suffix": [
+                    "S2",
+                    "S1"
                 ]
             },
             {
