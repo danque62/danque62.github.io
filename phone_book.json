@@ -314,6 +314,19 @@
                 ]
             },
             {
+                "name": "Space Travel",
+                "file": [
+                    "Space Travel",
+                    "Space Travel Basshead",
+                    "Space Travel Monitor"
+                ],
+                "suffix": [
+                    "1.0.0 (Reference)",
+                    "1.0.0 (Basshead)",
+                    "1.0.0 (Monitor)"
+                ]
+            },
+            {
                 "name": "SSR",
                 "file": [
                     "SSR",
