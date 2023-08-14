@@ -72,6 +72,17 @@
             {
                 "name": "iSine 10 (left channel only)",
                 "file": "iSine"
+            },
+            {
+                "name": "iSine 20",
+                "file": [
+                    "iSine 20",
+                    "iSine 20 Cip"
+                ],
+                "suffix": [
+                    "",
+                    "w/ Cipher cable"
+                ]
             }
         ]
     },

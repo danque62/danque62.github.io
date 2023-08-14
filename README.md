@@ -1,4 +1,7 @@
 # [Access to the graph tool.](graph)
+# Updates (August 12, 2023 - RamminRam @ EggHead)
+Added IEM:
+- Audeze iSine 20 (and w/ Cipher cable)
 # Updates (August 09, 2023 - Received unit)
 Added IEM:
 - Moondrop Space Travel (and all 3 EQ profiles)
