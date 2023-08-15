@@ -161,10 +161,15 @@ doc.html(`
                         <option value="HSQ">HSQ</option>
                       </select>
                     </span>
-                    <span><input name="freq" type="number" min="20" max="20000" step="1" value="0"></input></span>
-                    <span><input name="gain" type="number" min="-40" max="40" step="0.1" value="0"></input></span>
-                    <span><input name="q" type="number" min="0" max="10" step="0.1" value="0"></input></span>
+                    <span><input name="freq" type="number" min="20" max="20000" step="1" value="0" onclick="this.focus();this.select()"></input></span>
+                    <span><input name="gain" type="number" min="-40" max="40" step="0.1" value="0" onclick="this.focus();this.select()"></input></span>
+                    <span><input name="q" type="number" min="0" max="10" step="0.1" value="0" onclick="this.focus();this.select()"></input></span>
                 </div>
+              </div>
+              <div class="filters-button">
+                <button class="add-filter">＋</button>
+                <button class="remove-filter">－</button>
+                <button class="sort-filters">Sort</button>
               </div>
               <div class="settings-row">
                 <span>AutoEQ Range</span>
@@ -172,14 +177,11 @@ doc.html(`
                 <span><input name="autoeq-to" type="number" min="20" max="20000" step="1" value="20000"></input></span>
               </div>
               <div class="filters-button">
-                <button class="add-filter">＋</button>
-                <button class="remove-filter">－</button>
-                <button class="sort-filters">Sort</button>
+                <button class="autoeq">AutoEQ</button>
+                <button class="readme">Readme</button>
                 <button class="import-filters">Import</button>
                 <button class="export-filters">Export</button>
-                <button class="autoeq">AutoEQ</button>
                 <button class="export-graphic-filters">Export Graphic EQ (For Wavelet)</button>
-                <button class="readme">Readme</button>
               </div>
               <a style="display: none" id="file-filters-export"></a>
               <form style="display:none"><input type="file" id="file-filters-import" accept=".txt" /></form>
@@ -274,11 +276,11 @@ yAxisObj.insert("text")
 let xvals = [2,3,4,5,6,8,10,15];
 let xAxis = d3.axisBottom(x)
     .tickSize(H+3).tickSizeOuter(0)
-    .tickValues(d3.merge([1,2,3].map(e=>xvals.map(m=>m*Math.pow(10,e)))).concat([20000]))
+    .tickValues(d3.merge([1,2,3].map(e=>xvals.map(m=>m*Math.pow(10,e)))).concat([250,20000]))
     .tickFormat(f => f>=1000 ? (f/1000)+"k" : f);
 
-let tickPattern = [3,0,0,1,0,0,2,0],
-    getTickType = i => i===0 || i===3*8 ? 4 : tickPattern[i%8],
+    let tickPattern = [3,0,0,1,0,0,1,0,3,0,0,1,0,0,1,0,3,0,0,1,0,0,1,0,0,3],
+    getTickType = i => i =  tickPattern[i],
     tickThickness = [2,4,4,9,15].map(t=>t/10);
 
 function fmtX(xa) {
@@ -286,10 +288,16 @@ function fmtX(xa) {
     (xa.selection ? xa.selection() : xa).select(".domain").remove();
     xa.selectAll(".tick line")
       .attr("stroke", "#333")
-      .attr("stroke-width", (_,i) => tickThickness[getTickType(i)]);
-    xa.selectAll(".tick text").filter((_,i) => tickPattern[i%8] === 0)
-      .attr("font-size","86%")
-      .attr("font-weight","lighter");
+      .attr("stroke-width", (_,i) => tickThickness[getTickType(i)])
+      .attr("opacity", "0.6");
+    xa.selectAll(".tick text").filter((_,i) => tickPattern[i] === 0)
+      .attr("font-size","92%")
+      .attr("font-weight","lighter")
+      .attr("opacity", "0.5");
+    xa.selectAll(".tick text").filter((_,i) => tickPattern[i] != 0)
+      //.attr("font-size","92%")
+      .attr("font-weight","lighter")
+      //.attr("opacity", ".9");
     xa.select(".tick:last-of-type text")
       .attr("dx",-5)
       .text("20kHz");
@@ -850,9 +858,9 @@ function getCurveColor(id, o) {
     let th = 2*Math.PI*i;
     i += Math.cos(th-0.3)/24 + Math.cos(6*th)/32;
     let s = Math.sin(2*Math.PI*i);
-    return d3.hcl(360*((i + t/p2)%1),
-                  88+30*(j%1 + 1.3*s - t/p3),
-                  36+22*(k%1 + 1.1*s + 6*t*(1-s)));
+  return d3.hcl(360*((i + t/p2)%1) + (o * 30), // hue varies with "o"
+                88+30*(j%1 + 1.3*s - t/p3),
+                55); //constant luminance
 }
 let getColor_AC = c => getCurveColor(c.p.id, c.o);
 let getColor_ph = (p,i) => getCurveColor(p.id, p.activeCurves[i].o);
@@ -1057,8 +1065,11 @@ function setBaseline(b, no_transition) {
     gpath.selectAll("path")
         .transition().duration(500).ease(d3.easeQuad)
         .attr("d", drawLine);
-    table.selectAll("tr").select(".button")
+    table.selectAll("tr").select(".button-baseline")
         .classed("selected", p=>p===baseline.p);
+    
+    // Update user config
+    if (!userConfigApplicationActive) setUserConfig();
     
     // Analytics event
     if (analyticsEnabled && b.p) { pushPhoneTag("baseline_set", b.p); }
@@ -1133,17 +1144,22 @@ function updatePaths(trigger) {
     if (targetColorCustom) t.attr("stroke", targetColorCustom);
     if (ifURL && !trigger) addPhonesToUrl();
     if (stickyLabels) drawLabels();
+    
+    // Update user config
+    if (trigger === undefined) setUserConfig();
 }
 let colorBar = p=>'url(\'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 8"><path d="M0 8v-8h1c0.05 1.5,-0.3 3,-0.16 5s0.1 2,0.15 3z" fill="'+getBgColor(p)+'"/></svg>\')';
-function updatePhoneTable() {
+function updatePhoneTable(trigger) {
     let c = table.selectAll("tr").data(activePhones, p=>p.fileName);
     c.exit().remove();
-    let f = c.enter().append("tr"),
+
+    let f = c.enter().append("tr").attr("data-filename", p=>p.fileName),
         td = () => f.append("td");
     f   .call(setHover, h => p => hl(p,h))
         .style("color", p => getDivColor(p.id,true));
 
     td().attr("class","remove").text("⊗")
+        .attr("title", "Remove graph")
         .on("click", removePhone)
         .style("background-image",colorBar)
         .filter(p=>!p.isTarget).append("svg").call(addColorPicker);
@@ -1159,7 +1175,29 @@ function updatePhoneTable() {
         .attrs({type:"number",step:"any",value:0})
         .property("value", p=>p.offset)
         .on("change input",function(p){ setOffset(p, +this.value); });
+    td().attr("class","button button-export")
+        .attr("title", "Export graph")
+        .on("click", function(p) {
+        let phoneName = p.fullName,
+            channels = p.rawChannels,
+            exportContainer = document.querySelector('body');
+
+        channels.forEach(function(channel, i) {
+            let channelNum = i + 1,
+                text = channel.join('\n');
+                blob = new Blob([text], { type: 'text/plain' }),
+                url = URL.createObjectURL(blob),
+                exportLink = document.createElement('a');
+
+            exportLink.download = phoneName + ' [' + channelNum + ']' + '.txt';
+            exportLink.href = url;
+            exportContainer.appendChild(exportLink);
+            exportLink.click();
+            exportLink.remove();
+        });
+    });
     td().attr("class","button button-baseline")
+        .attr("title", "Set as baseline")
         .html("<svg viewBox='-170 -120 340 240'><use xlink:href='#baseline-icon'></use></svg>")
         .on("click", p => setBaseline(p===baseline.p ? baseline0
                                                      : getBaseline(p)));
@@ -1176,11 +1214,16 @@ function updatePhoneTable() {
             clearLabels();
             drawLabels();
         }
+        
+        // Update user config
+        if (!userConfigApplicationActive) setUserConfig();
     }
     td().attr("class","button hideIcon")
+        .attr("title", "Hide graph")
         .html("<svg viewBox='-2.5 0 19 12'><use xlink:href='#hide-icon'></use></svg>")
         .on("click", toggleHide);
     td().attr("class","button button-pin")
+        .attr("title", "Pin graph")
         .attr("data-pinned","false")
         .html("<svg viewBox='-135 -100 270 200'><use xlink:href='#pin-icon'></use></svg>")
         .on("click",function(p){
@@ -1205,6 +1248,7 @@ function updatePhoneTable() {
                     "stroke-linecap":"round",
                     d:"M265 110V25q0 -10 -10 -10H105q-24 0 -48 20l-24 20q-24 20 -2 40l18 15q24 20 42 20h100"
                 });
+            if (!userConfigApplicationActive) setUserConfig();
         });
 }
 
@@ -1483,7 +1527,13 @@ function setNorm(_, i, change) {
     activePhones.forEach(normalizePhone);
     if (baseline.p) { baseline = getBaseline(baseline.p); }
     updateYCenter();
-    updatePaths();
+    
+    if (!userConfigApplicationActive) {
+        setUserConfig();
+        updatePaths();
+    } else {
+        updatePaths("config");
+    }
 }
 norms.select("input")
     .on("change input",setNorm)
@@ -1565,7 +1615,7 @@ function showPhone(p, exclusive, suppressVariant, trigger) {
         setCurves(p, avg);
     }
     updatePaths(trigger);
-    updatePhoneTable();
+    updatePhoneTable(trigger);
     d3.selectAll("#phones .phone-item,.target")
         .filter(p=>p.id!==undefined)
         .call(setPhoneTr);
@@ -1579,6 +1629,11 @@ function showPhone(p, exclusive, suppressVariant, trigger) {
         updateEQPhoneSelect();
     }
     if (!p.isTarget && alt_augment ) { augmentList(p); }
+    
+    // Apply user config view settings
+    if (typeof trigger !== "undefined") {
+        userConfigApplyViewSettings(p.fileName);
+    }
 }
 
 function removeCopies(p) {
@@ -1677,6 +1732,7 @@ d3.json(typeof PHONE_BOOK !== "undefined" ? PHONE_BOOK
             par = "share=";
             emb = "embed";
         baseURL = url.split("?").shift();
+        
         if (url.includes(par) && url.includes(emb)) {
             initReq = decodeURIComponent(url.replace(/_/g," ").split(par).pop()).split(",");
             loadFromShare = 2;
@@ -1685,6 +1741,10 @@ d3.json(typeof PHONE_BOOK !== "undefined" ? PHONE_BOOK
             loadFromShare = 1;
         }
     }
+    
+    // Apply user config to inits
+    userConfigAppendInits(initReq);
+    
     let isInit = initReq ? f => initReq.indexOf(f) !== -1
                          : _ => false;
     
@@ -1857,6 +1917,8 @@ d3.json(typeof PHONE_BOOK !== "undefined" ? PHONE_BOOK
     doc.select("#theme").on("click", function () {
         themeChooser("change");
     });
+    
+    userConfigApplyNormalization();
 });
 
 let pathHoverTimeout;
@@ -2272,7 +2334,7 @@ function addExtra() {
         document.querySelector("div.select > div.selector-panel").style["display"] = "none";
         document.querySelector("div.select > div.extra-panel").style["display"] = "flex";
         document.querySelector("div.select").setAttribute("data-selected", "extra");
-        pushEventTag("clicked_equalizerTab", targetWindow);
+        if (analyticsEnabled) { pushEventTag("clicked_equalizerTab", targetWindow); }
     };
     window.hideExtraPanel = (selectedList) => {
         document.querySelector("div.select > div.selector-panel").style["display"] = "flex";
@@ -2690,17 +2752,16 @@ function addHeader() {
         headerLogoSpan = document.createElement("span"),
         linksList = document.createElement("ul");
     
-        headerButton.className = "header-button";
-        headerLogoElem.className = "logo";
-        headerLogoLink.setAttribute('href', site_url);
-        headerLogoLink.setAttribute('style', "display:inline; white-space:nowrap;");
-        // headerLogoSpan.innerText = headerLogoText;
-        headerLogoSpan.setAttribute('style', "position:absolute; color: #ffffff;");
-        // headerLogoLink.append(headerLogoSpan);
+    headerButton.className = "header-button";
+    headerLogoElem.className = "logo";
+    headerLogoLink.setAttribute('href', site_url);
+    if (headerLogoText) {
+        headerLogoSpan.innerText = headerLogoText;
+        headerLogoLink.append(headerLogoSpan);
+    } else if (headerLogoImgUrl) {
         headerLogoImg.setAttribute("src", headerLogoImgUrl);
-        headerLogoImg.setAttribute('style', "width:50%; margin-left: -15%; fill: #ffffff;");
         headerLogoLink.append(headerLogoImg);
-    
+    }
     
     altHeaderElem.append(headerButton);
     headerLogoElem.append(headerLogoLink);
@@ -3073,3 +3134,103 @@ function toggleExpandCollapse() {
 }
 
 if ( expandable && accessDocumentTop ) { toggleExpandCollapse(); }
+
+// Update user config for target + baseline
+function setUserConfig() {
+    let configJson = {
+            "phones": [],
+            "normalMode": (norm_sel === 1) ? "Hz" : "dB",
+            "normalValue": (norm_sel === 1) ? norm_fr : norm_phon
+        },
+        activeBaseline = baseline.p ? baseline.p.fileName : 0;
+    
+    activePhones.forEach(function(phone) {
+        let phoneJson = {},
+            fullName = phone.fullName,
+            fileName = phone.fileName,
+            isTarget = phone.isTarget ? phone.isTarget : false,
+            isHidden = phone.hide ? phone.hide : false,
+            isBaseline = fileName === activeBaseline ? true : false,
+            isPinned = phone.pin ? phone.pin : false;
+        
+        if (isTarget || isBaseline) {
+            phoneJson.fullName = fullName;
+            phoneJson.fileName = fileName;
+            phoneJson.isTarget = isTarget;
+            phoneJson.isHidden = isHidden;
+            phoneJson.isBaseline = isBaseline;
+            phoneJson.isPinned = isPinned;
+            
+            configJson.phones.push(phoneJson);
+        }
+    });
+    
+    localStorage.setItem("userConfig", JSON.stringify(configJson));
+}
+
+// Insert user config phones to inits
+function userConfigAppendInits(initReq) {
+    let configJson = JSON.parse(localStorage.getItem("userConfig"));
+    if (configJson) {
+        initReq.forEach(function(req, i) {
+            if (req.endsWith(' Target')) {
+                initReq.splice(i, 1);
+            }
+        });
+        
+        configJson.phones.forEach(function(phone) {
+            if (!initReq.includes(phone.fileName)) {
+                initReq.push(phone.fileName);
+            }
+        });
+    }
+}
+
+// Apply baseline and hide settings
+function userConfigApplyViewSettings(phoneInTable) {
+    userConfigApplicationActive = 1;
+    
+    let configJson = JSON.parse(localStorage.getItem("userConfig"));
+
+    if (configJson) {
+        let phone = configJson.phones.find(item => item.fileName === phoneInTable);
+        
+        if (typeof phone !== "undefined") {
+            let row = document.querySelector("tr[data-filename='"+ phone.fileName +"']"),
+                hideButton  = row.querySelector("td.hideIcon"),
+                baselineButton  = row.querySelector("td.button-baseline"),
+                pinButton = row.querySelector("td.button-pin");
+
+            if (phone.isHidden && !hideButton.classList.contains("selected")) {
+                hideButton.click();
+            }
+            
+            if (phone.isBaseline && !baselineButton.classList.contains("selected")) {
+                baselineButton.click();
+            }
+            
+            if (phone.isPinned && pinButton.getAttribute('data-pinned') !== "true") {
+                pinButton.click();
+            }
+        }
+    }
+    
+    userConfigApplicationActive = 0;
+};
+
+// Apply normalization config
+function userConfigApplyNormalization() {
+    userConfigApplicationActive = 1;
+    
+    let configJson = localStorage.getItem("userConfig") ? JSON.parse(localStorage.getItem("userConfig")) : 0;
+    
+    if ( configJson && configJson.normalMode === "Hz" ) {
+        document.querySelector("input#norm-fr").value = configJson.normalValue;
+        document.querySelector("input#norm-fr").dispatchEvent(new Event("change"));
+    } else if ( configJson && configJson.normalMode === "dB" ) {
+        document.querySelector("input#norm-phon").value = configJson.normalValue;
+        document.querySelector("input#norm-phon").dispatchEvent(new Event("change"));
+    }
+    
+    userConfigApplicationActive = 0;
+}

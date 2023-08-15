@@ -41,11 +41,12 @@ const init_phones = ["Space Travel", "Neutral Target"],            // Optional. 
 
 // Specify which targets to display
 const targets = [
+    { type: "Δ",           files:["Δ 10dB", "IEF Comp"] },
     { type: "Personal",    files:["Preference", "Neutral", "Pleasant"] },
     { type: "Neutral",     files:["Diffuse Field", "Diffuse Field Unsmoothened", "Etymotic", "Free Field", "Innerfidelity ID"] },
-    { type: "IEF Members", files:["Haruto", "Haruto 🅱️ass", "Brownie", "Helene", "Listener","Xiao 2.0", "Mini", "Runatera v3.4.0", "Mokou Bassmaxxing", "Mokou Beta 1", "Rennsport v3"]},
+    { type: "IEF Members", files:["Haruto", "Haruto 🅱️ass", "Brownie", "Helene", "Listener","Xiao 2.0", "Mini", "Runatera v3.4.0", "Mokou Bassmaxxing", "Mokou Beta 1", "Rennsport v3"] },
     { type: "Reviewer",    files:["Antdroid", "HBB", "Banbeucmas", "IEF Neutral 2023", "IEF Neutral", "Precogvision", "Super 22", "Timmy", "VSG", "Practiphile Balanced", "Practiphile Neutral"] },
-    { type: "Harman",      files:["Harman IE 2016", "Harman IE 2017v1", "Harman IE 2017v2", "Harman IE 2019v2"]},
+    { type: "Harman",      files:["Harman IE 2016", "Harman IE 2017v1", "Harman IE 2017v2", "Harman IE 2019v2"] },
     { type: "Preference",  files:["Oratory 1990", "Oratory 1990 Flat Bass", "Tork V5", "Rtings", "Sonarworks", "VDSF"] }
 ];
 
