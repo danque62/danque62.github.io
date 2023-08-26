@@ -125,6 +125,10 @@
             {
                 "name": "CRA Pre-2023",
                 "file": "CRA"
+            },
+            {
+                "name": "CRA+",
+                "file": "CRA+"
             }
         ]
     },

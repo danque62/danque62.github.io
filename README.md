@@ -1,4 +1,7 @@
 # [Access to the graph tool.](graph)
+# Updates (August 26, 2023 - Random squig)
+Added IEM:
+- CCA CRA+ (i hope it's not stealth revised)
 # Updates (August 19, 2023 - Random stroll)
 Added IEM:
 - Sony WF-1000XM5
