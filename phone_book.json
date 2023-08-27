@@ -444,6 +444,14 @@
         "name": "Sony",
         "phones": [
             {
+                "name": "IER-M7",
+                "file": "IER-M7"
+            },
+            {
+                "name": "IER-M9",
+                "file": "IER-M9"
+            },
+            {
                 "name": "IER-Z1R",
                 "file": "IER-Z1R"
             },
@@ -479,7 +487,18 @@
             },
             {
                 "name": "WF-1000XM5",
-                "file": "WF-XM5"
+                "file": [
+                    "WF-XM5 S2",
+                    "WF-XM5",
+                    "WF-XM5 S2 75 Vol",
+                    "WF-XM5 S2 50 Vol"
+                ],
+                "suffix": [
+                    "S2",
+                    "S1",
+                    "S2 @ 75% Volume (Windows)",
+                    "S2 @ 50% Volume (Windows)"
+                ]
             }
         ]
     },

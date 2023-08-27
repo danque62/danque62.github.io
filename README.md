@@ -1,4 +1,9 @@
 # [Access to the graph tool.](graph)
+# Updates (August 27, 2023 - EggHead demo session)
+Added IEM:
+- Sony IER-M7
+- Sony IER-M9
+- Sony WF-1000XM5 (sample 2)
 # Updates (August 26, 2023 - Random squig)
 Added IEM:
 - CCA CRA+ (i hope it's not stealth revised)
