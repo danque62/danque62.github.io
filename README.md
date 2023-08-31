@@ -1,4 +1,7 @@
 # [Access to the graph tool.](graph)
+# Updates (August 31, 2023 - Random stroll)
+Added IEM:
+- Xiaomi Redmi Buds 4
 # Updates (August 27, 2023 - EggHead demo session)
 Added IEM:
 - Sony IER-M7
