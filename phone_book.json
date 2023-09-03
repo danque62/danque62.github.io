@@ -239,7 +239,7 @@
                 "name": "S12",
                 "file": [
                     "S12",
-                    "S12 2"
+                    "S12 S2"
                 ],
                 "suffix": [
                     "S1",
@@ -289,7 +289,9 @@
                 "file": [
                     "KATO Steel",
                     "KATO Steel W1",
-                    "KATO 2 Xelastec",
+                    "KATO S2",
+                    "KATO S2 Xelastec",
+                    "KATO S2 S12 tips",
                     "KATO Steel CP145",
                     "KATO Steel Mistips",
                     "KATO Brass",
@@ -300,7 +302,9 @@
                 "suffix": [
                     "w/ Spring tips",
                     "w/ Spinfits W1 tips",
+                    "S2 w/ Spring tips",
                     "S2 w/ Azla Xelastec",
+                    "S2 w/ S12 Clear tips",
                     "w/ Spinfits CP145 tips",
                     "w/ Mistips",
                     "(brass) w/ Spring tips",
@@ -333,12 +337,18 @@
                 "file": [
                     "Space Travel",
                     "Space Travel Basshead",
-                    "Space Travel Monitor"
+                    "Space Travel Monitor",
+                    "Space Travel S2",
+                    "Space Travel Basshead S2",
+                    "Space Travel Monitor S2"
                 ],
                 "suffix": [
-                    "1.0.0 (Reference)",
-                    "1.0.0 (Basshead)",
-                    "1.0.0 (Monitor)"
+                    "S1 1.0.0 (Reference)",
+                    "S1 1.0.0 (Basshead)",
+                    "S1 1.0.0 (Monitor)",
+                    "S2 1.0.0 (Reference)",
+                    "S2 1.0.0 (Basshead)",
+                    "S2 1.0.0 (Monitor)"
                 ]
             },
             {
