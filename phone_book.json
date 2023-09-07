@@ -220,7 +220,46 @@
         "phones": [
             {
                 "name": "EDX",
-                "file": "EDX"
+                "file": "KZ EDX"
+            },
+            {
+                "name": "Krila",
+                "file":[
+                    "KZ Krila UUUU",
+                    "KZ Krila UUUD",
+                    "KZ Krila UUDU",
+                    "KZ Krila UUDD",
+                    "KZ Krila UDUU",
+                    "KZ Krila UDUD",
+                    "KZ Krila UDDU",
+                    "KZ Krila UDDD",
+                    "KZ Krila DUUU",
+                    "KZ Krila DUUD",
+                    "KZ Krila DUDU",
+                    "KZ Krila DUDD",
+                    "KZ Krila DDUU",
+                    "KZ Krila DDUD",
+                    "KZ Krila DDDU",
+                    "KZ Krila DDDD"
+                ],
+                "suffix": [
+                    "(UUUU)",
+                    "(UUUD)",
+                    "(UUDU)",
+                    "(UUDD)",
+                    "(UDUU)",
+                    "(UDUD)",
+                    "(UDDU)",
+                    "(UDDD)",
+                    "(DUUU)",
+                    "(DUUD)",
+                    "(DUDU)",
+                    "(DUDD)",
+                    "(DDUU)",
+                    "(DDUD)",
+                    "(DDDU)",
+                    "(DDDD)"
+                ]
             }
         ]
     },
