@@ -224,7 +224,7 @@
             },
             {
                 "name": "Krila",
-                "file":[
+                "file": [
                     "KZ Krila UUUU",
                     "KZ Krila UUUD",
                     "KZ Krila UUDU",
@@ -297,12 +297,14 @@
             {
                 "name": "Aria",
                 "file": [
-                    "Aria",
-                    "Aria Spring",
-                    "Aria W1"
+                    "Moondrop Aria",
+                    "Moondrop Aria CP145",
+                    "Moondrop Aria Spring",
+                    "Moondrop Aria W1"
                 ],
                 "suffix": [
                     "",
+                    "w/ Spinfits CP145 tips",
                     "w/ Spring tips",
                     "w/ Spinfits W1 tips"
                 ]
@@ -315,8 +317,8 @@
             {
                 "name": "Chu",
                 "file": [
-                    "Chu",
-                    "Chu Silicone"
+                    "Moondrop Chu",
+                    "Moondrop Chu Silicone"
                 ],
                 "suffix": [
                     "w/ Spring tips",
