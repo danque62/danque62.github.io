@@ -4,7 +4,12 @@
         "phones": [
             {
                 "name": "tia Trio",
-                "file": "tia Trio"
+                "file": [
+                    "64 Audio tia Trio"
+                ],
+                "suffix": [
+                    "w/ Spinfits CP145 tips"
+                ]
             },
             {
                 "name": "U12",

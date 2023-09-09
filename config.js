@@ -177,8 +177,6 @@ const
     // Which of the above variables to actually insert into the page
     whichAccessoriesToUse = simpleAbout;
 
-
-
 // Configure external links to appear at the bottom of the page. Displayed only if externalLinksBar (above) is true
 const linkSets = [
     {
@@ -220,6 +218,10 @@ const linkSets = [
                 name: "HypetheSonics",
                 url: "https://www.hypethesonics.com/iemdbc/"
             },
+            {
+                name: "MMagTech frDB",
+                url: "https://fr.mmagtech.com/"
+            }
         ]
     },
     {
