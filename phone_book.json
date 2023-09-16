@@ -42,7 +42,14 @@
             },
             {
                 "name": "Timeless",
-                "file": "Timeless"
+                "file": [
+                    "7Hz Timeless S2",
+                    "Timeless"
+                ],
+                "suffix": [
+                    "S2 w/ TangZu Sancai tips",
+                    "S1"
+                ]
             },
             {
                 "name": "Zero",
@@ -57,6 +64,15 @@
             }
         ],
         "suffix": "Salnotes"
+    },
+    {
+        "name": "7th Acoustics",
+        "phones": [
+            {
+                "name": "Proxima",
+                "file": "7th Acoustics Proxima"
+            }
+        ]
     },
     {
         "name": "Anker Soundcore",
@@ -191,6 +207,36 @@
             {
                 "name": "FH3",
                 "file": "FH3"
+            }
+        ]
+    },
+    {
+        "name": "Flipears",
+        "phones": [
+            {
+                "name": "Aether",
+                "file": [
+                    "Flipears Aether",
+                    "Flipears Aether ON"
+                ],
+                "suffix": [
+                    "(OFF)",
+                    "(ON)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Hisenior",
+        "phones": [
+            {
+                "name": "Mega5p",
+                "file": [
+                    "Hisenior Mega5p"
+                ],
+                "suffix": [
+                    "w/ Spinfits W1 tips"
+                ]
             }
         ]
     },
@@ -412,11 +458,17 @@
                 "name": "Stellaris",
                 "file": [
                     "Stellaris",
-                    "Stellaris B"
+                    "Stellaris B",
+                    "Stellaris B 3",
+                    "Stellaris B 4",
+                    "Stellaris B 5"
                 ],
                 "suffix": [
                     "S1",
-                    "S2 w/ SSR filter & Azla Vivid tips"
+                    "S2 w/ SSR filter & Azla Vivid tips",
+                    "S2 w/ double low-density foam",
+                    "S2 w/ shortened inner nozzle diameter",
+                    "S2 w/ low-density Dioko foam"
                 ]
             },
             {
@@ -431,6 +483,15 @@
             {
                 "name": "DB3",
                 "file": "DB3"
+            }
+        ]
+    },
+    {
+        "name": "QDC",
+        "phones": [
+            {
+                "name": "10se",
+                "file": "QDC 10se"
             }
         ]
     },
@@ -563,7 +624,24 @@
         "phones": [
             {
                 "name": "Meteor",
-                "file": "Meteor"
+                "file": [
+                    "Symphonium Meteor S2",
+                    "Symphonium Meteor S1 "
+                ],
+                "suffix": [
+                    "S2",
+                    "S1"
+                ],
+                "collab": "Nightjar Acoustics"
+            }
+        ]
+    },
+    {
+        "name": "TangZu",
+        "phones": [
+            {
+                "name": "Wan'er",
+                "file": "TangZu Waner"
             }
         ]
     },
