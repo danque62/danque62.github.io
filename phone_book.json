@@ -500,7 +500,20 @@
         "phones": [
             {
                 "name": "HBB",
-                "file": "QKZ HBB"
+                "file": [
+                    "QKZ HBB",
+                    "QKZ HBB Clear",
+                    "QKZ HBB CP145",
+                    "QKZ HBB W1",
+                    "QKZ HBB Spring"
+                ],
+                "suffix": [
+                    "",
+                    "w/ clear tips",
+                    "w/ Spinfits CP145 tips",
+                    "w/ Spinfits W1 tips",
+                    "w/ Spring tips"
+                ]
             }
         ]
     },
