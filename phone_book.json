@@ -491,6 +491,15 @@
         ]
     },
     {
+        "name": "OnePlus",
+        "phones": [
+            {
+                "name": "Buds Pro 2",
+                "file": "OnePlus Buds Pro 2"
+            }
+        ]
+    },
+    {
         "name": "QDC",
         "phones": [
             {
@@ -752,7 +761,7 @@
             },
             {
                 "name": "Redmi Buds 4",
-                "file": "Redmi Buds 4"
+                "file": "Xiaomi Redmi Buds 4"
             }
         ]
     },
