@@ -269,7 +269,7 @@ function augmentList(phone) {
         reviewStars = !reviewScore.length && reviewScore >= 0 && reviewScore <= 5 ? true : false,
         reviewLink = phone.reviewLink,
         reviewLinkLabel = reviewLink ? reviewLink.split('http.').pop().split('/').shift() : false,
-        reviewLinkVideo = reviewLink ? reviewLink.includes('youtube') ? 1 : 0 : 0,
+        reviewLinkVideo = reviewLink ? reviewLink.includes('youtube') || reviewLink.includes('youtu.be') ? 1 : 0 : 0,   
         shopLink = phone.shopLink,
         shopLinkAmazon = shopLink ? shopLink.indexOf('amazon') > 0 ? true : shopLink.indexOf('amzn') > 0 ? true : false : false,
         shopLinkAli = shopLink ? shopLink.indexOf('aliexpress') > 0 ? true : false : false,

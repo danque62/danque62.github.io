@@ -9,7 +9,8 @@
                 ],
                 "suffix": [
                     "w/ Spinfits CP145 tips"
-                ]
+                ],
+                "price": "$2300"
             },
             {
                 "name": "U12",
@@ -17,11 +18,13 @@
             },
             {
                 "name": "U12t",
-                "file": "U12t"
+                "file": "U12t",
+                "price": "$2000"
             },
             {
                 "name": "U18t",
-                "file": "U18t"
+                "file": "U18t",
+                "price": "$3000"
             }
         ]
     },
@@ -38,7 +41,8 @@
                     "S1",
                     "S2 w/ Ostry 200 tips"
                 ],
-                "collab": "crinacle"
+                "collab": "crinacle",
+                "price": "$100"
             },
             {
                 "name": "Timeless",
@@ -49,7 +53,8 @@
                 "suffix": [
                     "S2 w/ TangZu Sancai tips",
                     "S1"
-                ]
+                ],
+                "price": "$200"
             },
             {
                 "name": "Zero",
@@ -60,7 +65,8 @@
                 "suffix": [
                     "S1",
                     "S2"
-                ]
+                ],
+                "price": "$23"
             }
         ],
         "suffix": "Salnotes"
@@ -70,7 +76,8 @@
         "phones": [
             {
                 "name": "Proxima",
-                "file": "7th Acoustics Proxima"
+                "file": "7th Acoustics Proxima",
+                "price": "$100"
             }
         ]
     },
@@ -79,7 +86,8 @@
         "phones": [
             {
                 "name": "Liberty 4",
-                "file": "Soundcore Liberty 4"
+                "file": "Soundcore Liberty 4",
+                "price": "$150"
             }
         ]
     },
@@ -88,11 +96,13 @@
         "phones": [
             {
                 "name": "Euclid",
-                "file": "Euclid"
+                "file": "Euclid",
+                "price": "$1300"
             },
             {
                 "name": "iSine 10 (left channel only)",
-                "file": "iSine"
+                "file": "iSine",
+                "price": "$400"
             },
             {
                 "name": "iSine 20",
@@ -103,7 +113,8 @@
                 "suffix": [
                     "",
                     "w/ Cipher cable"
-                ]
+                ],
+                "price": "$600"
             }
         ]
     },
@@ -119,7 +130,8 @@
                 "suffix": [
                     "S2",
                     "S1"
-                ]
+                ],
+                "price": "$25"
             }
         ]
     },
@@ -128,15 +140,18 @@
         "phones": [
             {
                 "name": "Andromeda",
-                "file": "Andromeda"
+                "file": "Andromeda",
+                "price": "$1100"
             },
             {
                 "name": "Andromeda 2020",
-                "file": "Andromeda 2020"
+                "file": "Andromeda 2020",
+                "price": "$1100"
             },
             {
                 "name": "Honeydew",
-                "file": "Honeydew"
+                "file": "Honeydew",
+                "price": "$250"
             }
         ]
     },
@@ -145,11 +160,13 @@
         "phones": [
             {
                 "name": "CRA Pre-2023",
-                "file": "CRA"
+                "file": "CRA",
+                "price": "$10"
             },
             {
                 "name": "CRA+",
-                "file": "CRA+"
+                "file": "CRA+",
+                "price": "$20"
             }
         ]
     },
@@ -165,7 +182,8 @@
                 "suffix": [
                     "(OFF)",
                     "(ON)"
-                ]
+                ],
+                "price": "$580"
             }
         ]
     },
@@ -175,7 +193,8 @@
             {
                 "name": "Gaea",
                 "collab": "Elysian Acoustic Labs",
-                "file": "Gaea"
+                "file": "Gaea",
+                "price": "$1300"
             }
         ]
     },
@@ -184,11 +203,13 @@
         "phones": [
             {
                 "name": "ER2XR",
-                "file": "ER2XR"
+                "file": "ER2XR",
+                "price": "$100"
             },
             {
                 "name": "ER4SR",
-                "file": "ER4SR"
+                "file": "ER4SR",
+                "price": "$300"
             }
         ]
     },
@@ -197,7 +218,8 @@
         "phones": [
             {
                 "name": "T1 Lite",
-                "file": "FIIL T1 Lite"
+                "file": "FIIL T1 Lite",
+                "price": "$35"
             }
         ]
     },
@@ -206,7 +228,8 @@
         "phones": [
             {
                 "name": "FH3",
-                "file": "FH3"
+                "file": "FH3",
+                "price": "$150"
             }
         ]
     },
@@ -222,7 +245,8 @@
                 "suffix": [
                     "(OFF)",
                     "(ON)"
-                ]
+                ],
+                "price": "$700"
             }
         ]
     },
@@ -236,7 +260,8 @@
                 ],
                 "suffix": [
                     "w/ Spinfits W1 tips"
-                ]
+                ],
+                "price": "$300"
             }
         ]
     },
@@ -254,15 +279,18 @@
         "phones": [
             {
                 "name": "Tune 110BT",
-                "file": "Tune 110BT"
+                "file": "Tune 110BT",
+                "price": "$30"
             },
             {
                 "name": "Tune 130NC",
-                "file": "Tune 130NC"
+                "file": "Tune 130NC",
+                "price": "$100"
             },
             {
                 "name": "Quantum 50",
-                "file": "JBL Quantum 50"
+                "file": "JBL Quantum 50",
+                "price": "$30"
             }
         ]
     },
@@ -271,7 +299,8 @@
         "phones": [
             {
                 "name": "EDX",
-                "file": "KZ EDX"
+                "file": "KZ EDX",
+                "price": "$8"
             },
             {
                 "name": "Krila",
@@ -310,7 +339,8 @@
                     "(DDUD)",
                     "(DDDU)",
                     "(DDDD)"
-                ]
+                ],
+                "price": "$17"
             }
         ]
     },
@@ -319,11 +349,13 @@
         "phones": [
             {
                 "name": "Cadenza 12",
-                "file": "Cadenza 12"
+                "file": "Cadenza 12",
+                "price": "$2300"
             },
             {
                 "name": "EJ07M",
-                "file": "EJ07M"
+                "file": "EJ07M",
+                "price": "$670"
             },
             {
                 "name": "S12",
@@ -334,11 +366,13 @@
                 "suffix": [
                     "S1",
                     "S2"
-                ]
+                ],
+                "price": "$150"
             },
             {
                 "name": "S12 Pro",
-                "file": "S12 Pro"
+                "file": "S12 Pro",
+                "price": "$150"
             }
         ]
     },
@@ -358,12 +392,14 @@
                     "w/ Spinfits CP145 tips",
                     "w/ Spring tips",
                     "w/ Spinfits W1 tips"
-                ]
+                ],
+                "price": "$80"
             },
             {
                 "name": "Blessing 2: Dusk",
                 "collab": "crinacle",
-                "file": "B2 Dusk"
+                "file": "B2 Dusk",
+                "price": "$330"
             },
             {
                 "name": "Chu",
@@ -378,7 +414,8 @@
                     "w/ silicone tips",
                     "w/ Spinfits CP145 tips",
                     "w/ Spinfits W1 tips"
-                ]
+                ],
+                "price": "$20"
             },
             {
                 "name": "KATO",
@@ -407,11 +444,13 @@
                     "(brass) w/ Spinfits W1 tips",
                     "(brass) w/ Spinfits CP145 tips",
                     "(brass) w/ Mistips"
-                ]
+                ],
+                "price": "$190"
             },
             {
                 "name": "Quarks",
-                "file": "Quarks B"
+                "file": "Quarks B",
+                "price": "$10"
             },
             {
                 "name": "Quarks DSP",
@@ -426,7 +465,8 @@
                     "S2",
                     "S2 w/ Spinfits CP100 tips",
                     "S1"
-                ]
+                ],
+                "price": "$20"
             },
             {
                 "name": "Space Travel",
@@ -445,7 +485,10 @@
                     "S2 1.0.0 (Reference)",
                     "S2 1.0.0 (Basshead)",
                     "S2 1.0.0 (Monitor)"
-                ]
+                ],
+                "reviewLink": "https://youtu.be/pb1PdELk2E0?si=vNnb54k_nrFSUe8F",
+                "reviewScore": "4",
+                "price": "$25"
             },
             {
                 "name": "SSR",
@@ -456,7 +499,8 @@
                 "suffix": [
                     "",
                     "w/ Softears UC tips"
-                ]
+                ],
+                "price": "$30"
             },
             {
                 "name": "Stellaris",
@@ -473,11 +517,13 @@
                     "S2 w/ double low-density foam",
                     "S2 w/ shortened inner nozzle diameter",
                     "S2 w/ low-density Dioko foam"
-                ]
+                ],
+                "price": "$110"
             },
             {
                 "name": "Variations",
-                "file": "Variations"
+                "file": "Variations",
+                "price": "$520"
             }
         ]
     },
@@ -486,7 +532,8 @@
         "phones": [
             {
                 "name": "DB3",
-                "file": "DB3"
+                "file": "DB3",
+                "price": "$30"
             }
         ]
     },
@@ -495,7 +542,8 @@
         "phones": [
             {
                 "name": "Buds Pro 2",
-                "file": "OnePlus Buds Pro 2"
+                "file": "OnePlus Buds Pro 2",
+                "price": "$180"
             }
         ]
     },
@@ -504,7 +552,8 @@
         "phones": [
             {
                 "name": "10se",
-                "file": "QDC 10se"
+                "file": "QDC 10se",
+                "price": "$2320"
             }
         ]
     },
@@ -526,7 +575,8 @@
                     "w/ Spinfits CP145 tips",
                     "w/ Spinfits W1 tips",
                     "w/ Spring tips"
-                ]
+                ],
+                "price": "$20"
             }
         ]
     },
@@ -535,7 +585,8 @@
         "phones": [
             {
                 "name": "Buds T100",
-                "file": "realme Buds T100"
+                "file": "realme Buds T100",
+                "price": "$70"
             }
         ]
     },
@@ -557,7 +608,8 @@
                     "Passive",
                     "Ambient Mode",
                     "ANC"
-                ]
+                ],
+                "price": "$100"
             }
         ]
     },
@@ -575,11 +627,13 @@
                     "",
                     "(half tip depth)",
                     "w/ Spinfits W1 tips"
-                ]
+                ],
+                "price": "$150"
             },
             {
                 "name": "IE600",
-                "file": "IE600"
+                "file": "IE600",
+                "price": "$700"
             }
         ]
     },
@@ -588,15 +642,18 @@
         "phones": [
             {
                 "name": "IER-M7",
-                "file": "IER-M7"
+                "file": "IER-M7",
+                "price": "$800"
             },
             {
                 "name": "IER-M9",
-                "file": "IER-M9"
+                "file": "IER-M9",
+                "price": "$1000"
             },
             {
                 "name": "IER-Z1R",
-                "file": "IER-Z1R"
+                "file": "IER-Z1R",
+                "price": "$1700"
             },
             {
                 "name": "LinkBuds S",
@@ -607,15 +664,18 @@
                 "suffix": [
                     "S2",
                     "S1"
-                ]
+                ],
+                "price": "$200"
             },
             {
                 "name": "MDR-EX155AP",
-                "file": "MDR-EX155AP"
+                "file": "MDR-EX155AP",
+                "price": "$20"
             },
             {
                 "name": "MDR-XB55AP",
-                "file": "MDR-XB55AP"
+                "file": "MDR-XB55AP",
+                "price": "$30"
             },
             {
                 "name": "WF-1000XM4",
@@ -626,7 +686,8 @@
                 "suffix": [
                     "S1",
                     "S2"
-                ]
+                ],
+                "price": "$200"
             },
             {
                 "name": "WF-1000XM5",
@@ -641,7 +702,8 @@
                     "S1",
                     "S2 @ 75% Volume (Windows)",
                     "S2 @ 50% Volume (Windows)"
-                ]
+                ],
+                "price": "$300"
             }
         ]
     },
@@ -658,7 +720,8 @@
                     "S2",
                     "S1"
                 ],
-                "collab": "Nightjar Acoustics"
+                "collab": "Nightjar Acoustics",
+                "price": "$600"
             }
         ]
     },
@@ -667,7 +730,8 @@
         "phones": [
             {
                 "name": "Wan'er",
-                "file": "TangZu Waner"
+                "file": "TangZu Waner",
+                "price": "$20"
             }
         ]
     },
@@ -676,7 +740,8 @@
         "phones": [
             {
                 "name": "Monarch MK2",
-                "file": "Monarch MK2"
+                "file": "Monarch MK2",
+                "price": "$1000"
             }
         ]
     },
@@ -685,7 +750,8 @@
         "phones": [
             {
                 "name": "Hexa",
-                "file": "Hexa"
+                "file": "Hexa",
+                "price": "$80"
             },
             {
                 "name": "Zero",
@@ -709,7 +775,8 @@
                     "w/ 25 Ohm adapter",
                     "w/ 50 Ohm adapter",
                     "w/ 75 Ohm adapter"
-                ]
+                ],
+                "price": "$50"
             },
             {
                 "name": "Zero:Red",
@@ -731,7 +798,8 @@
                     "w/ 25 Ohm adapter",
                     "w/ 50 Ohm adapter",
                     "w/ 75 Ohm adapter"
-                ]
+                ],
+                "price": "$55"
             }
         ]
     },
@@ -740,7 +808,8 @@
         "phones": [
             {
                 "name": "Pro X10",
-                "file": "Pro X10"
+                "file": "Pro X10",
+                "price": "$175"
             }
         ]
     },
@@ -749,7 +818,8 @@
         "phones": [
             {
                 "name": "Mi In-Ear Headphones Basic",
-                "file": "Mi In Ear"
+                "file": "Mi In Ear",
+                "price": "$7"
             },
             {
                 "name": "Mi In-Ear Headphones Pro HD",
@@ -757,7 +827,8 @@
             },
             {
                 "name": "Mi Noise Cancelling Earphones (3.5mm)",
-                "file": "Mi ANC 3.5mm"
+                "file": "Mi ANC 3.5mm",
+                "price": "$50"
             },
             {
                 "name": "Redmi Buds 4",
