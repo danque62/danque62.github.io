@@ -563,18 +563,20 @@
             {
                 "name": "HBB",
                 "file": [
-                    "QKZ HBB",
-                    "QKZ HBB Clear",
-                    "QKZ HBB CP145",
-                    "QKZ HBB W1",
-                    "QKZ HBB Spring"
+                    "QKZ HBB S1",
+                    "QKZ HBB S1 Clear",
+                    "QKZ HBB S1 CP145",
+                    "QKZ HBB S1 W1",
+                    "QKZ HBB S1 Spring",
+                    "QKZ HBB S2"
                 ],
                 "suffix": [
-                    "",
-                    "w/ clear tips",
-                    "w/ Spinfits CP145 tips",
-                    "w/ Spinfits W1 tips",
-                    "w/ Spring tips"
+                    "S1 ",
+                    "S1 w/ clear tips",
+                    "S1 w/ Spinfits CP145 tips",
+                    "S1 w/ Spinfits W1 tips",
+                    "S1 w/ Spring tips",
+                    "S2"
                 ],
                 "price": "$20"
             }
@@ -730,7 +732,8 @@
         "phones": [
             {
                 "name": "Wan'er",
-                "file": "TangZu Waner",
+                "file": ["TangZu Waner S1", "TangZu Waner S2"],
+                "suffix": ["S1", "S2"],
                 "price": "$20"
             }
         ]

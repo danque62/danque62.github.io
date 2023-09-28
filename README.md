@@ -1,4 +1,8 @@
 # [Access to the graph tool.](graph)
+# Updates (September 28, 2023 - Random Squig)
+Added IEMs:
+- TangZu Wan'er (sample 2)
+- QKZ HBB (sample 2)
 # Updates (September 22, 2023 - Random Stroll)
 Added IEMs:
 - OnePlus Buds Pro 2
