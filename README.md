@@ -1,4 +1,8 @@
 # [Access to the graph tool.](graph)
+# Updates (October 05, 2023 - Random Squig)
+Added IEMs:
+- Moondrop Blessing 2
+- SOUNDPEATS Truengine SE
 # Updates (September 28, 2023 - Random Squig)
 Added IEMs:
 - TangZu Wan'er (sample 2)

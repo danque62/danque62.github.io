@@ -396,6 +396,11 @@
                 "price": "$80"
             },
             {
+                "name": "Blessing 2",
+                "file": "Moondrop Blessing 2",
+                "price": "$330"
+            },
+            {
                 "name": "Blessing 2: Dusk",
                 "collab": "crinacle",
                 "file": "B2 Dusk",
@@ -710,6 +715,15 @@
         ]
     },
     {
+        "name": "SOUNDPEATS",
+        "phones": [
+            {
+                "name": "Truengine SE",
+                "file": "SOUNDPEATS Truengine SE"
+            }
+        ]
+    },
+    {
         "name": "Symphonium",
         "phones": [
             {
@@ -732,8 +746,14 @@
         "phones": [
             {
                 "name": "Wan'er",
-                "file": ["TangZu Waner S1", "TangZu Waner S2"],
-                "suffix": ["S1", "S2"],
+                "file": [
+                    "TangZu Waner S1",
+                    "TangZu Waner S2"
+                ],
+                "suffix": [
+                    "S1",
+                    "S2"
+                ],
                 "price": "$20"
             }
         ]
