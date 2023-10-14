@@ -1,4 +1,10 @@
 # [Access to the graph tool.](graph)
+# Updates (October 05, 2023 - Mini Meetup)
+Added IEMs:
+- AKG N5005
+- AFUL Performer 8 
+- Binary x Gizaudio Chopin
+- Thieaudio Hype 2
 # Updates (October 05, 2023 - Random Squig)
 Added IEMs:
 - Moondrop Blessing 2

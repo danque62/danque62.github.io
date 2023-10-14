@@ -48,7 +48,7 @@
                 "name": "Timeless",
                 "file": [
                     "7Hz Timeless S2",
-                    "Timeless"
+                    "7Hz Timeless S1"
                 ],
                 "suffix": [
                     "S2 w/ TangZu Sancai tips",
@@ -78,6 +78,26 @@
                 "name": "Proxima",
                 "file": "7th Acoustics Proxima",
                 "price": "$100"
+            }
+        ]
+    },
+    {
+        "name": "AFUL",
+        "phones":[
+            {
+                "name": "Performer 8",
+                "file": "AFUL Performer 8",
+                "price": "$370"
+            }
+        ]
+    },
+    {
+        "name": "AKG",
+        "phones":[
+            {
+                "name": "N5005",
+                "file": "AKG N5005",
+                "price": "$400"
             }
         ]
     },
@@ -115,6 +135,16 @@
                     "w/ Cipher cable"
                 ],
                 "price": "$600"
+            }
+        ]
+    },
+    {
+        "name": "Binary",
+        "phones":[
+            {
+                "name": "Chopin",
+                "collab": "Gizaudio",
+                "file": "Binary x Gizaudio Chopin"
             }
         ]
     },
@@ -403,7 +433,7 @@
             {
                 "name": "Blessing 2: Dusk",
                 "collab": "crinacle",
-                "file": "B2 Dusk",
+                "file": "Moondrop x crinacle Blessing 2 Dusk",
                 "price": "$330"
             },
             {
@@ -762,8 +792,13 @@
         "name": "Thieaudio",
         "phones": [
             {
+                "name": "Hype 2",
+                "file": "Thieaudio Hype 2",
+                "price": "$300"
+            },
+            {
                 "name": "Monarch MK2",
-                "file": "Monarch MK2",
+                "file": "Thieaudio Monarch MK2",
                 "price": "$1000"
             }
         ]
