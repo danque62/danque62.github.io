@@ -83,7 +83,7 @@
     },
     {
         "name": "AFUL",
-        "phones":[
+        "phones": [
             {
                 "name": "Performer 8",
                 "file": "AFUL Performer 8",
@@ -93,7 +93,7 @@
     },
     {
         "name": "AKG",
-        "phones":[
+        "phones": [
             {
                 "name": "N5005",
                 "file": "AKG N5005",
@@ -140,7 +140,7 @@
     },
     {
         "name": "Binary",
-        "phones":[
+        "phones": [
             {
                 "name": "Chopin",
                 "collab": "Gizaudio",
@@ -296,6 +296,15 @@
         ]
     },
     {
+        "name": "HZSound",
+        "phones": [
+            {
+                "name": "Heart Mirror",
+                "file": "HZSound Heart Mirror"
+            }
+        ]
+    },
+    {
         "name": "INM Audio",
         "phones": [
             {
@@ -321,6 +330,28 @@
                 "name": "Quantum 50",
                 "file": "JBL Quantum 50",
                 "price": "$30"
+            }
+        ]
+    },
+    {
+        "name": "KBEAR",
+        "phones": [
+            {
+                "name": "KW1",
+                "file": "KBEAR KW1"
+            },
+            {
+                "name": "Pecker",
+                "file": "KBEAR Pecker"
+            }
+        ]
+    },
+    {
+        "name": "Kinera",
+        "phones": [
+            {
+                "name": "Celest Phoenixcall",
+                "file": "Kinera Celest Phoenixcall"
             }
         ]
     },
@@ -371,6 +402,10 @@
                     "(DDDD)"
                 ],
                 "price": "$17"
+            },
+            {
+                "name": "PR2",
+                "file": "KZ PR2"
             }
         ]
     },
@@ -538,20 +573,22 @@
                 "price": "$30"
             },
             {
-                "name": "Stellaris",
+                "name": "`Stellar`is",
                 "file": [
                     "Stellaris",
                     "Stellaris B",
                     "Stellaris B 3",
                     "Stellaris B 4",
-                    "Stellaris B 5"
+                    "Stellaris B 5",
+                    "Stellaris High D"
                 ],
                 "suffix": [
                     "S1",
                     "S2 w/ SSR filter & Azla Vivid tips",
                     "S2 w/ double low-density foam",
                     "S2 w/ shortened inner nozzle diameter",
-                    "S2 w/ low-density Dioko foam"
+                    "S2 w/ low-density Dioko foam",
+                    "S2 w/ high-density foam and 300 mesh"
                 ],
                 "price": "$110"
             },
@@ -647,6 +684,15 @@
                     "ANC"
                 ],
                 "price": "$100"
+            }
+        ]
+    },
+    {
+        "name": "Simgot",
+        "phones": [
+            {
+                "name": "EW100P",
+                "file": "Simgot EW100P"
             }
         ]
     },
@@ -775,6 +821,19 @@
         "name": "TangZu",
         "phones": [
             {
+                "name": "ChangLe",
+                "file": "TangZu ChangLe"
+            },
+            {
+                "name": "Fudu",
+                "collab": "Divinus",
+                "file": "TangZu Fudu"
+            },
+            {
+                "name": "Nezha",
+                "file": "TangZu Nezha"
+            },
+            {
                 "name": "Wan'er",
                 "file": [
                     "TangZu Waner S1",
@@ -785,6 +844,22 @@
                     "S2"
                 ],
                 "price": "$20"
+            },
+            {
+                "name": "Xuanwu Gate (Prototype)",
+                "file": "TangZu Xuanwu Gate"
+            },
+            {
+                "name": "Zetian Wu: HeyDay",
+                "collab": "HBB",
+                "file": [
+                    "TangZu HeyDay",
+                    "TangZu HeyDay CP145"
+                ],
+                "suffix": [
+                    "",
+                    "w/ Spinfits CP145 tips"
+                ]
             }
         ]
     },
@@ -800,6 +875,10 @@
                 "name": "Monarch MK2",
                 "file": "Thieaudio Monarch MK2",
                 "price": "$1000"
+            },
+            {
+                "name": "Oracle MK1",
+                "file": "Thieaudio Oracle MK1"
             }
         ]
     },

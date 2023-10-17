@@ -1,5 +1,20 @@
 # [Access to the graph tool.](graph)
-# Updates (October 05, 2023 - Mini Meetup)
+# Updates (October 15, 2023 - Grand Lason R2)
+Added IEMs:
+- HZSound Heart Mirror
+- KBEAR KW1
+- KBEAR Pecker
+- Kinera Celest Phoenixcall
+- KZ PR2v2
+- Moondrop Stellaris S2 (sample 2 w/ high-density foam and 300 mesh)
+- Simgot EW100P
+- TangZu Chang Le
+- TangZu x Divinus Fudu
+- TangZu x HBB Zetian Wu Heyday (also measured with Spinfits CP145 tips)
+- TangZu Nezha
+- TangZu Xuanwu Gate (Prototype)
+- Thieaudio Oracle MK1
+# Updates (October 14, 2023 - Mini Meetup)
 Added IEMs:
 - AKG N5005
 - AFUL Performer 8 
