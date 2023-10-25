@@ -1,4 +1,7 @@
 # [Access to the graph tool.](graph)
+# Updates (October 25, 2023 - Mail call)
+Added IEM:
+- Truthear Hola
 # Updates (October 19, 2023 - Random Squig)
 Added IEM:
 - Truthear x crinacle Zero:Red (sample 2)

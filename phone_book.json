@@ -901,6 +901,17 @@
                 "price": "$80"
             },
             {
+                "name": "Hola",
+                "file": [
+                    "Truthear Hola",
+                    "Truthear Hola wide-bore"
+                ],
+                "suffix": [
+                    "",
+                    "w/ stock wide bore tips"
+                ]
+            },
+            {
                 "name": "Zero",
                 "collab": "crinacle",
                 "file": [
