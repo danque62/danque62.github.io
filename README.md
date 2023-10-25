@@ -1,4 +1,7 @@
 # [Access to the graph tool.](graph)
+# Updates (October 19, 2023 - Random Squig)
+Added IEM:
+- Truthear x crinacle Zero:Red (sample 2)
 # Updates (October 15, 2023 - Grand Lason R2)
 Added IEMs:
 - HZSound Heart Mirror

@@ -14,16 +14,16 @@
             },
             {
                 "name": "U12",
-                "file": "U12"
+                "file": "64 Audio U12"
             },
             {
                 "name": "U12t",
-                "file": "U12t",
+                "file": "64 Audio U12t",
                 "price": "$2000"
             },
             {
                 "name": "U18t",
-                "file": "U18t",
+                "file": "64 Audio U18t",
                 "price": "$3000"
             }
         ]
@@ -34,8 +34,8 @@
             {
                 "name": "Dioko",
                 "file": [
-                    "Dioko",
-                    "Dioko B"
+                    "7Hz Salnotes x crinacle Dioko",
+                    "7Hz Salnotes x crinacle Dioko B"
                 ],
                 "suffix": [
                     "S1",
@@ -59,8 +59,8 @@
             {
                 "name": "Zero",
                 "file": [
-                    "Salnotes Zero",
-                    "Salnotes Zero S2"
+                    "7Hz Salnotes Zero",
+                    "7Hz Salnotes Zero S2"
                 ],
                 "suffix": [
                     "S1",
@@ -102,11 +102,11 @@
         ]
     },
     {
-        "name": "Anker Soundcore",
+        "name": "Anker",
         "phones": [
             {
-                "name": "Liberty 4",
-                "file": "Soundcore Liberty 4",
+                "name": "Soundcore Liberty 4",
+                "file": "Anker Soundcore Liberty 4",
                 "price": "$150"
             }
         ]
@@ -116,19 +116,24 @@
         "phones": [
             {
                 "name": "Euclid",
-                "file": "Euclid",
+                "file": "Audeze Euclid",
                 "price": "$1300"
             },
             {
-                "name": "iSine 10 (left channel only)",
-                "file": "iSine",
+                "name": "iSine 10",
+                "file": [
+                    "Audeze iSine 10"
+                ],
+                "suffix": [
+                    "(left channel only)"
+                ],
                 "price": "$400"
             },
             {
                 "name": "iSine 20",
                 "file": [
-                    "iSine 20",
-                    "iSine 20 Cip"
+                    "Audeze iSine 20",
+                    "Audeze iSine 20 Cipher"
                 ],
                 "suffix": [
                     "",
@@ -154,8 +159,8 @@
             {
                 "name": "BL03",
                 "file": [
-                    "BL03 2",
-                    "BL03"
+                    "BLON BL03 S2",
+                    "BLON BL03 S1"
                 ],
                 "suffix": [
                     "S2",
@@ -170,17 +175,17 @@
         "phones": [
             {
                 "name": "Andromeda",
-                "file": "Andromeda",
+                "file": "Campfire Audio Andromeda",
                 "price": "$1100"
             },
             {
                 "name": "Andromeda 2020",
-                "file": "Andromeda 2020",
+                "file": "Campfire Audio Andromeda 2020",
                 "price": "$1100"
             },
             {
                 "name": "Honeydew",
-                "file": "Honeydew",
+                "file": "Campfire Audio Honeydew",
                 "price": "$250"
             }
         ]
@@ -190,12 +195,12 @@
         "phones": [
             {
                 "name": "CRA Pre-2023",
-                "file": "CRA",
+                "file": "CCA CRA",
                 "price": "$10"
             },
             {
                 "name": "CRA+",
-                "file": "CRA+",
+                "file": "CCA CRA+",
                 "price": "$20"
             }
         ]
@@ -206,8 +211,8 @@
             {
                 "name": "SA6 MK2",
                 "file": [
-                    "SA6 MK2 Off",
-                    "SA6 MK2 On"
+                    "DUNU SA6 MK2 Off",
+                    "DUNU SA6 MK2 On"
                 ],
                 "suffix": [
                     "(OFF)",
@@ -223,7 +228,7 @@
             {
                 "name": "Gaea",
                 "collab": "Elysian Acoustic Labs",
-                "file": "Gaea",
+                "file": "Effect Audio x Elysian Acoustic Labs Gaea",
                 "price": "$1300"
             }
         ]
@@ -233,12 +238,12 @@
         "phones": [
             {
                 "name": "ER2XR",
-                "file": "ER2XR",
+                "file": "Etymotic ER2XR",
                 "price": "$100"
             },
             {
                 "name": "ER4SR",
-                "file": "ER4SR",
+                "file": "Etymotic ER4SR",
                 "price": "$300"
             }
         ]
@@ -258,7 +263,7 @@
         "phones": [
             {
                 "name": "FH3",
-                "file": "FH3",
+                "file": "FiiO FH3",
                 "price": "$150"
             }
         ]
@@ -318,40 +323,18 @@
         "phones": [
             {
                 "name": "Tune 110BT",
-                "file": "Tune 110BT",
+                "file": "JBL Tune 110BT",
                 "price": "$30"
             },
             {
                 "name": "Tune 130NC",
-                "file": "Tune 130NC",
+                "file": "JBL Tune 130NC",
                 "price": "$100"
             },
             {
                 "name": "Quantum 50",
                 "file": "JBL Quantum 50",
                 "price": "$30"
-            }
-        ]
-    },
-    {
-        "name": "KBEAR",
-        "phones": [
-            {
-                "name": "KW1",
-                "file": "KBEAR KW1"
-            },
-            {
-                "name": "Pecker",
-                "file": "KBEAR Pecker"
-            }
-        ]
-    },
-    {
-        "name": "Kinera",
-        "phones": [
-            {
-                "name": "Celest Phoenixcall",
-                "file": "Kinera Celest Phoenixcall"
             }
         ]
     },
@@ -410,23 +393,45 @@
         ]
     },
     {
+        "name": "KBEAR",
+        "phones": [
+            {
+                "name": "KW1",
+                "file": "KBEAR KW1"
+            },
+            {
+                "name": "Pecker",
+                "file": "KBEAR Pecker"
+            }
+        ]
+    },
+    {
+        "name": "Kinera",
+        "phones": [
+            {
+                "name": "Celest Phoenixcall",
+                "file": "Kinera Celest Phoenixcall"
+            }
+        ]
+    },
+    {
         "name": "Letshuoer",
         "phones": [
             {
                 "name": "Cadenza 12",
-                "file": "Cadenza 12",
+                "file": "Letshuoer Cadenza 12",
                 "price": "$2300"
             },
             {
                 "name": "EJ07M",
-                "file": "EJ07M",
+                "file": "Letshuoer EJ07M",
                 "price": "$670"
             },
             {
                 "name": "S12",
                 "file": [
-                    "S12",
-                    "S12 S2"
+                    "Letshuoer S12 S1",
+                    "Letshuoer S12 S2"
                 ],
                 "suffix": [
                     "S1",
@@ -436,7 +441,7 @@
             },
             {
                 "name": "S12 Pro",
-                "file": "S12 Pro",
+                "file": "Letshuoer S12 Pro",
                 "price": "$150"
             }
         ]
@@ -563,8 +568,8 @@
             {
                 "name": "SSR",
                 "file": [
-                    "SSR",
-                    "SSR UC"
+                    "Moondrop SSR",
+                    "Moondrop SSR UC"
                 ],
                 "suffix": [
                     "",
@@ -573,14 +578,14 @@
                 "price": "$30"
             },
             {
-                "name": "`Stellar`is",
+                "name": "Stellaris",
                 "file": [
                     "Stellaris",
                     "Stellaris B",
                     "Stellaris B 3",
                     "Stellaris B 4",
                     "Stellaris B 5",
-                    "Stellaris High D"
+                    "Stellaris B High D"
                 ],
                 "suffix": [
                     "S1",
@@ -594,7 +599,7 @@
             },
             {
                 "name": "Variations",
-                "file": "Variations",
+                "file": "Moondrop Variations",
                 "price": "$520"
             }
         ]
@@ -604,7 +609,12 @@
         "phones": [
             {
                 "name": "DB3",
-                "file": "DB3",
+                "file": [
+                    "NiceHCK DB3"
+                ],
+                "suffix": [
+                    "(left channel only)"
+                ],
                 "price": "$30"
             }
         ]
@@ -702,9 +712,9 @@
             {
                 "name": "IE200",
                 "file": [
-                    "IE200",
-                    "IE200 Half",
-                    "IE200 W1"
+                    "Sennheiser IE200",
+                    "Sennheiser IE200 Half",
+                    "Sennheiser IE200 W1"
                 ],
                 "suffix": [
                     "",
@@ -715,7 +725,7 @@
             },
             {
                 "name": "IE600",
-                "file": "IE600",
+                "file": "Sennheiser IE600",
                 "price": "$700"
             }
         ]
@@ -725,24 +735,24 @@
         "phones": [
             {
                 "name": "IER-M7",
-                "file": "IER-M7",
+                "file": "Sony IER-M7",
                 "price": "$800"
             },
             {
                 "name": "IER-M9",
-                "file": "IER-M9",
+                "file": "Sony IER-M9",
                 "price": "$1000"
             },
             {
                 "name": "IER-Z1R",
-                "file": "IER-Z1R",
+                "file": "Sony IER-Z1R",
                 "price": "$1700"
             },
             {
                 "name": "LinkBuds S",
                 "file": [
-                    "LinkBuds S S2",
-                    "LinkBuds S S1"
+                    "Sony LinkBuds S S2",
+                    "Sony LinkBuds S S1"
                 ],
                 "suffix": [
                     "S2",
@@ -752,12 +762,12 @@
             },
             {
                 "name": "MDR-EX155AP",
-                "file": "MDR-EX155AP",
+                "file": "Sony MDR-EX155AP",
                 "price": "$20"
             },
             {
                 "name": "MDR-XB55AP",
-                "file": "MDR-XB55AP",
+                "file": "Sony MDR-XB55AP",
                 "price": "$30"
             },
             {
@@ -887,31 +897,31 @@
         "phones": [
             {
                 "name": "Hexa",
-                "file": "Hexa",
+                "file": "Truthear Hexa",
                 "price": "$80"
             },
             {
                 "name": "Zero",
                 "collab": "crinacle",
                 "file": [
-                    "CrinZero",
-                    "CrinZero wide-bore",
-                    "CrinZero foam",
-                    "CrinZero Ram",
-                    "CrinZero 10",
-                    "CrinZero 25",
-                    "CrinZero 50",
-                    "CrinZero 75"
+                    "Truthear x crinacle Zero",
+                    "Truthear x crinacle Zero wide-bore",
+                    "Truthear x crinacle Zero foam",
+                    "Truthear x crinacle Zero Ram",
+                    "Truthear x crinacle Zero 10",
+                    "Truthear x crinacle Zero 25",
+                    "Truthear x crinacle Zero 50",
+                    "Truthear x crinacle Zero 75"
                 ],
                 "suffix": [
-                    "",
-                    "w/ stock wide bore tips",
-                    "w/ stock foam tips",
+                    "S1",
+                    "S1 w/ stock wide bore tips",
+                    "S1 w/ stock foam tips",
                     "S2 w/ Spring tips",
-                    "w/ Bass+ (10 Ohm adapter)",
-                    "w/ 25 Ohm adapter",
-                    "w/ 50 Ohm adapter",
-                    "w/ 75 Ohm adapter"
+                    "S1 w/ Bass+ (10 Ohm adapter)",
+                    "S1 w/ 25 Ohm adapter",
+                    "S1 w/ 50 Ohm adapter",
+                    "S1 w/ 75 Ohm adapter"
                 ],
                 "price": "$50"
             },
@@ -919,22 +929,26 @@
                 "name": "Zero:Red",
                 "collab": "crinacle",
                 "file": [
-                    "ZeroRed",
-                    "ZeroRed wide bore",
-                    "ZeroRed foam",
-                    "ZeroRed 10",
-                    "ZeroRed 25",
-                    "ZeroRed 50",
-                    "ZeroRed 75"
+                    "Truthear x crinacle Zero Red",
+                    "Truthear x crinacle Zero Red wide-bore",
+                    "Truthear x crinacle Zero Red foam",
+                    "Truthear x crinacle Zero Red Bass+",
+                    "Truthear x crinacle Zero Red 25",
+                    "Truthear x crinacle Zero Red 50",
+                    "Truthear x crinacle Zero Red 75",
+                    "Truthear x crinacle Zero Red S2",
+                    "Truthear x crinacle Zero Red S2 Bass+"
                 ],
                 "suffix": [
-                    "",
-                    "w/ stock wide bore tips",
-                    "w/ stock foam tips",
-                    "(Bass+)",
-                    "w/ 25 Ohm adapter",
-                    "w/ 50 Ohm adapter",
-                    "w/ 75 Ohm adapter"
+                    "S1",
+                    "S1 w/ stock wide bore tips",
+                    "S1 w/ stock foam tips",
+                    "S1 (Bass+)",
+                    "S1 w/ 25 Ohm adapter",
+                    "S1 w/ 50 Ohm adapter",
+                    "S1 w/ 75 Ohm adapter",
+                    "S2",
+                    "S2 (Bass+)"
                 ],
                 "price": "$55"
             }
@@ -945,7 +959,7 @@
         "phones": [
             {
                 "name": "Pro X10",
-                "file": "Pro X10",
+                "file": "Westone Pro X10",
                 "price": "$175"
             }
         ]
@@ -955,16 +969,16 @@
         "phones": [
             {
                 "name": "Mi In-Ear Headphones Basic",
-                "file": "Mi In Ear",
+                "file": "Xiaomi Mi In Ear",
                 "price": "$7"
             },
             {
                 "name": "Mi In-Ear Headphones Pro HD",
-                "file": "Mi HD Audio"
+                "file": "Xiaomi Mi HD Audio"
             },
             {
                 "name": "Mi Noise Cancelling Earphones (3.5mm)",
-                "file": "Mi ANC 3.5mm",
+                "file": "Xiaomi Mi ANC 3.5mm",
                 "price": "$50"
             },
             {
