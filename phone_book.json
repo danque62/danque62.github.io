@@ -195,7 +195,14 @@
         "phones": [
             {
                 "name": "CRA Pre-2023",
-                "file": "CCA CRA",
+                "file": [
+                    "CCA CRA",
+                    "CCA CRA S2"
+                ],
+                "suffix": [
+                    "S1",
+                    "S2"
+                ],
                 "price": "$10"
             },
             {
@@ -389,6 +396,10 @@
             {
                 "name": "PR2",
                 "file": "KZ PR2"
+            },
+            {
+                "name": "ZSN Pro X",
+                "file": "KZ ZSN Pro X"
             }
         ]
     },
@@ -889,6 +900,22 @@
             {
                 "name": "Oracle MK1",
                 "file": "Thieaudio Oracle MK1"
+            }
+        ]
+    },
+    {
+        "name": "TinHiFi",
+        "phones": [
+            {
+                "name": "T2",
+                "file": [
+                    "TIN T2",
+                    "TIN T2 CP145"
+                ],
+                "suffix": [
+                    "",
+                    "w/ Spinfits CP145 tips"
+                ]
             }
         ]
     },

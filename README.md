@@ -1,4 +1,11 @@
 # [Access to the graph tool.](graph)
+# Updates (October 25, 2023 - Visit)
+Added IEMs:
+- CCA CRA (sample 2)
+- KZ ZSN Pro X
+- TinHiFi T2
+Remeasured IEM:
+- 7Hz Salnotes Zero (sample 1)
 # Updates (October 25, 2023 - Mail call)
 Added IEM:
 - Truthear Hola
