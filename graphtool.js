@@ -32,6 +32,13 @@ doc.html(`
           <button id="copy-url">Copy URL</button>
           <button id="download-faux">Screenshot</button>
         </div>
+        
+        <div class="yscaler">
+          <span>Y-axis Scale:</span>
+          <div>
+            <button id="yscalebtn" class="50db">50dB</button>
+          </div>
+        </div>
 
         <div class="zoom">
           <span>Zoom:</span>
@@ -416,6 +423,7 @@ dB.circ = dB.trans.selectAll().data([-1,1]).join("circle")
         dB.scale.attr("transform", "scale(1,"+sc+")");
         dB.h = 15*sc;
         dB.mid.attrs({y:dB.y-dB.h,height:2*dB.h});
+        updateBoundsScaling(h);
         dB.updatey();
     }));
 let yCenter = 60;
@@ -427,6 +435,70 @@ dB.updatey = function (dom) {
     clearLabels();
     gpath.selectAll("path").call(redrawLine);
 }
+
+// y-axis scaler button
+const defY = dB.y;
+
+function updateYScaling(h, y) {
+    let sc = h/dB.H;
+    dB.h = 15*sc;
+    dB.y = y;
+    dB.circ.attr("cy",s=>h*s);
+    dB.scale.attr("transform", "scale(1,"+sc+")");
+    dB.mid.attrs({y:dB.y-dB.h,height:2*dB.h});
+    dB.trans.attr("transform", dB.tr());
+    dB.updatey();
+    updateBoundsScaling(h);
+}
+
+function updateBoundsScaling(h) {
+    let scale = h/76;
+    gr.select("[id=bounds]").attr("transform", "scale(1,"+scale+")");
+    gr.select("[id=bounds]").attr("transform-origin", "0 25");
+}
+updateBoundsScaling(dB.H);
+
+doc.select("#yscalebtn").on("click", function() {
+    // 3 way button, class="crin" is the default, class="40db" is the 40dB scale, class="50db" is the 50dB scale
+    // 5 way now cuz listener said so
+    switch (this.classList[0]) {
+        case "20db":
+            this.classList.remove("20db");
+            this.classList.add("30db");
+            this.innerHTML = "30dB";
+            updateYScaling(101.33, 172);
+            break;
+        case "30db":
+            this.classList.remove("30db");
+            this.classList.add("40db");
+            this.innerHTML = "40dB";
+            updateYScaling(75.95, 172);
+            break;
+        case "40db":
+            this.classList.remove("40db");
+            this.classList.add("50db");
+            this.innerHTML = "50dB";
+            updateYScaling(dB.H, defY);
+            break;
+        case "50db":
+            this.classList.remove("50db");
+            this.classList.add("crin");
+            this.innerHTML = "Crin";
+            updateYScaling(54.77, 156.94);
+            break;
+        case "crin":
+            this.classList.remove("crin");
+            this.classList.add("20db");
+            this.innerHTML = "20dB";
+            updateYScaling(152, 172);
+            break;
+        default:
+            this.className = "50db";
+            this.innerHTML = "50dB";
+            updateYScaling(dB.H, defY);
+            break;
+    }
+});
 
 
 // Label drawing and screenshot
