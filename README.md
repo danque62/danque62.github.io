@@ -1,4 +1,44 @@
 # [Access to the graph tool.](graph)
+# Updates (November 12, 2023 - November HiFi Show Day 2)
+Added IEMs: (18 IEMs)
+- CCA Duo
+- CCA Pianist
+- Hiby Xoe
+- Huawei Freebuds Pro 3
+- Kiwi Ears Quartet
+- Letshuoer D13
+- Moondrop Chu II
+- Moondrop Blessing 3
+- Samsung Galaxy Buds2 Pro
+- SeeAudio Miu
+- Simgot EA1000
+- Simgot EA2000
+- Simgot EA500
+- Simgot EM6L
+- Simgot EW200
+- Tripowin x HBB Olina (double-filter mod)
+- Tripowin x HBB Kailua
+- Truthear x crinacle Zero:Red (sample 3)
+# Updates (November 11, 2023 - November HiFi Show Day 1)
+Added IEMs: (17 IEMs)
+- AFUL MagicOne
+- BrownIEM 1.0
+- DUNU Titan S
+- Fischer Audio Omega Spark
+- Flipears Artha
+- Hidizs MP145
+- Hyla CE-5
+- HZSound HeartMirror (modded by OB ODIO Reviews)
+- KZ Castor Bass Edition (only in DDUU configuration)
+- Moondrop KATO (2 new samples)
+- Moondrop Stellaris S2 (idk what he did here, but it's fcked)
+- Moondrop Variations (sample 2)
+- SeeAudio Yume II
+- Tanchjim Hana 2021 (2 samples)
+- TangZu Zetian Wu
+# Updates (November 07, 2023 - For Selling)
+Remeasured IEM:
+- Xiaomi Mi Noise Cancelling 3.5mm
 # Updates (October 25, 2023 - Visit)
 Added IEMs:
 - CCA CRA (sample 2)
@@ -163,8 +203,8 @@ Added IEMs:
 - Moondrop SSR
 - Moondrop Stellaris
 - Moondrop Variations
-- Thieaudio Monarch MK2
 - Symphonium Meteor
+- Thieaudio Monarch MK2
 - Truthear Hexa
 # The In-Ear Graphing Library
 If you're not weirdly obsessed with headphones you can leave at any time.
