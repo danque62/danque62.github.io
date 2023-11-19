@@ -22,7 +22,6 @@ const init_phones = ["Space Travel", "Neutral Target"],            // Optional. 
       page_description = "View and compare frequency response graphs for IEMs",
       accessories = true,                          // If true, displays specified HTML at the bottom of the page. Configure further below
       externalLinksBar = true,                      // If true, displays row of pill-shaped links at the bottom of the page. Configure further below
-      restricted = false,                           // Enables restricted mode. More restricted options below
       expandable = false,                           // Enables button to expand iframe over the top of the parent page
       expandableOnly = false,                       // Prevents iframe interactions unless the user has expanded it. Accepts "true" or "false" OR a pixel value; if pixel value, that is used as the maximum width at which expandableOnly is used
       headerHeight = '0px',                         // Optional. If expandable=true, determines how much space to leave for the parent page header
@@ -41,8 +40,9 @@ const init_phones = ["Space Travel", "Neutral Target"],            // Optional. 
 
 // Specify which targets to display
 const targets = [
-    { type: "Δ",            files:["Δ 10dB", "IEF Comp"] },
-    { type: "Tilt",         files:["Preference Tilt", "Neutral Tilt", "Pleasant Tilt", "Hadoe Tilt", "Cosmic Brownie Tilt"]},
+    { type: "Δ",            files:["Δ 10dB","JM-1 10dB", "IEF Comp"] },
+    { type: "Tilt",         files:["Preference Tilt", "Neutral Tilt", "Pleasant Tilt", "Hadoe Tilt", "Cosmic Brownie Tilt", "Charlie Marks Tilt"]},
+    { type: "JM-1 Tilt",    files:["JM-1 Charlie Marks Tilt", "JM-1 Charlie Marks Bass Tilt"]},
     { type: "Personal",     files:["Preference", "Neutral", "Pleasant"] },
     { type: "Neutral",      files:["Diffuse Field", "Diffuse Field Unsmoothened", "Etymotic", "Free Field", "Innerfidelity ID"] },
     { type: "Community",    files:["Haruto", "Haruto 🅱️ass", "Brownie", "Helene", "Listener","Xiao 2.0", "Mini", "Runatera v4.2.3", "Mokou Bassmaxxing", "Mokou Beta 1", "Rennsport v3", "Razan Neutral"] },
@@ -112,21 +112,6 @@ function setLayout() {
     }
 }
 setLayout();
-
-
-
-// Set restricted mode
-function setRestricted() {
-    if ( restricted ) {
-        max_compare = 2;
-        restrict_target = false;
-        disallow_target = true;
-        premium_html = "<h2>You gonna pay for that?</h2><p>To use target curves, or more than two graphs, <a target='_blank' href='https://crinacle.com/wp-login.php?action=register'>subscribe</a> or upgrade to Patreon <a target='_blank' href='https://www.patreon.com/join/crinacle/checkout?rid=3775534'>Silver tier</a> and switch to <a target='_blank' href='https://crinacle.com/graphs/iems/graphtool/premium/'>the premium tool</a>.</p>";
-    }
-}
-setRestricted();
-
-
 
 // Configure HTML accessories to appear at the bottom of the page. Displayed only if accessories (above) is true
 // There are a few templates here for ease of use / examples, but these variables accept any HTML
