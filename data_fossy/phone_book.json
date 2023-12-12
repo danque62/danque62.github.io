@@ -67,6 +67,11 @@
                     "S2"
                 ],
                 "price": "$23"
+            },
+            {
+                "name": "Zero:2",
+                "collab": "crinacle",
+                "file": "7Hz Salnotes x crinacle Zero 2"
             }
         ],
         "suffix": "Salnotes"
@@ -136,12 +141,14 @@
             {
                 "name": "iSine 20",
                 "file": [
-                    "Audeze iSine 20",
-                    "Audeze iSine 20 Cipher"
+                    "Audeze iSine 20 S2",
+                    "Audeze iSine 20 S1",
+                    "Audeze iSine 20 S1 Cipher"
                 ],
                 "suffix": [
-                    "",
-                    "w/ Cipher cable"
+                    "S2",
+                    "S1",
+                    "S1 w/ Cipher cable"
                 ],
                 "price": "$600"
             }
@@ -153,7 +160,14 @@
             {
                 "name": "Chopin",
                 "collab": "Gizaudio",
-                "file": "Binary x Gizaudio Chopin"
+                "file": [
+                    "Binary x Gizaudio Chopin S2",
+                    "Binary x Gizaudio Chopin S1"
+                ],
+                "suffix": [
+                    "S2",
+                    "S1"
+                ]
             }
         ]
     },
@@ -200,11 +214,19 @@
             {
                 "name": "CRA Pre-2023",
                 "file": [
-                    "CCA CRA",
+                    "CCA CRA S1",
+                    "CCA CRA S1 Spring",
+                    "CCA CRA S1 CP145",
+                    "CCA CRA S1 W1",
+                    "CCA CRA S1 Foam",
                     "CCA CRA S2"
                 ],
                 "suffix": [
                     "S1",
+                    "S1 w/ Spring tips",
+                    "S1 w/ Spinfits CP145 tips",
+                    "S1 w/ Spinfits W1 tips",
+                    "S1 w/ KZ foam tips",
                     "S2"
                 ],
                 "price": "$10"
@@ -262,6 +284,15 @@
         ]
     },
     {
+        "name": "Empire Ears",
+        "phones": [
+            {
+                "name": "Valkyrie MK2",
+                "file": "Empire Ears Valkyrie MK2"
+            }
+        ]
+    },
+    {
         "name": "Etymotic",
         "phones": [
             {
@@ -293,6 +324,15 @@
                 "name": "FH3",
                 "file": "FiiO FH3",
                 "price": "$150"
+            }
+        ]
+    },
+    {
+        "name": "Final",
+        "phones": [
+            {
+                "name": "F4100",
+                "file": "Final F4100"
             }
         ]
     },
@@ -338,6 +378,19 @@
         ]
     },
     {
+        "name": "Gaudio",
+        "phones": [
+            {
+                "name": "Clariden 2022",
+                "file": "Gaudio Clariden 2022"
+            },
+            {
+                "name": "Nair 2022",
+                "file": "Gaudio Nair 2022"
+            }
+        ]
+    },
+    {
         "name": "Hiby",
         "phones": [
             {
@@ -352,6 +405,15 @@
             {
                 "name": "MP145",
                 "file": "Hidizs MP145"
+            }
+        ]
+    },
+    {
+        "name": "Hifiman",
+        "phones": [
+            {
+                "name": "RE800 Silver",
+                "file": "Hifiman RE800 Silver"
             }
         ]
     },
@@ -414,6 +476,56 @@
         ]
     },
     {
+        "name": "Intime",
+        "phones": [
+            {
+                "name": "Sora 1 (3.5mm)",
+                "file": [
+                    "Intime Sora 1 3.5mm CP145"
+                ],
+                "suffix": [
+                    "w/ Spinfits CP145 tips"
+                ]
+            },
+            {
+                "name": "Sora 1 (4.4mm)",
+                "file": [
+                    "Intime Sora 1 4.4mm CP145"
+                ],
+                "suffix": [
+                    "w/ Spinfits CP145 tips"
+                ]
+            },
+            {
+                "name": "Sora 2",
+                "file": [
+                    "Intime Sora 2 CP145"
+                ],
+                "suffix": [
+                    "w/ Spinfits CP145 tips"
+                ]
+            },
+            {
+                "name": "Sora Light 2019",
+                "file": [
+                    "Intime Sora Light 2019 CP145"
+                ],
+                "suffix": [
+                    "w/ Spinfits CP145 tips"
+                ]
+            },
+            {
+                "name": "Sora TI3",
+                "file": [
+                    "Intime Sora TI3 CP145"
+                ],
+                "suffix": [
+                    "w/ Spinfits CP145 tips"
+                ]
+            }
+        ]
+    },
+    {
         "name": "JBL",
         "phones": [
             {
@@ -449,6 +561,10 @@
                 "name": "EDX",
                 "file": "KZ EDX",
                 "price": "$8"
+            },
+            {
+                "name": "EDX Lite",
+                "file": "KZ EDX Lite"
             },
             {
                 "name": "Krila",
@@ -493,6 +609,17 @@
             {
                 "name": "PR2",
                 "file": "KZ PR2"
+            },
+            {
+                "name": "PR3",
+                "file": [
+                    "KZ PR3 Nov 17",
+                    "KZ PR3 Nov 14"
+                ],
+                "suffix": [
+                    "",
+                    "(Prototype)"
+                ]
             },
             {
                 "name": "ZSN Pro X",
@@ -587,13 +714,15 @@
                     "Moondrop Aria",
                     "Moondrop Aria CP145",
                     "Moondrop Aria Spring",
-                    "Moondrop Aria W1"
+                    "Moondrop Aria W1",
+                    "Moondrop Aria Foam"
                 ],
                 "suffix": [
                     "",
                     "w/ Spinfits CP145 tips",
                     "w/ Spring tips",
-                    "w/ Spinfits W1 tips"
+                    "w/ Spinfits W1 tips",
+                    "w/ KZ foam tips"
                 ],
                 "price": "$80"
             },
@@ -619,13 +748,15 @@
                     "Moondrop Chu",
                     "Moondrop Chu Silicone",
                     "Moondrop Chu CP145",
-                    "Moondrop Chu W1"
+                    "Moondrop Chu W1",
+                    "Moondrop Chu Foam"
                 ],
                 "suffix": [
                     "w/ Spring tips",
                     "w/ silicone tips",
                     "w/ Spinfits CP145 tips",
-                    "w/ Spinfits W1 tips"
+                    "w/ Spinfits W1 tips",
+                    "w/ KZ foam tips"
                 ],
                 "price": "$20"
             },
@@ -641,33 +772,39 @@
             {
                 "name": "KATO",
                 "file": [
-                    "KATO Steel",
-                    "KATO Steel W1",
-                    "KATO S2",
-                    "KATO S2 Xelastec",
-                    "KATO S2 S12 tips",
-                    "KATO Steel CP145",
-                    "KATO Steel Mistips",
-                    "KATO Brass",
-                    "KATO Brass W1",
-                    "KATO Brass CP145",
-                    "KATO Brass Mistips",
+                    "Moondrop KATO S1",
+                    "Moondrop KATO S1 Silicone",
+                    "Moondrop KATO S1 W1",
+                    "Moondrop KATO S1 CP145",
+                    "Moondrop KATO S1 Mistips",
+                    "Moondrop KATO S1 Foam",
+                    "Moondrop KATO S1 Brass",
+                    "Moondrop KATO S1 Brass W1",
+                    "Moondrop KATO S1 Brass CP145",
+                    "Moondrop KATO S1 Brass Mistips",
+                    "Moondrop KATO S1 Brass Foam",
+                    "Moondrop KATO S2",
+                    "Moondrop KATO S2 Xelastec",
+                    "Moondrop KATO S2 S12 tips",
                     "Moondrop KATO S3",
                     "Moondrop KATO S3 W1",
                     "Moondrop KATO S4"
                 ],
                 "suffix": [
                     "S1 w/ Spring tips",
+                    "S1 w/ silicone tips",
                     "S1 w/ Spinfits W1 tips",
-                    "S2 w/ Spring tips",
-                    "S2 w/ Azla Xelastec",
-                    "S2 w/ S12 Clear tips",
                     "S1 w/ Spinfits CP145 tips",
                     "S1 w/ Mistips",
+                    "S1 w/ KZ foam tips",
                     "S1 (brass) w/ Spring tips",
                     "S1 (brass) w/ Spinfits W1 tips",
                     "S1 (brass) w/ Spinfits CP145 tips",
                     "S1 (brass) w/ Mistips",
+                    "S1 (brass) w/ KZ foam tips",
+                    "S2 w/ Spring tips",
+                    "S2 w/ Azla Xelastec",
+                    "S2 w/ S12 Clear tips",
                     "S3 w/ Spring tips",
                     "S3 w/ Spinfits W1 tips",
                     "S4 w/ Spring tips"
@@ -811,6 +948,7 @@
                     "QKZ HBB S1 CP145",
                     "QKZ HBB S1 W1",
                     "QKZ HBB S1 Spring",
+                    "QKZ HBB S1 Foam",
                     "QKZ HBB S2"
                 ],
                 "suffix": [
@@ -819,6 +957,7 @@
                     "S1 w/ Spinfits CP145 tips",
                     "S1 w/ Spinfits W1 tips",
                     "S1 w/ Spring tips",
+                    "S1 w/ KZ foam tips",
                     "S2"
                 ],
                 "price": "$20"
@@ -881,6 +1020,39 @@
         ]
     },
     {
+        "name": "Sennheiser",
+        "phones": [
+            {
+                "name": "IE200",
+                "file": [
+                    "Sennheiser IE200",
+                    "Sennheiser IE200 Half",
+                    "Sennheiser IE200 W1"
+                ],
+                "suffix": [
+                    "",
+                    "(half tip depth)",
+                    "w/ Spinfits W1 tips"
+                ],
+                "price": "$150"
+            },
+            {
+                "name": "IE600",
+                "file": "Sennheiser IE600",
+                "price": "$700"
+            }
+        ]
+    },
+    {
+        "name": "Shozy",
+        "phones": [
+            {
+                "name": "Black Hole",
+                "file": "Shozy Black Hole"
+            }
+        ]
+    },
+    {
         "name": "Simgot",
         "phones": [
             {
@@ -895,13 +1067,13 @@
             {
                 "name": "EA1000",
                 "file": [
-                    "Simgot EA1000 CP145 Black Ring",
                     "Simgot EA1000 CP145 Red Ring",
+                    "Simgot EA1000 CP145 Black Ring",
                     "Simgot EA1000 CP145 Gold"
                 ],
                 "suffix": [
-                    "(Black nozzle) w/ Spinfits CP145 tips",
                     "(Red nozzle) w/ Spinfits CP145 tips",
+                    "(Black nozzle) w/ Spinfits CP145 tips",
                     "(Gold nozzle) w/ Spinfits CP145 tips"
                 ]
             },
@@ -932,35 +1104,19 @@
             {
                 "name": "EW200",
                 "file": [
-                    "Simgot EW200 CP145"
+                    "Simgot EW200 S2",
+                    "Simgot EW200 S2 CP145",
+                    "Simgot EW200 S2 W1",
+                    "Simgot EW200 S2 Spring",
+                    "Simgot EW200 S1 CP145"
                 ],
                 "suffix": [
-                    "w/ Spinfits CP145 tips"
+                    "S2",
+                    "S2 w/ Spinfits CP145 tips",
+                    "S2 w/ Spinfits W1 tips",
+                    "S2 w/ Spring tips",
+                    "S1 w/ Spinfits CP145 tips"
                 ]
-            }
-        ]
-    },
-    {
-        "name": "Sennheiser",
-        "phones": [
-            {
-                "name": "IE200",
-                "file": [
-                    "Sennheiser IE200",
-                    "Sennheiser IE200 Half",
-                    "Sennheiser IE200 W1"
-                ],
-                "suffix": [
-                    "",
-                    "(half tip depth)",
-                    "w/ Spinfits W1 tips"
-                ],
-                "price": "$150"
-            },
-            {
-                "name": "IE600",
-                "file": "Sennheiser IE600",
-                "price": "$700"
             }
         ]
     },
@@ -1037,6 +1193,10 @@
     {
         "name": "SOUNDPEATS",
         "phones": [
+            {
+                "name": "Life",
+                "file": "SOUNDPEATS Life"
+            },
             {
                 "name": "Truengine SE",
                 "file": "SOUNDPEATS Truengine SE"
@@ -1199,11 +1359,17 @@
                 "name": "Hola",
                 "file": [
                     "Truthear Hola",
-                    "Truthear Hola wide-bore"
+                    "Truthear Hola wide-bore",
+                    "Truthear Hola Spring",
+                    "Truthear Hola CP145",
+                    "Truthear Hola W1"
                 ],
                 "suffix": [
                     "",
-                    "w/ stock wide bore tips"
+                    "w/ stock wide bore tips",
+                    "w/ Spring tips",
+                    "w/ Spinfits CP145 tips",
+                    "w/ Spinfits W1 tips"
                 ]
             },
             {
@@ -1245,7 +1411,9 @@
                     "Truthear x crinacle Zero Red S2",
                     "Truthear x crinacle Zero Red S2 Bass+",
                     "Truthear x crinacle Zero Red S3",
-                    "Truthear x crinacle Zero Red S3 Bass+"
+                    "Truthear x crinacle Zero Red S3 Bass+",
+                    "Truthear x crinacle Zero Red S4",
+                    "Truthear x crinacle Zero Red S4 Bass+"
                 ],
                 "suffix": [
                     "S1",
@@ -1258,7 +1426,9 @@
                     "S2",
                     "S2 (Bass+)",
                     "S3",
-                    "S3 (Bass+)"
+                    "S3 (Bass+)",
+                    "S4 w/ Spring tips",
+                    "S4 (Bass+) w/ Spring tips"
                 ],
                 "price": "$55"
             }
@@ -1279,7 +1449,7 @@
         "phones": [
             {
                 "name": "Mi In-Ear Headphones Basic",
-                "file": "Xiaomi Mi In Ear",
+                "file": "Xiaomi Mi In-Ear Headphones Basic",
                 "price": "$7"
             },
             {

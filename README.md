@@ -1,4 +1,43 @@
 # [Access to the graph tool.](graph)
+# Updates (December 12, 2023 - Own IEM Update)
+Added IEM:
+- 7Hz Salnotes x crinacle Zero:2
+
+Remeasured IEMs:
+- CCA CRA
+- Moondrop Aria
+- Moondrop Chu
+- Moondrop KATO (sample 1)
+- QKZ HBB (sample 1)
+- Truthear Hola
+- Xiaomi Mi In-Ear Headphones Basic
+# Updates (November 25, 2023 - HiFiGo Review Tour)
+Added IEM:
+- Binary x Gizaudio Chopin (sample 2)
+
+Remeasrued IEM:
+- Simgot EW200
+# Updates (November 24, 2023 - Obie & RamminRam @ EggHead)
+Added IEMs: (16 IEMs)
+- Audeze iSine 20 (sample 2)
+- Empire Ears Valkyrie MK2
+- Final F4100
+- Gaudio Clariden 2022
+- Gaudio Nair 20222
+- Hifiman RE800 Silver
+- Intime Sora Light 2019
+- Intime Sora 1 (3.5mm)
+- Intime Sora 1 (4.4mm)
+- Intime Sora 2
+- Intime Sora TI3
+- KZ EDX Lite
+- KZ PR3 (2 samples)
+- SOUNDPEATS Life
+- Shozy Black Hole
+- Truthear x crinacle Zero:Red (sample 4 w/ Spring tips)
+# Updates (November 22, 2023 - Simgot Review Tour)
+Added IEM:
+- Simgot EW200
 # Updates (November 12, 2023 - November HiFi Show Day 2)
 Added IEMs: (18 IEMs)
 - CCA Duo
@@ -44,6 +83,7 @@ Added IEMs:
 - CCA CRA (sample 2)
 - KZ ZSN Pro X
 - TinHiFi T2
+
 Remeasured IEM:
 - 7Hz Salnotes Zero (sample 1)
 # Updates (October 25, 2023 - Mail call)
@@ -84,6 +124,7 @@ Added IEMs:
 # Updates (September 22, 2023 - Random Stroll)
 Added IEMs:
 - OnePlus Buds Pro 2
+
 Remeasured IEMs:
 - Xiaomi Redmi Buds 4
 # Updates (September 16, 2023 - FAC Meetup)
@@ -95,6 +136,7 @@ Added IEMs:
 - QDC 10se (Anole VX)
 - Symphonium Meteor (sample 2)
 - TangZu Wan'er
+
 Remeasured IEMs:
 - Sennheiser IE600
 - Moondrop Stellaris (sample 2) with a bunch of different configurations.
@@ -105,6 +147,7 @@ Added IEM:
 Added IEM:
 - Moondrop KATO (sample 2)
 - Moondrop Space Travel (sample 2)
+
 Remeasured IEM:
 - Letshuoer S12 (sample 2)
 # Updates (August 31, 2023 - Random stroll)
@@ -133,6 +176,7 @@ Added IEM:
 # Updates (July 10, 2023 - Received unit)
 Added IEM:
 - Truthear x crinacle Zero:Red
+
 Remeasured IEM:
 - Truthear x crinacle Zero
     - only stock tips
@@ -146,7 +190,8 @@ Added IEMs:
 - Moondrop Stellaris (sample 2 w/ SSR Filters and Azla Vivid tips)
 - Moondrop Quarks
 - Moondrop Quarks DSP (sample 2)
-Remeasured:
+
+Remeasured IEM:
 - Moondrop SSR (added measurement w/ Softears UC tips)
 # Updates (May 17, 2023 - Random stroll)
 Added IEM:

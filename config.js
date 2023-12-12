@@ -40,15 +40,16 @@ const init_phones = ["Space Travel", "Neutral Target"],            // Optional. 
 
 // Specify which targets to display
 const targets = [
-    { type: "Δ",            files:["Δ 10dB","JM-1 10dB", "IEF Comp"] },
-    { type: "Tilt",         files:["Preference Tilt", "Neutral Tilt", "Pleasant Tilt", "Hadoe Tilt", "Cosmic Brownie Tilt", "Charlie Marks Tilt"]},
-    { type: "JM-1 Tilt",    files:["JM-1 Charlie Marks Tilt", "JM-1 Charlie Marks Bass Tilt"]},
-    { type: "Personal",     files:["Preference", "Neutral", "Pleasant"] },
-    { type: "Neutral",      files:["Diffuse Field", "Diffuse Field Unsmoothened", "Etymotic", "Free Field", "Innerfidelity ID"] },
-    { type: "Community",    files:["Haruto", "Haruto 🅱️ass", "Brownie", "Helene", "Listener","Xiao 2.0", "Mini", "Runatera v4.2.3", "Mokou Bassmaxxing", "Mokou Beta 1", "Rennsport v3", "Razan Neutral"] },
-    { type: "Reviewer",     files:["IEF Neutral 2023", "IEF Neutral", "Antdroid", "HBB", "Banbeucmas", "Practiphile Balanced", "Practiphile Neutral", "Precogvision", "Super 22", "Timmy", "VSG"] },
-    { type: "Harman",       files:["Harman IE 2016", "Harman IE 2017v1", "Harman IE 2017v2", "Harman IE 2019v2"] },
-    { type: "Preference",   files:["USound1V1", "USound1V1 Flat Bass", "Tork V5", "RTings", "Sonarworks", "VDSF"] }
+    { type: "Δ",                files:["Δ 10dB","JM-1 10dB", "IEF Comp"] },
+    { type: "Tilt",             files:["Preference Tilt", "Neutral Tilt", "Pleasant Tilt", "Hadoe Tilt", "Cosmic Brownie Tilt", "Charlie Marks Tilt"]},
+    { type: "JM-1 Tilt",        files:["JM-1 Charlie Marks Tilt", "JM-1 Charlie Marks Bass Tilt", "JM-1 Hadoe Tilt"]},
+    { type: "Personal",         files:["Preference", "Neutral", "Pleasant"] },
+    { type: "Neutral",          files:["Diffuse Field", "Diffuse Field Unsmoothened", "Etymotic", "Free Field", "Innerfidelity ID"] },
+    { type: "Community",        files:["Haruto", "Haruto 🅱️ass", "Brownie", "Helene","Xiao 2.0", "Runatera v4.2.3", "Mokou Bassmaxxing", "Mokou Beta 1", "Rennsport v3", "Razan Neutral"] },
+    { type: "Reviewer",         files:["IEF Neutral 2023", "IEF Neutral", "Antdroid", "HBB", "Banbeucmas", "Practiphile Balanced", "Practiphile Neutral", "Precogvision", "Super 22", "Timmy", "VSG"] },
+    { type: "Reviewer Tilt",    files:["HBB Tilt", "Timmy Tilt"] },
+    { type: "Harman",           files:["Harman IE 2016", "Harman IE 2017v1", "Harman IE 2017v2", "Harman IE 2019v2"] },
+    { type: "Preference",       files:["USound1V1", "USound1V1 Flat Bass", "Tork V5", "RTings", "Sonarworks", "VDSF"] }
 ];
 
 
@@ -166,35 +167,23 @@ const
 // Configure external links to appear at the bottom of the page. Displayed only if externalLinksBar (above) is true
 const linkSets = [
     {
-        label: "IEM graph databases",
+        label: "Other IEM databases",
         links: [
             {
                 name: "In-Ear Fidelity",
                 url: "https://crinacle.com/graphs/iems/graphtool/"
             },
             {
-                name: "Super* Review",
-                url: "https://squig.link/"
-            },
-            {
-                name: "Precogvision",
-                url: "https://precog.squig.link/"
-            },
-            {
                 name: "HarutoHiroki",
                 url: "https://graphtool.harutohiroki.com/"
             },
             {
-                name: "Side Salad Audio",
-                url: "https://suporsalad.squig.link/"
+                name: "Listener's Graph Tool",
+                url: "https://listener800.github.io/iems"
             },
             {
-                name: "Practiphile",
-                url: "https://practiphile.squig.link/"
-            },
-            {
-                name: "Kurin",
-                url: "https://kurin.squig.link/"
+                name: "Audio Discourse",
+                url: "https://iems.audiodiscourse.com/"
             },
             {
                 name: "Banbeucmas",
@@ -204,30 +193,22 @@ const linkSets = [
                 name: "HypetheSonics",
                 url: "https://www.hypethesonics.com/iemdbc/"
             },
-            {
-                name: "MMagTech frDB",
-                url: "https://fr.mmagtech.com/"
-            }
         ]
     },
     {
-        label: "Headphones",
+        label: "Headphone databases",
         links: [
             {
                 name: "Audio Discourse",
-                url: "https://headphones.audiodiscourse.com/"
+                url: "http://headphones.audiodiscourse.com/"
             },
             {
                 name: "In-Ear Fidelity",
                 url: "https://crinacle.com/graphs/headphones/graphtool/"
             },
             {
-                name: "Side Salad Audio",
-                url: "https://suporsalad.squig.link/headphones/"
-            },
-            {
-                name: "Super* Review",
-                url: "https://squig.link/hp.html"
+                name: "Listener's Graph Tool",
+                url: "https://listener800.github.io/"
             }
         ]
     }
