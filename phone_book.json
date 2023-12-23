@@ -10,21 +10,25 @@
                 "suffix": [
                     "w/ Spinfits CP145 tips"
                 ],
-                "price": "$2300"
+                "price": "$2300",
+                "reviewScore": "8.64/10"
             },
             {
                 "name": "U12",
-                "file": "64 Audio U12"
+                "file": "64 Audio U12",
+                "reviewScore": "4.86/10"
             },
             {
                 "name": "U12t",
                 "file": "64 Audio U12t",
-                "price": "$2000"
+                "price": "$2000",
+                "reviewScore": "N/A (Not Tried)"
             },
             {
                 "name": "U18t",
                 "file": "64 Audio U18t",
-                "price": "$3000"
+                "price": "$3000",
+                "reviewScore": "7.80/10"
             }
         ]
     },
@@ -42,7 +46,8 @@
                     "S2 w/ Ostry 200 tips"
                 ],
                 "collab": "crinacle",
-                "price": "$100"
+                "price": "$100",
+                "reviewScore": "5.90/10"
             },
             {
                 "name": "Timeless",
@@ -54,7 +59,8 @@
                     "S2 w/ TangZu Sancai tips",
                     "S1"
                 ],
-                "price": "$200"
+                "price": "$200",
+                "reviewScore": "5.87/10"
             },
             {
                 "name": "Zero",
@@ -66,12 +72,15 @@
                     "S1",
                     "S2"
                 ],
-                "price": "$23"
+                "price": "$23",
+                "reviewScore": "5.30/10"
             },
             {
                 "name": "Zero:2",
                 "collab": "crinacle",
-                "file": "7Hz Salnotes x crinacle Zero 2"
+                "file": "7Hz Salnotes x crinacle Zero 2",
+                "price": "$25",
+                "reviewScore": "6.05/10"
             }
         ],
         "suffix": "Salnotes"
@@ -82,7 +91,8 @@
             {
                 "name": "Proxima",
                 "file": "7th Acoustics Proxima",
-                "price": "$100"
+                "price": "$100",
+                "reviewScore": "5.92/10"
             }
         ]
     },
@@ -91,12 +101,15 @@
         "phones": [
             {
                 "name": "MagicOne",
-                "file": "AFUL MagicOne"
+                "file": "AFUL MagicOne",
+                "reviewScore": "6.80/10",
+                "price": "$140"
             },
             {
                 "name": "Performer 8",
                 "file": "AFUL Performer 8",
-                "price": "$370"
+                "price": "$370",
+                "reviewScore": "7.50/10"
             }
         ]
     },
@@ -106,7 +119,8 @@
             {
                 "name": "N5005",
                 "file": "AKG N5005",
-                "price": "$400"
+                "price": "$400",
+                "reviewScore": "N/A (Not Tried)"
             }
         ]
     },
@@ -116,7 +130,8 @@
             {
                 "name": "Soundcore Liberty 4",
                 "file": "Anker Soundcore Liberty 4",
-                "price": "$150"
+                "price": "$150",
+                "reviewScore": "4.52/10"
             }
         ]
     },
@@ -126,7 +141,8 @@
             {
                 "name": "Euclid",
                 "file": "Audeze Euclid",
-                "price": "$1300"
+                "price": "$1300",
+                "reviewScore": "6.10/10"
             },
             {
                 "name": "iSine 10",
@@ -136,7 +152,8 @@
                 "suffix": [
                     "(left channel only)"
                 ],
-                "price": "$400"
+                "price": "$400",
+                "reviewScore": "N/A (Not Tried)"
             },
             {
                 "name": "iSine 20",
@@ -150,7 +167,8 @@
                     "S1",
                     "S1 w/ Cipher cable"
                 ],
-                "price": "$600"
+                "price": "$600",
+                "reviewScore": "4.72/10"
             }
         ]
     },
@@ -167,7 +185,9 @@
                 "suffix": [
                     "S2",
                     "S1"
-                ]
+                ],
+                "reviewScore": "7.40/10",
+                "price": "$200"
             }
         ]
     },
@@ -184,7 +204,8 @@
                     "S2",
                     "S1"
                 ],
-                "price": "$25"
+                "price": "$25",
+                "reviewScore": "3.70/10"
             }
         ]
     },
@@ -194,17 +215,20 @@
             {
                 "name": "Andromeda",
                 "file": "Campfire Audio Andromeda",
-                "price": "$1100"
+                "price": "$1100",
+                "reviewScore": "5.22/10"
             },
             {
                 "name": "Andromeda 2020",
                 "file": "Campfire Audio Andromeda 2020",
-                "price": "$1100"
+                "price": "$1100",
+                "reviewScore": "5.22/10"
             },
             {
                 "name": "Honeydew",
                 "file": "Campfire Audio Honeydew",
-                "price": "$250"
+                "price": "$250",
+                "reviewScore": "N/A (Not Tried)"
             }
         ]
     },
@@ -229,20 +253,26 @@
                     "S1 w/ KZ foam tips",
                     "S2"
                 ],
-                "price": "$10"
+                "price": "$10 (Stealth-revised)",
+                "reviewScore": "4.92/10"
             },
             {
                 "name": "CRA+",
                 "file": "CCA CRA+",
-                "price": "$20"
+                "price": "$20",
+                "reviewScore": "N/A (Not Tried)"
             },
             {
                 "name": "Duo",
-                "file": "CCA Duo"
+                "file": "CCA Duo",
+                "price": "$42",
+                "reviewScore": "N/A (Not Tried)"
             },
             {
                 "name": "Pianist",
-                "file": "CCA Pianist"
+                "file": "CCA Pianist",
+                "price": "$40",
+                "reviewScore": "N/A (Not Tried)"
             }
         ]
     },
@@ -259,7 +289,8 @@
                     "(OFF)",
                     "(ON)"
                 ],
-                "price": "$580"
+                "price": "$580",
+                "reviewScore": "8.22/10"
             },
             {
                 "name": "Titan S",
@@ -268,7 +299,9 @@
                 ],
                 "suffix": [
                     "w/ Spinfits CP145 tips"
-                ]
+                ],
+                "price": "$80",
+                "reviewScore": "6.26/10"
             }
         ]
     },
@@ -279,7 +312,8 @@
                 "name": "Gaea",
                 "collab": "Elysian Acoustic Labs",
                 "file": "Effect Audio x Elysian Acoustic Labs Gaea",
-                "price": "$1300"
+                "price": "$1300",
+                "reviewScore": "N/A (Not Tried)"
             }
         ]
     },
@@ -288,7 +322,8 @@
         "phones": [
             {
                 "name": "Valkyrie MK2",
-                "file": "Empire Ears Valkyrie MK2"
+                "file": "Empire Ears Valkyrie MK2",
+                "reviewScore": "N/A (Not Tried)"
             }
         ]
     },
@@ -298,12 +333,14 @@
             {
                 "name": "ER2XR",
                 "file": "Etymotic ER2XR",
-                "price": "$100"
+                "price": "$100",
+                "reviewScore": "5.44/10"
             },
             {
                 "name": "ER4SR",
                 "file": "Etymotic ER4SR",
-                "price": "$300"
+                "price": "$300",
+                "reviewScore": "N/A (Need to Redemo)"
             }
         ]
     },
@@ -313,7 +350,8 @@
             {
                 "name": "T1 Lite",
                 "file": "FIIL T1 Lite",
-                "price": "$35"
+                "price": "$35",
+                "reviewScore": "2.18/10"
             }
         ]
     },
@@ -323,7 +361,8 @@
             {
                 "name": "FH3",
                 "file": "FiiO FH3",
-                "price": "$150"
+                "price": "$150",
+                "reviewScore": "N/A (Not Tried)"
             }
         ]
     },
@@ -332,7 +371,9 @@
         "phones": [
             {
                 "name": "F4100",
-                "file": "Final F4100"
+                "file": "Final F4100",
+                "reviewScore": "N/A (Not Tried)",
+                "price": "$280"
             }
         ]
     },
@@ -341,7 +382,9 @@
         "phones": [
             {
                 "name": "Omega Spark",
-                "file": "Fischer Audio Omega Spark"
+                "file": "Fischer Audio Omega Spark",
+                "reviewScore": "N/A (Not Tried)",
+                "price": "$60"
             }
         ]
     },
@@ -358,7 +401,8 @@
                     "(OFF)",
                     "(ON)"
                 ],
-                "price": "$700"
+                "price": "$700",
+                "reviewScore": "5.96/10"
             },
             {
                 "name": "Artha",
@@ -373,7 +417,9 @@
                     "(UD)",
                     "(DU)",
                     "(DD)"
-                ]
+                ],
+                "reviewScore": "6.38/10",
+                "price": "$1700"
             }
         ]
     },
@@ -382,11 +428,15 @@
         "phones": [
             {
                 "name": "Clariden 2022",
-                "file": "Gaudio Clariden 2022"
+                "file": "Gaudio Clariden 2022",
+                "reviewScore": "N/A (Not Tried)",
+                "price": "$1035"
             },
             {
                 "name": "Nair 2022",
-                "file": "Gaudio Nair 2022"
+                "file": "Gaudio Nair 2022",
+                "reviewScore": "N/A (Not Tried)",
+                "price": "$970"
             }
         ]
     },
@@ -395,7 +445,9 @@
         "phones": [
             {
                 "name": "Xoe",
-                "file": "Hiby Xoe"
+                "file": "Hiby Xoe",
+                "price": "Free (comes with M300)",
+                "reviewScore": "N/A (Not Tried)"
             }
         ]
     },
@@ -404,7 +456,9 @@
         "phones": [
             {
                 "name": "MP145",
-                "file": "Hidizs MP145"
+                "file": "Hidizs MP145",
+                "price": "$200",
+                "reviewScore": "6.80/10"
             }
         ]
     },
@@ -413,7 +467,9 @@
         "phones": [
             {
                 "name": "RE800 Silver",
-                "file": "Hifiman RE800 Silver"
+                "file": "Hifiman RE800 Silver",
+                "reviewScore": "N/A (Not Tried)",
+                "price": "$100"
             }
         ]
     },
@@ -428,7 +484,8 @@
                 "suffix": [
                     "w/ Spinfits W1 tips"
                 ],
-                "price": "$300"
+                "price": "$300",
+                "reviewScore": "6.64/10"
             }
         ]
     },
@@ -437,7 +494,9 @@
         "phones": [
             {
                 "name": "Freebuds Pro 3",
-                "file": "Huawei Freebuds Pro 3"
+                "file": "Huawei Freebuds Pro 3",
+                "reviewScore": "N/A (Not Tried)",
+                "price": "$200"
             }
         ]
     },
@@ -446,7 +505,9 @@
         "phones": [
             {
                 "name": "CE-5",
-                "file": "Hyla CE-5"
+                "file": "Hyla CE-5",
+                "price": "$832",
+                "reviewScore": "N/A (Not Tried)"
             }
         ]
     },
@@ -462,7 +523,8 @@
                 "suffix": [
                     "",
                     "(modded by OB ODIO Reviews)"
-                ]
+                ],
+                "reviewScore": "N/A (Need to Redemo)"
             }
         ]
     },
@@ -471,7 +533,8 @@
         "phones": [
             {
                 "name": "INM 3",
-                "file": "INM 3"
+                "file": "INM 3",
+                "reviewScore": "N/A (Need to Redemo)"
             }
         ]
     },
@@ -485,7 +548,8 @@
                 ],
                 "suffix": [
                     "w/ Spinfits CP145 tips"
-                ]
+                ],
+                "reviewScore": "N/A (Not Tried)"
             },
             {
                 "name": "Sora 1 (4.4mm)",
@@ -494,7 +558,8 @@
                 ],
                 "suffix": [
                     "w/ Spinfits CP145 tips"
-                ]
+                ],
+                "reviewScore": "N/A (Not Tried)"
             },
             {
                 "name": "Sora 2",
@@ -503,7 +568,9 @@
                 ],
                 "suffix": [
                     "w/ Spinfits CP145 tips"
-                ]
+                ],
+                "reviewScore": "N/A (Not Tried)",
+                "price": "$70"
             },
             {
                 "name": "Sora Light 2019",
@@ -512,7 +579,9 @@
                 ],
                 "suffix": [
                     "w/ Spinfits CP145 tips"
-                ]
+                ],
+                "reviewScore": "N/A (Not Tried)",
+                "price": "$40"
             },
             {
                 "name": "Sora TI3",
@@ -521,7 +590,9 @@
                 ],
                 "suffix": [
                     "w/ Spinfits CP145 tips"
-                ]
+                ],
+                "price": "$260",
+                "reviewScore": "N/A (Not Tried)"
             }
         ]
     },
@@ -531,17 +602,20 @@
             {
                 "name": "Tune 110BT",
                 "file": "JBL Tune 110BT",
-                "price": "$30"
+                "price": "$30",
+                "reviewScore": "2.00/10"
             },
             {
                 "name": "Tune 130NC",
                 "file": "JBL Tune 130NC",
-                "price": "$100"
+                "price": "$100",
+                "reviewScore": "4.98/10"
             },
             {
                 "name": "Quantum 50",
                 "file": "JBL Quantum 50",
-                "price": "$30"
+                "price": "$30",
+                "reviewScore": "2.84/10"
             }
         ]
     },
@@ -555,16 +629,21 @@
                 ],
                 "suffix": [
                     "(DDUU)"
-                ]
+                ],
+                "reviewScore": "4.70/10",
+                "price": "$17"
             },
             {
                 "name": "EDX",
                 "file": "KZ EDX",
-                "price": "$8"
+                "price": "$8",
+                "reviewScore": "N/A (Not Tried)"
             },
             {
                 "name": "EDX Lite",
-                "file": "KZ EDX Lite"
+                "file": "KZ EDX Lite",
+                "price": "$8",
+                "reviewScore": "N/A (Not Tried)"
             },
             {
                 "name": "Krila",
@@ -604,11 +683,16 @@
                     "(DDDU)",
                     "(DDDD)"
                 ],
-                "price": "$17"
+                "price": "$17",
+                "reviewScore": "3",
+                "reviewLink": "https://youtu.be/6h1S2qCAtW8?si=5vwqLaeOfxcAfwAO",
+                "shopLink": "https://www.kztws.com/products/kz-krila"
             },
             {
                 "name": "PR2",
-                "file": "KZ PR2"
+                "file": "KZ PR2",
+                "reviewScore": "N/A (Not Tried)",
+                "price": "$50"
             },
             {
                 "name": "PR3",
@@ -619,11 +703,15 @@
                 "suffix": [
                     "",
                     "(Prototype)"
-                ]
+                ],
+                "reviewScore": "6.38/10",
+                "price": "$50"
             },
             {
                 "name": "ZSN Pro X",
-                "file": "KZ ZSN Pro X"
+                "file": "KZ ZSN Pro X",
+                "reviewScore": "N/A (Not Tried)",
+                "price": "$15"
             }
         ]
     },
@@ -632,11 +720,15 @@
         "phones": [
             {
                 "name": "KW1",
-                "file": "KBEAR KW1"
+                "file": "KBEAR KW1",
+                "reviewScore": "4.78/10",
+                "price": "$25"
             },
             {
                 "name": "Pecker",
-                "file": "KBEAR Pecker"
+                "file": "KBEAR Pecker",
+                "reviewScore": "3.16/10",
+                "price": "$35"
             }
         ]
     },
@@ -645,7 +737,9 @@
         "phones": [
             {
                 "name": "Celest Phoenixcall",
-                "file": "Kinera Celest Phoenixcall"
+                "file": "Kinera Celest Phoenixcall",
+                "reviewScore": "5.36/10",
+                "price": "$130"
             }
         ]
     },
@@ -665,7 +759,9 @@
                     "(UD)",
                     "(DU)",
                     "(DD)"
-                ]
+                ],
+                "reviewScore": "N/A (Not Tried)",
+                "price": "$110"
             }
         ]
     },
@@ -675,16 +771,20 @@
             {
                 "name": "Cadenza 12",
                 "file": "Letshuoer Cadenza 12",
-                "price": "$2300"
+                "price": "$2300",
+                "reviewScore": "8.76/10"
             },
             {
                 "name": "D13",
-                "file": "Letshuoer D13"
+                "file": "Letshuoer D13",
+                "price": "$80",
+                "reviewScore": "N/A (Not Tried)"
             },
             {
                 "name": "EJ07M",
                 "file": "Letshuoer EJ07M",
-                "price": "$670"
+                "price": "$670",
+                "reviewScore": "7.35/10"
             },
             {
                 "name": "S12",
@@ -696,12 +796,14 @@
                     "S1",
                     "S2"
                 ],
-                "price": "$150"
+                "price": "$150",
+                "reviewScore": "5.78/10"
             },
             {
                 "name": "S12 Pro",
                 "file": "Letshuoer S12 Pro",
-                "price": "$150"
+                "price": "$150",
+                "reviewScore": "5.87/10"
             }
         ]
     },
@@ -724,23 +826,27 @@
                     "w/ Spinfits W1 tips",
                     "w/ KZ foam tips"
                 ],
-                "price": "$80"
+                "price": "$80",
+                "reviewScore": "5.44/10"
             },
             {
                 "name": "Blessing 2",
                 "file": "Moondrop Blessing 2",
-                "price": "$330"
+                "price": "$330",
+                "reviewScore": "7.30/10"
             },
             {
                 "name": "Blessing 2: Dusk",
                 "collab": "crinacle",
                 "file": "Moondrop x crinacle Blessing 2 Dusk",
-                "price": "$330"
+                "price": "$330",
+                "reviewScore": "7.73/10"
             },
             {
                 "name": "Blessing 3",
                 "file": "Moondrop Blessing 3",
-                "price": "$330"
+                "price": "$330",
+                "reviewScore": "N/A (Not Tried)"
             },
             {
                 "name": "Chu",
@@ -758,7 +864,8 @@
                     "w/ Spinfits W1 tips",
                     "w/ KZ foam tips"
                 ],
-                "price": "$20"
+                "price": "$20",
+                "reviewScore": "4.72/10"
             },
             {
                 "name": "Chu II",
@@ -767,7 +874,8 @@
                 ],
                 "suffix": [
                     "w/ Spinfits CP145 tips"
-                ]
+                ],
+                "reviewScore": "N/A (Not Tried)"
             },
             {
                 "name": "KATO",
@@ -779,6 +887,7 @@
                     "Moondrop KATO S1 Mistips",
                     "Moondrop KATO S1 Foam",
                     "Moondrop KATO S1 Brass",
+                    "Moondrop KATO S1 Brass Silicone",
                     "Moondrop KATO S1 Brass W1",
                     "Moondrop KATO S1 Brass CP145",
                     "Moondrop KATO S1 Brass Mistips",
@@ -798,6 +907,7 @@
                     "S1 w/ Mistips",
                     "S1 w/ KZ foam tips",
                     "S1 (brass) w/ Spring tips",
+                    "S1 (brass) w/ silicone tips",
                     "S1 (brass) w/ Spinfits W1 tips",
                     "S1 (brass) w/ Spinfits CP145 tips",
                     "S1 (brass) w/ Mistips",
@@ -809,12 +919,14 @@
                     "S3 w/ Spinfits W1 tips",
                     "S4 w/ Spring tips"
                 ],
-                "price": "$190"
+                "price": "$190",
+                "reviewScore": "7.00/10"
             },
             {
                 "name": "Quarks",
                 "file": "Quarks B",
-                "price": "$10"
+                "price": "$10",
+                "reviewScore": "N/A (Not Tried)"
             },
             {
                 "name": "Quarks DSP",
@@ -830,7 +942,8 @@
                     "S2 w/ Spinfits CP100 tips",
                     "S1"
                 ],
-                "price": "$20"
+                "price": "$20",
+                "reviewScore": "4.68/10"
             },
             {
                 "name": "Space Travel",
@@ -852,7 +965,8 @@
                 ],
                 "reviewLink": "https://youtu.be/pb1PdELk2E0?si=vNnb54k_nrFSUe8F",
                 "reviewScore": "4",
-                "price": "$25"
+                "price": "$25",
+                "shopLink": "https://shenzhenaudio.com/products/moondrop-space-travel-13mm-dynamic-driver-bluetooth-in-ear-headphone"
             },
             {
                 "name": "SSR",
@@ -864,7 +978,8 @@
                     "",
                     "w/ Softears UC tips"
                 ],
-                "price": "$30"
+                "price": "$30",
+                "reviewScore": "4.66/10"
             },
             {
                 "name": "Stellaris",
@@ -886,7 +1001,8 @@
                     "S2 w/ high-density foam and 300 mesh",
                     "S2 (Final...not really)"
                 ],
-                "price": "$110"
+                "price": "$110",
+                "reviewScore": "4.60/10"
             },
             {
                 "name": "Variations",
@@ -898,7 +1014,8 @@
                     "S1",
                     "S2 w/ DUNU S&S tips"
                 ],
-                "price": "$520"
+                "price": "$520",
+                "reviewScore": "7.41/10"
             }
         ]
     },
@@ -913,7 +1030,8 @@
                 "suffix": [
                     "(left channel only)"
                 ],
-                "price": "$30"
+                "price": "$30",
+                "reviewScore": "3.84/10"
             }
         ]
     },
@@ -923,7 +1041,8 @@
             {
                 "name": "Buds Pro 2",
                 "file": "OnePlus Buds Pro 2",
-                "price": "$180"
+                "price": "$180",
+                "reviewScore": "6.14/10"
             }
         ]
     },
@@ -933,7 +1052,8 @@
             {
                 "name": "10se",
                 "file": "QDC 10se",
-                "price": "$2320"
+                "price": "$2320",
+                "reviewScore": "8.38/10"
             }
         ]
     },
@@ -960,7 +1080,8 @@
                     "S1 w/ KZ foam tips",
                     "S2"
                 ],
-                "price": "$20"
+                "price": "$20",
+                "reviewScore": "5.07/10"
             }
         ]
     },
@@ -970,7 +1091,8 @@
             {
                 "name": "Buds T100",
                 "file": "realme Buds T100",
-                "price": "$70"
+                "price": "$70",
+                "reviewScore": "3.44/10"
             }
         ]
     },
@@ -979,7 +1101,9 @@
         "phones": [
             {
                 "name": "E0-IG955",
-                "file": "Samsung FreeBuds"
+                "file": "Samsung FreeBuds",
+                "price": "Free",
+                "reviewScore": "3.68/10"
             },
             {
                 "name": "Galaxy Buds Pro",
@@ -993,11 +1117,14 @@
                     "Ambient Mode",
                     "ANC"
                 ],
-                "price": "$100"
+                "price": "$100",
+                "reviewScore": "5.73/10"
             },
             {
                 "name": "Galaxy Buds2 Pro",
-                "file": "Samsung Galaxy Buds2 Pro"
+                "file": "Samsung Galaxy Buds2 Pro",
+                "price": "$150",
+                "reviewScore": "N/A (Not Tried)"
             }
         ]
     },
@@ -1011,11 +1138,13 @@
                 ],
                 "suffix": [
                     "w/ Spinfits CP145 tips"
-                ]
+                ],
+                "reviewScore": "N/A (Not Tried)"
             },
             {
                 "name": "Yume II",
-                "file": "SeeAudio Yume II"
+                "file": "SeeAudio Yume II",
+                "reviewScore": "N/A (Not Tried)"
             }
         ]
     },
@@ -1034,12 +1163,14 @@
                     "(half tip depth)",
                     "w/ Spinfits W1 tips"
                 ],
-                "price": "$150"
+                "price": "$150",
+                "reviewScore": "6.22 or 7.00/10"
             },
             {
                 "name": "IE600",
                 "file": "Sennheiser IE600",
-                "price": "$700"
+                "price": "$700",
+                "reviewScore": "7.55/10"
             }
         ]
     },
@@ -1048,7 +1179,8 @@
         "phones": [
             {
                 "name": "Black Hole",
-                "file": "Shozy Black Hole"
+                "file": "Shozy Black Hole",
+                "reviewScore": "N/A (Not Tried)"
             }
         ]
     },
@@ -1062,7 +1194,9 @@
                 ],
                 "suffix": [
                     "w/ Spinfits CP145 tips"
-                ]
+                ],
+                "price": "$80",
+                "reviewScore": "6.35/10"
             },
             {
                 "name": "EA1000",
@@ -1075,7 +1209,9 @@
                     "(Red nozzle) w/ Spinfits CP145 tips",
                     "(Black nozzle) w/ Spinfits CP145 tips",
                     "(Gold nozzle) w/ Spinfits CP145 tips"
-                ]
+                ],
+                "price": "$220",
+                "reviewScore": "7.11/10"
             },
             {
                 "name": "EA2000",
@@ -1086,7 +1222,9 @@
                 "suffix": [
                     "(Blue Pin)",
                     "(Black Pin)"
-                ]
+                ],
+                "price": "$320",
+                "reviewScore": "6.16/10"
             },
             {
                 "name": "EM6L",
@@ -1095,11 +1233,15 @@
                 ],
                 "suffix": [
                     "w/ TRI Clarion tips"
-                ]
+                ],
+                "price": "$110",
+                "reviewScore": "6.68/10"
             },
             {
                 "name": "EW100P",
-                "file": "Simgot EW100P"
+                "file": "Simgot EW100P",
+                "price": "$20",
+                "reviewScore": "N/A (Not Tried)"
             },
             {
                 "name": "EW200",
@@ -1116,7 +1258,9 @@
                     "S2 w/ Spinfits W1 tips",
                     "S2 w/ Spring tips",
                     "S1 w/ Spinfits CP145 tips"
-                ]
+                ],
+                "reviewScore": "5.78/10",
+                "price": "$40"
             }
         ]
     },
@@ -1126,17 +1270,20 @@
             {
                 "name": "IER-M7",
                 "file": "Sony IER-M7",
-                "price": "$800"
+                "price": "$800",
+                "reviewScore": "6.76/10"
             },
             {
                 "name": "IER-M9",
                 "file": "Sony IER-M9",
-                "price": "$1000"
+                "price": "$1000",
+                "reviewScore": "7.60/10"
             },
             {
                 "name": "IER-Z1R",
                 "file": "Sony IER-Z1R",
-                "price": "$1700"
+                "price": "$1700",
+                "reviewScore": "7.92/10"
             },
             {
                 "name": "LinkBuds S",
@@ -1148,17 +1295,20 @@
                     "S2",
                     "S1"
                 ],
-                "price": "$200"
+                "price": "$200",
+                "reviewScore": "5.38/10"
             },
             {
                 "name": "MDR-EX155AP",
                 "file": "Sony MDR-EX155AP",
-                "price": "$20"
+                "price": "$20",
+                "reviewScore": "2.00/10"
             },
             {
                 "name": "MDR-XB55AP",
                 "file": "Sony MDR-XB55AP",
-                "price": "$30"
+                "price": "$30",
+                "reviewScore": "2.32/10"
             },
             {
                 "name": "WF-1000XM4",
@@ -1170,7 +1320,8 @@
                     "S1",
                     "S2"
                 ],
-                "price": "$200"
+                "price": "$200",
+                "reviewScore": "5.06/10"
             },
             {
                 "name": "WF-1000XM5",
@@ -1186,7 +1337,8 @@
                     "S2 @ 75% Volume (Windows)",
                     "S2 @ 50% Volume (Windows)"
                 ],
-                "price": "$300"
+                "price": "$300",
+                "reviewScore": "6.65/10"
             }
         ]
     },
@@ -1195,11 +1347,13 @@
         "phones": [
             {
                 "name": "Life",
-                "file": "SOUNDPEATS Life"
+                "file": "SOUNDPEATS Life",
+                "reviewScore": "N/A (Not Tried)"
             },
             {
                 "name": "Truengine SE",
-                "file": "SOUNDPEATS Truengine SE"
+                "file": "SOUNDPEATS Truengine SE",
+                "reviewScore": "N/A (Not Tried)"
             }
         ]
     },
@@ -1217,7 +1371,8 @@
                     "S1"
                 ],
                 "collab": "Nightjar Acoustics",
-                "price": "$600"
+                "price": "$600",
+                "reviewScore": "7.62/10"
             }
         ]
     },
@@ -1233,7 +1388,9 @@
                 "suffix": [
                     "S1",
                     "S2"
-                ]
+                ],
+                "price": "$160",
+                "reviewScore": "7.00/10"
             }
         ]
     },
@@ -1242,16 +1399,22 @@
         "phones": [
             {
                 "name": "ChangLe",
-                "file": "TangZu ChangLe"
+                "file": "TangZu ChangLe",
+                "price": "$15",
+                "reviewScore": "4.68/10"
             },
             {
                 "name": "Fudu",
                 "collab": "Divinus",
-                "file": "TangZu Fudu"
+                "file": "TangZu Fudu",
+                "price": "$90",
+                "reviewScore": "6.14/10"
             },
             {
                 "name": "Nezha",
-                "file": "TangZu Nezha"
+                "file": "TangZu Nezha",
+                "price": "$360",
+                "reviewScore": "6.55/10"
             },
             {
                 "name": "Wan'er",
@@ -1263,15 +1426,19 @@
                     "S1",
                     "S2"
                 ],
-                "price": "$20"
+                "price": "$20",
+                "reviewScore": "5.54/10"
             },
             {
                 "name": "Xuanwu Gate (Prototype)",
-                "file": "TangZu Xuanwu Gate"
+                "file": "TangZu Xuanwu Gate",
+                "reviewScore": "7.84/10"
             },
             {
                 "name": "Zetian Wu",
-                "file": "TangZu Zetian Wu"
+                "file": "TangZu Zetian Wu",
+                "price": "$150",
+                "reviewScore": "6.75/10"
             },
             {
                 "name": "Zetian Wu: HeyDay",
@@ -1283,7 +1450,9 @@
                 "suffix": [
                     "",
                     "w/ Spinfits CP145 tips"
-                ]
+                ],
+                "price": "$200",
+                "reviewScore": "6.75/10"
             }
         ]
     },
@@ -1293,16 +1462,19 @@
             {
                 "name": "Hype 2",
                 "file": "Thieaudio Hype 2",
-                "price": "$300"
+                "price": "$300",
+                "reviewScore": "7.43/10"
             },
             {
                 "name": "Monarch MK2",
                 "file": "Thieaudio Monarch MK2",
-                "price": "$1000"
+                "price": "$1000",
+                "reviewScore": "8.55/10"
             },
             {
                 "name": "Oracle MK1",
-                "file": "Thieaudio Oracle MK1"
+                "file": "Thieaudio Oracle MK1",
+                "reviewScore": "8.32/10"
             }
         ]
     },
@@ -1318,7 +1490,9 @@
                 "suffix": [
                     "",
                     "w/ Spinfits CP145 tips"
-                ]
+                ],
+                "price": "$60",
+                "reviewScore": "4.89/10"
             }
         ]
     },
@@ -1333,7 +1507,8 @@
                 ],
                 "suffix": [
                     "(double filter mod) w/ Spinfits CP145 tips"
-                ]
+                ],
+                "reviewScore": "N/A (Not Tried)"
             },
             {
                 "name": "Kailua",
@@ -1343,7 +1518,9 @@
                 ],
                 "suffix": [
                     "w/ Spinfits CP145 tips"
-                ]
+                ],
+                "price": "$80",
+                "reviewScore": "5.99/10"
             }
         ]
     },
@@ -1353,7 +1530,8 @@
             {
                 "name": "Hexa",
                 "file": "Truthear Hexa",
-                "price": "$80"
+                "price": "$80",
+                "reviewScore": "6.08/10"
             },
             {
                 "name": "Hola",
@@ -1370,7 +1548,9 @@
                     "w/ Spring tips",
                     "w/ Spinfits CP145 tips",
                     "w/ Spinfits W1 tips"
-                ]
+                ],
+                "price": "$19",
+                "reviewScore": "5.36/10"
             },
             {
                 "name": "Zero",
@@ -1395,7 +1575,8 @@
                     "S1 w/ 50 Ohm adapter",
                     "S1 w/ 75 Ohm adapter"
                 ],
-                "price": "$50"
+                "price": "$50",
+                "reviewScore": "5.18/10"
             },
             {
                 "name": "Zero:Red",
@@ -1430,7 +1611,8 @@
                     "S4 w/ Spring tips",
                     "S4 (Bass+) w/ Spring tips"
                 ],
-                "price": "$55"
+                "price": "$55",
+                "reviewScore": "6.68/10"
             }
         ]
     },
@@ -1440,7 +1622,8 @@
             {
                 "name": "Pro X10",
                 "file": "Westone Pro X10",
-                "price": "$175"
+                "price": "$175",
+                "reviewScore": "3.82/10"
             }
         ]
     },
@@ -1450,20 +1633,25 @@
             {
                 "name": "Mi In-Ear Headphones Basic",
                 "file": "Xiaomi Mi In-Ear Headphones Basic",
-                "price": "$7"
+                "price": "$7",
+                "reviewScore": "2.00/10"
             },
             {
                 "name": "Mi In-Ear Headphones Pro HD",
-                "file": "Xiaomi Mi HD Audio"
+                "file": "Xiaomi Mi HD Audio",
+                "reviewScore": "N/A (Need to Redemo)"
             },
             {
                 "name": "Mi Noise Cancelling Earphones (3.5mm)",
                 "file": "Xiaomi Mi Noise Cancelling 3.5mm",
-                "price": "$50"
+                "price": "$50",
+                "reviewScore": "3.08/10"
             },
             {
                 "name": "Redmi Buds 4",
-                "file": "Xiaomi Redmi Buds 4"
+                "file": "Xiaomi Redmi Buds 4",
+                "price": "$45",
+                "reviewScore": "4.71/10"
             }
         ]
     },
