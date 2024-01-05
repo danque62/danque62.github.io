@@ -101,7 +101,20 @@
         "phones": [
             {
                 "name": "MagicOne",
-                "file": "AFUL MagicOne",
+                "file": [
+                    "AFUL MagicOne S2",
+                    "AFUL MagicOne S1",
+                    "AFUL MagicOne S2 Deep",
+                    "AFUL MagicOne S2 Black",
+                    "AFUL MagicOne S2 Black Deep"
+                ],
+                "suffix": [
+                    "S2",
+                    "S1",
+                    "S2 (Deep insert)",
+                    "S2 w/ stock black tips",
+                    "S2 (Deep insert) w/ stock black tips"
+                ],
                 "reviewScore": "6.80/10",
                 "price": "$140"
             },
@@ -169,6 +182,25 @@
                 ],
                 "price": "$600",
                 "reviewScore": "4.72/10"
+            }
+        ]
+    },
+    {
+        "name": "Belkin",
+        "phones": [
+            {
+                "name": "SoundForm Motion",
+                "price": "$40",
+                "file": [
+                    "Belkin SoundForm Motion S1 Balanced",
+                    "Belkin SoundForm Motion S1 Bass Boost",
+                    "Belkin SoundForm Motion S1 Belkin Signature"
+                ],
+                "suffix": [
+                    "S1 (Balanced)",
+                    "S1 (Bass Boost)",
+                    "S1 (Belkin Signature Sound)"
+                ]
             }
         ]
     },

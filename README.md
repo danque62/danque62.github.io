@@ -1,4 +1,8 @@
 # [Access to the graph tool.](graph)
+# Updates (December 30, 2023 - Own IEM Update)
+Added IEMs:
+- AFUL MagicOne S2
+- Belkin SoundForm Motion
 # Updates (December 12, 2023 - Own IEM Update)
 Added IEM:
 - 7Hz Salnotes x crinacle Zero:2
