@@ -1,4 +1,29 @@
 # [Access to the graph tool.](graph)
+# Updates (February 06, 2023 - Egghead demo session w/ Brownie)
+Added IEMs:
+- TangZu Nezha (sample 2)
+- Sonic Memory SM1
+- Sonic Memory SM2
+- TangZu Wan'er (sample 3)
+- Tangzu x Divinus Fudu (sample 2)
+
+Remeasured IEM:
+- Letshuoer Cadenza 12 (now with Spinfits CP145 tips and Divinus Velvet tips)
+# Updates (January 29, 2023 - Random squig)
+Added IEM:
+- Logitech G333
+# Updates (January 23, 2023 - Egghead demo session)
+Added IEMs:
+- Hisenioer Mega5EST
+- Hisenior Mega5P Ultra
+# Updates (January 22, 2023 - Random squig)
+Added IEM:
+- TIN T2 (sample 2)
+# Updates (January 12, 2023 - EggHead demo session w/ Brownie and advc)
+Added IEMs: 
+- Audiosense DT200
+- Creative Aurvana Ace 2
+- Nightjar Singularity
 # Updates (December 30, 2023 - Own IEM Update)
 Added IEMs:
 - AFUL MagicOne S2
@@ -136,7 +161,7 @@ Added IEMs:
 - 7Hz Timeless (sample 2)
 - 7th Acoustics Proxima
 - Flipears Aurora
-- Hisenior Mega5p
+- Hisenior Mega5P
 - QDC 10se (Anole VX)
 - Symphonium Meteor (sample 2)
 - TangZu Wan'er

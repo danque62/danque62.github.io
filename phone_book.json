@@ -65,7 +65,7 @@
             {
                 "name": "Zero",
                 "file": [
-                    "7Hz Salnotes Zero",
+                    "7Hz Salnotes Zero S1",
                     "7Hz Salnotes Zero S2"
                 ],
                 "suffix": [
@@ -182,6 +182,15 @@
                 ],
                 "price": "$600",
                 "reviewScore": "4.72/10"
+            }
+        ]
+    },
+    {
+        "name": "Audiosense",
+        "phones": [
+            {
+                "name": "DT200",
+                "file": "Audiosense DT200"
             }
         ]
     },
@@ -305,6 +314,16 @@
                 "file": "CCA Pianist",
                 "price": "$40",
                 "reviewScore": "N/A (Not Tried)"
+            }
+        ]
+    },
+    {
+        "name": "Creative",
+        "suffix": "Labs",
+        "phones": [
+            {
+                "name": "Aurvana Ace 2",
+                "file": "Creative Aurvana Ace 2"
             }
         ]
     },
@@ -509,7 +528,11 @@
         "name": "Hisenior",
         "phones": [
             {
-                "name": "Mega5p",
+                "name": "Mega5EST",
+                "file": "Hisenior Mega5EST"
+            },
+            {
+                "name": "Mega5P",
                 "file": [
                     "Hisenior Mega5p"
                 ],
@@ -518,6 +541,15 @@
                 ],
                 "price": "$300",
                 "reviewScore": "6.64/10"
+            },
+            {
+                "name": "Mega5P Ultra",
+                "file": [
+                    "Hisenior Mega5P Ultra Velvet"
+                ],
+                "suffix": [
+                    "(left channel only) w/ Divninus Velvet tips"
+                ]
             }
         ]
     },
@@ -802,7 +834,16 @@
         "phones": [
             {
                 "name": "Cadenza 12",
-                "file": "Letshuoer Cadenza 12",
+                "file": [
+                    "Letshuoer Cadenza 12 CP145",
+                    "Letshuoer Cadenza 12 Velvet",
+                    "Letshuoer Cadenza 12"
+                ],
+                "suffix": [
+                    "w/ Spinfits CP145 tips",
+                    "w/ Divninus Velvet tips",
+                    "(old measurement)"
+                ],
                 "price": "$2300",
                 "reviewScore": "8.76/10"
             },
@@ -836,6 +877,15 @@
                 "file": "Letshuoer S12 Pro",
                 "price": "$150",
                 "reviewScore": "5.87/10"
+            }
+        ]
+    },
+    {
+        "name": "Logitech",
+        "phones": [
+            {
+                "name": "G333",
+                "file": "Logitech G333"
             }
         ]
     },
@@ -956,17 +1006,22 @@
             },
             {
                 "name": "Quarks",
-                "file": "Quarks B",
+                "file": [
+                    "Moondrop Quarks B"
+                ],
+                "suffix": [
+                    "(right channel only)"
+                ],
                 "price": "$10",
                 "reviewScore": "N/A (Not Tried)"
             },
             {
                 "name": "Quarks DSP",
                 "file": [
-                    "Quarks DSP S3",
-                    "Quarks DSP B",
-                    "Quarks DSP B CP100",
-                    "Quarks DSP"
+                    "Moondrop Quarks DSP S3",
+                    "Moondrop Quarks DSP S2",
+                    "Moondrop Quarks DSP S2 CP100",
+                    "Moondrop Quarks DSP S1"
                 ],
                 "suffix": [
                     "S3",
@@ -980,12 +1035,12 @@
             {
                 "name": "Space Travel",
                 "file": [
-                    "Space Travel",
-                    "Space Travel Basshead",
-                    "Space Travel Monitor",
-                    "Space Travel S2",
-                    "Space Travel Basshead S2",
-                    "Space Travel Monitor S2"
+                    "Moondrop Space Travel S1",
+                    "Moondrop Space Travel S1 Basshead",
+                    "Moondrop Space Travel S1 Monitor",
+                    "Moondrop Space Travel S2",
+                    "Moondrop Space Travel S2 Basshead",
+                    "Moondrop Space Travel S2 Monitor"
                 ],
                 "suffix": [
                     "S1 1.0.0 (Reference)",
@@ -1016,13 +1071,13 @@
             {
                 "name": "Stellaris",
                 "file": [
-                    "Stellaris",
-                    "Stellaris B",
-                    "Stellaris B 3",
-                    "Stellaris B 4",
-                    "Stellaris B 5",
-                    "Stellaris B High D",
-                    "Stellaris B Opus"
+                    "Moondrop Stellaris S1",
+                    "Moondrop Stellaris S2",
+                    "Moondrop Stellaris S2 3",
+                    "Moondrop Stellaris S2 4",
+                    "Moondrop Stellaris S2 5",
+                    "Moondrop Stellaris S2 High D",
+                    "Moondrop Stellaris S2 Opus"
                 ],
                 "suffix": [
                     "S1",
@@ -1064,6 +1119,15 @@
                 ],
                 "price": "$30",
                 "reviewScore": "3.84/10"
+            }
+        ]
+    },
+    {
+        "name": "Nightjar Acoustics",
+        "phones": [
+            {
+                "name": "Singularity",
+                "file": "Nightjar Singularity"
             }
         ]
     },
@@ -1297,6 +1361,37 @@
         ]
     },
     {
+        "name": "Sonic Memory",
+        "phones": [
+            {
+                "name": "SM1",
+                "file": [
+                    "Sonic Memory SM1",
+                    "Sonic Memory SM1 Gold",
+                    "Sonic Memory SM1 Blue"
+                ],
+                "suffix": [
+                    "",
+                    "(Gold Back)",
+                    "(Blue Back)"
+                ]
+            },
+            {
+                "name": "SM2",
+                "file": [
+                    "Sonic Memory SM2",
+                    "Sonic Memory SM2 Long",
+                    "Sonic Memory SM2 Long Black"
+                ],
+                "suffix": [
+                    "",
+                    "(long nozzle)",
+                    "(long nozzle w/ black filter)"
+                ]
+            }
+        ]
+    },
+    {
         "name": "Sony",
         "phones": [
             {
@@ -1345,8 +1440,8 @@
             {
                 "name": "WF-1000XM4",
                 "file": [
-                    "WF-XM4",
-                    "Ram XM4"
+                    "Sony WF-1000XM4 S1",
+                    "Sony WF-1000XM4 S2"
                 ],
                 "suffix": [
                     "S1",
@@ -1358,10 +1453,10 @@
             {
                 "name": "WF-1000XM5",
                 "file": [
-                    "WF-XM5 S2",
-                    "WF-XM5",
-                    "WF-XM5 S2 75 Vol",
-                    "WF-XM5 S2 50 Vol"
+                    "Sony WF-1000XM5 S2",
+                    "Sony WF-1000XM5 S1",
+                    "Sony WF-1000XM5 S2 75 Vol",
+                    "Sony WF-1000XM5 S2 50 Vol"
                 ],
                 "suffix": [
                     "S2",
@@ -1438,13 +1533,29 @@
             {
                 "name": "Fudu",
                 "collab": "Divinus",
-                "file": "TangZu Fudu",
+                "file": [
+                    "TangZu Fudu S1",
+                    "TangZu Fudu S2",
+                    "TangZu Fudu S2 Velvet"
+                ],
+                "suffix": [
+                    "S1",
+                    "S2",
+                    "S2 w/ Divninus Velvet tips"
+                ],
                 "price": "$90",
                 "reviewScore": "6.14/10"
             },
             {
                 "name": "Nezha",
-                "file": "TangZu Nezha",
+                "file": [
+                    "TangZu Nezha S1",
+                    "TangZu Nezha S2"
+                ],
+                "suffix": [
+                    "S1",
+                    "S2"
+                ],
                 "price": "$360",
                 "reviewScore": "6.55/10"
             },
@@ -1452,11 +1563,13 @@
                 "name": "Wan'er",
                 "file": [
                     "TangZu Waner S1",
-                    "TangZu Waner S2"
+                    "TangZu Waner S2",
+                    "TangZu Waner S3"
                 ],
                 "suffix": [
                     "S1",
-                    "S2"
+                    "S2",
+                    "S3"
                 ],
                 "price": "$20",
                 "reviewScore": "5.54/10"
@@ -1517,11 +1630,13 @@
                 "name": "T2",
                 "file": [
                     "TIN T2",
-                    "TIN T2 CP145"
+                    "TIN T2 CP145",
+                    "TIN T2 S2"
                 ],
                 "suffix": [
-                    "",
-                    "w/ Spinfits CP145 tips"
+                    "S1",
+                    "S1 w/ Spinfits CP145 tips",
+                    "S2"
                 ],
                 "price": "$60",
                 "reviewScore": "4.89/10"

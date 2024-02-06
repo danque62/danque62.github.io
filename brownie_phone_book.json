@@ -1,0 +1,169 @@
+[
+    {
+        "name": "Brownie Mods",
+        "phones": [
+            {
+                "name": "Stella",
+                "file": [
+                    "Brownie Stella1",
+                    "Brownie Stellaris FML",
+                    "Brownie Stellaris FML 300"
+                ],
+                "suffix": [
+                    "",
+                    "(FML)",
+                    "(FML 300)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "7Hz",
+        "phones": [
+            {
+                "name": "Zero:2",
+                "file": "7Hz Salnotes Zero 2"
+            }
+        ]
+    },
+    {
+        "name": "AFUL",
+        "phones": [
+            {
+                "name": "MagicOne",
+                "file": "AFUL MagicOne"
+            }
+        ]
+    },
+    {
+        "name": "Binary Acoustics",
+        "phones": [
+            {
+                "name": "Chopin",
+                "file": "Binary Chopin"
+            }
+        ]
+    },
+    {
+        "name": "CCA",
+        "phones":[
+            {
+                "name": "CRA",
+                "file": "CCA CRA"
+            }
+        ]
+    },
+    {
+        "name": "Creative",
+        "suffix": "Labs",
+        "phones": [
+            {
+                "name": "Aurvana Ace 2",
+                "file": "Creative Aurvana Ace 2"
+            }
+        ]
+    },
+    {
+        "name": "Letshuoer",
+        "phones": [
+            {
+                "name": "Cadenza 12",
+                "file": "Letshuoer Cadenza 12"
+            }
+        ]
+    },
+    {
+        "name": "Moondrop",
+        "phones": [
+            {
+                "name": "Aria",
+                "file": "Moondrop Aria"
+            },
+            {
+                "name": "Chu",
+                "file": "Moondrop Chu"
+            },
+            {
+                "name": "KATO",
+                "file": "Moondrop Kato W1"
+            }
+        ]
+    },
+    {
+        "name": "Nightjar Acoustics",
+        "phones": [
+            {
+                "name": "Singularity",
+                "file": "Nightjar Singularity"
+            }
+        ]
+    },
+    {
+        "name": "QKZ",
+        "phones": [
+            {
+                "name": "HBB",
+                "file": "QKZ HBB"
+            }
+        ]
+    },
+    {
+        "name": "Sonic Memory",
+        "phones": [
+            {
+                "name": "SM1",
+                "file": [
+                    "Sonic Memory SM1 Silver",
+                    "Sonic Memory SM1 Blu",
+                    "Sonic Memory SM1 Bronze"
+                ],
+                "suffix": [
+                    "",
+                    "(Blue Back)",
+                    "(Gold Back)"
+                ]
+            },
+            {
+                "name": "SM2",
+                "file": [
+                    "Sonic Memory SM2 Stock",
+                    "Sonic Memory SM2 Stock Deep",
+                    "Sonic Memory SM2 M Ext",
+                    "Sonic Memory SM2 M Ext Deep",
+                    "Sonic Memory SM2 B Ext",
+                    "Sonic Memory SM2 B Ext Deep"
+                ],
+                "suffix": [
+                    "",
+                    "(deep insertion)",
+                    "(Long Nozzle)",
+                    "(Long Nozzle & deep insertion)",
+                    "(Long Nozzle & Black Filter)",
+                    "(Long Nozzle, Black Filter & deep insertion)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "TangZu",
+        "phones": [
+            {
+                "name": "Fudu",
+                "file": "TangZu Fudu"
+            },
+            {
+                "name": "Nezha",
+                "file": "TangZu Nezha"
+            }
+        ]
+    },
+    {
+        "name": "Truthear",
+        "phones": [
+            {
+                "name": "Zero",
+                "file": "Truthear Zero"
+            }
+        ]
+    }
+]

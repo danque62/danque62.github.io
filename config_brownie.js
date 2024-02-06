@@ -1,7 +1,7 @@
 // Configuration options
-const init_phones = ["KZ Krila UUUU","KZ Krila DDDD", "Neutral Tilt Target"],                // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
-      DIR = "data_fossy/",                                // Directory where graph files are stored
-      PHONE_BOOK = "phone_book.json",
+const init_phones = [],                // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
+      DIR = "data_brownie/",                                // Directory where graph files are stored
+      PHONE_BOOK = "brownie_phone_book.json",
       default_channels = ["L","R"],                 // Which channels to display. Avoid javascript errors if loading just one channel per phone
       default_normalization = "dB",                 // Sets default graph normalization mode. Accepts "dB" or "Hz"
       default_norm_db = 60,                         // Sets default dB normalization point
@@ -14,11 +14,11 @@ const init_phones = ["KZ Krila UUUU","KZ Krila DDDD", "Neutral Tilt Target"],   
       alt_header_new_tab = true,                    // Clicking alt_header links opens in new tab
       alt_tutorial = true,                         // Display a configurable frequency response guide below the graph
       alt_augment = true,                          // Display augment card in phone list, e.g. review sore, shop link
-      site_url = 'graph.html',                      // URL of your graph "homepage"
+      site_url = 'BrownIEM.html',                      // URL of your graph "homepage"
       share_url = true,                             // If true, enables shareable URLs
       watermark_text = "",                           // Optional. Watermark appears behind graphs
-      watermark_image_url = "fossy-logo.svg",   // Optional. If image file is in same directory as config, can be just the filename
-      page_title = "Fossy Graph",                     // Optional. Appended to the page title if share URLs are enabled
+      watermark_image_url = "brownie_icon.jpg",   // Optional. If image file is in same directory as config, can be just the filename
+      page_title = "Brownie Graph",                     // Optional. Appended to the page title if share URLs are enabled
       page_description = "View and compare frequency response graphs for IEMs",
       accessories = true,                          // If true, displays specified HTML at the bottom of the page. Configure further below
       externalLinksBar = true,                      // If true, displays row of pill-shaped links at the bottom of the page. Configure further below
@@ -41,11 +41,11 @@ const init_phones = ["KZ Krila UUUU","KZ Krila DDDD", "Neutral Tilt Target"],   
 // Specify which targets to display
 const targets = [
     { type: "Δ",                files:["Δ 10dB","JM-1 10dB", "IEF Comp"] },
-    { type: "Tilt",             files:["Preference Tilt", "Neutral Tilt", "Pleasant Tilt", "Hadoe Tilt", "Cosmic Brownie Tilt", "Charlie Marks Tilt"]},
-    { type: "JM-1 Tilt",        files:["JM-1 Charlie Marks Tilt", "JM-1 Charlie Marks Bass Tilt", "JM-1 Hadoe Tilt"]},
-    { type: "Personal",         files:["Preference", "Neutral", "Pleasant"] },
+    // { type: "Tilt",             files:["Preference Tilt", "Neutral Tilt", "Pleasant Tilt", "Hadoe Tilt", "Cosmic Brownie Tilt", "Charlie Marks Tilt"]},
+    // { type: "JM-1 Tilt",        files:["JM-1 Charlie Marks Tilt", "JM-1 Charlie Marks Bass Tilt", "JM-1 Hadoe Tilt"]},
+    { type: "Rollo",         files:["Preference", "Neutral", "Pleasant"] },
     { type: "Neutral",          files:["Diffuse Field", "Diffuse Field Unsmoothened", "Etymotic", "Free Field", "Innerfidelity ID"] },
-    { type: "Community",        files:["Haruto", "Haruto 🅱️ass", "Brownie", "Helene","Xiao 2.0", "Runatera v4.2.3", "Mokou Bassmaxxing", "Mokou Beta 1", "Rennsport v3", "Razan Neutral"] },
+    { type: "Community",        files:["Brownie", "Helene","Haruto", "Haruto 🅱️ass", "Xiao 2.0", "Runatera v4.2.3", "Mokou Bassmaxxing", "Mokou Beta 1", "Rennsport v3", "Razan Neutral"] },
     { type: "Reviewer",         files:["IEF Neutral 2023", "IEF Neutral", "Antdroid", "HBB", "Banbeucmas", "Practiphile Balanced", "Practiphile Neutral", "Precogvision", "Super 22", "Timmy", "VSG"] },
     { type: "Reviewer Tilt",    files:["HBB Tilt", "Timmy Tilt"] },
     { type: "Harman",           files:["Harman IE 2016", "Harman IE 2017v1", "Harman IE 2017v2", "Harman IE 2019v2"] },
@@ -62,11 +62,11 @@ const targets = [
 function watermark(svg) {
     let wm = svg.append("g")
         .attr("transform", "translate("+(pad.l+W/2)+","+(pad.t+H/2-20)+")")
-        .attr("opacity",0.2);
+        .attr("opacity",0.4);
     
     if ( watermark_image_url ) {
         wm.append("image")
-            .attrs({x:-64, y:-64, width:128, height:128, "xlink:href":watermark_image_url});
+            .attrs({x:-128, y:-128, width:256, height:256, "xlink:href":watermark_image_url});
     }
     
     if ( watermark_text ) {
@@ -182,10 +182,6 @@ const linkSets = [
                 url: "https://listener800.github.io/iems"
             },
             {
-                name: "Brownie Graph Tool",
-                url: "brownie.html"
-            },
-            {
                 name: "Audio Discourse",
                 url: "https://iems.audiodiscourse.com/"
             },
@@ -237,19 +233,11 @@ setupGraphAnalytics();
 
 // If alt_header is enabled, these are the items added to the header
 let headerLogoText = "",
-    headerLogoImgUrl = "fossy-logo-long.svg",
+    headerLogoImgUrl = "",
     headerLinks = [
     {
-        name: "Ranking List",
-        url: "https://docs.google.com/spreadsheets/d/12gYzaCKeFOki6aWa3t8clZwyyqY3JLS0U--ROE0Uw-A/edit?usp=share_link"
-    },
-    {
-        name: "Misc. Data",
-        url: "https://docs.google.com/spreadsheets/d/1VgCy0LiGyIfdHTKx4jtNQoLFO3MiWNlnUcjGb45h4w8/edit?usp=share_link"
-    },
-    {
-        name: "Squig.link",
-        url: "https://therollo9.squig.link/"
+        name: "Fossy Graph Tool",
+        url: "graph.html"
     }
 ];
 
