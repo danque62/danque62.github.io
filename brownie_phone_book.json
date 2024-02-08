@@ -7,12 +7,16 @@
                 "file": [
                     "Brownie Stella1",
                     "Brownie Stellaris FML",
-                    "Brownie Stellaris FML 300"
+                    "Brownie Stellaris FML 300",
+                    "Brownie Stella 400Mesh",
+                    "Brownie Stella2 SSRFilter"
                 ],
                 "suffix": [
                     "",
                     "(FML)",
-                    "(FML 300)"
+                    "(FML 300)",
+                    "w/ 400 mesh",
+                    "w/ SSR filter"
                 ]
             }
         ]
@@ -46,7 +50,7 @@
     },
     {
         "name": "CCA",
-        "phones":[
+        "phones": [
             {
                 "name": "CRA",
                 "file": "CCA CRA"
