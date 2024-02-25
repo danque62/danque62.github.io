@@ -121,6 +121,15 @@
         ]
     },
     {
+        "name": "Fostex",
+        "phones": [
+            {
+                "name": "TE-100",
+                "file": "Fostex TE-100"
+            }
+        ]
+    },
+    {
         "name": "INM Audio",
         "phones": [
             {
