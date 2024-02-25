@@ -1,18 +1,58 @@
 # [Access to the graph tool.](graph)
-# Updates (February 06, 2023 - Egghead demo session w/ Brownie)
+# Updates (February 24, 2023 - FAC Meetup)
 Added IEMs:
-- TangZu Nezha (sample 2)
+- 64 Audio U4s
+- Astell&Kern AKR02
+- JVC HA-FX700
+- Kiwi Ears Quintet
+- Letshuoer x Gizaudio Galileo
+- Moondrop Aria (sample 2)
+- Moondrop Aria 2
+- QKZ x HBB Khan (2 samples)
+- SeeAudio x crinacle Yume:Midnight
+- Shure SE846
+- Sony MDR-EX800ST (w/ DUNU S&S tips)
+- Trinity Audio Icarus 3
+Remeasured IEM:
+- DUNU SA6 MK2
+# Updates (February 22, 2023 - Mailcall)
+Added IEM:
+- Kinera Celest Plutus Beast
+- Bang & Olufsen Beoplay EX (left channel only)
+# Updates (February 17, 2023 - BL03 modding)
+Remeasured IEM:
+- BLON BL03 (sample 1, now with mods)
+# Updates (February 15, 2023 - Impromptu meetup @ EggHead)
+Added IEMs:
+- CCA Rhapsody
+- CCA Trio
+- FATfreq Scarlet Mini (w/ Divnius Velvet tips)
+- FitEar TG334
+- INM Audio INM8
+- Letshuoer S15
+- ND Earphone ND-001
+- ND Earphone ND-X12
+- QDC Gemini
+- Simgot EA500LM
+- Symphonium Crimson
+- ZiiGaat Nuo
+
+Remeasured IEM:
+- Simgot EA500
+# Updates (February 06, 2023 - EggHead demo session w/ Brownie)
+Added IEMs:
 - Sonic Memory SM1
 - Sonic Memory SM2
 - TangZu Wan'er (sample 3)
 - Tangzu x Divinus Fudu (sample 2)
 
 Remeasured IEM:
+- TangZu Nezha (corrected; apparently the same unit in The Grand Lason R2)
 - Letshuoer Cadenza 12 (now with Spinfits CP145 tips and Divinus Velvet tips)
 # Updates (January 29, 2023 - Random squig)
 Added IEM:
 - Logitech G333
-# Updates (January 23, 2023 - Egghead demo session)
+# Updates (January 23, 2023 - EggHead demo session)
 Added IEMs:
 - Hisenioer Mega5EST
 - Hisenior Mega5P Ultra

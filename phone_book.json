@@ -14,6 +14,10 @@
                 "reviewScore": "8.64/10"
             },
             {
+                "name": "U4s",
+                "file": "64 Audio U4s"
+            },
+            {
                 "name": "U12",
                 "file": "64 Audio U12",
                 "reviewScore": "4.86/10"
@@ -149,6 +153,15 @@
         ]
     },
     {
+        "name": "Astell&Kern",
+        "phones": [
+            {
+                "name": "AKR02",
+                "file": "Astell&Kern AKR02"
+            }
+        ]
+    },
+    {
         "name": "Audeze",
         "phones": [
             {
@@ -191,6 +204,22 @@
             {
                 "name": "DT200",
                 "file": "Audiosense DT200"
+            }
+        ]
+    },
+    {
+        "name": "Bang & Olufsen",
+        "phones": [
+            {
+                "name": "Beoplay EX",
+                "file": [
+                    "Bang & Olufsen Beoplay EX",
+                    "Bang & Olufsen Beoplay EX EQ"
+                ],
+                "suffix": [
+                    "(left channel only)",
+                    "(left channel only) between High treble & Energetic EQ"
+                ]
             }
         ]
     },
@@ -239,11 +268,15 @@
                 "name": "BL03",
                 "file": [
                     "BLON BL03 S2",
+                    "BLON BL03 S1 Modded",
+                    "BLON BL03 S1 Filterless",
                     "BLON BL03 S1"
                 ],
                 "suffix": [
                     "S2",
-                    "S1"
+                    "S1 (modded by Fossy Audio)",
+                    "S1 (Filterless)",
+                    "S1 (old measurement)"
                 ],
                 "price": "$25",
                 "reviewScore": "3.70/10"
@@ -314,6 +347,30 @@
                 "file": "CCA Pianist",
                 "price": "$40",
                 "reviewScore": "N/A (Not Tried)"
+            },
+            {
+                "name": "Rhapsody",
+                "file": [
+                    "CCA Rhapsody UUUU",
+                    "CCA Rhapsody DDUU",
+                    "CCA Rhapsody DDDD"
+                ],
+                "suffix": [
+                    "(UUUU)",
+                    "(DDUU)",
+                    "(DDDD)"
+                ]
+            },
+            {
+                "name": "Trio",
+                "file": [
+                    "CCA Trio UUUU",
+                    "CCA Trio DDDD"
+                ],
+                "suffix": [
+                    "(UUUU)",
+                    "(DDDD)"
+                ]
             }
         ]
     },
@@ -396,6 +453,20 @@
         ]
     },
     {
+        "name": "FATfreq",
+        "phones": [
+            {
+                "name": "Scarlet Mini",
+                "file": [
+                    "FATfreq Scarlet Mini Velvet"
+                ],
+                "suffix": [
+                    "w/ Divninus Velvet tips"
+                ]
+            }
+        ]
+    },
+    {
         "name": "FIIL",
         "phones": [
             {
@@ -436,6 +507,15 @@
                 "file": "Fischer Audio Omega Spark",
                 "reviewScore": "N/A (Not Tried)",
                 "price": "$60"
+            }
+        ]
+    },
+    {
+        "name": "FitEar",
+        "phones": [
+            {
+                "name": "TG334",
+                "file": "FitEar TG334"
             }
         ]
     },
@@ -596,9 +676,18 @@
         "name": "INM Audio",
         "phones": [
             {
-                "name": "INM 3",
-                "file": "INM 3",
+                "name": "INM3",
+                "file": [
+                    "INM Audio INM3"
+                ],
+                "suffix": [
+                    "(left channel only)"
+                ],
                 "reviewScore": "N/A (Need to Redemo)"
+            },
+            {
+                "name": "INM8",
+                "file": "INM Audio INM8"
             }
         ]
     },
@@ -680,6 +769,15 @@
                 "file": "JBL Quantum 50",
                 "price": "$30",
                 "reviewScore": "2.84/10"
+            }
+        ]
+    },
+    {
+        "name": "JVC",
+        "phones": [
+            {
+                "name": "HA-FX700",
+                "file": "JVC HA-FX700"
             }
         ]
     },
@@ -804,6 +902,17 @@
                 "file": "Kinera Celest Phoenixcall",
                 "reviewScore": "5.36/10",
                 "price": "$130"
+            },
+            {
+                "name": "Celest Plutus Beast",
+                "file": [
+                    "Kinera Celest Plutus Beast Balanced",
+                    "Kinera Celest Plutus Beast Vocal"
+                ],
+                "suffix": [
+                    "w/ balanced (red) eartips",
+                    "w/ vocal (black) eartips"
+                ]
             }
         ]
     },
@@ -826,6 +935,10 @@
                 ],
                 "reviewScore": "N/A (Not Tried)",
                 "price": "$110"
+            },
+            {
+                "name": "Quintet",
+                "file": "Kiwi Ears Quintet"
             }
         ]
     },
@@ -849,7 +962,16 @@
             },
             {
                 "name": "D13",
-                "file": "Letshuoer D13",
+                "file": [
+                    "Letshuoer D13 Gold",
+                    "Letshuoer D13 Blue",
+                    "Letshuoer D13 Modded"
+                ],
+                "suffix": [
+                    "(Gold nozzle)",
+                    "(Blue nozzle)",
+                    "(Blue nozzle) modded with mesh"
+                ],
                 "price": "$80",
                 "reviewScore": "N/A (Not Tried)"
             },
@@ -858,6 +980,11 @@
                 "file": "Letshuoer EJ07M",
                 "price": "$670",
                 "reviewScore": "7.35/10"
+            },
+            {
+                "name": "Galileo",
+                "collab": "Gizaudio",
+                "file": "Letshuoer x Gizaudio Galileo"
             },
             {
                 "name": "S12",
@@ -877,6 +1004,10 @@
                 "file": "Letshuoer S12 Pro",
                 "price": "$150",
                 "reviewScore": "5.87/10"
+            },
+            {
+                "name": "S15",
+                "file": "Letshuoer S15"
             }
         ]
     },
@@ -899,17 +1030,23 @@
                     "Moondrop Aria CP145",
                     "Moondrop Aria Spring",
                     "Moondrop Aria W1",
-                    "Moondrop Aria Foam"
+                    "Moondrop Aria Foam",
+                    "Moondrop Aria S2"
                 ],
                 "suffix": [
-                    "",
-                    "w/ Spinfits CP145 tips",
-                    "w/ Spring tips",
-                    "w/ Spinfits W1 tips",
-                    "w/ KZ foam tips"
+                    "S1",
+                    "S1 w/ Spinfits CP145 tips",
+                    "S1 w/ Spring tips",
+                    "S1 w/ Spinfits W1 tips",
+                    "S1 w/ KZ foam tips",
+                    "S2"
                 ],
                 "price": "$80",
                 "reviewScore": "5.44/10"
+            },
+            {
+                "name": "Aria 2",
+                "file": "Moondrop Aria 2"
             },
             {
                 "name": "Blessing 2",
@@ -1107,6 +1244,26 @@
         ]
     },
     {
+        "name": "ND Earphone",
+        "phones": [
+            {
+                "name": "ND-001",
+                "file": "ND Earphone ND-001"
+            },
+            {
+                "name": "ND-X12",
+                "file": [
+                    "ND Earphone ND-X12 UUU",
+                    "ND Earphone ND-X12 DDD"
+                ],
+                "suffix": [
+                    "(UUU)",
+                    "(DDD)"
+                ]
+            }
+        ]
+    },
+    {
         "name": "NiceHCK",
         "phones": [
             {
@@ -1150,6 +1307,17 @@
                 "file": "QDC 10se",
                 "price": "$2320",
                 "reviewScore": "8.38/10"
+            },
+            {
+                "name": "Gemini",
+                "file": [
+                    "QDC Gemini OFF",
+                    "QDC Gemini ON"
+                ],
+                "suffix": [
+                    "(OFF)",
+                    "(ON)"
+                ]
             }
         ]
     },
@@ -1178,6 +1346,18 @@
                 ],
                 "price": "$20",
                 "reviewScore": "5.07/10"
+            },
+            {
+                "name": "Khan",
+                "collab": "HBB",
+                "file": [
+                    "QKZ x HBB Khan S1",
+                    "QKZ x HBB Khan S2"
+                ],
+                "suffix": [
+                    "S1",
+                    "S2"
+                ]
             }
         ]
     },
@@ -1238,6 +1418,11 @@
                 "reviewScore": "N/A (Not Tried)"
             },
             {
+                "name": "Yume:Midnight",
+                "collab": "crinacle",
+                "file": "SeeAudio x crinacle Yume Midnight"
+            },
+            {
                 "name": "Yume II",
                 "file": "SeeAudio Yume II",
                 "reviewScore": "N/A (Not Tried)"
@@ -1281,18 +1466,42 @@
         ]
     },
     {
+        "name": "Shure",
+        "phones": [
+            {
+                "name": "SE846",
+                "file": "Shure SE846"
+            }
+        ]
+    },
+    {
         "name": "Simgot",
         "phones": [
             {
                 "name": "EA500",
                 "file": [
-                    "Simgot EA500 CP145"
+                    "Simgot EA500 Red",
+                    "Simgot EA500 Black"
                 ],
                 "suffix": [
-                    "w/ Spinfits CP145 tips"
+                    "(Red nozzle)",
+                    "(Black nozzle)"
                 ],
                 "price": "$80",
                 "reviewScore": "6.35/10"
+            },
+            {
+                "name": "EA500LM",
+                "file": [
+                    "Simgot EA500LM Red",
+                    "Simgot EA500LM Black",
+                    "Simgot EA500LM Gold"
+                ],
+                "suffix": [
+                    "(Red nozzle)",
+                    "(Black nozzle)",
+                    "(Gold nozzle)"
+                ]
             },
             {
                 "name": "EA1000",
@@ -1438,6 +1647,15 @@
                 "reviewScore": "2.32/10"
             },
             {
+                "name": "MDR-EX800ST",
+                "file": [
+                    "Sony MDR-EX800ST S&S"
+                ],
+                "suffix": [
+                    "w/ DUNU S&S tips"
+                ]
+            },
+            {
                 "name": "WF-1000XM4",
                 "file": [
                     "Sony WF-1000XM4 S1",
@@ -1487,6 +1705,10 @@
     {
         "name": "Symphonium",
         "phones": [
+            {
+                "name": "Crimson",
+                "file": "Symphonium Crimson"
+            },
             {
                 "name": "Meteor",
                 "file": [
@@ -1549,12 +1771,10 @@
             {
                 "name": "Nezha",
                 "file": [
-                    "TangZu Nezha S1",
-                    "TangZu Nezha S2"
+                    "TangZu Nezha S1"
                 ],
                 "suffix": [
-                    "S1",
-                    "S2"
+                    "S1 w/ TangZu Sancai Wide Bore tips"
                 ],
                 "price": "$360",
                 "reviewScore": "6.55/10"
@@ -1640,6 +1860,15 @@
                 ],
                 "price": "$60",
                 "reviewScore": "4.89/10"
+            }
+        ]
+    },
+    {
+        "name": "Trinity Audio",
+        "phones": [
+            {
+                "name": "Icarus 3",
+                "file": "Trinity Audio Icarus 3"
             }
         ]
     },
@@ -1799,6 +2028,15 @@
                 "file": "Xiaomi Redmi Buds 4",
                 "price": "$45",
                 "reviewScore": "4.71/10"
+            }
+        ]
+    },
+    {
+        "name": "ZiiGaat",
+        "phones": [
+            {
+                "name": "Nuo",
+                "file": "ZiiGaat Nuo"
             }
         ]
     },

@@ -31,6 +31,24 @@
         ]
     },
     {
+        "name": "7th Acoustics",
+        "phones": [
+            {
+                "name": "Proxima",
+                "file": "7th Acoustics Proxima"
+            }
+        ]
+    },
+    {
+        "name": "64 Audio",
+        "phones": [
+            {
+                "name": "Volur",
+                "file": "64 Audio Volur"
+            }
+        ]
+    },
+    {
         "name": "AFUL",
         "phones": [
             {
@@ -68,11 +86,108 @@
         ]
     },
     {
+        "name": "DUNU",
+        "phones": [
+            {
+                "name": "Talos",
+                "file": "DUNU Talos"
+            }
+        ]
+    },
+    {
+        "name": "FATfreq",
+        "phones": [
+            {
+                "name": "Scarlet Mini",
+                "file": "FATfreq Scarlet Mini"
+            }
+        ]
+    },
+    {
+        "name": "FitEar",
+        "phones": [
+            {
+                "name": "CIEM (i forgot the model lol)",
+                "file": "FitEar CIEM"
+            },
+            {
+                "name": "SP-IEM7",
+                "file": "FitEar SP-IEM7"
+            },
+            {
+                "name": "TG334",
+                "file": "FitEar TG334"
+            }
+        ]
+    },
+    {
+        "name": "INM Audio",
+        "phones": [
+            {
+                "name": "INM8",
+                "file": "INM Audio INM8"
+            }
+        ]
+    },
+    {
+        "name": "Intime",
+        "phones": [
+            {
+                "name": "Mira MK2",
+                "file": "Intime Mira MK2"
+            },
+            {
+                "name": "Miyabi MK2",
+                "file": "Intime Miyabi MK2"
+            }
+        ]
+    },
+    {
+        "name": "JBL",
+        "phones": [
+            {
+                "name": "Tune 230NC",
+                "file": "JBL Tune 230NC"
+            }
+        ]
+    },
+    {
+        "name": "Kinera",
+        "phones": [
+            {
+                "name": "Celest Plutus Beast",
+                "file": "Kinera Celest Plutus Beast"
+            }
+        ]
+    },
+    {
+        "name": "Kiwi Ears",
+        "phones": [
+            {
+                "name": "Quintet",
+                "file": "Kiwi Ears Quintet"
+            }
+        ]
+    },
+    {
         "name": "Letshuoer",
         "phones": [
             {
                 "name": "Cadenza 12",
                 "file": "Letshuoer Cadenza 12"
+            },
+            {
+                "name": "DZ4",
+                "file": "Letshuoer DZ4"
+            },
+            {
+                "name": "Galileo",
+                "collab": "Gizaudio",
+                "file": "Letshuoer Galileo"
+            },
+            {
+                "name": "S15",
+                "file": "Letshuoer S15"
             }
         ]
     },
@@ -84,12 +199,20 @@
                 "file": "Moondrop Aria"
             },
             {
+                "name": "Blessing 2",
+                "file": "Moondrop Blessing 2"
+            },
+            {
                 "name": "Chu",
                 "file": "Moondrop Chu"
             },
             {
                 "name": "KATO",
                 "file": "Moondrop Kato W1"
+            },
+            {
+                "name": "Variations",
+                "file": "Moondrop Variations"
             }
         ]
     },
@@ -106,8 +229,43 @@
         "name": "QKZ",
         "phones": [
             {
+                "name": "AK6",
+                "file": "QKZ AK6"
+            },
+            {
                 "name": "HBB",
                 "file": "QKZ HBB"
+            }
+        ]
+    },
+    {
+        "name": "SeeAudio",
+        "phones": [
+            {
+                "name": "Yume:Midnight",
+                "collab": "crinacle",
+                "file": "SeeAudio Yume Midnight"
+            },
+            {
+                "name": "Yume II",
+                "file": "SeeAudio Yume 2"
+            }
+        ]
+    },
+    {
+        "name": "Simgot",
+        "phones": [
+            {
+                "name": "EA500",
+                "file": "Simgot EA500"
+            },
+            {
+                "name": "EA500LM",
+                "file": "Simgot EA500LM"
+            },
+            {
+                "name": "EM6L",
+                "file": "Simgot EM6L"
             }
         ]
     },
@@ -149,6 +307,40 @@
         ]
     },
     {
+        "name": "Sony",
+        "phones": [
+            {
+                "name": "MDR-EX800ST",
+                "file": [
+                    "Sony MDR-EX800ST",
+                    "Sony MDR-EX800ST Tape"
+                ],
+                "suffix": [
+                    "",
+                    "(tape modded)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Symphonium",
+        "phones": [
+            {
+                "name": "Crimson",
+                "file": "Symphonium Crimson"
+            }
+        ]
+    },
+    {
+        "name": "Tanchjim",
+        "phones": [
+            {
+                "name": "Ola",
+                "file": "Tanchjim Ola"
+            }
+        ]
+    },
+    {
         "name": "TangZu",
         "phones": [
             {
@@ -158,6 +350,46 @@
             {
                 "name": "Nezha",
                 "file": "TangZu Nezha"
+            },
+            {
+                "name": "Xuanwu Gate (Prototype)",
+                "file": "TangZu Xuanwu Gate"
+            }
+        ]
+    },
+    {
+        "name": "Thieaudio",
+        "phones": [
+            {
+                "name": "Oracle MK1",
+                "file": "Thieaudio Oracle MK1"
+            }
+        ]
+    },
+    {
+        "name": "Tozo",
+        "phones": [
+            {
+                "name": "T-10",
+                "file": "Tozo T-10"
+            }
+        ]
+    },
+    {
+        "name": "Trinity Audio",
+        "phones": [
+            {
+                "name": "Icarus 3",
+                "file": "Trinity Audio Icarus 3"
+            }
+        ]
+    },
+    {
+        "name": "Tripowin",
+        "phones": [
+            {
+                "name": "Olina (modded)",
+                "file": "Tripowin Olina Mod"
             }
         ]
     },
@@ -165,8 +397,30 @@
         "name": "Truthear",
         "phones": [
             {
+                "name": "Hola",
+                "file": "Truthear Hola"
+            },
+            {
                 "name": "Zero",
+                "collab": "crinacle",
                 "file": "Truthear Zero"
+            }
+        ]
+    },
+    {
+        "name": "Lost and Found",
+        "phones": [
+            {
+                "name": "Anonymous",
+                "file": "Anonymous"
+            },
+            {
+                "name": "FAKG Buds",
+                "file": "FAKG Buds"
+            },
+            {
+                "name": "Lenovo buds",
+                "file": "Lenovo buds"
             }
         ]
     }

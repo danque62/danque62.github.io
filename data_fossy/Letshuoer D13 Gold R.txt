@@ -6,7 +6,7 @@
 *  C-weighting compensation: Off
 *  Target level: 75.0 dB
 * Note: ; Delay -0.0669 ms (-23 mm, -0.9 in) using estimated IR delay relative to Acoustic reference played from HEADPHONE R with no timing offset
-* Measurement: Letshuoer D13 R
+* Measurement: Letshuoer D13 Gold R
 * Smoothing: 1/24 octave
 * Frequency Step: 1/48 octave
 * Start Frequency: 1.000 Hz

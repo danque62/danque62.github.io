@@ -1,5 +1,5 @@
 // Configuration options
-const init_phones = ["KZ Krila UUUU","KZ Krila DDDD", "Neutral Tilt Target"],                // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
+const init_phones = ["Simgot EW200 S2", "Neutral Tilt Target"],                // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
       DIR = "data_fossy/",                                // Directory where graph files are stored
       PHONE_BOOK = "phone_book.json",
       default_channels = ["L","R"],                 // Which channels to display. Avoid javascript errors if loading just one channel per phone
@@ -41,8 +41,8 @@ const init_phones = ["KZ Krila UUUU","KZ Krila DDDD", "Neutral Tilt Target"],   
 // Specify which targets to display
 const targets = [
     { type: "Δ",                files:["Δ 10dB","JM-1 10dB", "IEF Comp"] },
-    { type: "Tilt",             files:["Preference Tilt", "Neutral Tilt", "Pleasant Tilt", "Hadoe Tilt", "Cosmic Brownie Tilt", "Charlie Marks Tilt"]},
-    { type: "JM-1 Tilt",        files:["JM-1 Charlie Marks Tilt", "JM-1 Charlie Marks Bass Tilt", "JM-1 Hadoe Tilt"]},
+    { type: "Tilt",             files:["Preference Tilt", "Neutral Tilt", "Pleasant Tilt", "Cosmic Brownie Tilt", "Kierke Tilt"]},
+    { type: "JM-1 Tilt",        files:["Charlie Marks Tilt", "Charlie Marks Bass Tilt", "Hadoe Tilt"]},
     { type: "Personal",         files:["Preference", "Neutral", "Pleasant"] },
     { type: "Neutral",          files:["Diffuse Field", "Diffuse Field Unsmoothened", "Etymotic", "Free Field", "Innerfidelity ID"] },
     { type: "Community",        files:["Haruto", "Haruto 🅱️ass", "Brownie", "Helene","Xiao 2.0", "Runatera v4.2.3", "Mokou Bassmaxxing", "Mokou Beta 1", "Rennsport v3", "Razan Neutral"] },
