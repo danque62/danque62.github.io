@@ -1,7 +1,8 @@
 # [Access to the graph tool.](graph)
-# Updates (February 26, 2023 - Quick EggHead session)
+# Updates (February 26, 2023 - Quick EggHead session & Measuring Friend's Unit)
 Added IEM:
 - 64 Audio Duo
+- Tanchjim Zero DSP
 
 Remeasured IEM:
 - 64 Audio U18t
@@ -22,7 +23,7 @@ Added IEMs:
 
 Remeasured IEM:
 - DUNU SA6 MK2
-# Updates (February 22, 2023 - Mailcall)
+# Updates (February 22, 2023 - HiFiGo Review Tour & Quick Visit to help someone)
 Added IEM:
 - Kinera Celest Plutus Beast
 - Bang & Olufsen Beoplay EX (left channel only)
@@ -61,7 +62,7 @@ Added IEM:
 - Logitech G333
 # Updates (January 23, 2023 - EggHead demo session)
 Added IEMs:
-- Hisenioer Mega5EST
+- Hisenior Mega5EST
 - Hisenior Mega5P Ultra
 # Updates (January 22, 2023 - Random squig)
 Added IEM:
@@ -71,9 +72,9 @@ Added IEMs:
 - Audiosense DT200
 - Creative Aurvana Ace 2
 - Nightjar Singularity
-# Updates (December 30, 2023 - Own IEM Update)
+# Updates (December 30, 2023 - HiFiGo Review Tour)
 Added IEMs:
-- AFUL MagicOne S2
+- AFUL MagicOne (sample 2)
 - Belkin SoundForm Motion
 # Updates (December 12, 2023 - Own IEM Update)
 Added IEM:
@@ -92,7 +93,7 @@ Added IEM:
 - Binary x Gizaudio Chopin (sample 2)
 
 Remeasrued IEM:
-- Simgot EW200
+- Simgot EW200 (sample 2)
 # Updates (November 24, 2023 - Obie & RamminRam @ EggHead)
 Added IEMs: (16 IEMs)
 - Audeze iSine 20 (sample 2)
@@ -113,7 +114,7 @@ Added IEMs: (16 IEMs)
 - Truthear x crinacle Zero:Red (sample 4 w/ Spring tips)
 # Updates (November 22, 2023 - Simgot Review Tour)
 Added IEM:
-- Simgot EW200
+- Simgot EW200 (sample 2)
 # Updates (November 12, 2023 - November HiFi Show Day 2)
 Added IEMs: (18 IEMs)
 - CCA Duo
@@ -203,7 +204,7 @@ Added IEMs:
 
 Remeasured IEMs:
 - Xiaomi Redmi Buds 4
-# Updates (September 16, 2023 - FAC Meetup)
+# Updates (September 16, 2023 - FAC Grand Meet 2023)
 Added IEMs:
 - 7Hz Timeless (sample 2)
 - 7th Acoustics Proxima
@@ -216,7 +217,7 @@ Added IEMs:
 Remeasured IEMs:
 - Sennheiser IE600
 - Moondrop Stellaris (sample 2) with a bunch of different configurations.
-# Updates (September 7, 2023 - Random squig)
+# Updates (September 7, 2023 - Mail call)
 Added IEM:
 - KZ Krila
 # Updates (September 2, 2023 - Random squig)
@@ -243,13 +244,13 @@ Added IEM:
 # Updates (August 12, 2023 - RamminRam @ EggHead)
 Added IEM:
 - Audeze iSine 20 (and w/ Cipher cable)
-# Updates (August 09, 2023 - Received unit)
+# Updates (August 09, 2023 - Mail call)
 Added IEM:
 - Moondrop Space Travel (and all 3 EQ profiles)
-# Updates (July 26, 2023 - Received unit)
+# Updates (July 26, 2023 - Mail call)
 Added IEM:
 - Moondrop Quarks DSP (sample 3)
-# Updates (July 10, 2023 - Received unit)
+# Updates (July 10, 2023 - Mail call)
 Added IEM:
 - Truthear x crinacle Zero:Red
 
@@ -309,7 +310,7 @@ Added IEMs:
 - Sennheiser IE200
 - Sennheiser IE600
 - Sony IER-Z1R
-# Updates (April 29, 2023 - FAC BGC Meetup)
+# Updates (April 29, 2023 - FAC Meetup @ BGC)
 Added IEMs:
 - 64 Audio U12
 - 7Hz Salnotes x crinacle Dioko
