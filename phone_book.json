@@ -3,6 +3,10 @@
         "name": "64 Audio",
         "phones": [
             {
+                "name": "Duo",
+                "file": "64 Audio Duo"
+            },
+            {
                 "name": "tia Trio",
                 "file": [
                     "64 Audio tia Trio"

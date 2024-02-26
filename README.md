@@ -1,4 +1,10 @@
 # [Access to the graph tool.](graph)
+# Updates (February 26, 2023 - Quick EggHead session)
+Added IEM:
+- 64 Audio Duo
+
+Remeasured IEM:
+- 64 Audio U18t
 # Updates (February 24, 2023 - FAC Meetup)
 Added IEMs:
 - 64 Audio U4s
@@ -13,6 +19,7 @@ Added IEMs:
 - Shure SE846
 - Sony MDR-EX800ST (w/ DUNU S&S tips)
 - Trinity Audio Icarus 3
+
 Remeasured IEM:
 - DUNU SA6 MK2
 # Updates (February 22, 2023 - Mailcall)
