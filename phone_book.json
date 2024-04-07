@@ -4,7 +4,9 @@
         "phones": [
             {
                 "name": "Duo",
-                "file": "64 Audio Duo"
+                "file": "64 Audio Duo",
+                "reviewScore": "7.45/10",
+                "price": "$1100"
             },
             {
                 "name": "tia Trio",
@@ -19,7 +21,9 @@
             },
             {
                 "name": "U4s",
-                "file": "64 Audio U4s"
+                "file": "64 Audio U4s",
+                "reviewScore": "8.04/10",
+                "price": "$1100"
             },
             {
                 "name": "U12",
@@ -42,6 +46,7 @@
     },
     {
         "name": "7Hz",
+        "suffix": "Salnotes",
         "phones": [
             {
                 "name": "Dioko",
@@ -90,8 +95,7 @@
                 "price": "$25",
                 "reviewScore": "6.05/10"
             }
-        ],
-        "suffix": "Salnotes"
+        ]
     },
     {
         "name": "7th Acoustics",
@@ -123,7 +127,7 @@
                     "S2 w/ stock black tips",
                     "S2 (Deep insert) w/ stock black tips"
                 ],
-                "reviewScore": "6.80/10",
+                "reviewScore": "6.94/10",
                 "price": "$140"
             },
             {
@@ -141,7 +145,7 @@
                 "name": "N5005",
                 "file": "AKG N5005",
                 "price": "$400",
-                "reviewScore": "N/A (Not Tried)"
+                "reviewScore": "N/A (Imbalanced)"
             }
         ]
     },
@@ -207,7 +211,8 @@
         "phones": [
             {
                 "name": "DT200",
-                "file": "Audiosense DT200"
+                "file": "Audiosense DT200",
+                "reviewScore": "6.85/10"
             }
         ]
     },
@@ -223,7 +228,9 @@
                 "suffix": [
                     "(left channel only)",
                     "(left channel only) between High treble & Energetic EQ"
-                ]
+                ],
+                "reviewScore": "5.52/10",
+                "price": "$400"
             }
         ]
     },
@@ -283,7 +290,7 @@
                     "S1 (old measurement)"
                 ],
                 "price": "$25",
-                "reviewScore": "3.70/10"
+                "reviewScore": "N/A (Need to Redemo)"
             }
         ]
     },
@@ -363,7 +370,9 @@
                     "(UUUU)",
                     "(DDUU)",
                     "(DDDD)"
-                ]
+                ],
+                "price": "$50",
+                "reviewScore": "4.86/10"
             },
             {
                 "name": "Trio",
@@ -374,7 +383,9 @@
                 "suffix": [
                     "(UUUU)",
                     "(DDDD)"
-                ]
+                ],
+                "price": "$40",
+                "reviewScore": "5.46/10"
             }
         ]
     },
@@ -384,7 +395,9 @@
         "phones": [
             {
                 "name": "Aurvana Ace 2",
-                "file": "Creative Aurvana Ace 2"
+                "file": "Creative Aurvana Ace 2",
+                "reviewScore": "6.84/10",
+                "price": "$150"
             }
         ]
     },
@@ -466,7 +479,9 @@
                 ],
                 "suffix": [
                     "w/ Divninus Velvet tips"
-                ]
+                ],
+                "reviewScore": "7.08/10",
+                "price": "$640"
             }
         ]
     },
@@ -489,6 +504,15 @@
                 "file": "FiiO FH3",
                 "price": "$150",
                 "reviewScore": "N/A (Not Tried)"
+            },
+            {
+                "name": "FH9",
+                "file": [
+                    "FiiO FH9 CP145"
+                ],
+                "suffix": [
+                    "w/ Spinfits CP145 tips"
+                ]
             }
         ]
     },
@@ -581,7 +605,7 @@
             {
                 "name": "Xoe",
                 "file": "Hiby Xoe",
-                "price": "Free (comes with M300)",
+                "price": "Free (M300 Freebie)",
                 "reviewScore": "N/A (Not Tried)"
             }
         ]
@@ -613,7 +637,9 @@
         "phones": [
             {
                 "name": "Mega5EST",
-                "file": "Hisenior Mega5EST"
+                "file": "Hisenior Mega5EST",
+                "reviewScore": "8.04/10",
+                "price": "$550"
             },
             {
                 "name": "Mega5P",
@@ -633,7 +659,9 @@
                 ],
                 "suffix": [
                     "(left channel only) w/ Divninus Velvet tips"
-                ]
+                ],
+                "reviewScore": "N/A (Imbalanced)",
+                "price": "$300"
             }
         ]
     },
@@ -691,7 +719,9 @@
             },
             {
                 "name": "INM8",
-                "file": "INM Audio INM8"
+                "file": "INM Audio INM8",
+                "reviewScore": "8.32/10",
+                "price": "$8000"
             }
         ]
     },
@@ -756,6 +786,12 @@
     {
         "name": "JBL",
         "phones": [
+            {
+                "name": "Tune 110",
+                "file": "JBL Tune 110",
+                "reviewScore": "2.00/10",
+                "price": "$10"
+            },
             {
                 "name": "Tune 110BT",
                 "file": "JBL Tune 110BT",
@@ -851,7 +887,7 @@
                 ],
                 "price": "$17",
                 "reviewScore": "3",
-                "reviewLink": "https://youtu.be/6h1S2qCAtW8?si=5vwqLaeOfxcAfwAO",
+                "reviewLink": "https://youtu.be/6h1S2qCAtW8",
                 "shopLink": "https://www.kztws.com/products/kz-krila"
             },
             {
@@ -916,7 +952,9 @@
                 "suffix": [
                     "w/ balanced (red) eartips",
                     "w/ vocal (black) eartips"
-                ]
+                ],
+                "price": "$90",
+                "reviewScore": "5.00/10"
             }
         ]
     },
@@ -942,7 +980,9 @@
             },
             {
                 "name": "Quintet",
-                "file": "Kiwi Ears Quintet"
+                "file": "Kiwi Ears Quintet",
+                "price": "$220",
+                "reviewScore": "7.13/10"
             }
         ]
     },
@@ -1011,7 +1051,9 @@
             },
             {
                 "name": "S15",
-                "file": "Letshuoer S15"
+                "file": "Letshuoer S15",
+                "reviewScore": "5.82/10",
+                "price": "$330"
             }
         ]
     },
@@ -1050,7 +1092,18 @@
             },
             {
                 "name": "Aria 2",
-                "file": "Moondrop Aria 2"
+                "file": [
+                    "Moondrop Aria 2 S1",
+                    "Moondrop Aria 2 S2",
+                    "Moondrop Aria 2 S2 Xelastec"
+                ],
+                "suffix": [
+                    "S1",
+                    "S2",
+                    "S2 w/ Azla Xelastec tips"
+                ],
+                "price": "$90",
+                "reviewScore": "7.00/10"
             },
             {
                 "name": "Blessing 2",
@@ -1136,7 +1189,7 @@
                     "S1 (brass) w/ Mistips",
                     "S1 (brass) w/ KZ foam tips",
                     "S2 w/ Spring tips",
-                    "S2 w/ Azla Xelastec",
+                    "S2 w/ Azla Xelastec tips",
                     "S2 w/ S12 Clear tips",
                     "S3 w/ Spring tips",
                     "S3 w/ Spinfits W1 tips",
@@ -1191,7 +1244,7 @@
                     "S2 1.0.0 (Basshead)",
                     "S2 1.0.0 (Monitor)"
                 ],
-                "reviewLink": "https://youtu.be/pb1PdELk2E0?si=vNnb54k_nrFSUe8F",
+                "reviewLink": "https://youtu.be/pb1PdELk2E0",
                 "reviewScore": "4",
                 "price": "$25",
                 "shopLink": "https://shenzhenaudio.com/products/moondrop-space-travel-13mm-dynamic-driver-bluetooth-in-ear-headphone"
@@ -1288,7 +1341,9 @@
         "phones": [
             {
                 "name": "Singularity",
-                "file": "Nightjar Singularity"
+                "file": "Nightjar Singularity",
+                "reviewScore": "8.38/10",
+                "price": "$1400"
             }
         ]
     },
@@ -1424,7 +1479,8 @@
             {
                 "name": "Yume:Midnight",
                 "collab": "crinacle",
-                "file": "SeeAudio x crinacle Yume Midnight"
+                "file": "SeeAudio x crinacle Yume Midnight",
+                "reviewScore": "5.88/10"
             },
             {
                 "name": "Yume II",
@@ -1505,7 +1561,9 @@
                     "(Red nozzle)",
                     "(Black nozzle)",
                     "(Gold nozzle)"
-                ]
+                ],
+                "price": "$90",
+                "reviewScore": "6.39/10"
             },
             {
                 "name": "EA1000",
@@ -1568,8 +1626,10 @@
                     "S2 w/ Spring tips",
                     "S1 w/ Spinfits CP145 tips"
                 ],
-                "reviewScore": "5.78/10",
-                "price": "$40"
+                "reviewScore": "4",
+                "price": "$40",
+                "reviewLink": "https://youtu.be/IKfTAsbdmgY",
+                "shopLink": "https://www.linsoul.com/products/simgot-ew200"
             }
         ]
     },
@@ -1600,7 +1660,9 @@
                     "",
                     "(long nozzle)",
                     "(long nozzle w/ black filter)"
-                ]
+                ],
+                "reviewScore": "6.68/10",
+                "price": "$130"
             }
         ]
     },
@@ -1711,7 +1773,9 @@
         "phones": [
             {
                 "name": "Crimson",
-                "file": "Symphonium Crimson"
+                "file": "Symphonium Crimson",
+                "price": "$1400",
+                "reviewScore": "8.76/10"
             },
             {
                 "name": "Meteor",
@@ -1744,6 +1808,36 @@
                 ],
                 "price": "$160",
                 "reviewScore": "7.00/10"
+            },
+            {
+                "name": "Oxygen",
+                "file": [
+                    "Tanchjim Oxygen",
+                    "Tanchjim Oxygen CP100"
+                ],
+                "suffix": [
+                    "",
+                    "w/ Spinfits CP100 tips"
+                ]
+            },
+            {
+                "name": "Tanya",
+                "file": [
+                    "Tanchjim Tanya S2",
+                    "Tanchjim Tanya S2 Deep Insert",
+                    "Tanchjim Tanya S1",
+                    "Tanchjim Tanya S1 Deep Insert",
+                    "Tanchjim Tanya S3",
+                    "Tanchjim Tanya S3 Deep Insert"
+                ],
+                "suffix": [
+                    "S2",
+                    "S2 (Deep insert)",
+                    "S1",
+                    "S1 (Deep insert)",
+                    "S3",
+                    "S3 (Deep insert)"
+                ]
             },
             {
                 "name": "Zero DSP",
@@ -1846,7 +1940,16 @@
             },
             {
                 "name": "Oracle MK1",
-                "file": "Thieaudio Oracle MK1",
+                "file": [
+                    "Thieaudio Oracle MK1 S2",
+                    "Thieaudio Oracle MK1 S2 UC",
+                    "Thieaudio Oracle MK1 S1"
+                ],
+                "suffix": [
+                    "S2",
+                    "S2 w/ Softears UC tips",
+                    "S1"
+                ],
                 "reviewScore": "8.32/10"
             }
         ]
