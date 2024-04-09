@@ -186,6 +186,10 @@ const linkSets = [
                 url: "brownie.html"
             },
             {
+                name: "Sibug Graph Tool",
+                url: "sibug.html"
+            },
+            {
                 name: "Audio Discourse",
                 url: "https://iems.audiodiscourse.com/"
             },

@@ -1,0 +1,110 @@
+[
+    {
+        "name": "7Hz",
+        "phones": [
+            {
+                "name": "Timeless AE",
+                "file": "7Hz Timeless AE"
+            }
+        ]
+    },
+    {
+        "name": "Binary Acoustics",
+        "phones": [
+            {
+                "name": "Chopin",
+                "collab": "Gizaudio",
+                "file": "Binary x Gizaudio Chopin"
+            }
+        ]
+    },
+    {
+        "name": "KBEAR",
+        "phones": [
+            {
+                "name": "Rosefinch",
+                "file": "KBEAR Rosefinch"
+            }
+        ]
+    },
+    {
+        "name": "Kiwi Ears",
+        "phones": [
+            {
+                "name": "Quintet",
+                "file": "Kiwi Ears Quintet"
+            }
+        ]
+    },
+    {
+        "name": "KZ",
+        "phones": [
+            {
+                "name": "PR2v1",
+                "collab": "HBB",
+                "file": "KZ PR2v1"
+            },
+            {
+                "name": "PR2v2",
+                "collab": "HBB",
+                "file": "KZ PR2v2"
+            }
+        ]
+    },
+    {
+        "name": "Moondrop",
+        "phones": [
+            {
+                "name": "Blessing 2",
+                "file": ["Moondrop Blessing 2", "Moondrop Blessing 2 Modded"],
+                "suffix": ["", "(modded)"]
+            },
+            {
+                "name": "KATO",
+                "file": "Moondrop KATO"
+            },
+            {
+                "name": "Variations",
+                "file": "Moondrop Variations"
+            }
+        ]
+    },
+    {
+        "name": "Penon",
+        "phones": [
+            {
+                "name": "Fan 2",
+                "file": "Penon Fan 2"
+            }
+        ]
+    },
+    {
+        "name": "QKZ",
+        "phones": [
+
+            {
+                "name": "Hades",
+                "collab": "HBB",
+                "file": "QKZ x HBB Hades"
+            }
+        ]
+    },
+    {
+        "name": "TangZu",
+        "phones": [
+            {
+                "name": "Xuanwu Gate",
+                "file": "TangZu Xuanwu Gate"
+            }
+        ]
+    },
+    {
+        "name": "Thieaudio",
+        "phones": [
+            {
+                "name": "Oracle MK1",
+                "file": "Thieaudio Oracle MK1"
+            }
+        ]
+    }
+]
