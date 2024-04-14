@@ -3568,11 +3568,11 @@ function addHeader() {
     
     headerButton.className = "header-button";
     headerLogoElem.className = "logo";
-    headerLogoElem.setAttribute('style', "margin-right: 10px;");
+    headerLogoElem.setAttribute('style', "margin-right: 60px;");
     headerLogoLink.setAttribute('href', site_url);
     headerLogoLink.setAttribute('style', "display:inline-flex; align-items:center; white-space:nowrap;");
     headerLogoSpan.innerText = headerLogoText;
-    headerLogoSpan.setAttribute('style', "color: #ffffff; margin-right:10px");
+    headerLogoSpan.setAttribute('style', "color: #ffffff;");
     headerLogoLink.append(headerLogoSpan);
     headerLogoImg.setAttribute("src", headerLogoImgUrl);
     headerLogoImg.setAttribute('style', "height: 24px; fill: #ffffff;");

@@ -1,4 +1,13 @@
 # [Access to the graph tool.](graph)
+# Updates (April 14, 2023 - Graph Tool Overhaul & Headphone Measurements Database)
+This marks the initial commit of headphone measurements.
+Added headphones:
+- Koss KSC75
+- Logitech G331 (Misodiko pads)
+- some Nokia earbuds
+- Philips SHP9500
+- Samsung earbuds
+- Sennheiser HD202
 # Updates (March 22, 2023 - Research Material)
 Added IEM:
 - Tanchjim Tanya (3 samples)
