@@ -1,7 +1,6 @@
 // Configuration options
 const init_phones = ["Simgot EW200 S2", "Neutral Tilt Target"],                // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
       DIR = "data_fossy/",                                // Directory where graph files are stored
-      PHONE_BOOK = "phone_book.json",
       default_channels = ["L","R"],                 // Which channels to display. Avoid javascript errors if loading just one channel per phone
       default_normalization = "dB",                 // Sets default graph normalization mode. Accepts "dB" or "Hz"
       default_norm_db = 60,                         // Sets default dB normalization point
@@ -35,12 +34,11 @@ const init_phones = ["Simgot EW200 S2", "Neutral Tilt Target"],                /
       extraUploadEnabled = true,                    // Enable upload function
       extraEQEnabled = true,                        // Enable parametic eq function
       extraEQBands = 10,                            // Default EQ bands available
-      extraEQBandsMax = 20,                         // Max EQ bands available
-      extraToneGeneratorEnabled = true;             // Enable tone generator function
+      extraEQBandsMax = 20                          // Max EQ bands available
 
 // Specify which targets to display
 const targets = [
-    { type: "Δ",                files:["Δ 10dB","JM-1 10dB", "IEF Comp"] },
+    { type: "Δ",                files:["Δ", "JM-1", "IEF Comp"] },
     { type: "Tilt",             files:["Preference Tilt", "Neutral Tilt", "Pleasant Tilt", "Cosmic Brownie Tilt", "Kierke Tilt"]},
     { type: "JM-1 Tilt",        files:["Charlie Marks Tilt", "Charlie Marks Bass Tilt", "Hadoe Tilt", "fesdonomist Based", "fesdonomist Based Rev.2"]},
     { type: "Personal",         files:["Preference", "Neutral", "Pleasant"] },
@@ -52,11 +50,26 @@ const targets = [
     { type: "Preference",       files:["USound1V1", "USound1V1 Flat Bass", "Tork V5", "RTings", "Sonarworks", "VDSF"] }
 ];
 
-
+// Haruto's Addons
+const  preference_bounds_name = "Preference Bounds RAW",    // Preference bounds name
+       preference_bounds_dir = "pref_bounds/",              // Preference bounds directory
+       preference_bounds_startup = false,                   // If true, preference bounds are displayed on startup
+       PHONE_BOOK = "phone_book.json",                      // Path to phone book JSON file
+       default_DF_name = "Δ",                               // Default RAW DF name
+       dfBaseline = true,                                   // If true, DF is used as baseline when custom df tilt is on
+       default_bass_shelf = 6,                              // Default Custom DF bass shelf value
+       default_tilt = -1,                                   // Default Custom DF tilt value
+       default_ear = 0,                                     // Default Custom DF ear gain value
+       default_treble = 0,                                  // Default Custom DF treble gain value
+       tiltableTargets = ["Δ","JM-1"],                     // Targets that are allowed to be tilted
+       compTargets = ["Δ","JM-1"],                         // Targets that are allowed to be used for compensation
+       allowCreatorSupport = false;                         // Allow the creator to have a button top right to support them
 
 // *************************************************************
 // Functions to support config options set above; probably don't need to change these
 // *************************************************************
+
+// But I will anyways haha - Haruto
 
 // Set up the watermark, based on config options above
 function watermark(svg) {
@@ -217,6 +230,10 @@ const linkSets = [
             {
                 name: "Listener's Graph Tool",
                 url: "https://listener800.github.io/"
+            },
+            {
+                name: "Placeholder Graph Tool",
+                url: "graph_hp.html"
             }
         ]
     }

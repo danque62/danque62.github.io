@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Koss",
+        "phones": [
+            {
+                "name": "KSC75",
+                "file": ["Koss KSC75"],
+                "suffix": ["(right channel only)"]
+            }
+        ]
+    },
+    {
+        "name": "Logitech",
+        "phones": [
+            {
+                "name": "G331",
+                "file": ["Logitech G331 Misodiko"],
+                "suffix": ["w/ Misodiko pads"]
+            }
+        ]
+    },
+    {
+        "name": "Nokia",
+        "phones": [
+            {
+                "name": "Earbuds",
+                "file": "Nokia Earbuds"
+            }
+        ]
+    },
+    {
+        "name": "Philips",
+        "phones": [
+            {
+                "name": "SHP9500",
+                "file": "Philips SHP9500"
+            }
+        ]
+    },
+    {
+        "name": "Samsung",
+        "phones": [
+            {
+                "name": "Earbuds",
+                "file": "Samsung Earbuds"
+            }
+        ]
+    },
+    {
+        "name": "Sennheiser",
+        "phones": [
+            {
+                "name": "HD202",
+                "file": "Sennheiser HD202"
+            }
+        ]
+    }
+]

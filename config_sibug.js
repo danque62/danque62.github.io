@@ -1,7 +1,6 @@
 // Configuration options
 const init_phones = ["Pleasant Target", "Penon Fan 2"],                // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
       DIR = "data_sibug/",                                // Directory where graph files are stored
-      PHONE_BOOK = "sibug_phone_book.json",
       default_channels = ["L","R"],                 // Which channels to display. Avoid javascript errors if loading just one channel per phone
       default_normalization = "dB",                 // Sets default graph normalization mode. Accepts "dB" or "Hz"
       default_norm_db = 60,                         // Sets default dB normalization point
@@ -35,12 +34,11 @@ const init_phones = ["Pleasant Target", "Penon Fan 2"],                // Option
       extraUploadEnabled = true,                    // Enable upload function
       extraEQEnabled = true,                        // Enable parametic eq function
       extraEQBands = 10,                            // Default EQ bands available
-      extraEQBandsMax = 20,                         // Max EQ bands available
-      extraToneGeneratorEnabled = true;             // Enable tone generator function
+      extraEQBandsMax = 20                         // Max EQ bands available
 
 // Specify which targets to display
 const targets = [
-    // { type: "Δ",                files:["Δ 10dB","JM-1 10dB", "IEF Comp"] },
+    { type: "Δ",                files:["Generic JM-1"] },
     // { type: "Tilt",             files:["Preference Tilt", "Neutral Tilt", "Pleasant Tilt", "Hadoe Tilt", "Cosmic Brownie Tilt", "Charlie Marks Tilt"]},
     // { type: "JM-1 Tilt",        files:["JM-1 Charlie Marks Tilt", "JM-1 Charlie Marks Bass Tilt", "JM-1 Hadoe Tilt"]},
     { type: "Rollo",         files:["Preference", "Neutral", "Pleasant"] },
@@ -52,7 +50,20 @@ const targets = [
     { type: "Preference",       files:["USound1V1", "USound1V1 Flat Bass", "Tork V5", "VDSF"] }
 ];
 
-
+// Haruto's Addons
+const  preference_bounds_name = "Preference Bounds RAW", // Preference bounds name
+       preference_bounds_dir = "pref_bounds/",    // Preference bounds directory
+       preference_bounds_startup = false,           // If true, preference bounds are displayed on startup
+       PHONE_BOOK = "sibug_phone_book.json",              // Path to phone book JSON file
+       default_DF_name = "Generic JM-1",                // Default RAW DF name
+       dfBaseline = true,                           // If true, DF is used as baseline when custom df tilt is on
+       default_bass_shelf = 6,                      // Default Custom DF bass shelf value
+       default_tilt = -1,                         // Default Custom DF tilt value
+       default_ear = 0,                             // Default Custom DF ear gain value
+       default_treble = 0,                          // Default Custom DF treble gain value
+       tiltableTargets = ["Generic JM-1"],              // Targets that are allowed to be tilted
+       compTargets = ["Generic JM-1"],                  // Targets that are allowed to be used for compensation
+       allowCreatorSupport = false;  
 
 // *************************************************************
 // Functions to support config options set above; probably don't need to change these
@@ -232,8 +243,8 @@ setupGraphAnalytics();
 
 
 // If alt_header is enabled, these are the items added to the header
-let headerLogoText = "",
-    headerLogoImgUrl = "",
+let headerLogoText = "Sibug Graph Tool",
+    headerLogoImgUrl = "cringraph-logo.svg",
     headerLinks = [
     {
         name: "Fossy Graph Tool",
