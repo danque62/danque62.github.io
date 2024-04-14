@@ -54,5 +54,14 @@
                 "file": "Sennheiser HD202"
             }
         ]
+    },
+    {
+        "name": "THE HORRIBLE",
+        "phones": [
+            {
+                "name": "Pink headset",
+                "file": "Pink headset"
+            }
+        ]
     }
 ]
