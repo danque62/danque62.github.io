@@ -462,6 +462,10 @@
                 "reviewScore": "5.44/10"
             },
             {
+                "name": "ER3XR",
+                "file": "Etymotic ER3XR"
+            },
+            {
                 "name": "ER4SR",
                 "file": "Etymotic ER4SR",
                 "price": "$300",
@@ -1897,8 +1901,15 @@
                 "reviewScore": "5.54/10"
             },
             {
-                "name": "Xuanwu Gate (Prototype)",
-                "file": "TangZu Xuanwu Gate",
+                "name": "Xuanwu Gate",
+                "file": [
+                    "TangZu Xuanwu Gate S2",
+                    "TangZu Xuanwu Gate S1"
+                ],
+                "suffix": [
+                    "",
+                    "(Prototype)"
+                ],
                 "reviewScore": "7.84/10"
             },
             {

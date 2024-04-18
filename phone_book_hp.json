@@ -1,11 +1,24 @@
 [
     {
+        "name": "CEntrance",
+        "phones": [
+            {
+                "name": "Cerene dB",
+                "file": "CEntrance Cerene dB"
+            }
+        ]
+    },
+    {
         "name": "Koss",
         "phones": [
             {
                 "name": "KSC75",
-                "file": ["Koss KSC75"],
-                "suffix": ["(right channel only)"]
+                "file": [
+                    "Koss KSC75"
+                ],
+                "suffix": [
+                    "(right channel only)"
+                ]
             }
         ]
     },
@@ -14,8 +27,12 @@
         "phones": [
             {
                 "name": "G331",
-                "file": ["Logitech G331 Misodiko"],
-                "suffix": ["w/ Misodiko pads"]
+                "file": [
+                    "Logitech G331 Misodiko"
+                ],
+                "suffix": [
+                    "w/ Misodiko pads"
+                ]
             }
         ]
     },
@@ -52,6 +69,15 @@
             {
                 "name": "HD202",
                 "file": "Sennheiser HD202"
+            }
+        ]
+    },
+    {
+        "name": "Sony",
+        "phones": [
+            {
+                "name": "MDR-Z1R",
+                "file": "Sony MDR-Z1R"
             }
         ]
     },

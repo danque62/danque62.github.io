@@ -1,4 +1,12 @@
 # [Access to the graph tool.](graph)
+# Updates (April 18, 2023 - EggHead session)
+Added IEMs:
+- Etymotic ER3XR
+- TangZu Xuanwu Gate (sample 2 AKA. Production unit)
+
+Added headphones:
+- CEntrance Cerene dB
+- Sony MDR-Z1R
 # Updates (April 14, 2023 - Graph Tool Overhaul & Headphone Measurements Database)
 This marks the initial commit of headphone measurements.
 Added headphones:
