@@ -133,11 +133,12 @@ const
     // Short text, center-aligned, useful for a little side info, credits, links to measurement setup, etc. 
     simpleAbout = `
         <p class="center">
-        This web software is based on the <a href="https://github.com/mlochbaum/CrinGraph"><b>CrinGraph</b></a> open source software project.
+        This web software is based on a modified <a href="https://github.com/mlochbaum/CrinGraph"><b>CrinGraph</b></a> open source software project by <a href="https://github.com/HarutoHiroki/PublicGraphTool"><b>HarutoHiroki.</b></a>
         <br>
-        Measurements uploaded are made with a clone IEC 60318-4 coupler from <a href="http://www.aliexpress.com/item/4000789796521.html"><b>Sounds Good Store</b></a>
+        Measurements uploaded are made with a clone IEC 60318-4 coupler from <a href="http://www.aliexpress.com/item/4000789796521.html"><b>Sounds Good Store.</b></a>
         <br>
         And the use of <a href="https://www.roomeqwizard.com/"><b>Room EQ Wizard</b></a> or <a href="https://apps.apple.com/us/app/audiotools-db-sound-audio/id325307477"><b>iOS AudioTools</b></a> as software of choice.
+        <br>
         <br>
         Resonance peak is either 8k peak fundamental or a 16k 1st harmonic. This is for cases where an IEM has a lot of  8k Hz that I can't even see the changes when inserting deeper or shallower. 16k is harder to hit as it's more delicate, but it's a fallback.
         </p>
