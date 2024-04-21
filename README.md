@@ -1,4 +1,19 @@
 # [Access to the graph tool.](graph)
+# Updates (April 20, 2023 - Fixed Headphone Rig Tolerances & EggHead session)
+Added headphones: 
+- Focal Clear OG
+- Sony MDR-7506
+- ZMF Caldera
+
+Remeasured headphones:
+- CEntrance Cerene dB
+- Logitech G331 w/ Misodiko Pads
+- some Nokia Earbuds
+- Philips SHP9500
+- some Pink headset
+- Samsung Earbuds
+- Sony MDR-Z1R
+- Sennheiser HD202
 # Updates (April 18, 2023 - EggHead session)
 Added IEMs:
 - Etymotic ER3XR
@@ -10,11 +25,12 @@ Added headphones:
 # Updates (April 14, 2023 - Graph Tool Overhaul & Headphone Measurements Database)
 This marks the initial commit of headphone measurements.
 Added headphones:
-- Koss KSC75
-- Logitech G331 (Misodiko pads)
-- some Nokia earbuds
+- Koss KSC75 (right channel only)
+- Logitech G331 w/ Misodiko Pads
+- some Nokia Earbuds
 - Philips SHP9500
-- Samsung earbuds
+- some Pink headset
+- Samsung Earbuds
 - Sennheiser HD202
 # Updates (March 22, 2023 - Research Material)
 Added IEM:

@@ -9,6 +9,20 @@
         ]
     },
     {
+        "name": "Focal",
+        "phones": [
+            {
+                "name": "Clear OG",
+                "file": [
+                    "Focal Clear OG"
+                ],
+                "suffix": [
+                    "(worn pads)"
+                ]
+            }
+        ]
+    },
+    {
         "name": "Koss",
         "phones": [
             {
@@ -31,7 +45,7 @@
                     "Logitech G331 Misodiko"
                 ],
                 "suffix": [
-                    "w/ Misodiko pads"
+                    "w/ Misodiko Pads"
                 ]
             }
         ]
@@ -76,8 +90,26 @@
         "name": "Sony",
         "phones": [
             {
+                "name": "MDR-7506",
+                "file": "Sony MDR-7506"
+            },
+            {
                 "name": "MDR-Z1R",
                 "file": "Sony MDR-Z1R"
+            }
+        ]
+    },
+    {
+        "name": "ZMF",
+        "phones": [
+            {
+                "name": "Caldera",
+                "file": [
+                    "ZMF Caldera"
+                ],
+                "suffix": [
+                    "w/ Stock Perforated Lambskin Pads"
+                ]
             }
         ]
     },

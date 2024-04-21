@@ -2083,14 +2083,15 @@ d3.json(typeof PHONE_BOOK !== "undefined" ? PHONE_BOOK
         let tiltOct = new Array(bass.length).fill(null);
         for(let i = 0; i < bass[0].length; i++) {
             let gainAdjustment = 0;
-            if (boost == 0) {
-                gainAdjustment = tilt * Math.log2(bass[0][i][0]);
-            } else {
-                if (bass[0][i][0] >= 200) gainAdjustment = tilt * Math.log2(bass[0][i][0]/200);
-            }
+            // if (boost == 0) { // Bass boost doesn't gett affected by tilting.
+            //     gainAdjustment = tilt * Math.log2(bass[0][i][0]);
+            // } else {
+            //     if (bass[0][i][0] >= 200) gainAdjustment = tilt * Math.log2(bass[0][i][0]/200);
+            // }
+            gainAdjustment = tilt * Math.log2(bass[0][i][0]);
             let tiltedMagnitude = bass[0][i][1] + gainAdjustment;
             tiltOct[i] = [bass[0][i][0], tiltedMagnitude];
-        }
+        }  
         // New Tilt
         let brand = window.brandTarget;
         let phoneObjs = brand.phoneObjs;
@@ -2111,6 +2112,8 @@ d3.json(typeof PHONE_BOOK !== "undefined" ? PHONE_BOOK
             fullDispName += " (Harman 2015 Filters)"
         } else if (tilt == 0 && boost == 6.6 && treble == -1.4 && ear == -2) {
             fullDispName += " (Harman 2018 Filters)"
+        } else if (tilt == 0 && boost == 4.8 && treble == -1.4 && ear == -2){
+            fullDispName += " (Harman Combined Filters)"
         }
 
         let phoneObj = { isTarget:true, brand:brand, phone:"Custom Tilt",
@@ -2198,10 +2201,18 @@ d3.json(typeof PHONE_BOOK !== "undefined" ? PHONE_BOOK
                 tilt = 0;
                 boost = 6.6;
                 treble = -1.4;
-                ear = -2;
+                ear = -2;       
                 break;
             case "harman2018":
                 this.classList.remove("harman2018");
+                this.classList.add("harmanCombined");
+                tilt = 0;
+                boost = 4.8;
+                treble = -1.4;
+                ear = -2;
+                break;
+            case "harmanCombined":
+                this.classList.remove("harmanCombined");
                 this.classList.add("harman2013");
                 tilt = 0;
                 boost = 4.8;
