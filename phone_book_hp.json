@@ -1,10 +1,28 @@
 [
     {
+        "name": "Audeze",
+        "phones": [
+            {
+                "name": "MM-100",
+                "file": "Audeze MM-100"
+            }
+        ]
+    },
+    {
         "name": "CEntrance",
         "phones": [
             {
                 "name": "Cerene dB",
                 "file": "CEntrance Cerene dB"
+            }
+        ]
+    },
+    {
+        "name": "DCA",
+        "phones": [
+            {
+                "name": "Aeon 2 Closed",
+                "file": "DCA Aeon 2 Closed"
             }
         ]
     },
@@ -19,6 +37,15 @@
                 "suffix": [
                     "(worn pads)"
                 ]
+            }
+        ]
+    },
+    {
+        "name": "HEDD Audio",
+        "phones": [
+            {
+                "name": "HEDDphone TWO",
+                "file": "HEDD Audio HEDDphone 2"
             }
         ]
     },
@@ -83,6 +110,10 @@
             {
                 "name": "HD202",
                 "file": "Sennheiser HD202"
+            },
+            {
+                "name": "HD660S2",
+                "file": "Sennheiser HD660S2"
             }
         ]
     },

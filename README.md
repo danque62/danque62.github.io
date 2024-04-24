@@ -1,5 +1,11 @@
 # [Access to the graph tool.](graph)
-# Updates (April 20, 2023 - Fixed Headphone Rig Tolerances & EggHead session)
+# Updates (April 24, 2024 - EggHead session)
+Added headphones:
+- Audeze MM-100
+- DCA Aeon 2 Closed
+- HEDD Audio HEDDphone TWO
+- Sennheiser HD660S2
+# Updates (April 20, 2024 - Fixed Headphone Rig Tolerances & EggHead session)
 Added headphones: 
 - Focal Clear OG
 - Sony MDR-7506
@@ -14,7 +20,7 @@ Remeasured headphones:
 - Samsung Earbuds
 - Sony MDR-Z1R
 - Sennheiser HD202
-# Updates (April 18, 2023 - EggHead session)
+# Updates (April 18, 2024 - EggHead session)
 Added IEMs:
 - Etymotic ER3XR
 - TangZu Xuanwu Gate (sample 2 AKA. Production unit)
@@ -22,7 +28,7 @@ Added IEMs:
 Added headphones:
 - CEntrance Cerene dB
 - Sony MDR-Z1R
-# Updates (April 14, 2023 - Graph Tool Overhaul & Headphone Measurements Database)
+# Updates (April 14, 2024 - Graph Tool Overhaul & Headphone Measurements Database)
 This marks the initial commit of headphone measurements.
 Added headphones:
 - Koss KSC75 (right channel only)
@@ -32,31 +38,31 @@ Added headphones:
 - some Pink headset
 - Samsung Earbuds
 - Sennheiser HD202
-# Updates (March 22, 2023 - Research Material)
+# Updates (March 22, 2024 - Research Material)
 Added IEM:
 - Tanchjim Tanya (3 samples)
-# Updates (March 21, 2023 - Meetup in UST)
+# Updates (March 21, 2024 - Meetup in UST)
 Added IEMs:
 - Moondrop Aria 2 (sample 2)
 - Tanchjim Oxygen
 - Thieaudio Oracle MK1 (sample 2)
-# Updates (March 15, 2023 - EggHead session & Measuring Friend's Unit)
+# Updates (March 15, 2024 - EggHead session & Measuring Friend's Unit)
 Added IEM:
 - FiiO FH9
 
 Remeasured IEM:
 - Truthear x crinacle Zero:Red (sample 2)
-# Updates (March 11, 2023 - Random squig)
+# Updates (March 11, 2024 - Random squig)
 Added IEM:
 - JBL Tune 110
-# Updates (February 26, 2023 - Quick EggHead session & Measuring Friend's Unit)
+# Updates (February 26, 2024 - Quick EggHead session & Measuring Friend's Unit)
 Added IEM:
 - 64 Audio Duo
 - Tanchjim Zero DSP
 
 Remeasured IEM:
 - 64 Audio U18t
-# Updates (February 24, 2023 - FAC Meetup)
+# Updates (February 24, 2024 - FAC Meetup)
 Added IEMs:
 - 64 Audio U4s
 - Astell&Kern AKR02
@@ -73,14 +79,14 @@ Added IEMs:
 
 Remeasured IEM:
 - DUNU SA6 MK2
-# Updates (February 22, 2023 - HiFiGo Review Tour & Quick Visit to help someone)
+# Updates (February 22, 2024 - HiFiGo Review Tour & Quick Visit to help someone)
 Added IEM:
 - Kinera Celest Plutus Beast
 - Bang & Olufsen Beoplay EX (left channel only)
-# Updates (February 17, 2023 - BL03 modding)
+# Updates (February 17, 2024 - BL03 modding)
 Remeasured IEM:
 - BLON BL03 (sample 1, now with mods)
-# Updates (February 15, 2023 - Impromptu meetup @ EggHead)
+# Updates (February 15, 2024 - Impromptu meetup @ EggHead)
 Added IEMs:
 - CCA Rhapsody
 - CCA Trio
@@ -97,7 +103,7 @@ Added IEMs:
 
 Remeasured IEM:
 - Simgot EA500
-# Updates (February 06, 2023 - EggHead demo session w/ Brownie)
+# Updates (February 06, 2024 - EggHead demo session w/ Brownie)
 Added IEMs:
 - Sonic Memory SM1
 - Sonic Memory SM2
@@ -107,17 +113,17 @@ Added IEMs:
 Remeasured IEM:
 - TangZu Nezha (corrected; apparently the same unit in The Grand Lason R2)
 - Letshuoer Cadenza 12 (now with Spinfits CP145 tips and Divinus Velvet tips)
-# Updates (January 29, 2023 - Random squig)
+# Updates (January 29, 2024 - Random squig)
 Added IEM:
 - Logitech G333
-# Updates (January 23, 2023 - EggHead demo session)
+# Updates (January 23, 2024 - EggHead demo session)
 Added IEMs:
 - Hisenior Mega5EST
 - Hisenior Mega5P Ultra
-# Updates (January 22, 2023 - Random squig)
+# Updates (January 22, 2024 - Random squig)
 Added IEM:
 - TIN T2 (sample 2)
-# Updates (January 12, 2023 - EggHead demo session w/ Brownie and advc)
+# Updates (January 12, 2024 - EggHead demo session w/ Brownie and advc)
 Added IEMs: 
 - Audiosense DT200
 - Creative Aurvana Ace 2
