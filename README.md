@@ -1,4 +1,7 @@
 # [Access to the graph tool.](graph)
+# Updates (April 26, 2024 - NAOS Esports Arena Hangout)
+Added headphones:
+- ASUS TUF Gaming H3
 # Updates (April 24, 2024 - EggHead session)
 Added headphones:
 - Audeze MM-100

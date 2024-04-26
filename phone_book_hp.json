@@ -1,5 +1,14 @@
 [
     {
+        "name": "ASUS",
+        "phones": [
+            {
+                "name": "TUF Gaming H3",
+                "file": "ASUS TUF Gaming H3"
+            }
+        ]
+    },
+    {
         "name": "Audeze",
         "phones": [
             {

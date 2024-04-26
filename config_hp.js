@@ -40,16 +40,8 @@ const init_phones = ["KB50xx DFHRTF Target"],                // Optional. Which 
 
 // Specify which targets to display
 const targets = [
-    // { type: "Δ",                files:["Δ", "JM-1", "IEF Comp"] },
-    // { type: "Tilt",             files:["Preference Tilt", "Neutral Tilt", "Pleasant Tilt", "Cosmic Brownie Tilt", "Kierke Tilt"]},
-    // { type: "JM-1 Tilt",        files:["Charlie Marks Tilt", "Charlie Marks Bass Tilt", "Hadoe Tilt", "fesdonomist Based", "fesdonomist Based Rev.2"]},
-    // { type: "Personal",         files:["Preference", "Neutral", "Pleasant"] },
-    { type: "Neutral",          files:["KB50xx DFHRTF"] },
-    // { type: "Community",        files:["Haruto 2024", "Haruto 2021", "Brownie", "Helene", "Xiao 2.0", "Runatera v4.2.3", "Mokou Bassmaxxing", "Mokou Beta 1", "Rennsport v3", "Razan Neutral V2.0", "DK8365"] },
-    // { type: "Reviewer",         files:["IEF Neutral 2023", "IEF Neutral", "Antdroid", "HBB", "Banbeucmas", "Practiphile Balanced", "Practiphile Neutral", "Precogvision", "Super 22", "Timmy", "VSG"] },
-    // { type: "Reviewer Tilt",    files:["HBB Tilt", "Timmy Tilt"] },
-    // { type: "Harman",           files:["Harman IE 2016", "Harman IE 2017v1", "Harman IE 2017v2", "Harman IE 2019v2"] },
-    // { type: "Preference",       files:["USound1V1", "USound1V1 Flat Bass", "Tork V5", "RTings", "Sonarworks", "VDSF"] }
+    { type: "Neutral",  files:["KB50xx DFHRTF"] },
+    { type: "Harman",   files:["Harman 2013", "Harman 2015", "Harman 2018", "Harman Combined"] },
 ];
 
 // Haruto's Addons
