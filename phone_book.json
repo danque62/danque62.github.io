@@ -21,7 +21,14 @@
             },
             {
                 "name": "U4s",
-                "file": "64 Audio U4s",
+                "file": [
+                    "64 Audio U4s",
+                    "64 Audio U4s S2 m15"
+                ],
+                "suffix": [
+                    "S1 (m12)",
+                    "S2 (m15)"
+                ],
                 "reviewScore": "8.04/10",
                 "price": "$1100"
             },
@@ -52,11 +59,13 @@
                 "name": "Dioko",
                 "file": [
                     "7Hz Salnotes x crinacle Dioko",
-                    "7Hz Salnotes x crinacle Dioko B"
+                    "7Hz Salnotes x crinacle Dioko B",
+                    "7Hz Salnotes x crinacle Dioko S3"
                 ],
                 "suffix": [
                     "S1",
-                    "S2 w/ Ostry 200 tips"
+                    "S2 w/ Ostry 200 tips",
+                    "S3"
                 ],
                 "collab": "crinacle",
                 "price": "$100",
@@ -402,6 +411,15 @@
         ]
     },
     {
+        "name": "DITA",
+        "phones": [
+            {
+                "name": "Project M",
+                "file": "DITA Project M"
+            }
+        ]
+    },
+    {
         "name": "DUNU",
         "phones": [
             {
@@ -505,7 +523,16 @@
         "phones": [
             {
                 "name": "FH3",
-                "file": "FiiO FH3",
+                "file": [
+                    "FiiO FH3",
+                    "FiiO FH3 S2",
+                    "FiiO FH3 S2 Foam"
+                ],
+                "suffix": [
+                    "S1",
+                    "S2",
+                    "S2 w/ foam tips"
+                ],
                 "price": "$150",
                 "reviewScore": "N/A (Not Tried)"
             },
@@ -648,10 +675,12 @@
             {
                 "name": "Mega5P",
                 "file": [
-                    "Hisenior Mega5p"
+                    "Hisenior Mega5p",
+                    "Hisenior Mega5p Final Type E"
                 ],
                 "suffix": [
-                    "w/ Spinfits W1 tips"
+                    "w/ Spinfits W1 tips",
+                    "w/ Final Type E tips"
                 ],
                 "price": "$300",
                 "reviewScore": "6.64/10"
@@ -826,6 +855,80 @@
         ]
     },
     {
+        "name": "KBEAR",
+        "phones": [
+            {
+                "name": "KW1",
+                "file": "KBEAR KW1",
+                "reviewScore": "4.78/10",
+                "price": "$25"
+            },
+            {
+                "name": "Pecker",
+                "file": "KBEAR Pecker",
+                "reviewScore": "3.16/10",
+                "price": "$35"
+            }
+        ]
+    },
+    {
+        "name": "Kinera",
+        "phones": [
+            {
+                "name": "Celest Phoenixcall",
+                "file": "Kinera Celest Phoenixcall",
+                "reviewScore": "5.36/10",
+                "price": "$130"
+            },
+            {
+                "name": "Celest Plutus Beast",
+                "file": [
+                    "Kinera Celest Plutus Beast Balanced",
+                    "Kinera Celest Plutus Beast Vocal"
+                ],
+                "suffix": [
+                    "w/ balanced (red) eartips",
+                    "w/ vocal (black) eartips"
+                ],
+                "price": "$90",
+                "reviewScore": "5.00/10"
+            }
+        ]
+    },
+    {
+        "name": "Kiwi Ears",
+        "phones": [
+            {
+                "name": "Quartet",
+                "file": [
+                    "Kiwi Ears Quartet UU",
+                    "Kiwi Ears Quartet UD",
+                    "Kiwi Ears Quartet DU",
+                    "Kiwi Ears Quartet DD"
+                ],
+                "suffix": [
+                    "(UU)",
+                    "(UD)",
+                    "(DU)",
+                    "(DD)"
+                ],
+                "reviewScore": "N/A (Not Tried)",
+                "price": "$110"
+            },
+            {
+                "name": "Quintet",
+                "file": "Kiwi Ears Quintet",
+                "price": "$220",
+                "reviewScore": "7.13/10"
+            },
+            {
+                "name": "Singolo",
+                "collab": "crinacle",
+                "file": "Kiwi Ears x crinacle Singolo"
+            }
+        ]
+    },
+    {
         "name": "KZ",
         "phones": [
             {
@@ -895,6 +998,10 @@
                 "shopLink": "https://www.kztws.com/products/kz-krila"
             },
             {
+                "name": "Linglong",
+                "file": "KZ Linglong"
+            },
+            {
                 "name": "PR2",
                 "file": "KZ PR2",
                 "reviewScore": "N/A (Not Tried)",
@@ -918,75 +1025,6 @@
                 "file": "KZ ZSN Pro X",
                 "reviewScore": "N/A (Not Tried)",
                 "price": "$15"
-            }
-        ]
-    },
-    {
-        "name": "KBEAR",
-        "phones": [
-            {
-                "name": "KW1",
-                "file": "KBEAR KW1",
-                "reviewScore": "4.78/10",
-                "price": "$25"
-            },
-            {
-                "name": "Pecker",
-                "file": "KBEAR Pecker",
-                "reviewScore": "3.16/10",
-                "price": "$35"
-            }
-        ]
-    },
-    {
-        "name": "Kinera",
-        "phones": [
-            {
-                "name": "Celest Phoenixcall",
-                "file": "Kinera Celest Phoenixcall",
-                "reviewScore": "5.36/10",
-                "price": "$130"
-            },
-            {
-                "name": "Celest Plutus Beast",
-                "file": [
-                    "Kinera Celest Plutus Beast Balanced",
-                    "Kinera Celest Plutus Beast Vocal"
-                ],
-                "suffix": [
-                    "w/ balanced (red) eartips",
-                    "w/ vocal (black) eartips"
-                ],
-                "price": "$90",
-                "reviewScore": "5.00/10"
-            }
-        ]
-    },
-    {
-        "name": "Kiwi Ears",
-        "phones": [
-            {
-                "name": "Quartet",
-                "file": [
-                    "Kiwi Ears Quartet UU",
-                    "Kiwi Ears Quartet UD",
-                    "Kiwi Ears Quartet DU",
-                    "Kiwi Ears Quartet DD"
-                ],
-                "suffix": [
-                    "(UU)",
-                    "(UD)",
-                    "(DU)",
-                    "(DD)"
-                ],
-                "reviewScore": "N/A (Not Tried)",
-                "price": "$110"
-            },
-            {
-                "name": "Quintet",
-                "file": "Kiwi Ears Quintet",
-                "price": "$220",
-                "reviewScore": "7.13/10"
             }
         ]
     },
@@ -1111,7 +1149,14 @@
             },
             {
                 "name": "Blessing 2",
-                "file": "Moondrop Blessing 2",
+                "file": [
+                    "Moondrop Blessing 2",
+                    "Moondrop Blessing 2 S2 Spring"
+                ],
+                "suffix": [
+                    "S1",
+                    "S2 w/ Spring tips"
+                ],
                 "price": "$330",
                 "reviewScore": "7.30/10"
             },
@@ -1124,7 +1169,14 @@
             },
             {
                 "name": "Blessing 3",
-                "file": "Moondrop Blessing 3",
+                "file": [
+                    "Moondrop Blessing 3",
+                    "Moondrop Blessing 3 S2"
+                ],
+                "suffix": [
+                    "S1",
+                    "S2"
+                ],
                 "price": "$330",
                 "reviewScore": "N/A (Not Tried)"
             },
@@ -1545,11 +1597,27 @@
                 "name": "EA500",
                 "file": [
                     "Simgot EA500 Red",
-                    "Simgot EA500 Black"
+                    "Simgot EA500 Red Spring",
+                    "Simgot EA500 Red CP145",
+                    "Simgot EA500 Red W1",
+                    "Simgot EA500 Red Velvet",
+                    "Simgot EA500 Black",
+                    "Simgot EA500 Black Spring",
+                    "Simgot EA500 Black CP145",
+                    "Simgot EA500 Black W1",
+                    "Simgot EA500 Black Velvet"
                 ],
                 "suffix": [
                     "(Red nozzle)",
-                    "(Black nozzle)"
+                    "(Red nozzle) w/ Spring tips",
+                    "(Red nozzle) w/ Spinfits CP145 tips",
+                    "(Red nozzle) w/ Spinfits W1 tips",
+                    "(Red nozzle) w/ Divinus Velvet tips",
+                    "(Black nozzle)",
+                    "(Black nozzle) w/ Spring tips",
+                    "(Black nozzle) w/ Spinfits CP145 tips",
+                    "(Black nozzle) w/ Spinfits W1 tips",
+                    "(Black nozzle) w/ Divinus Velvet tips"
                 ],
                 "price": "$80",
                 "reviewScore": "6.35/10"
@@ -1557,14 +1625,16 @@
             {
                 "name": "EA500LM",
                 "file": [
+                    "Simgot EA500LM Gold",
                     "Simgot EA500LM Red",
                     "Simgot EA500LM Black",
-                    "Simgot EA500LM Gold"
+                    "Simgot EA500LM S2 Gold Sancai"
                 ],
                 "suffix": [
-                    "(Red nozzle)",
-                    "(Black nozzle)",
-                    "(Gold nozzle)"
+                    "S1 (Gold nozzle)",
+                    "S1 (Red nozzle)",
+                    "S1 (Black nozzle)",
+                    "S2 (Gold nozzle) w/ Tangzu Sancai tips"
                 ],
                 "price": "$90",
                 "reviewScore": "6.39/10"
@@ -1794,6 +1864,10 @@
                 "collab": "Nightjar Acoustics",
                 "price": "$600",
                 "reviewScore": "7.62/10"
+            },
+            {
+                "name": "Titan",
+                "file": "Symphonium Titan"
             }
         ]
     },
@@ -1890,15 +1964,22 @@
                 "file": [
                     "TangZu Waner S1",
                     "TangZu Waner S2",
-                    "TangZu Waner S3"
+                    "TangZu Waner S3",
+                    "TangZu Waner S4"
                 ],
                 "suffix": [
                     "S1",
                     "S2",
-                    "S3"
+                    "S3",
+                    "S4"
                 ],
                 "price": "$20",
                 "reviewScore": "5.54/10"
+            },
+            {
+                "name": "Xuan Nv",
+                "collab": "HBB",
+                "file": "Tangzu x HBB Xuan Nv"
             },
             {
                 "name": "Xuanwu Gate",
@@ -1942,6 +2023,15 @@
                 "file": "Thieaudio Hype 2",
                 "price": "$300",
                 "reviewScore": "7.43/10"
+            },
+            {
+                "name": "Monarch",
+                "file": [
+                    "Thieaudio Monarch"
+                ],
+                "suffix": [
+                    "(right channel only)"
+                ]
             },
             {
                 "name": "Monarch MK2",
@@ -2027,7 +2117,14 @@
         "phones": [
             {
                 "name": "Hexa",
-                "file": "Truthear Hexa",
+                "file": [
+                    "Truthear Hexa",
+                    "Truthear Hexa S2"
+                ],
+                "suffix": [
+                    "S1",
+                    "S2"
+                ],
                 "price": "$80",
                 "reviewScore": "6.08/10"
             },

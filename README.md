@@ -1,4 +1,35 @@
 # [Access to the graph tool.](graph)
+# Updates (April 27, 2024 - FAC Meetup @ Starbucks Eton Centris)
+Added IEMs:
+- 64 Audio U4s (sample 2, m12 module, imbalance)
+- 7Hz Salnotes x crinacle Dioko (sample 3 - First batch QC)
+- DITA Project M
+- FiiO FH3 (sample 2)
+- Kiwi Ears x crinacle Singolo
+- KZ Linglong
+- Moondrop Blessing 2 (sample 2)
+- TangZu Wan'er (sample 4)
+- Moondrop Blessing 3 (sample 2)
+- Simgot EA500LM (sample 2)
+- Symphonium Titan
+- TangZu x HBB Xuan Nv
+- Thieaudio Monarch (imbalance. Right channel only)
+- Truthear Hexa (sample 2)
+
+Remeasured IEMs:
+- Hisenior Mega5p (with Final Type E tips)
+- Simgot EA500 (with multiple tips)
+
+Added headphones:
+- AKG K812
+- Audeze Sine
+- Joemanji Premium (gotta confirm if this is from Just on Earbuds)
+- Philips Fidelio M1
+- Sennheiser HD600 (w/ Dekoni Elite Hybrid pads)
+- Sennheiser HD800 (S/N: 22056 w/ Dekoni Elite Sheepskin pads)
+- Sony MDR-Z7
+- Thieaudio Ghost
+- XO BE18
 # Updates (April 26, 2024 - NAOS Esports Arena Hangout)
 Added headphones:
 - ASUS TUF Gaming H3

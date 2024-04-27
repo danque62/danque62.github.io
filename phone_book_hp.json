@@ -1,5 +1,14 @@
 [
     {
+        "name": "AKG",
+        "phones": [
+            {
+                "name": "K812",
+                "file": "AKG K812"
+            }
+        ]
+    },
+    {
         "name": "ASUS",
         "phones": [
             {
@@ -14,6 +23,10 @@
             {
                 "name": "MM-100",
                 "file": "Audeze MM-100"
+            },
+            {
+                "name": "Sine",
+                "file": "Audeze Sine"
             }
         ]
     },
@@ -59,6 +72,15 @@
         ]
     },
     {
+        "name": "Joemanji",
+        "phones": [
+            {
+                "name": "Premium",
+                "file": "Jomanji Premium"
+            }
+        ]
+    },
+    {
         "name": "Koss",
         "phones": [
             {
@@ -99,6 +121,10 @@
         "name": "Philips",
         "phones": [
             {
+                "name": "Fidelio M1",
+                "file": "Philips Fidelio M1"
+            },
+            {
                 "name": "SHP9500",
                 "file": "Philips SHP9500"
             }
@@ -121,8 +147,26 @@
                 "file": "Sennheiser HD202"
             },
             {
+                "name": "HD600",
+                "file": [
+                    "Sennheiser HD600 Dekoni Elite Hybrid"
+                ],
+                "suffix": [
+                    "w/ Dekoni Elite Hybrid Pads"
+                ]
+            },
+            {
                 "name": "HD660S2",
                 "file": "Sennheiser HD660S2"
+            },
+            {
+                "name": "HD800",
+                "file": [
+                    "Sennheiser HD800 Dekoni Elite Sheepskin"
+                ],
+                "suffix": [
+                    "w/ Dekoni Elite Sheepskin Pads"
+                ]
             }
         ]
     },
@@ -136,6 +180,19 @@
             {
                 "name": "MDR-Z1R",
                 "file": "Sony MDR-Z1R"
+            },
+            {
+                "name": "MDR-Z7",
+                "file": "Sony MDR-Z7"
+            }
+        ]
+    },
+    {
+        "name": "Thieaudio",
+        "phones": [
+            {
+                "name": "Ghost",
+                "file": "Thieaudio Ghost"
             }
         ]
     },
@@ -150,6 +207,15 @@
                 "suffix": [
                     "w/ Stock Perforated Lambskin Pads"
                 ]
+            }
+        ]
+    },
+    {
+        "name": "XO",
+        "phones": [
+            {
+                "name": "BE18",
+                "file": "XO BE18"
             }
         ]
     },

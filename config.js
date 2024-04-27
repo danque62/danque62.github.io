@@ -40,7 +40,7 @@ const init_phones = ["Simgot EW200 S2", "Neutral Tilt Target"],                /
 const targets = [
     { type: "Δ",                files:["Δ", "JM-1", "IEF Comp"] },
     { type: "Tilt",             files:["Preference Tilt", "Neutral Tilt", "Pleasant Tilt", "Cosmic Brownie Tilt", "Kierke Tilt"]},
-    { type: "JM-1 Tilt",        files:["Charlie Marks Tilt", "Charlie Marks Bass Tilt", "Hadoe Tilt", "fesdonomist Based", "fesdonomist Based Rev.2"]},
+    { type: "JM-1 Tilt",        files:["Charlie Marks Tilt", "Charlie Marks Bass Tilt", "Hadoe Tilt", "fesdonomist IE"]},
     { type: "Personal",         files:["Preference", "Neutral", "Pleasant"] },
     { type: "Neutral",          files:["Diffuse Field", "Diffuse Field Unsmoothened", "Etymotic", "Free Field", "Innerfidelity ID"] },
     { type: "Community",        files:["Haruto 2024", "Haruto 2021", "Brownie", "Helene", "Xiao 2.0", "Runatera v4.2.3", "Mokou Bassmaxxing", "Mokou Beta 1", "Rennsport v3", "Razan Neutral V2.0", "DK8365"] },
