@@ -149,10 +149,12 @@
             {
                 "name": "HD600",
                 "file": [
+                    "Sennheiser HD600 S1",
                     "Sennheiser HD600 Dekoni Elite Hybrid"
                 ],
                 "suffix": [
-                    "w/ Dekoni Elite Hybrid Pads"
+                    "S1",
+                    "S2 w/ Dekoni Elite Hybrid Pads"
                 ]
             },
             {
@@ -167,6 +169,10 @@
                 "suffix": [
                     "w/ Dekoni Elite Sheepskin Pads"
                 ]
+            },
+            {
+                "name": "HD800s",
+                "file": "Sennheiser HD800s"
             }
         ]
     },

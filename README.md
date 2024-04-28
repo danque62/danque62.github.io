@@ -1,4 +1,8 @@
 # [Access to the graph tool.](graph)
+# Updates (April 28, 2024 - Quick EggHead session)
+Added headphones:
+- Sennheiser HD600
+- Sennheiser HD800s (S/N: 050258)
 # Updates (April 27, 2024 - FAC Meetup @ Starbucks Eton Centris)
 Added IEMs:
 - 64 Audio U4s (sample 2, m12 module, imbalance)
