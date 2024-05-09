@@ -147,6 +147,10 @@
                 "file": "Sennheiser HD202"
             },
             {
+                "name": "HD560s",
+                "file": "Sennheiser HD560s"
+            },
+            {
                 "name": "HD600",
                 "file": [
                     "Sennheiser HD600 S1",

@@ -1,4 +1,13 @@
 # [Access to the graph tool.](graph)
+# Updates (May 9, 2024 - Measuring Friends Units)
+Added IEMs:
+- Binary x Gizaudio Chopin (sample 3)
+
+Remeasured IEMs:
+- Moondrop KATO (sample 2)
+
+Added headphones:
+- Sennheiser HD560s
 # Updates (April 28, 2024 - Quick EggHead session)
 Added headphones:
 - Sennheiser HD600
@@ -249,7 +258,7 @@ Added IEMs: (17 IEMs)
 # Updates (November 07, 2023 - For Selling)
 Remeasured IEM:
 - Xiaomi Mi Noise Cancelling 3.5mm
-# Updates (October 25, 2023 - Visit)
+# Updates (October 25, 2023 - Measuring Friend's Units)
 Added IEMs:
 - CCA CRA (sample 2)
 - KZ ZSN Pro X
@@ -314,7 +323,7 @@ Remeasured IEMs:
 # Updates (September 7, 2023 - Mail call)
 Added IEM:
 - KZ Krila
-# Updates (September 2, 2023 - Random squig)
+# Updates (September 2, 2023 - Measuring Friend's Units)
 Added IEM:
 - Moondrop KATO (sample 2)
 - Moondrop Space Travel (sample 2)

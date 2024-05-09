@@ -270,11 +270,15 @@
                 "collab": "Gizaudio",
                 "file": [
                     "Binary x Gizaudio Chopin S2",
-                    "Binary x Gizaudio Chopin S1"
+                    "Binary x Gizaudio Chopin S1",
+                    "Binary x Gizaudio Chopin S3",
+                    "Binary x Gizaudio Chopin S3 UC"
                 ],
                 "suffix": [
                     "S2",
-                    "S1"
+                    "S1",
+                    "S3",
+                    "S3 w/ Softears UC tips"
                 ],
                 "reviewScore": "7.40/10",
                 "price": "$200"
@@ -1170,12 +1174,12 @@
             {
                 "name": "Blessing 3",
                 "file": [
-                    "Moondrop Blessing 3",
-                    "Moondrop Blessing 3 S2"
+                    "Moondrop Blessing 3 S2",
+                    "Moondrop Blessing 3"
                 ],
                 "suffix": [
-                    "S1",
-                    "S2"
+                    "S2",
+                    "S1"
                 ],
                 "price": "$330",
                 "reviewScore": "N/A (Not Tried)"
