@@ -1175,7 +1175,7 @@ function setBaseline(b, no_transition) {
     baseline = b;
     updateYCenter();
     if (no_transition) return;
-    //clearLabels();
+    // clearLabels();
     gpath.selectAll("path")
         .transition().duration(500).ease(d3.easeQuad)
         .attr("d", drawLine);
@@ -1656,7 +1656,7 @@ function makeColorPicker(elt) {
 function colorPhones() {
     updatePaths();
     let c = p=>p.active?getDivColor(p.id,true):null;
-    doc.select("#phones").selectAll("div")
+    doc.select("#phones").selectAll("div.phone-item")
         .style("background",c).style("border-color",c);
     let t = table.selectAll("tr").filter(p=>!p.isTarget)
         .style("color", c);
