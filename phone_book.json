@@ -1674,10 +1674,12 @@
             {
                 "name": "EM6L",
                 "file": [
-                    "Simgot EM6L Clarion"
+                    "Simgot EM6L Clarion",
+                    "Simgot EM6L S2"
                 ],
                 "suffix": [
-                    "w/ TRI Clarion tips"
+                    "S1 w/ TRI Clarion tips",
+                    "S2 (left channel only)"
                 ],
                 "price": "$110",
                 "reviewScore": "6.68/10"

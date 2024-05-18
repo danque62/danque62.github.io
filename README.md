@@ -1,4 +1,7 @@
 # [Access to the graph tool.](graph)
+# Updates (May 18, 2024 - Quick EggHead Session)
+Added IEM:
+- Simgot EM6L (sample 2 left channel only)
 # Updates (May 9, 2024 - Measuring Friends Units)
 Added IEMs:
 - Binary x Gizaudio Chopin (sample 3)
