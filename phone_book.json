@@ -650,7 +650,16 @@
         "phones": [
             {
                 "name": "MP145",
-                "file": "Hidizs MP145",
+                "file": [
+                    "Hidizs MP145",
+                    "Hidizs MP145 S2",
+                    "Hidizs MP145 S3"
+                ],
+                "suffix": [
+                    "S1",
+                    "S2",
+                    "S3"
+                ],
                 "price": "$200",
                 "reviewScore": "6.80/10"
             }
@@ -1853,7 +1862,18 @@
         "phones": [
             {
                 "name": "Crimson",
-                "file": "Symphonium Crimson",
+                "file": [
+                    "Symphonium Crimson",
+                    "Symphonium Crimson S2",
+                    "Symphonium Crimson S2 Velvet",
+                    "Symphonium Crimson S2 ASMR"
+                ],
+                "suffix": [
+                    "S1",
+                    "S2",
+                    "S2 w/ Divninus Velvet tips",
+                    "S2 w/ Azla SednaEarfit MAX ASMR tips"
+                ],
                 "price": "$1400",
                 "reviewScore": "8.76/10"
             },

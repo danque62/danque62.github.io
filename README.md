@@ -1,4 +1,21 @@
 # [Access to the graph tool.](graph)
+# Updates (May 25, 2024 - Visit to Friend's House)
+Added IEM:
+- Hidizs MP145 (2 samples)
+
+Added headphones:
+- 1MORE Triple Driver
+- AKG K240 600 Ohm
+- Beyerdynamic T90
+- Hifiman HE560
+- Koss x Drop ESP95X
+- Sendy Audio Apollo
+- Sennheiser HD700
+- Shure SRH1840
+- Sony MDR-XB700
+# Updates (May 24, 2024 - I went to NAIA)
+Added IEM:
+- Symphonium Crimson (sample 2)
 # Updates (May 18, 2024 - Quick EggHead Session)
 Added IEM:
 - Simgot EM6L (sample 2 left channel only)

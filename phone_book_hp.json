@@ -1,7 +1,20 @@
 [
     {
+        "name": "1MORE",
+        "phones": [
+            {
+                "name": "Triple Driver",
+                "file": "1MORE Triple Driver"
+            }
+        ]
+    },
+    {
         "name": "AKG",
         "phones": [
+            {
+                "name": "K240 600 Ohm",
+                "file": "AKG K240"
+            },
             {
                 "name": "K812",
                 "file": "AKG K812"
@@ -27,6 +40,22 @@
             {
                 "name": "Sine",
                 "file": "Audeze Sine"
+            }
+        ]
+    },
+    {
+        "name": "Beyerdynamic",
+        "phones": [
+            {
+                "name": "T90",
+                "file": [
+                    "Beyerdynamic T90",
+                    "Beyerdynamic T90 Leather"
+                ],
+                "suffix": [
+                    "",
+                    "w/ aftermarket leather pads"
+                ]
             }
         ]
     },
@@ -72,6 +101,15 @@
         ]
     },
     {
+        "name": "Hifiman",
+        "phones": [
+            {
+                "name": "HE560",
+                "file": "Hifiman HE560"
+            }
+        ]
+    },
+    {
         "name": "Joemanji",
         "phones": [
             {
@@ -83,6 +121,11 @@
     {
         "name": "Koss",
         "phones": [
+            {
+                "name": "ESP95X",
+                "collab": "Drop",
+                "file": "Koss ESP95X"
+            },
             {
                 "name": "KSC75",
                 "file": [
@@ -140,6 +183,20 @@
         ]
     },
     {
+        "name": "Sendy Audio",
+        "phones": [
+            {
+                "name": "Apollo",
+                "file": [
+                    "Sendy Audio Apollo Sivga Phoenix Pads"
+                ],
+                "suffix": [
+                    "w/ Sivga Phoenix Pads"
+                ]
+            }
+        ]
+    },
+    {
         "name": "Sennheiser",
         "phones": [
             {
@@ -166,6 +223,10 @@
                 "file": "Sennheiser HD660S2"
             },
             {
+                "name": "HD700",
+                "file": "Sennheiser HD700"
+            },
+            {
                 "name": "HD800",
                 "file": [
                     "Sennheiser HD800 Dekoni Elite Sheepskin"
@@ -181,11 +242,24 @@
         ]
     },
     {
+        "name": "Shure",
+        "phones": [
+            {
+                "name": "SRH1840",
+                "file": "Shure SRH1840"
+            }
+        ]
+    },
+    {
         "name": "Sony",
         "phones": [
             {
                 "name": "MDR-7506",
                 "file": "Sony MDR-7506"
+            },
+            {
+                "name": "MDR-XB700",
+                "file": "Sony MDR-XB700"
             },
             {
                 "name": "MDR-Z1R",
