@@ -1,5 +1,5 @@
 // Configuration options
-const init_phones = ["Pleasant Target", "Penon Fan 2"],                // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
+const init_phones = ["Generic JM-1 Target", "Hisenior Mega5EST"],                // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
       DIR = "data_sibug/",                                // Directory where graph files are stored
       default_channels = ["L","R"],                 // Which channels to display. Avoid javascript errors if loading just one channel per phone
       default_normalization = "dB",                 // Sets default graph normalization mode. Accepts "dB" or "Hz"
@@ -17,7 +17,7 @@ const init_phones = ["Pleasant Target", "Penon Fan 2"],                // Option
       share_url = true,                             // If true, enables shareable URLs
       watermark_text = "",                           // Optional. Watermark appears behind graphs
       watermark_image_url = "",   // Optional. If image file is in same directory as config, can be just the filename
-      page_title = "Graph Tool",                     // Optional. Appended to the page title if share URLs are enabled
+      page_title = "Sibug Graph Tool",                     // Optional. Appended to the page title if share URLs are enabled
       page_description = "View and compare frequency response graphs for IEMs",
       accessories = true,                          // If true, displays specified HTML at the bottom of the page. Configure further below
       externalLinksBar = true,                      // If true, displays row of pill-shaped links at the bottom of the page. Configure further below
@@ -43,7 +43,6 @@ const targets = [
     // { type: "JM-1 Tilt",        files:["JM-1 Charlie Marks Tilt", "JM-1 Charlie Marks Bass Tilt", "JM-1 Hadoe Tilt"]},
     { type: "Rollo",         files:["Preference", "Neutral", "Pleasant"] },
     { type: "Neutral",          files:["Diffuse Field", "Diffuse Field Unsmoothened", "Etymotic", "Free Field", "Innerfidelity ID"] },
-    // { type: "Community",        files:["Brownie", "Helene","Haruto", "Haruto 🅱️ass", "Xiao 2.0", "Runatera v4.2.3", "Mokou Bassmaxxing", "Mokou Beta 1", "Rennsport v3", "Razan Neutral"] },
     { type: "Reviewer",         files:["IEF Neutral 2023", "IEF Neutral"] },
     // { type: "Reviewer Tilt",    files:["HBB Tilt", "Timmy Tilt"] },
     { type: "Harman",           files:["Harman IE 2016", "Harman IE 2017v1", "Harman IE 2017v2", "Harman IE 2019v2"] },
@@ -57,7 +56,7 @@ const  preference_bounds_name = "Preference Bounds RAW", // Preference bounds na
        PHONE_BOOK = "sibug_phone_book.json",              // Path to phone book JSON file
        default_DF_name = "Generic JM-1",                // Default RAW DF name
        dfBaseline = true,                           // If true, DF is used as baseline when custom df tilt is on
-       default_bass_shelf = 6,                      // Default Custom DF bass shelf value
+       default_bass_shelf = 3,                      // Default Custom DF bass shelf value
        default_tilt = -1,                         // Default Custom DF tilt value
        default_ear = 0,                             // Default Custom DF ear gain value
        default_treble = 0,                          // Default Custom DF treble gain value

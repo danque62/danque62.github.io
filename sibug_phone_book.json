@@ -9,12 +9,112 @@
         ]
     },
     {
+        "name": "Apple",
+        "phones": [
+            {
+                "name": "AirPods Pro 2",
+                "file": "Apple AirPods Pro 2"
+            }
+        ]
+    },
+    {
+        "name": "Audiosense",
+        "phones": [
+            {
+                "name": "DT600",
+                "file": [
+                    "Audiosense DT600",
+                    "Audiosense DT600 150 Ohm"
+                ],
+                "suffix": [
+                    "",
+                    "w/ 150 Ohm adapter"
+                ]
+            }
+        ]
+    },
+    {
         "name": "Binary Acoustics",
         "phones": [
             {
                 "name": "Chopin",
                 "collab": "Gizaudio",
-                "file": "Binary x Gizaudio Chopin"
+                "file": [
+                    "Binary x Gizaudio Chopin S2",
+                    "Binary x Gizaudio Chopin"
+                ],
+                "suffix": [
+                    "S2",
+                    "S1"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Campfire Audio",
+        "phones": [
+            {
+                "name": "Andromeda 2019",
+                "file": "Campfire Audio Andromeda 2019"
+            }
+        ]
+    },
+    {
+        "name": "DUNU",
+        "phones": [
+            {
+                "name": "SA6",
+                "file": "DUNU SA6"
+            }
+        ]
+    },
+    {
+        "name": "Elysian Acoustics",
+        "phones": [
+            {
+                "name": "Pilgrim",
+                "file": "Elysian Acoustics Pilgrim"
+            }
+        ]
+    },
+    {
+        "name": "Hidizs",
+        "phones": [
+            {
+                "name": "MP145",
+                "file": [
+                    "Hidizs MP145",
+                    "Hidizs MP145 S2"
+                ],
+                "suffix": [
+                    "S1",
+                    "S2"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Hisenior",
+        "phones": [
+            {
+                "name": "Mega5EST",
+                "file": "Hisenior Mega5EST"
+            }
+        ]
+    },
+    {
+        "name": "INM Audio",
+        "phones": [
+            {
+                "name": "INM8",
+                "file": [
+                    "INM Audio INM8",
+                    "INM Audio INM8 150 Ohm"
+                ],
+                "suffix": [
+                    "",
+                    "w/ 150 Ohm adapter"
+                ]
             }
         ]
     },
@@ -56,8 +156,16 @@
         "phones": [
             {
                 "name": "Blessing 2",
-                "file": ["Moondrop Blessing 2", "Moondrop Blessing 2 Modded"],
-                "suffix": ["", "(modded)"]
+                "file": [
+                    "Moondrop Blessing 2",
+                    "Moondrop Blessing 2 Modded",
+                    "Moondrop Blessing 2 S3"
+                ],
+                "suffix": [
+                    "S1",
+                    "S2 (modded)",
+                    "S3"
+                ]
             },
             {
                 "name": "KATO",
@@ -81,11 +189,28 @@
     {
         "name": "QKZ",
         "phones": [
-
             {
                 "name": "Hades",
                 "collab": "HBB",
                 "file": "QKZ x HBB Hades"
+            }
+        ]
+    },
+    {
+        "name": "Sivga",
+        "phones": [
+            {
+                "name": "Nightingale",
+                "file": "Sivga Nightingale"
+            }
+        ]
+    },
+    {
+        "name": "Sony",
+        "phones": [
+            {
+                "name": "IER-M7",
+                "file": "Sony IER-M7"
             }
         ]
     },
@@ -103,7 +228,36 @@
         "phones": [
             {
                 "name": "Oracle MK1",
-                "file": "Thieaudio Oracle MK1"
+                "file": [
+                    "Thieaudio Oracle MK1",
+                    "Thieaudio Oracle MK1 S2"
+                ],
+                "suffix": [
+                    "S1",
+                    "S2"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "TRI",
+        "phones": [
+            {
+                "name": "Starsea",
+                "file": "TRI Starsea"
+            }
+        ]
+    },
+    {
+        "name": "Truthear",
+        "phones": [
+            {
+                "name": "Hexa",
+                "file": "Truthear Hexa"
+            },
+            {
+                "name": "Hola",
+                "file": "Truthear Hola"
             }
         ]
     }
