@@ -9,6 +9,15 @@
         ]
     },
     {
+        "name": "AFUL",
+        "phones": [
+            {
+                "name": "MagicOne",
+            "file": "AFUL MagicOne"
+            }
+        ]
+    },
+    {
         "name": "Apple",
         "phones": [
             {
@@ -217,6 +226,10 @@
     {
         "name": "TangZu",
         "phones": [
+            {
+                "name": "Nezha",
+                "file": "TangZu Nezha"
+            },
             {
                 "name": "Xuanwu Gate",
                 "file": "TangZu Xuanwu Gate"
