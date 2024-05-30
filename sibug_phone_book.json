@@ -13,7 +13,7 @@
         "phones": [
             {
                 "name": "MagicOne",
-            "file": "AFUL MagicOne"
+                "file": "AFUL MagicOne"
             }
         ]
     },
@@ -72,6 +72,11 @@
         "name": "DUNU",
         "phones": [
             {
+                "name": "DaVinci",
+                "collab": "Gizaudio",
+                "file": "DUNU x Gizaudio DaVinci"
+            },
+            {
                 "name": "SA6",
                 "file": "DUNU SA6"
             }
@@ -82,7 +87,14 @@
         "phones": [
             {
                 "name": "Pilgrim",
-                "file": "Elysian Acoustic Labs Pilgrim"
+                "file": [
+                    "Elysian Acoustic Labs Pilgrim",
+                    "Elysian Acoustic Labs Pilgrim S2"
+                ],
+                "suffix": [
+                    "S1",
+                    "S2"
+                ]
             }
         ]
     },
