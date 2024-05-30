@@ -1,4 +1,7 @@
 # [Access to the graph tool.](graph)
+# Updates (May 30, 2024 - Received Unit)
+Added headphones:
+- some black headphones
 # Updates (May 25, 2024 - Visit to Friend's House)
 Added IEM:
 - Hidizs MP145 (2 samples)

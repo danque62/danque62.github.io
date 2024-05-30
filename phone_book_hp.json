@@ -307,6 +307,19 @@
         "name": "THE HORRIBLE",
         "phones": [
             {
+                "name": "Black headphones",
+                "file": [
+                    "BH aftermarket pads",
+                    "BH leather pads",
+                    "BH DIY"
+                ],
+                "suffix": [
+                    "w/ aftermarket pads",
+                    "w/ aftermarket leather pads",
+                    "w/ DIY pads"
+                ]
+            },
+            {
                 "name": "Pink headset",
                 "file": "Pink headset"
             }
