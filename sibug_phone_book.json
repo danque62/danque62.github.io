@@ -173,6 +173,15 @@
         ]
     },
     {
+        "name": "Letshuoer",
+        "phones": [
+            {
+                "name": "EJ07M",
+                "file": "Letshuoer EJ07M"
+            }
+        ]
+    },
+    {
         "name": "Moondrop",
         "phones": [
             {
@@ -240,7 +249,14 @@
         "phones": [
             {
                 "name": "Nezha",
-                "file": "TangZu Nezha"
+                "file": [
+                    "TangZu Nezha S2",
+                    "TangZu Nezha"
+                ],
+                "suffix": [
+                    "S2",
+                    "S1"
+                ]
             },
             {
                 "name": "Xuanwu Gate",
