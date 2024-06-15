@@ -128,12 +128,7 @@
             },
             {
                 "name": "KSC75",
-                "file": [
-                    "Koss KSC75"
-                ],
-                "suffix": [
-                    "(right channel only)"
-                ]
+                "file": "Koss KSC75"
             }
         ]
     },

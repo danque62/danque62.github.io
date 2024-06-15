@@ -1,4 +1,10 @@
 # [Access to the graph tool.](graph)
+# Updates (June 15, 2024 - Received Unit)
+Added headphones:
+- Koss KSC75 (sample 2)
+
+Removed headphones:
+- Koss KSC75 (sample 1)
 # Updates (May 30, 2024 - Received Unit)
 Added headphones:
 - some black headphones
