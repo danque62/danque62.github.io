@@ -1,4 +1,7 @@
 # [Access to the graph tool.](graph)
+# Updates (June 27, 2024 - Received unit)
+Added IEM:
+- KZ Merga
 # Updates (June 15, 2024 - Received Unit)
 Added headphones:
 - Koss KSC75 (sample 2)

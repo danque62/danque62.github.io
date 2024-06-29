@@ -1015,6 +1015,10 @@
                 "file": "KZ Linglong"
             },
             {
+                "name": "Merga",
+                "file": "KZ Merga"
+            },
+            {
                 "name": "PR2",
                 "file": "KZ PR2",
                 "reviewScore": "N/A (Not Tried)",
