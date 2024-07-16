@@ -1,4 +1,8 @@
 # [Access to the graph tool.](graph)
+# Updates (June 27, 2024 - HiFiGo Review Tour)
+Added IEMs:
+- AFUL Explorer
+- Tanchjim 4U
 # Updates (June 27, 2024 - Received unit)
 Added IEM:
 - KZ Merga

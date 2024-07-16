@@ -121,6 +121,25 @@
         "name": "AFUL",
         "phones": [
             {
+                "name": "Explorer",
+                "file": [
+                    "AFUL Explorer",
+                    "AFUL Explorer White",
+                    "AFUL Explorer Spring",
+                    "AFUL Explorer CP145",
+                    "AFUL Explorer W1",
+                    "AFUL Explorer Velvet"
+                ],
+                "suffix": [
+                    "",
+                    "w/ white tips",
+                    "w/ Spring tips",
+                    "w/ Spinfits CP145 tips",
+                    "w/ Spinfits W1 tips",
+                    "w/ Divninus Velvet tips"
+                ]
+            },
+            {
                 "name": "MagicOne",
                 "file": [
                     "AFUL MagicOne S2",
@@ -1904,6 +1923,21 @@
     {
         "name": "Tanchjim",
         "phones": [
+            {
+                "name": "4U",
+                "file": [
+                    "Tanchjim 4U Atmosphere",
+                    "Tanchjim 4U Pop",
+                    "Tanchjim 4U Natural",
+                    "Tanchjim 4U Monitoring"
+                ],
+                "suffix": [
+                    "(Atmosphere)",
+                    "(Pop)",
+                    "(Natural)",
+                    "(Monitoring)"
+                ]
+            },
             {
                 "name": "Hana 2021",
                 "file": [
