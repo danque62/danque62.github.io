@@ -44,7 +44,7 @@ const targets = [
     { type: "Personal",         files:["Preference", "Neutral", "Pleasant"] },
     { type: "Neutral",          files:["Diffuse Field", "Diffuse Field Unsmoothened", "Etymotic", "Free Field", "Innerfidelity ID"] },
     { type: "Community",        files:["Haruto 2024", "Haruto 2021", "Brownie", "Helene", "Xiao 2.0", "Runatera v4.3.1", "Mokou Bassmaxxing", "Mokou Beta 1", "Rennsport v3", "Razan Neutral V2.0", "DK8365"] },
-    { type: "Reviewer",         files:["IEF Neutral 2023", "IEF Neutral", "Antdroid", "HBB", "Banbeucmas", "Practiphile Balanced", "Practiphile Neutral", "Precogvision", "Super 22", "Timmy", "VSG"] },
+    { type: "Reviewer",         files:["IEF Neutral 2023", "IEF Neutral", "Antdroid", "HBB", "Banbeucmas", "OB ODIO 2024 Balanced v4", "OB ODIO 2024 Neutral", "Practiphile Balanced", "Practiphile Neutral", "Precogvision", "Super 22", "Timmy", "VSG"] },
     { type: "Reviewer Tilt",    files:["HBB Tilt", "Timmy Tilt"] },
     { type: "Harman",           files:["Harman IE 2016", "Harman IE 2017v1", "Harman IE 2017v2", "Harman IE 2019v2"] },
     { type: "Preference",       files:["USound1V1", "USound1V1 Flat Bass", "Tork V5", "RTings", "Sonarworks", "VDSF"] }
