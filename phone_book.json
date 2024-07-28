@@ -5,8 +5,9 @@
             {
                 "name": "Duo",
                 "file": "64 Audio Duo",
-                "reviewScore": "7.45/10",
-                "price": "$1100"
+                "reviewScore": "7.34/10",
+                "price": "$1100",
+                "shopLink": "https://www.64audio.com/products/duo" 
             },
             {
                 "name": "tia Trio",
@@ -17,7 +18,8 @@
                     "w/ Spinfits CP145 tips"
                 ],
                 "price": "$2300",
-                "reviewScore": "8.64/10"
+                "reviewScore": "8.70/10",
+                "shopLink": "https://www.64audio.com/products/trio"
             },
             {
                 "name": "U4s",
@@ -30,7 +32,8 @@
                     "S2 (m15)"
                 ],
                 "reviewScore": "8.04/10",
-                "price": "$1100"
+                "price": "$1100",
+                "shopLink": "https://www.64audio.com/products/u4s"
             },
             {
                 "name": "U12",
@@ -41,13 +44,15 @@
                 "name": "U12t",
                 "file": "64 Audio U12t",
                 "price": "$2000",
-                "reviewScore": "N/A (Not Tried)"
+                "reviewScore": "N/A (Not Tried)",
+                "shopLink": "https://www.64audio.com/products/u12t"
             },
             {
                 "name": "U18t",
                 "file": "64 Audio U18t",
                 "price": "$3000",
-                "reviewScore": "7.80/10"
+                "reviewScore": "7.80/10",
+                "shopLink": "https://www.64audio.com/products/u18t"
             }
         ]
     },
@@ -69,7 +74,8 @@
                 ],
                 "collab": "crinacle",
                 "price": "$100",
-                "reviewScore": "5.90/10"
+                "reviewScore": "5.90/10",
+                "shopLink": "https://hangout.audio/products/dioko"
             },
             {
                 "name": "Timeless",
@@ -82,7 +88,8 @@
                     "S1"
                 ],
                 "price": "$200",
-                "reviewScore": "5.87/10"
+                "reviewScore": "5.87/10",
+                "shopLink": "https://www.linsoul.com/products/7hz-timeless"
             },
             {
                 "name": "Zero",
@@ -95,14 +102,16 @@
                     "S2"
                 ],
                 "price": "$23",
-                "reviewScore": "5.30/10"
+                "reviewScore": "5.30/10",
+                "shopLink": "https://hangout.audio/products/salzero"
             },
             {
                 "name": "Zero:2",
                 "collab": "crinacle",
                 "file": "7Hz Salnotes x crinacle Zero 2",
                 "price": "$25",
-                "reviewScore": "6.05/10"
+                "reviewScore": "6.05/10",
+                "shopLink":"https://hangout.audio/products/zero2"
             }
         ]
     },
@@ -113,7 +122,8 @@
                 "name": "Proxima",
                 "file": "7th Acoustics Proxima",
                 "price": "$100",
-                "reviewScore": "5.92/10"
+                "reviewScore": "5.92/10",
+                "shopLink": "https://www.facebook.com/7thacoustics/"
             }
         ]
     },
@@ -136,8 +146,11 @@
                     "w/ Spring tips",
                     "w/ Spinfits CP145 tips",
                     "w/ Spinfits W1 tips",
-                    "w/ Divninus Velvet tips"
-                ]
+                    "w/ Divinus Velvet tips"
+                ],
+                "reviewScore": "6.88/10",
+                "price": "$120",
+                "shopLink": "https://hifigo.com/products/aful-explorer"
             },
             {
                 "name": "MagicOne",
@@ -156,13 +169,15 @@
                     "S2 (Deep insert) w/ stock black tips"
                 ],
                 "reviewScore": "6.94/10",
-                "price": "$140"
+                "price": "$140",
+                "shopLink": "https://hifigo.com/products/aful-magicone"
             },
             {
                 "name": "Performer 8",
                 "file": "AFUL Performer 8",
                 "price": "$370",
-                "reviewScore": "7.50/10"
+                "reviewScore": "7.12/10",
+                "shopLink": "https://hifigo.com/products/aful-performer8"
             }
         ]
     },
@@ -204,7 +219,8 @@
                 "name": "Euclid",
                 "file": "Audeze Euclid",
                 "price": "$1300",
-                "reviewScore": "6.10/10"
+                "reviewScore": "6.10/10",
+                "shopLink": "https://www.audeze.com/products/euclid"
             },
             {
                 "name": "iSine 10",
@@ -215,7 +231,8 @@
                     "(left channel only)"
                 ],
                 "price": "$400",
-                "reviewScore": "N/A (Not Tried)"
+                "reviewScore": "N/A (Not Tried)",
+                "shopLink": "https://www.audeze.com/products/isine-10"
             },
             {
                 "name": "iSine 20",
@@ -230,7 +247,8 @@
                     "S1 w/ Cipher cable"
                 ],
                 "price": "$600",
-                "reviewScore": "4.72/10"
+                "reviewScore": "4.72/10",
+                "shopLink": "https://www.audeze.com/products/isine-20"
             }
         ]
     },
@@ -299,8 +317,9 @@
                     "S3",
                     "S3 w/ Softears UC tips"
                 ],
-                "reviewScore": "7.40/10",
-                "price": "$200"
+                "reviewScore": "7.34/10",
+                "price": "$200",
+                "shopLink": "https://hifigo.com/products/gizaudio-binary-chopin"
             }
         ]
     },
@@ -322,7 +341,8 @@
                     "S1 (old measurement)"
                 ],
                 "price": "$25",
-                "reviewScore": "N/A (Need to Redemo)"
+                "reviewScore": "N/A (Need to Redemo)",
+                "shopLink": "https://www.linsoul.com/products/blon-bl-03"
             }
         ]
     },
@@ -330,7 +350,7 @@
         "name": "Campfire Audio",
         "phones": [
             {
-                "name": "Andromeda",
+                "name": "Andromeda OG",
                 "file": "Campfire Audio Andromeda",
                 "price": "$1100",
                 "reviewScore": "5.22/10"
@@ -383,13 +403,15 @@
                 "name": "Duo",
                 "file": "CCA Duo",
                 "price": "$42",
-                "reviewScore": "N/A (Not Tried)"
+                "reviewScore": "N/A (Not Tried)",
+                "shopLink": "https://www.kztws.com/products/cca-duo"
             },
             {
                 "name": "Pianist",
                 "file": "CCA Pianist",
                 "price": "$40",
-                "reviewScore": "N/A (Not Tried)"
+                "reviewScore": "N/A (Not Tried)",
+                "shopLink": "https://www.kztws.com/products/cca-pianist"
             },
             {
                 "name": "Rhapsody",
@@ -404,7 +426,8 @@
                     "(DDDD)"
                 ],
                 "price": "$50",
-                "reviewScore": "4.86/10"
+                "reviewScore": "4.86/10",
+                "shopLink": "https://www.kztws.com/products/cca-rhapsody"
             },
             {
                 "name": "Trio",
@@ -417,7 +440,8 @@
                     "(DDDD)"
                 ],
                 "price": "$40",
-                "reviewScore": "5.46/10"
+                "reviewScore": "5.46/10",
+                "shopLink": "https://www.kztws.com/products/cca-trio-legendary-3dd-iem"
             }
         ]
     },
@@ -429,7 +453,8 @@
                 "name": "Aurvana Ace 2",
                 "file": "Creative Aurvana Ace 2",
                 "reviewScore": "6.84/10",
-                "price": "$150"
+                "price": "$150",
+                "shopLink": "https://www.amazon.com/Creative-Lightweight-Wireless-Bluetooth-Lossless/dp/B0CSC2W1VY"
             }
         ]
     },
@@ -438,7 +463,9 @@
         "phones": [
             {
                 "name": "Project M",
-                "file": "DITA Project M"
+                "file": "DITA Project M",
+                "reviewScore": "6.67/10",
+                "shopLink": "https://ditaaudio.com/products/project-m"
             }
         ]
     },
@@ -456,7 +483,8 @@
                     "(ON)"
                 ],
                 "price": "$580",
-                "reviewScore": "8.22/10"
+                "reviewScore": "8.22/10",
+                "shopLink": "https://hifigo.com/products/dunu-sa6-mkii-iems"
             },
             {
                 "name": "Titan S",
@@ -467,7 +495,8 @@
                     "w/ Spinfits CP145 tips"
                 ],
                 "price": "$80",
-                "reviewScore": "6.26/10"
+                "reviewScore": "6.30/10",
+                "shopLink": "https://www.linsoul.com/products/dunu-titan-s"
             }
         ]
     },
@@ -500,11 +529,14 @@
                 "name": "ER2XR",
                 "file": "Etymotic ER2XR",
                 "price": "$100",
-                "reviewScore": "5.44/10"
+                "reviewScore": "5.44/10",
+                "shopLink": "https://www.amazon.com/Etymotic-Research-Extended-Respone-Earphones/dp/B07NSL5XS5"
             },
             {
                 "name": "ER3XR",
-                "file": "Etymotic ER3XR"
+                "file": "Etymotic ER3XR",
+                "reviewScore": "N/A (Need to Redemo)",
+                "shopLink": "https://www.amazon.com/Etymotic-ER3XR-Extended-Response-Earphones/dp/B076652HPH"
             },
             {
                 "name": "ER4SR",
@@ -523,10 +555,11 @@
                     "FATfreq Scarlet Mini Velvet"
                 ],
                 "suffix": [
-                    "w/ Divninus Velvet tips"
+                    "w/ Divinus Velvet tips"
                 ],
-                "reviewScore": "7.08/10",
-                "price": "$640"
+                "reviewScore": "7.00/10",
+                "price": "$640",
+                "shopLink": "https://fatfreq.com/products/scarlet-mini"
             }
         ]
     },
@@ -557,7 +590,8 @@
                     "S2 w/ foam tips"
                 ],
                 "price": "$150",
-                "reviewScore": "N/A (Not Tried)"
+                "reviewScore": "4.84/10",
+                "shopLink": "https://www.amazon.com/FiiO-FH3-Earphones-Resolution-Smartphones/dp/B08DHTM4N5"
             },
             {
                 "name": "FH9",
@@ -566,18 +600,21 @@
                 ],
                 "suffix": [
                     "w/ Spinfits CP145 tips"
-                ]
+                ],
+                "shopLink": "https://www.amazon.com/FiiO-Resolution-Headphones-Detachable-Swappable/dp/B09JWJGQWC?th=1"
             }
         ]
     },
     {
         "name": "Final",
+        "suffix": "Audio",
         "phones": [
             {
                 "name": "F4100",
                 "file": "Final F4100",
                 "reviewScore": "N/A (Not Tried)",
-                "price": "$280"
+                "price": "$280",
+                "shopLink": "https://snext-final.com/en/products/detail/F4100.html"
             }
         ]
     },
@@ -615,7 +652,8 @@
                     "(ON)"
                 ],
                 "price": "$700",
-                "reviewScore": "5.96/10"
+                "reviewScore": "5.96/10",
+                "shopLink": "https://flipears.com/shop/universal-iem/aether-2/"
             },
             {
                 "name": "Artha",
@@ -632,7 +670,8 @@
                     "(DD)"
                 ],
                 "reviewScore": "6.38/10",
-                "price": "$1700"
+                "price": "$1700",
+                "shopLink": "https://flipears.com/shop/universal-iem/artha-argentum/"
             }
         ]
     },
@@ -680,7 +719,8 @@
                     "S3"
                 ],
                 "price": "$200",
-                "reviewScore": "6.80/10"
+                "reviewScore": "6.80/10",
+                "shopLink": "https://www.linsoul.com/products/hidizs-mp145"
             }
         ]
     },
@@ -691,7 +731,8 @@
                 "name": "RE800 Silver",
                 "file": "Hifiman RE800 Silver",
                 "reviewScore": "N/A (Not Tried)",
-                "price": "$100"
+                "price": "$100",
+                "shopLink": "https://www.amazon.com/HIFIMAN-Topology-Diaphragm-Headphones-Isolating/dp/B071YN9QJR"
             }
         ]
     },
@@ -702,7 +743,8 @@
                 "name": "Mega5EST",
                 "file": "Hisenior Mega5EST",
                 "reviewScore": "8.04/10",
-                "price": "$550"
+                "price": "$550",
+                "shopLink": "https://www.hisenior-iem.com/products/mega5est-hybrid-iem"
             },
             {
                 "name": "Mega5P",
@@ -723,10 +765,11 @@
                     "Hisenior Mega5P Ultra Velvet"
                 ],
                 "suffix": [
-                    "(left channel only) w/ Divninus Velvet tips"
+                    "(left channel only) w/ Divinus Velvet tips"
                 ],
                 "reviewScore": "N/A (Imbalanced)",
-                "price": "$300"
+                "price": "$300",
+                "shopLink": "https://www.hisenior-iem.com/products/mega5pultra"
             }
         ]
     },
@@ -780,13 +823,15 @@
                 "suffix": [
                     "(left channel only)"
                 ],
-                "reviewScore": "N/A (Need to Redemo)"
+                "reviewScore": "N/A (Need to Redemo)",
+                "shopLink": "https://www.facebook.com/inmaudio/"
             },
             {
                 "name": "INM8",
                 "file": "INM Audio INM8",
-                "reviewScore": "8.32/10",
-                "price": "$8000"
+                "reviewScore": "8.06/10",
+                "price": "$8000",
+                "shopLink": "https://www.facebook.com/inmaudio/"
             }
         ]
     },
@@ -822,7 +867,8 @@
                     "w/ Spinfits CP145 tips"
                 ],
                 "reviewScore": "N/A (Not Tried)",
-                "price": "$70"
+                "price": "$70",
+                "shopLink": "https://www.amazon.com/Intime-intime-SORA-2/dp/B08434Y22Z"
             },
             {
                 "name": "Sora Light 2019",
@@ -833,7 +879,8 @@
                     "w/ Spinfits CP145 tips"
                 ],
                 "reviewScore": "N/A (Not Tried)",
-                "price": "$40"
+                "price": "$40",
+                "shopLink": "https://www.amazon.co.jp/-/en/intime-Sora-Light-Resolution-Earphones-Silver/dp/B07R898CNJ"
             },
             {
                 "name": "Sora TI3",
@@ -855,25 +902,29 @@
                 "name": "Tune 110",
                 "file": "JBL Tune 110",
                 "reviewScore": "2.00/10",
-                "price": "$10"
+                "price": "$10",
+                "shopLink": "https://www.jbl.com.ph/in-ear-headphones/JBL+T110.html"
             },
             {
                 "name": "Tune 110BT",
                 "file": "JBL Tune 110BT",
                 "price": "$30",
-                "reviewScore": "2.00/10"
+                "reviewScore": "2.00/10",
+                "shopLink": "https://www.jbl.com.ph/in-ear-headphones/JBL+T110BT.html"
             },
             {
                 "name": "Tune 130NC",
                 "file": "JBL Tune 130NC",
                 "price": "$100",
-                "reviewScore": "4.98/10"
+                "reviewScore": "4.98/10",
+                "shopLink": "https://www.amazon.com/JBL-130NC-Wireless-Cancelling-Headphones/dp/B09JB8KPNW"
             },
             {
                 "name": "Quantum 50",
                 "file": "JBL Quantum 50",
                 "price": "$30",
-                "reviewScore": "2.84/10"
+                "reviewScore": "2.84/10",
+                "shopLink": "https://www.jbl.com.ph/gaming/QUANTUM50-.html"
             }
         ]
     },
@@ -910,7 +961,8 @@
                 "name": "Celest Phoenixcall",
                 "file": "Kinera Celest Phoenixcall",
                 "reviewScore": "5.36/10",
-                "price": "$130"
+                "price": "$130",
+                "shopLink": "https://hifigo.com/products/kinera-celest-phoenixcall"
             },
             {
                 "name": "Celest Plutus Beast",
@@ -923,7 +975,9 @@
                     "w/ vocal (black) eartips"
                 ],
                 "price": "$90",
-                "reviewScore": "5.00/10"
+                "reviewScore": "3",
+                "shopLink": "https://hifigo.com/products/kinera-celest-plutus-beast",
+                "reviewLink": "https://youtu.be/hZx4Kj8KEN8"
             }
         ]
     },
@@ -945,18 +999,22 @@
                     "(DD)"
                 ],
                 "reviewScore": "N/A (Not Tried)",
-                "price": "$110"
+                "price": "$110",
+                "shopLink": "https://www.linsoul.com/products/kiwi-ears-quartet"
             },
             {
                 "name": "Quintet",
                 "file": "Kiwi Ears Quintet",
                 "price": "$220",
-                "reviewScore": "7.13/10"
+                "reviewScore": "7.04/10",
+                "shopLink": "https://www.linsoul.com/products/kiwi-ears-quintet"
             },
             {
                 "name": "Singolo",
                 "collab": "crinacle",
-                "file": "Kiwi Ears x crinacle Singolo"
+                "file": "Kiwi Ears x crinacle Singolo",
+                "reviewScore": "6.16/10",
+                "shopLink": "https://hangout.audio/products/singolo"
             }
         ]
     },
@@ -964,7 +1022,7 @@
         "name": "KZ",
         "phones": [
             {
-                "name": "Castor Bass Edition",
+                "name": "Castor Bass Edition (Black)",
                 "file": [
                     "KZ Castor Bass DDUU"
                 ],
@@ -972,19 +1030,22 @@
                     "(DDUU)"
                 ],
                 "reviewScore": "4.70/10",
-                "price": "$17"
+                "price": "$17",
+                "shopLink": "https://www.kztws.com/products/kz-castor"
             },
             {
                 "name": "EDX",
                 "file": "KZ EDX",
                 "price": "$8",
-                "reviewScore": "N/A (Not Tried)"
+                "reviewScore": "N/A (Not Tried)",
+                "shopLink": "https://www.aliexpress.com/item/1005001407239762.html"
             },
             {
                 "name": "EDX Lite",
                 "file": "KZ EDX Lite",
                 "price": "$8",
-                "reviewScore": "N/A (Not Tried)"
+                "reviewScore": "N/A (Not Tried)",
+                "shopLink": "https://www.kztws.com/products/kz-edx-lite"
             },
             {
                 "name": "Krila",
@@ -1031,17 +1092,23 @@
             },
             {
                 "name": "Linglong",
-                "file": "KZ Linglong"
+                "file": "KZ Linglong",
+                "price": "$14",
+                "shopLink": "https://www.kztws.com/products/kz-ling-long"
             },
             {
                 "name": "Merga",
-                "file": "KZ Merga"
+                "file": "KZ Merga",
+                "price": "$13",
+                "reviewScore": "4.60/10",
+                "shopLink": "https://www.kztws.com/products/kz-merga"
             },
             {
                 "name": "PR2",
                 "file": "KZ PR2",
                 "reviewScore": "N/A (Not Tried)",
-                "price": "$50"
+                "price": "$50",
+                "shopLink": "https://www.kztws.com/products/kzxhbb-pr2"
             },
             {
                 "name": "PR3",
@@ -1054,13 +1121,15 @@
                     "(Prototype)"
                 ],
                 "reviewScore": "6.38/10",
-                "price": "$50"
+                "price": "$50",
+                "shopLink": "https://www.kztws.com/products/kz-pr3"
             },
             {
                 "name": "ZSN Pro X",
                 "file": "KZ ZSN Pro X",
                 "reviewScore": "N/A (Not Tried)",
-                "price": "$15"
+                "price": "$15",
+                "shopLink": "https://www.aliexpress.com/item/1005005962602477.html"
             }
         ]
     },
@@ -1076,11 +1145,12 @@
                 ],
                 "suffix": [
                     "w/ Spinfits CP145 tips",
-                    "w/ Divninus Velvet tips",
+                    "w/ Divinus Velvet tips",
                     "(old measurement)"
                 ],
                 "price": "$2300",
-                "reviewScore": "8.76/10"
+                "reviewScore": "8.76/10",
+                "shopLink": "https://letshuoer.net/products/letshuoer-cadenza-flagship-12-hybrid-drivers-in-ear-headphones"
             },
             {
                 "name": "D13",
@@ -1095,18 +1165,22 @@
                     "(Blue nozzle) modded with mesh"
                 ],
                 "price": "$80",
-                "reviewScore": "N/A (Not Tried)"
+                "reviewScore": "N/A (Not Tried)",
+                "shopLink": "https://letshuoer.net/products/letshuoer-d13-dlc-diaphragm-dynamic-driver-iem-moving-coil-headphones"
             },
             {
                 "name": "EJ07M",
                 "file": "Letshuoer EJ07M",
                 "price": "$670",
-                "reviewScore": "7.35/10"
+                "reviewScore": "7.26/10",
+                "shopLink": "https://letshuoer.net/products/ej07m-best-in-ear-monitors-for-singers-drummers-studio"
             },
             {
                 "name": "Galileo",
                 "collab": "Gizaudio",
-                "file": "Letshuoer x Gizaudio Galileo"
+                "file": "Letshuoer x Gizaudio Galileo",
+                "reviewScore": "6.44/10",
+                "shopLink": "https://www.linsoul.com/products/letshuoer-x-gizaudio-galileo"
             },
             {
                 "name": "S12",
@@ -1119,19 +1193,22 @@
                     "S2"
                 ],
                 "price": "$150",
-                "reviewScore": "5.78/10"
+                "reviewScore": "5.78/10",
+                "shopLink": "https://letshuoer.net/products/s12-hifi-earphones-planar-iems"
             },
             {
                 "name": "S12 Pro",
                 "file": "Letshuoer S12 Pro",
                 "price": "$150",
-                "reviewScore": "5.87/10"
+                "reviewScore": "5.87/10",
+                "shopLink": "https://letshuoer.net/products/letshuoer-s12-pro-magnetic-planar-earphones-hi-fi-planar-in-ear-monitors-for-audiopiles-and-music-lovers"
             },
             {
                 "name": "S15",
                 "file": "Letshuoer S15",
-                "reviewScore": "5.82/10",
-                "price": "$330"
+                "reviewScore": "5.64/10",
+                "price": "$330",
+                "shopLink": "https://letshuoer.net/products/letshuoer-s15-third-generation-14-8mm-planar-driver-r-sonic-passive-filtering-module-hifi-wired-in-ear-monitor"
             }
         ]
     },
@@ -1166,7 +1243,7 @@
                     "S2"
                 ],
                 "price": "$80",
-                "reviewScore": "5.44/10"
+                "reviewScore": "5.48/10"
             },
             {
                 "name": "Aria 2",
@@ -1181,7 +1258,8 @@
                     "S2 w/ Azla Xelastec tips"
                 ],
                 "price": "$90",
-                "reviewScore": "7.00/10"
+                "reviewScore": "7.00/10",
+                "shopLink": "https://shenzhenaudio.com/products/moondrop-aria-2-in-ear-headphone"
             },
             {
                 "name": "Blessing 2",
@@ -1194,14 +1272,14 @@
                     "S2 w/ Spring tips"
                 ],
                 "price": "$330",
-                "reviewScore": "7.30/10"
+                "reviewScore": "7.26/10"
             },
             {
                 "name": "Blessing 2: Dusk",
                 "collab": "crinacle",
                 "file": "Moondrop x crinacle Blessing 2 Dusk",
                 "price": "$330",
-                "reviewScore": "7.73/10"
+                "reviewScore": "7.67/10"
             },
             {
                 "name": "Blessing 3",
@@ -1214,7 +1292,8 @@
                     "S1"
                 ],
                 "price": "$330",
-                "reviewScore": "N/A (Not Tried)"
+                "reviewScore": "7.46/10",
+                "shopLink": "https://shenzhenaudio.com/products/moondrop-blessing3-earphone-2dd-4ba-hybrid-in-ear-monitors-triple-frequency-division-headphone-1"
             },
             {
                 "name": "Chu",
@@ -1243,7 +1322,8 @@
                 "suffix": [
                     "w/ Spinfits CP145 tips"
                 ],
-                "reviewScore": "N/A (Not Tried)"
+                "reviewScore": "N/A (Not Tried)",
+                "shopLink": "https://shenzhenaudio.com/products/moondrop-chu-2-10mm-dynamic-in-ear-headphone"
             },
             {
                 "name": "KATO",
@@ -1288,7 +1368,8 @@
                     "S4 w/ Spring tips"
                 ],
                 "price": "$190",
-                "reviewScore": "7.00/10"
+                "reviewScore": "7.00/10",
+                "shopLink": "https://shenzhenaudio.com/products/moondrop-kato-earphone-flagship-advanced-technology-dynamic-hifi-iem-with-detachable-cable"
             },
             {
                 "name": "Quarks",
@@ -1299,7 +1380,8 @@
                     "(right channel only)"
                 ],
                 "price": "$10",
-                "reviewScore": "N/A (Not Tried)"
+                "reviewScore": "N/A (Not Tried)",
+                "shopLink": "https://shenzhenaudio.com/products/moondrop-quarks-earphone-closed-anterior-cavity-micro-dynamic-driver-in-ear-earbuds"
             },
             {
                 "name": "Quarks DSP",
@@ -1316,7 +1398,8 @@
                     "S1"
                 ],
                 "price": "$20",
-                "reviewScore": "4.68/10"
+                "reviewScore": "4.68/10",
+                "shopLink": ""
             },
             {
                 "name": "Space Travel",
@@ -1375,7 +1458,8 @@
                     "S2 (Final...not really)"
                 ],
                 "price": "$110",
-                "reviewScore": "4.60/10"
+                "reviewScore": "4.60/10",
+                "shopLink": "https://shenzhenaudio.com/products/moondrop-stellaris-14-5mm-planar-iems-sub-nanometer-diaphragm-dynamic-earphone"
             },
             {
                 "name": "Variations",
@@ -1388,7 +1472,8 @@
                     "S2 w/ DUNU S&S tips"
                 ],
                 "price": "$520",
-                "reviewScore": "7.41/10"
+                "reviewScore": "7.41/10",
+                "shopLink": "https://shenzhenaudio.com/products/moondrop-variations-earphone-1dd-2ba-2est-tribrid-technology-in-ear-monitor-with-interchangable-cable"
             }
         ]
     },
@@ -1397,7 +1482,9 @@
         "phones": [
             {
                 "name": "ND-001",
-                "file": "ND Earphone ND-001"
+                "file": "ND Earphone ND-001",
+                "reviewScore": "3.18/10",
+                "shopLink": "https://www.linsoul.com/products/nd-001"
             },
             {
                 "name": "ND-X12",
@@ -1408,7 +1495,9 @@
                 "suffix": [
                     "(UUU)",
                     "(DDD)"
-                ]
+                ],
+                "reviewScore": "4.00/10",
+                "shopLink": "https://www.linsoul.com/products/nd-x12"
             }
         ]
     },
@@ -1424,7 +1513,8 @@
                     "(left channel only)"
                 ],
                 "price": "$30",
-                "reviewScore": "3.84/10"
+                "reviewScore": "3.84/10",
+                "shopLink": "https://www.linsoul.com/products/nicehck-db3"
             }
         ]
     },
@@ -1435,7 +1525,8 @@
                 "name": "Singularity",
                 "file": "Nightjar Singularity",
                 "reviewScore": "8.38/10",
-                "price": "$1400"
+                "price": "$1400",
+                "shopLink": "https://nightjaracoustics.com/pages/singularity"
             }
         ]
     },
@@ -1468,7 +1559,8 @@
                 "suffix": [
                     "(OFF)",
                     "(ON)"
-                ]
+                ],
+                "shopLink": "https://shenzhenaudio.com/products/qdc-gemini-8-balanced-armature-8ba-dual-tone-in-ear-headphones-professional-hifi-custom-headphones"
             }
         ]
     },
@@ -1496,7 +1588,8 @@
                     "S2"
                 ],
                 "price": "$20",
-                "reviewScore": "5.07/10"
+                "reviewScore": "5.07/10",
+                "shopLink": "https://www.linsoul.com/products/qkz-x-hbb"
             },
             {
                 "name": "Khan",
@@ -1508,7 +1601,8 @@
                 "suffix": [
                     "S1",
                     "S2"
-                ]
+                ],
+                "shopLink": "https://www.linsoul.com/products/qkz-x-hbb-khan"
             }
         ]
     },
@@ -1551,7 +1645,8 @@
                 "name": "Galaxy Buds2 Pro",
                 "file": "Samsung Galaxy Buds2 Pro",
                 "price": "$150",
-                "reviewScore": "N/A (Not Tried)"
+                "reviewScore": "N/A (Not Tried)",
+                "shopLink": "https://www.amazon.com/gp/product/B0B8TC6KWF/ref=ox_sc_act_title_2"
             }
         ]
     },
@@ -1597,13 +1692,15 @@
                     "w/ Spinfits W1 tips"
                 ],
                 "price": "$150",
-                "reviewScore": "6.22 or 7.00/10"
+                "reviewScore": "6.22 or 7.00/10",
+                "shopLink": "https://www.amazon.com/Sennheiser-200-Ear-Audiophile-Headphones/dp/B0BRPR38JR"
             },
             {
                 "name": "IE600",
                 "file": "Sennheiser IE600",
                 "price": "$700",
-                "reviewScore": "7.55/10"
+                "reviewScore": "7.55/10",
+                "shopLink": "https://www.amazon.com/Sennheiser-600-Ear-Audiophile-Headphones/dp/B09SKPP459"
             }
         ]
     },
@@ -1622,7 +1719,8 @@
         "phones": [
             {
                 "name": "SE846",
-                "file": "Shure SE846"
+                "file": "Shure SE846",
+                "shopLink": "https://www.amazon.com/Shure-SE846-CL-Isolating-Definition-MicroDrivers/dp/B00DIUGW6A"
             }
         ]
     },
@@ -1656,7 +1754,8 @@
                     "(Black nozzle) w/ Divinus Velvet tips"
                 ],
                 "price": "$80",
-                "reviewScore": "6.35/10"
+                "reviewScore": "6.39/10",
+                "shopLink": "https://www.linsoul.com/products/simgot-ea500"
             },
             {
                 "name": "EA500LM",
@@ -1673,7 +1772,8 @@
                     "S2 (Gold nozzle) w/ Tangzu Sancai tips"
                 ],
                 "price": "$90",
-                "reviewScore": "6.39/10"
+                "reviewScore": "6.39/10",
+                "shopLink": "https://www.linsoul.com/products/simgot-ea500-lm"
             },
             {
                 "name": "EA1000",
@@ -1688,7 +1788,8 @@
                     "(Gold nozzle) w/ Spinfits CP145 tips"
                 ],
                 "price": "$220",
-                "reviewScore": "7.11/10"
+                "reviewScore": "7.05/10",
+                "shopLink": "https://www.linsoul.com/products/simgot-ea1000-fermat"
             },
             {
                 "name": "EA2000",
@@ -1701,7 +1802,8 @@
                     "(Black Pin)"
                 ],
                 "price": "$320",
-                "reviewScore": "6.16/10"
+                "reviewScore": "6.16/10",
+                "shopLink": "https://www.linsoul.com/products/simgot-ea2000"
             },
             {
                 "name": "EM6L",
@@ -1714,13 +1816,15 @@
                     "S2 (left channel only)"
                 ],
                 "price": "$110",
-                "reviewScore": "6.68/10"
+                "reviewScore": "6.50/10",
+                "shopLink": "https://www.linsoul.com/products/simgot-em6l"
             },
             {
                 "name": "EW100P",
                 "file": "Simgot EW100P",
                 "price": "$20",
-                "reviewScore": "N/A (Not Tried)"
+                "reviewScore": "N/A (Not Tried)",
+                "shopLink": "https://www.linsoul.com/products/simgot-ew100p"
             },
             {
                 "name": "EW200",
@@ -1774,6 +1878,7 @@
                     "(long nozzle w/ black filter)"
                 ],
                 "reviewScore": "6.68/10",
+                "shopLink": "https://shopee.ph/SonicMemory-SM2-Ver.2023-Flagship-HiFi-Dynamic-Wired-Earphones-Our-Sonic-Memory-SM2-i.174314413.19486492399",
                 "price": "$130"
             }
         ]
@@ -1785,19 +1890,22 @@
                 "name": "IER-M7",
                 "file": "Sony IER-M7",
                 "price": "$800",
-                "reviewScore": "6.76/10"
+                "reviewScore": "6.76/10",
+                "shopLink": "https://www.amazon.com/Sony-IER-M7-in-Ear-Monitor-Headphones/dp/B07J6HTNMH"
             },
             {
                 "name": "IER-M9",
                 "file": "Sony IER-M9",
                 "price": "$1000",
-                "reviewScore": "7.60/10"
+                "reviewScore": "7.60/10",
+                "shopLink": "https://www.amazon.com/Sony-IER-M9-in-Ear-Monitor-Headphones/dp/B07HKRQKSJ"
             },
             {
                 "name": "IER-Z1R",
                 "file": "Sony IER-Z1R",
                 "price": "$1700",
-                "reviewScore": "7.92/10"
+                "reviewScore": "7.92/10",
+                "shopLink": "https://www.amazon.com/Sony-IER-Z1R-Signature-Headphones-IERZ1R/dp/B07HXPZ44S"
             },
             {
                 "name": "LinkBuds S",
@@ -1810,19 +1918,22 @@
                     "S1"
                 ],
                 "price": "$200",
-                "reviewScore": "5.38/10"
+                "reviewScore": "5.18/10",
+                "shopLink": "https://www.amazon.com/Sony-LinkBuds-Wireless-Canceling-Headphones/dp/B09YL76VSR"
             },
             {
                 "name": "MDR-EX155AP",
                 "file": "Sony MDR-EX155AP",
                 "price": "$20",
-                "reviewScore": "2.00/10"
+                "reviewScore": "2.00/10",
+                "shopLink": "https://www.amazon.com/Sony-Microphone-Headphones-Smartphone-MDREX155AP/dp/B078P3LFMG"
             },
             {
                 "name": "MDR-XB55AP",
                 "file": "Sony MDR-XB55AP",
                 "price": "$30",
-                "reviewScore": "2.32/10"
+                "reviewScore": "2.32/10",
+                "shopLink": "https://www.amazon.com/Sony-MDR-XB55AP-Premium-Extra-Headphones/dp/B073JPC6R3"
             },
             {
                 "name": "MDR-EX800ST",
@@ -1844,7 +1955,8 @@
                     "S2"
                 ],
                 "price": "$200",
-                "reviewScore": "5.06/10"
+                "reviewScore": "5.06/10",
+                "shopLink": "https://www.amazon.com/Sony-WF-1000XM4-Industry-Canceling-Headphones/dp/B094C4VDJZ"
             },
             {
                 "name": "WF-1000XM5",
@@ -1861,7 +1973,8 @@
                     "S2 @ 50% Volume (Windows)"
                 ],
                 "price": "$300",
-                "reviewScore": "6.65/10"
+                "reviewScore": "6.65/10",
+                "shopLink": "https://www.amazon.com/Sony-WF-1000XM5-Bluetooth-Canceling-Headphones/dp/B0C33XXS56"
             }
         ]
     },
@@ -1871,7 +1984,8 @@
             {
                 "name": "Life",
                 "file": "SOUNDPEATS Life",
-                "reviewScore": "N/A (Not Tried)"
+                "reviewScore": "N/A (Not Tried)",
+                "shopLink": "https://soundpeats.com/products/soundpeats-life-in-ear-wireless-earbuds"
             },
             {
                 "name": "Truengine SE",
@@ -1894,11 +2008,12 @@
                 "suffix": [
                     "S1",
                     "S2",
-                    "S2 w/ Divninus Velvet tips",
+                    "S2 w/ Divinus Velvet tips",
                     "S2 w/ Azla SednaEarfit MAX ASMR tips"
                 ],
                 "price": "$1400",
-                "reviewScore": "8.76/10"
+                "reviewScore": "8.76/10",
+                "shopLink": "https://www.symphoniumaudio.com/products/crimson"
             },
             {
                 "name": "Meteor",
@@ -1912,11 +2027,14 @@
                 ],
                 "collab": "Nightjar Acoustics",
                 "price": "$600",
-                "reviewScore": "7.62/10"
+                "reviewScore": "7.62/10",
+                "shopLink": "https://www.symphoniumaudio.com/products/meteor"
             },
             {
                 "name": "Titan",
-                "file": "Symphonium Titan"
+                "file": "Symphonium Titan",
+                "shopLink": "https://www.symphoniumaudio.com/products/titan",
+                "reviewScore": "N/A (Need to Redemo)"
             }
         ]
     },
@@ -1936,7 +2054,9 @@
                     "(Pop)",
                     "(Natural)",
                     "(Monitoring)"
-                ]
+                ],
+                "reviewScore": "6.39/10",
+                "shopLink": "https://hifigo.com/products/tanchjim-4u"
             },
             {
                 "name": "Hana 2021",
@@ -1949,7 +2069,8 @@
                     "S2"
                 ],
                 "price": "$160",
-                "reviewScore": "7.00/10"
+                "reviewScore": "7.00/10",
+                "shopLink": "https://www.linsoul.com/products/tanchjim-new-hana"
             },
             {
                 "name": "Oxygen",
@@ -1960,7 +2081,8 @@
                 "suffix": [
                     "",
                     "w/ Spinfits CP100 tips"
-                ]
+                ],
+                "shopLink": "https://www.linsoul.com/products/tanchjim-oxygen-new-version"
             },
             {
                 "name": "Tanya",
@@ -1979,11 +2101,14 @@
                     "S1 (Deep insert)",
                     "S3",
                     "S3 (Deep insert)"
-                ]
+                ],
+                "reviewScore": "4.9/10",
+                "shopLink": "https://shenzhenaudio.com/products/tanchjim-tanya-7mm-dynamic-earphone-3-5mm-line-plug-hifi-earbuds-with-microphone"
             },
             {
                 "name": "Zero DSP",
-                "file": "Tanchjim Zero DSP"
+                "file": "Tanchjim Zero DSP",
+                "reviewScore": "N/A (Not Tried)"
             }
         ]
     },
@@ -1994,7 +2119,8 @@
                 "name": "ChangLe",
                 "file": "TangZu ChangLe",
                 "price": "$15",
-                "reviewScore": "4.68/10"
+                "reviewScore": "4.68/10",
+                "shopLink": "https://www.linsoul.com/products/tangzu-princess-chang-le"
             },
             {
                 "name": "Fudu",
@@ -2007,10 +2133,11 @@
                 "suffix": [
                     "S1",
                     "S2",
-                    "S2 w/ Divninus Velvet tips"
+                    "S2 w/ Divinus Velvet tips"
                 ],
                 "price": "$90",
-                "reviewScore": "6.14/10"
+                "reviewScore": "6.14/10",
+                "shopLink": "https://www.linsoul.com/products/tangzu-fudu-verse-1"
             },
             {
                 "name": "Nezha",
@@ -2021,7 +2148,8 @@
                     "S1 w/ TangZu Sancai Wide Bore tips"
                 ],
                 "price": "$360",
-                "reviewScore": "6.55/10"
+                "reviewScore": "6.55/10",
+                "shopLink": "https://www.linsoul.com/products/tangzu-nezha"
             },
             {
                 "name": "Wan'er",
@@ -2038,12 +2166,14 @@
                     "S4"
                 ],
                 "price": "$20",
-                "reviewScore": "5.54/10"
+                "reviewScore": "5.54/10",
+                "shopLink": "https://www.linsoul.com/products/tangzu-waner-s-g"
             },
             {
                 "name": "Xuan Nv",
                 "collab": "HBB",
-                "file": "TangZu x HBB Xuan Nv"
+                "file": "TangZu x HBB Xuan Nv",
+                "shopLink": "https://www.linsoul.com/products/tangzu-xuannv"
             },
             {
                 "name": "Xuanwu Gate",
@@ -2055,13 +2185,15 @@
                     "",
                     "(Prototype)"
                 ],
-                "reviewScore": "7.84/10"
+                "reviewScore": "7.45/10",
+                "shopLink": "https://www.linsoul.com/products/tangzu-xuanwu-gate"
             },
             {
                 "name": "Zetian Wu",
                 "file": "TangZu Zetian Wu",
                 "price": "$150",
-                "reviewScore": "6.75/10"
+                "reviewScore": "6.75/10",
+                "shopLink": "https://www.linsoul.com/products/tangzu-wu-zetian"
             },
             {
                 "name": "Zetian Wu: HeyDay",
@@ -2075,7 +2207,8 @@
                     "w/ Spinfits CP145 tips"
                 ],
                 "price": "$200",
-                "reviewScore": "6.75/10"
+                "reviewScore": "6.75/10",
+                "shopLink": "https://www.linsoul.com/products/tangzu-x-hbb-wu-heyday"
             }
         ]
     },
@@ -2086,7 +2219,8 @@
                 "name": "Hype 2",
                 "file": "Thieaudio Hype 2",
                 "price": "$300",
-                "reviewScore": "7.43/10"
+                "reviewScore": "7.34/10",
+                "shopLink": "https://www.linsoul.com/products/thieaudio-hype-2"
             },
             {
                 "name": "Monarch",
@@ -2095,13 +2229,16 @@
                 ],
                 "suffix": [
                     "(right channel only)"
-                ]
+                ],
+                "reviewScore": "N/A (Imbalanced)",
+                "shopLink": "https://www.thieaudio.com/products/thieaudio-monarch"
             },
             {
                 "name": "Monarch MK2",
                 "file": "Thieaudio Monarch MK2",
                 "price": "$1000",
-                "reviewScore": "8.55/10"
+                "reviewScore": "8.55/10",
+                "shopLink": "https://www.linsoul.com/products/thieaudio-monarch-mkii"
             },
             {
                 "name": "Oracle MK1",
@@ -2115,7 +2252,9 @@
                     "S2 w/ Softears UC tips",
                     "S1"
                 ],
-                "reviewScore": "8.32/10"
+                "price": "$540",
+                "reviewScore": "8.32/10",
+                "shopLink": "https://www.linsoul.com/products/thieaudio-oracle"
             }
         ]
     },
@@ -2135,7 +2274,8 @@
                     "S2"
                 ],
                 "price": "$60",
-                "reviewScore": "4.89/10"
+                "reviewScore": "4.56/10",
+                "shopLink": "https://www.linsoul.com/products/tinhifi-t2"
             }
         ]
     },
@@ -2160,7 +2300,9 @@
                 "suffix": [
                     "(double filter mod) w/ Spinfits CP145 tips"
                 ],
-                "reviewScore": "N/A (Not Tried)"
+                "reviewScore": "N/A (Not Tried)",
+                "price": "$100",
+                "shopLink": "https://www.linsoul.com/products/tripowin-x-hbb-olina"
             },
             {
                 "name": "Kailua",
@@ -2172,7 +2314,8 @@
                     "w/ Spinfits CP145 tips"
                 ],
                 "price": "$80",
-                "reviewScore": "5.99/10"
+                "reviewScore": "5.99/10",
+                "shopLink": "https://www.linsoul.com/products/tripowin-x-hbb-kailua"
             }
         ]
     },
@@ -2190,7 +2333,8 @@
                     "S2"
                 ],
                 "price": "$80",
-                "reviewScore": "6.08/10"
+                "reviewScore": "6.08/10",
+                "shopLink": "https://shenzhenaudio.com/products/truthear-hexa-1dd-3ba-hybird-earphones-with-0-78-2pin-cable-earbuds"
             },
             {
                 "name": "Hola",
@@ -2209,7 +2353,7 @@
                     "w/ Spinfits W1 tips"
                 ],
                 "price": "$19",
-                "reviewScore": "5.36/10"
+                "reviewScore": "5.40/10"
             },
             {
                 "name": "Zero",
@@ -2235,7 +2379,8 @@
                     "S1 w/ 75 Ohm adapter"
                 ],
                 "price": "$50",
-                "reviewScore": "5.18/10"
+                "reviewScore": "5.24/10",
+                "shopLink": "https://hangout.audio/products/truzero"
             },
             {
                 "name": "Zero:Red",
@@ -2271,7 +2416,8 @@
                     "S4 (Bass+) w/ Spring tips"
                 ],
                 "price": "$55",
-                "reviewScore": "6.68/10"
+                "reviewScore": "6.80/10",
+                "shopLink": "https://hangout.audio/products/red"
             }
         ]
     },
@@ -2282,7 +2428,8 @@
                 "name": "Pro X10",
                 "file": "Westone Pro X10",
                 "price": "$175",
-                "reviewScore": "3.82/10"
+                "reviewScore": "3.82/10",
+                "shopLink": "https://westoneaudio.com/product/prox10/"
             }
         ]
     },
@@ -2293,12 +2440,14 @@
                 "name": "Mi In-Ear Headphones Basic",
                 "file": "Xiaomi Mi In-Ear Headphones Basic",
                 "price": "$7",
-                "reviewScore": "2.00/10"
+                "reviewScore": "2.00/10",
+                "shopLink": "https://www.amazon.com/Mi-in-Ear-Headphones-Basic-Black/dp/B01N0Z1YKE"
             },
             {
                 "name": "Mi In-Ear Headphones Pro HD",
                 "file": "Xiaomi Mi HD Audio",
-                "reviewScore": "N/A (Need to Redemo)"
+                "reviewScore": "N/A (Need to Redemo)",
+                "shopLink": "https://www.amazon.com/Mi-in-Ear-Headphones-Pro-HD-Silver/dp/B01NBAVDIG"
             },
             {
                 "name": "Mi Noise Cancelling Earphones (3.5mm)",
@@ -2310,7 +2459,8 @@
                 "name": "Redmi Buds 4",
                 "file": "Xiaomi Redmi Buds 4",
                 "price": "$45",
-                "reviewScore": "4.71/10"
+                "reviewScore": "4.71/10",
+                "shopLink": "https://www.amazon.com/Xiaomi-Cancelling-Transparency-Bluetooth-Earphones/dp/B0B6PVX4Z3"
             }
         ]
     },
@@ -2319,7 +2469,9 @@
         "phones": [
             {
                 "name": "Nuo",
-                "file": "ZiiGaat Nuo"
+                "file": "ZiiGaat Nuo",
+                "reviewScore": "5.34/10",
+                "shopLink": "https://www.linsoul.com/products/ziigaat-nuo"
             }
         ]
     },

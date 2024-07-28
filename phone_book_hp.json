@@ -17,7 +17,9 @@
             },
             {
                 "name": "K812",
-                "file": "AKG K812"
+                "file": "AKG K812",
+                "shopLink": "https://www.amazon.com/AKG-K812-PRO-Open-Back-Headphones/dp/B00IAKEORC",
+                "reviewScore": "5.36/10"
             }
         ]
     },
@@ -26,7 +28,8 @@
         "phones": [
             {
                 "name": "TUF Gaming H3",
-                "file": "ASUS TUF Gaming H3"
+                "file": "ASUS TUF Gaming H3",
+                "shopLink": "https://www.amazon.com/ASUS-TUF-Gaming-H3-Headset/dp/B07YD84ZZS"
             }
         ]
     },
@@ -35,11 +38,13 @@
         "phones": [
             {
                 "name": "MM-100",
-                "file": "Audeze MM-100"
+                "file": "Audeze MM-100",
+                "shopLink": "https://www.audeze.com/products/mm-100"
             },
             {
                 "name": "Sine",
-                "file": "Audeze Sine"
+                "file": "Audeze Sine",
+                "shopLink": "https://www.audeze.com/products/sine"
             }
         ]
     },
@@ -64,7 +69,8 @@
         "phones": [
             {
                 "name": "Cerene dB",
-                "file": "CEntrance Cerene dB"
+                "file": "CEntrance Cerene dB",
+                "shopLink": "https://centrance.com/cerene/"
             }
         ]
     },
@@ -73,7 +79,8 @@
         "phones": [
             {
                 "name": "Aeon 2 Closed",
-                "file": "DCA Aeon 2 Closed"
+                "file": "DCA Aeon 2 Closed",
+                "shopLink": "https://danclarkaudio.com/aeon-2.html"
             }
         ]
     },
@@ -87,7 +94,9 @@
                 ],
                 "suffix": [
                     "(worn pads)"
-                ]
+                ],
+                "shopLink": "https://headphones.com/products/focal-clear-headphones",
+                "reviewScore": "7.20/10"
             }
         ]
     },
@@ -96,7 +105,8 @@
         "phones": [
             {
                 "name": "HEDDphone TWO",
-                "file": "HEDD Audio HEDDphone 2"
+                "file": "HEDD Audio HEDDphone 2",
+                "shopLink": "https://hedd.audio/products/heddphone-two"
             }
         ]
     },
@@ -104,7 +114,7 @@
         "name": "Hifiman",
         "phones": [
             {
-                "name": "HE560",
+                "name": "HE560 V1.5",
                 "file": "Hifiman HE560"
             }
         ]
@@ -124,11 +134,14 @@
             {
                 "name": "ESP95X",
                 "collab": "Drop",
-                "file": "Koss ESP95X"
+                "file": "Koss ESP95X",
+                "shopLink": "https://drop.com/buy/massdrop-x-koss-esp-95x-electrostatic-system"
             },
             {
                 "name": "KSC75",
-                "file": "Koss KSC75"
+                "file": "Koss KSC75",
+                "shopLink": "https://koss.com/products/ksc75",
+                "reviewScore": "6.58/10"
             }
         ]
     },
@@ -164,7 +177,9 @@
             },
             {
                 "name": "SHP9500",
-                "file": "Philips SHP9500"
+                "file": "Philips SHP9500",
+                "shopLink": "https://www.amazon.com/Philips-SHP9500S-Precision-Over-ear-Headphones/dp/B00ENMK1DW",
+                "reviewScore": "4.42/10"
             }
         ]
     },
@@ -200,7 +215,9 @@
             },
             {
                 "name": "HD560s",
-                "file": "Sennheiser HD560s"
+                "file": "Sennheiser HD560s",
+                "shopLink": "",
+                "reviewScore": "6.86/10"
             },
             {
                 "name": "HD600",
@@ -211,11 +228,15 @@
                 "suffix": [
                     "S1",
                     "S2 w/ Dekoni Elite Hybrid Pads"
-                ]
+                ],
+                "shopLink": "https://www.amazon.com/Sennheiser-Open-Back-Professional-Headphone/dp/B00004SY4H",
+                "reviewScore": "7.68/10"
             },
             {
-                "name": "HD660S2",
-                "file": "Sennheiser HD660S2"
+                "name": "HD660s2",
+                "file": "Sennheiser HD660S2",
+                "shopLink": "https://www.amazon.com/SENNHEISER-660S2-Audiophile-Headphones-Transducer/dp/B0BRT1ZN7Q",
+                "reviewScore": "6.39/10"
             },
             {
                 "name": "HD700",
@@ -232,7 +253,9 @@
             },
             {
                 "name": "HD800s",
-                "file": "Sennheiser HD800s"
+                "file": "Sennheiser HD800s",
+                "shopLink": "https://www.amazon.com/Sennheiser-HD-800-Reference-Headphone/dp/B00PXLX2TC",
+                "reviewScore": "7.42/10"
             }
         ]
     },
@@ -241,7 +264,8 @@
         "phones": [
             {
                 "name": "SRH1840",
-                "file": "Shure SRH1840"
+                "file": "Shure SRH1840",
+                "shopLink": "https://www.amazon.com/Shure-SRH1840-Professional-Headphones-Black/dp/B0073A4FM4"
             }
         ]
     },
@@ -250,7 +274,9 @@
         "phones": [
             {
                 "name": "MDR-7506",
-                "file": "Sony MDR-7506"
+                "file": "Sony MDR-7506",
+                "shopLink": "https://www.amazon.com/Sony-MDR7506-Professional-Diaphragm-Headphone/dp/B000AJIF4E",
+                "reviewScore": "4.98/10"
             },
             {
                 "name": "MDR-XB700",
@@ -258,7 +284,9 @@
             },
             {
                 "name": "MDR-Z1R",
-                "file": "Sony MDR-Z1R"
+                "file": "Sony MDR-Z1R",
+                "shopLink": "https://www.amazon.com/MDR-Z1R-Signature-Headphone-International-Version/dp/B01LD5GO7I",
+                "reviewScore": "5.14/10"
             },
             {
                 "name": "MDR-Z7",
@@ -271,7 +299,8 @@
         "phones": [
             {
                 "name": "Ghost",
-                "file": "Thieaudio Ghost"
+                "file": "Thieaudio Ghost",
+                "shopLink": "https://www.linsoul.com/products/thieaudio-ghost"
             }
         ]
     },
@@ -285,7 +314,8 @@
                 ],
                 "suffix": [
                     "w/ Stock Perforated Lambskin Pads"
-                ]
+                ],
+                "shopLink": "https://shop.zmfheadphones.com/products/caldera"
             }
         ]
     },
