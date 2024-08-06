@@ -208,6 +208,10 @@ const linkSets = [
                 url: "https://iems.audiodiscourse.com/"
             },
             {
+                name: "HawaiiBadBoy (BGGAR)",
+                url: "https://hbbdatabase.github.io/"
+            },
+            {
                 name: "Banbeucmas",
                 url: "https://banbeu.com/graph/tool/"
             },

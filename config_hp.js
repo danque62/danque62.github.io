@@ -176,7 +176,24 @@ const
 // Configure external links to appear at the bottom of the page. Displayed only if externalLinksBar (above) is true
 const linkSets = [
     {
-        label: "Other IEM databases",
+        label: "Other Headphone databases",
+        links: [
+            {
+                name: "Audio Discourse",
+                url: "http://headphones.audiodiscourse.com/"
+            },
+            {
+                name: "In-Ear Fidelity",
+                url: "https://crinacle.com/graphs/headphones/graphtool/"
+            },
+            {
+                name: "Listener's Graph Tool",
+                url: "https://listener800.github.io/"
+            }
+        ]
+    },
+    {
+        label: "IEM databases",
         links: [
             {
                 name: "In-Ear Fidelity",
@@ -203,6 +220,10 @@ const linkSets = [
                 url: "https://iems.audiodiscourse.com/"
             },
             {
+                name: "HawaiiBadBoy (BGGAR)",
+                url: "https://hbbdatabase.github.io/"
+            },
+            {
                 name: "Banbeucmas",
                 url: "https://banbeu.com/graph/tool/"
             },
@@ -210,23 +231,6 @@ const linkSets = [
                 name: "HypetheSonics",
                 url: "https://www.hypethesonics.com/iemdbc/"
             },
-        ]
-    },
-    {
-        label: "Headphone databases",
-        links: [
-            {
-                name: "Audio Discourse",
-                url: "http://headphones.audiodiscourse.com/"
-            },
-            {
-                name: "In-Ear Fidelity",
-                url: "https://crinacle.com/graphs/headphones/graphtool/"
-            },
-            {
-                name: "Listener's Graph Tool",
-                url: "https://listener800.github.io/"
-            }
         ]
     }
 ];
