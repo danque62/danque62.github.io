@@ -1,4 +1,9 @@
 # [Access to the graph tool.](graph)
+# Updates (August 7, 2024 - Squig at home)
+Added IEM: 
+- Belkin SoundForm Motion (sample 2)
+
+Also corrected labels [to match the "graphs" on the product page](https://www.belkin.com/true-wireless-earbuds/AUC010btWH.html)
 # Updates (June 27, 2024 - HiFiGo Review Tour)
 Added IEMs:
 - AFUL Explorer

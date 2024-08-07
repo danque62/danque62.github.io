@@ -287,14 +287,20 @@
                 "name": "SoundForm Motion",
                 "price": "$40",
                 "file": [
-                    "Belkin SoundForm Motion S1 Balanced",
+                    "Belkin SoundForm Motion S2 Belkin Signature",
+                    "Belkin SoundForm Motion S2 Bass Boost",
+                    "Belkin SoundForm Motion S2 Balanced",
+                    "Belkin SoundForm Motion S1 Belkin Signature",
                     "Belkin SoundForm Motion S1 Bass Boost",
-                    "Belkin SoundForm Motion S1 Belkin Signature"
+                    "Belkin SoundForm Motion S1 Balanced"
                 ],
                 "suffix": [
-                    "S1 (Balanced)",
+                    "S2 (Belkin Signature Sound)",
+                    "S2 (Bass Boost)",
+                    "S2 (Balanced)",
+                    "S1 (Belkin Signature Sound)",
                     "S1 (Bass Boost)",
-                    "S1 (Belkin Signature Sound)"
+                    "S1 (Balanced)"
                 ]
             }
         ]
