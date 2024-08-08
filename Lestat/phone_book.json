@@ -1,0 +1,73 @@
+[
+    {
+        "name": "Artti",
+        "phones": [
+            {
+                "name": "T10",
+                "file": "Artti T10"
+            }
+        ]
+    },
+    {
+        "name": "DUNU",
+        "phones": [
+            {
+                "name": "DaVinci",
+                "collab": "Gizaudio",
+                "file": "DUNU x Gizaudio DaVinci"
+            }
+        ]
+    },
+    {
+        "name": "Floaudio",
+        "phones": [
+            {
+                "name": "Lily",
+                "file": "Floaudio Lily"
+            }
+        ]
+    },
+    {
+        "name": "Hisenior",
+        "phones": [
+            {
+                "name": "Mega5EST",
+                "file": [
+                    "Hisenior Mega5EST",
+                    "Hisenior Mega5EST Baroque"
+                ],
+                "suffix": [
+                    "",
+                    "w/ Eletech Baroque Tips"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Letshuoer",
+        "phones": [
+            {
+                "name": "S12 Pro",
+                "file": "Letshuoer S12 Pro"
+            }
+        ]
+    },
+    {
+        "name": "Sennheiser",
+        "phones": [
+            {
+                "name": "IE600",
+                "file": "Sennheiser IE600"
+            }
+        ]
+    },
+    {
+        "name": "Tanchjim",
+        "phones": [
+            {
+                "name": "Origin",
+                "file": "Tanchjim Origin"
+            }
+        ]
+    }
+]

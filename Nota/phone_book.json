@@ -1,0 +1,67 @@
+[
+    {
+        "name": "AFUL",
+        "phones": [
+            {
+                "name": "MagicOne",
+                "file": ["AFUL MagicOne"],
+                "suffix": ["(broken)"]
+            }
+        ]
+    },
+    {
+        "name": "Binary",
+        "phones": [
+            {
+                "name": "Chopin",
+                "collab": "Gizaudio",
+                "file": "Binary x Gizaudio Chopin"
+            }
+        ]
+    },
+    {
+        "name": "DUNU",
+        "phones": [
+            {
+                "name": "DaVinci",
+                "collab": "Gizaudio",
+                "file": ["DUNU x Gizaudio DaVinci SnS"],
+                "suffix": ["w/ DUNU S&S Tips"]
+            }
+        ]
+    },
+    {
+        "name": "Hisenior",
+        "phones": [
+            {
+                "name": "Mega5-EST",
+                "file": "Hisenior Mega5-EST"
+            }
+        ]
+    },
+    {
+        "name": "Moondrop",
+        "phones": [
+            {
+                "name": "Chu 2",
+                "file": "Moondrop Chu 2"
+            },
+            {
+                "name": "DUSK",
+                "collab": "crinacle",
+                "file": ["Moondrop Dusk Analog"],
+                "suffix": ["(3.5mm)"]
+            }
+
+        ]
+    },
+    {
+        "name": "TangZu",
+        "phones": [
+            {
+                "name": "Wan'er",
+                "file": "Tangzu Waner"
+            }
+        ]
+    }
+]

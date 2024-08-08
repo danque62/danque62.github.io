@@ -1,75 +1,69 @@
 // Configuration options
-const init_phones = ["Kinera Celest Plutus Beast Balanced", "Neutral Tilt Target"],                // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
-      DIR = "data_fossy/",                                // Directory where graph files are stored
+const init_phones = ["OB ODIO Target"],                // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
+      DIR = "data/",                                // Directory where graph files are stored
+      data_format = "REW",                          // Accepts "AudioTools," "REW," or "other"
       default_channels = ["L","R"],                 // Which channels to display. Avoid javascript errors if loading just one channel per phone
       default_normalization = "dB",                 // Sets default graph normalization mode. Accepts "dB" or "Hz"
       default_norm_db = 60,                         // Sets default dB normalization point
       default_norm_hz = 500,                        // Sets default Hz normalization point (500Hz is recommended by IEC)
       max_channel_imbalance = 5,                    // Channel imbalance threshold to show ! in the channel selector
-      alt_layout = true,                           // Toggle between classic and alt layouts
+      alt_layout = true,                            // Toggle between classic and alt layouts
       alt_sticky_graph = true,                      // If active graphs overflows the viewport, does the graph scroll with the page or stick to the viewport?
-      alt_animated = true,                         // Determines if new graphs are drawn with a 1-second animation, or appear instantly
-      alt_header = true,                           // Display a configurable header at the top of the alt layout
-      alt_header_new_tab = true,                    // Clicking alt_header links opens in new tab
-      alt_tutorial = true,                         // Display a configurable frequency response guide below the graph
-      alt_augment = true,                          // Display augment card in phone list, e.g. review sore, shop link
-      site_url = 'graph.html',                      // URL of your graph "homepage"
+      alt_animated = true,                          // Determines if new graphs are drawn with a 1-second animation, or appear instantly
+      alt_header = true,                            // Display a configurable header at the top of the alt layout
+      alt_header_new_tab = false,                   // Clicking alt_header links opens in new tab
+      alt_tutorial = true,                          // Display a configurable frequency response guide below the graph
+      alt_augment = true,                           // Display augment card in phone list, e.g. review sore, shop link
+      site_url = '',                                // URL of your graph "homepage"
       share_url = true,                             // If true, enables shareable URLs
-      watermark_text = "",                           // Optional. Watermark appears behind graphs
-      watermark_image_url = "fossy-logo.svg",   // Optional. If image file is in same directory as config, can be just the filename
-      page_title = "Fossy Graph",                     // Optional. Appended to the page title if share URLs are enabled
+      watermark_text = "",                          // Optional. Watermark appears behind graphs
+      watermark_image_url = "OBODIO.png",                 // Optional. If image file is in same directory as config, can be just the filename
+      page_title = "OB ODIO Squiglink",
       page_description = "View and compare frequency response graphs for IEMs",
-      accessories = true,                          // If true, displays specified HTML at the bottom of the page. Configure further below
+      accessories = true,                           // If true, displays specified HTML at the bottom of the page. Configure further below
       externalLinksBar = true,                      // If true, displays row of pill-shaped links at the bottom of the page. Configure further below
+      restricted = false,                           // Enables restricted mode. More restricted options below
       expandable = false,                           // Enables button to expand iframe over the top of the parent page
       expandableOnly = false,                       // Prevents iframe interactions unless the user has expanded it. Accepts "true" or "false" OR a pixel value; if pixel value, that is used as the maximum width at which expandableOnly is used
       headerHeight = '0px',                         // Optional. If expandable=true, determines how much space to leave for the parent page header
       darkModeButton = true,                        // Adds a "Dark Mode" button the main toolbar to let users set preference
-      targetDashed = true,                         // If true, makes target curves dashed lines
+      targetDashed = true,                          // If true, makes target curves dashed lines
       targetColorCustom = false,                    // If false, targets appear as a random gray value. Can replace with a fixed color value to make all targets the specified color, e.g. "black"
-      labelsPosition = "bottom-left",                   // Up to four labels will be grouped in a specified corner. Accepts "top-left," bottom-left," "bottom-right," and "default"
+      labelsPosition = "bottom-left",               // Up to four labels will be grouped in a specified corner. Accepts "top-left," bottom-left," "bottom-right," and "default"
       stickyLabels = true,                          // "Sticky" labels 
-      analyticsEnabled = false,                     // Enables Google Analytics 4 measurement of site usage
+      analyticsEnabled = false,                      // Enables Google Analytics 4 measurement of site usage
       extraEnabled = true,                          // Enable extra features
       extraUploadEnabled = true,                    // Enable upload function
       extraEQEnabled = true,                        // Enable parametic eq function
       extraEQBands = 10,                            // Default EQ bands available
-      extraEQBandsMax = 20                          // Max EQ bands available
+      extraEQBandsMax = 20                         // Max EQ bands available
 
 // Specify which targets to display
 const targets = [
-    { type: "Δ",                files:["Δ", "JM-1", "IEF Comp"] },
-    { type: "Tilt",             files:["Preference Tilt", "Neutral Tilt", "Pleasant Tilt", "Cosmic Brownie Tilt", "Kierke Tilt"]},
-    { type: "JM-1 Tilt",        files:["Charlie Marks Tilt", "Charlie Marks Bass Tilt", "Hadoe Tilt", "fesdonomist IE"]},
-    { type: "Personal",         files:["Preference", "Neutral", "Pleasant"] },
-    { type: "Neutral",          files:["Diffuse Field", "Diffuse Field Unsmoothened", "Etymotic", "Free Field", "Innerfidelity ID"] },
-    { type: "Community",        files:["Haruto 2024", "Haruto 2021", "Brownie", "Helene", "Xiao 2.0", "Runatera v4.3.1", "Mokou Bassmaxxing", "Mokou Beta 1", "Rennsport v3", "Razan Neutral V2.0", "DK8365"] },
-    { type: "Reviewer",         files:["IEF Neutral 2023", "IEF Neutral", "Antdroid", "HBB", "Banbeucmas", "OB ODIO 2024 Balanced v4", "OB ODIO 2024 Neutral", "Practiphile Balanced", "Practiphile Neutral", "Precogvision", "Super 22", "Timmy", "VSG"] },
-    { type: "Reviewer Tilt",    files:["HBB Tilt", "Timmy Tilt"] },
-    { type: "Harman",           files:["Harman IE 2016", "Harman IE 2017v1", "Harman IE 2017v2", "Harman IE 2019v2"] },
-    { type: "Preference",       files:["USound1V1", "USound1V1 Flat Bass", "Tork V5", "RTings", "Sonarworks", "VDSF"] }
+    { type: "Δ",            files:["Generic JM-1"] },
+    { type:"OB ODIO",       files:["OB ODIO 2024 Neutral", "OB ODIO 2024 Balanced v4"] },
+    { type:"Neutral",       files:["Diffuse Field", "Etymotic", "Free Field", "Innerfidelity ID", "IEF Neutral 2023"] },
+    { type:"Reviewer",      files:["Antdroid", "Bad Guy", "Bad Guy 2022", "Banbeucmas", "DisYaBoiRalph Preference", "IEF Neutral 2020", "Hobby Talk Preference", "Practiphile Balanced", "Practiphile Neutral", "Precogvision", "Timmy", "Super Review"] },
+    { type:"Preference",    files:["Harman IE 2019v2", "USound1V1", "USound1V1 Flat Bass", "RTings", "Sonarworks", "VDSF"] }
 ];
 
-// Haruto's Addons
 const  preference_bounds_name = "Preference Bounds RAW",    // Preference bounds name
-       preference_bounds_dir = "pref_bounds/",              // Preference bounds directory
+       preference_bounds_dir = "../pref_bounds/",           // Preference bounds directory
        preference_bounds_startup = false,                   // If true, preference bounds are displayed on startup
        PHONE_BOOK = "phone_book.json",                      // Path to phone book JSON file
-       default_DF_name = "Δ",                               // Default RAW DF name
+       default_DF_name = "Generic JM-1",                    // Default RAW DF name
        dfBaseline = true,                                   // If true, DF is used as baseline when custom df tilt is on
        default_bass_shelf = 3,                              // Default Custom DF bass shelf value
        default_tilt = -1,                                   // Default Custom DF tilt value
        default_ear = 0,                                     // Default Custom DF ear gain value
        default_treble = 0,                                  // Default Custom DF treble gain value
-       tiltableTargets = ["Δ", "JM-1"],                     // Targets that are allowed to be tilted
-       compTargets = ["Δ", "JM-1"],                         // Targets that are allowed to be used for compensation
-       allowCreatorSupport = false;                         // Allow the creator to have a button top right to support them
+       tiltableTargets = ["Generic JM-1"],                  // Targets that are allowed to be tilted
+       compTargets = ["Generic JM-1"],                      // Targets that are allowed to be used for compensation
+       allowCreatorSupport = false; 
 
 // *************************************************************
 // Functions to support config options set above; probably don't need to change these
 // *************************************************************
-
-// But I will anyways haha - Haruto
 
 // Set up the watermark, based on config options above
 function watermark(svg) {
@@ -79,7 +73,7 @@ function watermark(svg) {
     
     if ( watermark_image_url ) {
         wm.append("image")
-            .attrs({x:-64, y:-64, width:128, height:128, "xlink:href":watermark_image_url});
+            .attrs({x:-90, y:-75, width:150, height:150, "xlink:href":watermark_image_url});
     }
     
     if ( watermark_text ) {
@@ -87,12 +81,16 @@ function watermark(svg) {
             .attrs({x:0, y:70, "font-size":28, "text-anchor":"middle", "class":"graph-name"})
             .text(watermark_text);
     }
-
-    // svg.append("g")
-    // .attr("opacity",0.2)
-    // .append("text")
-    // .attrs({x:765, y:314, "font-size":10, "text-anchor":"end", "class":"graph-name"})
-    // .text("danque62.github.io/graph");
+    
+    // let wmSq = svg.append("g")
+    //     .attr("opacity",0.2);
+    
+    // wmSq.append("image")
+    //     .attrs({x:652, y:254, width:100, height:94, "class":"wm-squiglink-logo", "xlink:href":"squiglink-giggle.svg"});
+    
+    // wmSq.append("text")
+    //     .attrs({x:641, y:314, "font-size":10, "transform":"translate(0,0)", "text-anchor":"end", "class":"wm-squiglink-address"})
+    //     .text("obodio.squig.link/");
 }
 
 
@@ -104,6 +102,8 @@ function tsvParse(fr) {
         .map(l => l.split(/[\s,]+/).map(e => parseFloat(e)).slice(0, 2))
         .filter(t => !isNaN(t[0]) && !isNaN(t[1]));
 }
+
+
 
 // Apply stylesheet based layout options above
 function setLayout() {
@@ -127,20 +127,32 @@ function setLayout() {
 }
 setLayout();
 
+
+
+// Set restricted mode
+function setRestricted() {
+    if ( restricted ) {
+        max_compare = 2;
+        restrict_target = false;
+        disallow_target = true;
+        premium_html = "<h2>You gonna pay for that?</h2><p>To use target curves, or more than two graphs, <a target='_blank' href='https://crinacle.com/wp-login.php?action=register'>subscribe</a> or upgrade to Patreon <a target='_blank' href='https://www.patreon.com/join/crinacle/checkout?rid=3775534'>Silver tier</a> and switch to <a target='_blank' href='https://crinacle.com/graphs/iems/graphtool/premium/'>the premium tool</a>.</p>";
+    }
+}
+setRestricted();
+
+
+
 // Configure HTML accessories to appear at the bottom of the page. Displayed only if accessories (above) is true
 // There are a few templates here for ease of use / examples, but these variables accept any HTML
 const 
     // Short text, center-aligned, useful for a little side info, credits, links to measurement setup, etc. 
     simpleAbout = `
         <p class="center">
-        This web software is based on a modified <a href="https://github.com/mlochbaum/CrinGraph"><b>CrinGraph</b></a> open source software project by <a href="https://github.com/HarutoHiroki/PublicGraphTool"><b>HarutoHiroki.</b></a>
+        This web software is based on the <a href="https://github.com/mlochbaum/CrinGraph"><b>CrinGraph</b></a> open source software project.
         <br>
-        Measurements uploaded are made with a clone IEC 60318-4 coupler from <a href="http://www.aliexpress.com/item/4000789796521.html"><b>Sounds Good Store.</b></a>
+        Measurements uploaded are made with a clone IEC 60318-4 coupler from <a href="https://www.lazada.com.ph//products/i3608243611-s18734797450.html"><b>Yisunder.sun</b></a>
         <br>
-        And the use of <a href="https://www.roomeqwizard.com/"><b>Room EQ Wizard</b></a> or <a href="https://apps.apple.com/us/app/audiotools-db-sound-audio/id325307477"><b>iOS AudioTools</b></a> as software of choice.
-        <br>
-        <br>
-        Resonance peak is either 8k peak fundamental or a 16k 1st harmonic. This is for cases where an IEM has a lot of  8k Hz that I can't even see the changes when inserting deeper or shallower. 16k is harder to hit as it's more delicate, but it's a fallback.
+        And the use of <a href="https://www.roomeqwizard.com/"><b>Room EQ Wizard</b></a> as software of choice.
         </p>
     `,
     // Slightly different presentation to make more readable paragraphs. Useful for elaborated methodology, etc.
@@ -163,79 +175,84 @@ const
     widgets = `
         <div class="accessories-widgets">
             <div class="widget">
-                <img width="200" src="cringraph-logo.svg"/>
+                <img width="200" src="../cringraph-logo.svg"/>
             </div>
 
             <div class="widget">
-                <img width="200" src="cringraph-logo.svg"/>
+                <img width="200" src="../cringraph-logo.svg"/>
             </div>
 
             <div class="widget">
-                <img width="200" src="cringraph-logo.svg"/>
+                <img width="200" src="../cringraph-logo.svg"/>
             </div>
         </div>
     `,
     // Which of the above variables to actually insert into the page
     whichAccessoriesToUse = simpleAbout;
 
+
 // Configure external links to appear at the bottom of the page. Displayed only if externalLinksBar (above) is true
 const linkSets = [
     {
-        label: "Hosted databases",
-        links: [
+        label: "More Squiglink Databases",
+        links:[
             {
-                name: "Brownie",
-                url: "/Brownie"
-            },
-            {
-                name: "Lestat",
-                url: "/Lestat"
-            },
-            {
-                name: "Nota",
-                url: "/Nota"
-            },
-            {
-                name: "OB ODIO",
-                url: "/OBODIO"
-            },
-            {
-                name: "SBG",
-                url: "/SBG"
-            },
-        ]
-    },
-    {
-        label: "Other IEM databases",
-        links: [
-            {
-                name: "In-Ear Fidelity",
-                url: "https://crinacle.com/graphs/iems/graphtool/"
-            },
-            {
-                name: "HarutoHiroki",
-                url: "https://graphtool.harutohiroki.com/"
-            },
-            {
-                name: "Listener's Graph Tool",
-                url: "https://listener800.github.io/iems"
-            },
-            {
-                name: "Audio Discourse",
-                url: "https://iems.audiodiscourse.com/"
+                name: "Aftersound",
+                url: "https://aftersound.squig.link/"
             },
             {
                 name: "HawaiiBadBoy (BGGAR)",
                 url: "https://hbbdatabase.github.io/"
             },
             {
+                name: "Bedrock Reviews",
+                url: "https://bedrock.squig.link/"
+            },
+            {
+                name: "Paul Wasabi",
+                url: "https://pw.squig.link/"
+            },
+            {
+                name: "Precogvision",
+                url: "https://precog.squig.link/"
+            },
+            {
+                name: "RikudouGoku",
+                url: "https://rg.squig.link/"
+            },
+            {
+                name: "Super* Review",
+                url: "https://squig.link/"
+            }
+        ]
+    },
+    {
+        label: "Other IEM databases",
+        links: [
+            {
+                name: "Audio Discourse",
+                url: "https://iems.audiodiscourse.com/"
+            },
+            {
                 name: "Banbeucmas",
                 url: "https://banbeu.com/graph/tool/"
+            },
+            {
+                name: "Fossy Graph Tool",
+                url: "https://disyaboiralph.github.io/graph"
+            },
+            {
+                name: "Haruto\'s Graph Tool",
+                url: "https://graphtool.harutohiroki.com/"
             },
             {
                 name: "HypetheSonics",
                 url: "https://www.hypethesonics.com/iemdbc/"
             },
+            {
+                name: "In-Ear Fidelity",
+                url: "https://crinacle.com/graphs/iems/graphtool/"
+            }
         ]
     },
     {
@@ -248,14 +265,6 @@ const linkSets = [
             {
                 name: "In-Ear Fidelity",
                 url: "https://crinacle.com/graphs/headphones/graphtool/"
-            },
-            {
-                name: "Listener's Graph Tool",
-                url: "https://listener800.github.io/"
-            },
-            {
-                name: "Placeholder Graph Tool",
-                url: "graph_hp.html"
             }
         ]
     }
@@ -279,20 +288,40 @@ setupGraphAnalytics();
 
 
 // If alt_header is enabled, these are the items added to the header
-let headerLogoText = "",
-    headerLogoImgUrl = "fossy-logo-long.svg",
+let headerLogoText = "OBODIO Graph Tool",
+    headerLogoImgUrl = "../cringraph-logo.svg",
     headerLinks = [
     {
-        name: "Ranking List",
-        url: "https://docs.google.com/spreadsheets/d/12gYzaCKeFOki6aWa3t8clZwyyqY3JLS0U--ROE0Uw-A/edit?usp=share_link"
-    },
-    {
-        name: "Misc. Data",
-        url: "https://docs.google.com/spreadsheets/d/1VgCy0LiGyIfdHTKx4jtNQoLFO3MiWNlnUcjGb45h4w8/edit?usp=share_link"
-    },
-    {
         name: "Squig.link",
-        url: "https://therollo9.squig.link/"
+        url: "https://obodio.squig.link/"
+    },
+    {
+        name: "Fossy Graph Tool",
+        url: "../graph.html"
+    },
+    {
+        name: "YouTube",
+        url: "https://www.youtube.com/channel/UCRv42fx1TIcEpP_QBbkhEOA"
+    },
+    {
+        name: "Facebook",
+        url: "https://www.facebook.com/OB.ODIO"
+    },
+    {
+        name: "Twitter",
+        url: "https://twitter.com/obodioreviews"
+    },
+    {
+        name: "Instagram",
+        url: "https://www.instagram.com/obodioreviews/"
+    },
+    {
+        name: "Discord",
+        url: "https://discord.gg/d9dgrjTx6B"
+    },
+    {
+        name: "Audionotions",
+        url: "https://audionotions.com/"
     }
 ];
 
@@ -301,50 +330,36 @@ let tutorialDefinitions = [
     {
         name: 'Sub bass',
         width: '20.1%',
-        description: 
-        `The sense of rumble. Too little sub bass may cause loss of definition while too much would mean low-end clutter`
+        description: '<b>Sub bass</b> frequencies are responsible for rumble. Elevated sub bass can lend an added sense of depth to music, and usually does not come at the expense of "bleeding into the midrange." Is there a limit to how much sub bass sounds good? Some may argue no, but I find too much sub bass can sound conspicuously disjointed from the rest of the music. It\'s notable, however, that a lot of music is light on usage of sub bass, so a sound signature that\'s big on sub-bass but light on mid bass may not sound very bassy with some popular recordings.'
     },
     {
         name: 'Mid bass',
         width: '19.2%',
-        description: 
-        `The presence of bass in terms of its tactility. I usually just rely on the IEM's dynamics. Too much may cause muddiness, and too little may feel anemic`
+        description: '<b>Mid bass</b> is responsible for a sense of punch. In contrast to sub bass, mid bass is typically more percussive and energetic, feeling like it\'s literally pushing air, and can lend a sense of body and fullness to a sound. Listeners craving a "bassy" sound will commonly be more satisfied by mid bass emphasis, as it will add a bassy punch to most common music. However, too much mid bass can give the sound a sense of bloat, or even yield the dreaded midrange "bleed" in which lower midrange notes are masked and smeared by excessive mid bass presence. Ideally, mid bass tapers off by 200Hz.'
     },
     {
         name: 'Lower midrange',
         width: '17.4%',
-        description: 
-        `Male vocals and low end of guitar. Too much of this can make vocals sound boxy. Can also be associated with muddiness`
+        description: 'A full <b>lower midrange</b>, tapering upward into the bass region, can lend a sense of thickness and warmth to the overall tone, while a "scooped" lower midrange can give a very clean sound at the cost of some thinness to the body. A lot of deep vocal micro detail depends on a well-executed lower midrange. But lower midrange is often sacrificed to create contrast between bass and treble for a typical "V-shaped" sound signature, which will commonly exhibit less natural vocal timbre than a more linear midrange tune.'
     },
     {
         name: 'Upper midrange',
         width: "20%",
-        description: 
-        `Vocal placement and the guitar's attack and snap. Too much can have vocals sound very in-your-head and intimate, and may come off as shouty. 
-        Some people prefer recession for the feeling of ethereal vocals, but I just usually find them as less forward.
-        I have 3 targets that differ in this region to represent different levels of vocal forwardness that I can take.
-        `
+        description: '<b>Upper midrange</b> is where a lot of "clarity" in a tune comes from. An elevated -- or "forward" -- upper midrange typically results in a forward vocal presentation, especially emphasizing higher-pitched vocals. Trumpets and guitars get their bite from upper midrange frequencies. Too much upper midrange can result in shrill or "shouty" vocals. Too little can result in a distant, recessed sound that\'s low on clarity. And uneven upper midrange emphasis can lead to oddly nasal or hollow vocals, with other odd timbral effects.'
     },
     {
-        name: 'Lower treble',
+        name: 'Presence region',
         width: '6%',
-        description: 
-        `Vocal edge and the guitar's grit. Too much can cause vocals and guitar to sound shrill and harsh. Too little may cause bluntness and maybe lifeless`
+        description: 'Also commonly referred to as "lower treble," the <b>presence region</b> has a lot to do with the naturalness of vocal transients. Too much emphasis here and vocals may take on an "edgy" or metallic character. Too little emphasis and the tune can lose definition and sound soft or dark. Much of the initial bite of trumpet and acoustic guitar string transients comes from a well-tuned presence region.'
     },
     {
         name: 'Mid treble',
         width: '7.3%',
-        description: 
-        `Sibilance, and cymbal splashiness, although that can be affected by the IEM's timbre. Too much and it makes cymbals very harsh and maybe metallic sounding
-        and too little can result in a dull and maybe plasticky sound`
+        description: 'A lot of treble harshness and fatigue comes from the <b>mid treble</b>. Peaks in this region commonly result in unpleasant sharpness, or sibilance in vocals which adds abrasive harshness to S and T sounds. Too little mid treble, however, will result in a dark or dead sound, resulting in odd timbre to cymbal strikes. Making matters difficult for us graph readers, there is a commonly-observed "resonance peak" that appears in measurements, usually situated at 8kHz, that is an artifact of the measurement process. It can often be hard to tell how much of such a peak is "real" without listening.'
     },
     {
         name: 'Air',
         width: '10%',
-        description: 
-        `Currently I perceive this more on how it feels like stuff has some reverb to them, like an extra trailing edge. It can also help with the perception of stage.
-        I'll just say that if it is very uneven (not necessarily too much) then it adds an oversharpening filter in every component of music.
-        In reality, you might not hear it, and also IEC711 couplers are not reliable 10k and above anyway.
-        `
+        description: 'In the way sub bass can add a sense of depth to the low end, <b>air</b> frequencies -- also called upper treble -- can add a dimensionality via the top end. When air frequencies are "rolled off," the sound may lose a sense of micro detail and definition, and cymbals may lose shimmer, leaving them blunt in their decay. Too much air is not common, but certainly possible, resulting in a fatiguing "shh shh" to cymbals, drum brushes, and other high-frequency sounds.'
     }
 ]
