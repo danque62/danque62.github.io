@@ -105,7 +105,7 @@ doc.html(`
             <input type="number" inputmode="decimal" id="cusdf-ear" value="`+ default_ear +`" step="0.1""></input>
             <span>Ear Gain (dB)</span>
           </div>
-          <button id="cusdf-UnTiltTHIS" style="margin-right: 10px">Remove Tilt</button>
+          <button id="cusdf-UnTiltTHIS" style="margin-right: 10px">Remove Filters</button>
           <button id="cusdf-harmanfilters" style="margin-right: 10px">Harman Filters</button>
           <button id="cusdf-bounds">Preference Bounds</button>
         </div>

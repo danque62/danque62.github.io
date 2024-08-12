@@ -1,5 +1,5 @@
 // Configuration options
-const init_phones = ["OB ODIO Target"],                // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
+const init_phones = ["OB ODIO 2024 Neutral Target", "panda"],                // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
       DIR = "data/",                                // Directory where graph files are stored
       data_format = "REW",                          // Accepts "AudioTools," "REW," or "other"
       default_channels = ["L","R"],                 // Which channels to display. Avoid javascript errors if loading just one channel per phone
@@ -18,7 +18,7 @@ const init_phones = ["OB ODIO Target"],                // Optional. Which graphs
       share_url = true,                             // If true, enables shareable URLs
       watermark_text = "",                          // Optional. Watermark appears behind graphs
       watermark_image_url = "OBODIO.png",                 // Optional. If image file is in same directory as config, can be just the filename
-      page_title = "OB ODIO Squiglink",
+      page_title = "OB ODIO Graph Tool",
       page_description = "View and compare frequency response graphs for IEMs",
       accessories = true,                           // If true, displays specified HTML at the bottom of the page. Configure further below
       externalLinksBar = true,                      // If true, displays row of pill-shaped links at the bottom of the page. Configure further below
@@ -40,25 +40,25 @@ const init_phones = ["OB ODIO Target"],                // Optional. Which graphs
 
 // Specify which targets to display
 const targets = [
-    { type: "Δ",            files:["Generic JM-1"] },
+    { type: "Δ",            files:["Generic JM-1", "Generic ISO 11904-1 DF (711 Z)"] },
     { type:"OB ODIO",       files:["OB ODIO 2024 Neutral", "OB ODIO 2024 Balanced v4"] },
     { type:"Neutral",       files:["Diffuse Field", "Etymotic", "Free Field", "Innerfidelity ID", "IEF Neutral 2023"] },
-    { type:"Reviewer",      files:["Antdroid", "Bad Guy", "Bad Guy 2022", "Banbeucmas", "DisYaBoiRalph Preference", "IEF Neutral 2020", "Hobby Talk Preference", "Practiphile Balanced", "Practiphile Neutral", "Precogvision", "Timmy", "Super Review"] },
+    { type:"Reviewer",      files:["Antdroid", "Bad Guy", "Bad Guy 2022", "Banbeucmas", "DisYaBoiRalph Preference", "DisYaBoiRalph Neutral", "DisYaBoiRalph Pleasant", "IEF Neutral 2020", "Hobby Talk Preference", "Practiphile Balanced", "Practiphile Neutral", "Precogvision", "Timmy", "Super Review"] },
     { type:"Preference",    files:["Harman IE 2019v2", "USound1V1", "USound1V1 Flat Bass", "RTings", "Sonarworks", "VDSF"] }
 ];
 
-const  preference_bounds_name = "Preference Bounds RAW",    // Preference bounds name
-       preference_bounds_dir = "../pref_bounds/",           // Preference bounds directory
-       preference_bounds_startup = false,                   // If true, preference bounds are displayed on startup
-       PHONE_BOOK = "phone_book.json",                      // Path to phone book JSON file
-       default_DF_name = "Generic JM-1",                    // Default RAW DF name
-       dfBaseline = true,                                   // If true, DF is used as baseline when custom df tilt is on
-       default_bass_shelf = 3,                              // Default Custom DF bass shelf value
-       default_tilt = -1,                                   // Default Custom DF tilt value
-       default_ear = 0,                                     // Default Custom DF ear gain value
-       default_treble = 0,                                  // Default Custom DF treble gain value
-       tiltableTargets = ["Generic JM-1"],                  // Targets that are allowed to be tilted
-       compTargets = ["Generic JM-1"],                      // Targets that are allowed to be used for compensation
+const  preference_bounds_name = "Preference Bounds RAW",                        // Preference bounds name
+       preference_bounds_dir = "../pref_bounds/",                               // Preference bounds directory
+       preference_bounds_startup = false,                                       // If true, preference bounds are displayed on startup
+       PHONE_BOOK = "phone_book.json",                                          // Path to phone book JSON file
+       default_DF_name = "Generic JM-1",                                        // Default RAW DF name
+       dfBaseline = true,                                                       // If true, DF is used as baseline when custom df tilt is on
+       default_bass_shelf = 3,                                                  // Default Custom DF bass shelf value
+       default_tilt = -1,                                                       // Default Custom DF tilt value
+       default_ear = 0,                                                         // Default Custom DF ear gain value
+       default_treble = 0,                                                      // Default Custom DF treble gain value
+       tiltableTargets = ["Generic JM-1", "Generic ISO 11904-1 DF (711 Z)"],    // Targets that are allowed to be tilted
+       compTargets = ["Generic JM-1", "Generic ISO 11904-1 DF (711 Z)"],        // Targets that are allowed to be used for compensation
        allowCreatorSupport = false; 
 
 // *************************************************************
@@ -288,7 +288,7 @@ setupGraphAnalytics();
 
 
 // If alt_header is enabled, these are the items added to the header
-let headerLogoText = "OBODIO Graph Tool",
+let headerLogoText = "OB ODIO Graph Tool",
     headerLogoImgUrl = "../cringraph-logo.svg",
     headerLinks = [
     {

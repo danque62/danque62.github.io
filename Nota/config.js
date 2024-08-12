@@ -38,27 +38,27 @@ const init_phones = ["Generic JM-1 Target", "Hisenior Mega5-EST"],              
 
 // Specify which targets to display
 const targets = [
-    { type: "Δ",                files:["Generic JM-1"] },
+    { type: "Δ",                files:["Generic JM-1", "Generic ISO 11904-1 DF (711 Z)"] },
     { type: "Rollo",            files:["Preference", "Neutral", "Pleasant"] },
     { type: "Neutral",          files:["Diffuse Field", "Diffuse Field Unsmoothened", "Etymotic", "Free Field", "Innerfidelity ID"] },
-    { type: "Reviewer",         files:["IEF Neutral 2023", "IEF Neutral"] },
+    { type: "Reviewer",         files:["IEF Neutral 2023", "IEF Neutral", "HBB"] },
     { type: "Harman",           files:["Harman IE 2016", "Harman IE 2017v1", "Harman IE 2017v2", "Harman IE 2019v2"] },
     { type: "Preference",       files:["USound1V1", "USound1V1 Flat Bass", "Tork V5", "VDSF"] }
 ];
 
 // Haruto's Addons
-const  preference_bounds_name = "Preference Bounds RAW",    // Preference bounds name
-       preference_bounds_dir = "../pref_bounds/",           // Preference bounds directory
-       preference_bounds_startup = false,                   // If true, preference bounds are displayed on startup
-       PHONE_BOOK = "phone_book.json",                      // Path to phone book JSON file
-       default_DF_name = "Generic JM-1",                    // Default RAW DF name
-       dfBaseline = true,                                   // If true, DF is used as baseline when custom df tilt is on
-       default_bass_shelf = 3,                              // Default Custom DF bass shelf value
-       default_tilt = -1,                                   // Default Custom DF tilt value
-       default_ear = 0,                                     // Default Custom DF ear gain value
-       default_treble = 0,                                  // Default Custom DF treble gain value
-       tiltableTargets = ["Generic JM-1"],                  // Targets that are allowed to be tilted
-       compTargets = ["Generic JM-1"],                      // Targets that are allowed to be used for compensation
+const  preference_bounds_name = "Preference Bounds RAW",                        // Preference bounds name
+       preference_bounds_dir = "../pref_bounds/",                               // Preference bounds directory
+       preference_bounds_startup = false,                                       // If true, preference bounds are displayed on startup
+       PHONE_BOOK = "phone_book.json",                                          // Path to phone book JSON file
+       default_DF_name = "Generic JM-1",                                        // Default RAW DF name
+       dfBaseline = true,                                                       // If true, DF is used as baseline when custom df tilt is on
+       default_bass_shelf = 3,                                                  // Default Custom DF bass shelf value
+       default_tilt = -1,                                                       // Default Custom DF tilt value
+       default_ear = 0,                                                         // Default Custom DF ear gain value
+       default_treble = 0,                                                      // Default Custom DF treble gain value
+       tiltableTargets = ["Generic JM-1", "Generic ISO 11904-1 DF (711 Z)"],    // Targets that are allowed to be tilted
+       compTargets = ["Generic JM-1", "Generic ISO 11904-1 DF (711 Z)"],        // Targets that are allowed to be used for compensation
        allowCreatorSupport = false;  
 
 // *************************************************************

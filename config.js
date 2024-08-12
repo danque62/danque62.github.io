@@ -38,7 +38,7 @@ const init_phones = ["Kinera Celest Plutus Beast Balanced", "Neutral Tilt Target
 
 // Specify which targets to display
 const targets = [
-    { type: "Δ",                files:["Δ", "JM-1", "IEF Comp"] },
+    { type: "Δ",                files:["Δ", "JM-1", "ISO 11904-1 DF (711 Z)", "IEF Comp"] },
     { type: "Tilt",             files:["Preference Tilt", "Neutral Tilt", "Pleasant Tilt", "Cosmic Brownie Tilt", "Kierke Tilt"]},
     { type: "JM-1 Tilt",        files:["Charlie Marks Tilt", "Charlie Marks Bass Tilt", "Hadoe Tilt", "fesdonomist IE"]},
     { type: "Personal",         files:["Preference", "Neutral", "Pleasant"] },
@@ -51,19 +51,19 @@ const targets = [
 ];
 
 // Haruto's Addons
-const  preference_bounds_name = "Preference Bounds RAW",    // Preference bounds name
-       preference_bounds_dir = "pref_bounds/",              // Preference bounds directory
-       preference_bounds_startup = false,                   // If true, preference bounds are displayed on startup
-       PHONE_BOOK = "phone_book.json",                      // Path to phone book JSON file
-       default_DF_name = "Δ",                               // Default RAW DF name
-       dfBaseline = true,                                   // If true, DF is used as baseline when custom df tilt is on
-       default_bass_shelf = 3,                              // Default Custom DF bass shelf value
-       default_tilt = -1,                                   // Default Custom DF tilt value
-       default_ear = 0,                                     // Default Custom DF ear gain value
-       default_treble = 0,                                  // Default Custom DF treble gain value
-       tiltableTargets = ["Δ", "JM-1"],                     // Targets that are allowed to be tilted
-       compTargets = ["Δ", "JM-1"],                         // Targets that are allowed to be used for compensation
-       allowCreatorSupport = false;                         // Allow the creator to have a button top right to support them
+const  preference_bounds_name = "Preference Bounds RAW",            // Preference bounds name
+       preference_bounds_dir = "pref_bounds/",                      // Preference bounds directory
+       preference_bounds_startup = false,                           // If true, preference bounds are displayed on startup
+       PHONE_BOOK = "phone_book.json",                              // Path to phone book JSON file
+       default_DF_name = "Δ",                                       // Default RAW DF name
+       dfBaseline = true,                                           // If true, DF is used as baseline when custom df tilt is on
+       default_bass_shelf = 3,                                      // Default Custom DF bass shelf value
+       default_tilt = -1,                                           // Default Custom DF tilt value
+       default_ear = 0,                                             // Default Custom DF ear gain value
+       default_treble = 0,                                          // Default Custom DF treble gain value
+       tiltableTargets = ["Δ", "JM-1", "ISO 11904-1 DF (711 Z)"],   // Targets that are allowed to be tilted
+       compTargets = ["Δ", "JM-1", "ISO 11904-1 DF (711 Z)"],       // Targets that are allowed to be used for compensation
+       allowCreatorSupport = false;                                 // Allow the creator to have a button top right to support them
 
 // *************************************************************
 // Functions to support config options set above; probably don't need to change these
