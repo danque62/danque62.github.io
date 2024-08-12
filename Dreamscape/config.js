@@ -1,6 +1,6 @@
 // Configuration options
-const init_phones = ["Kinera Celest Plutus Beast Balanced", "Neutral Tilt Target"],                // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
-      DIR = "data_fossy/",                                // Directory where graph files are stored
+const init_phones = ["Generic JM-1 Target", "Hisenior Mega5EST"],                // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
+      DIR = "data/",                                // Directory where graph files are stored
       default_channels = ["L","R"],                 // Which channels to display. Avoid javascript errors if loading just one channel per phone
       default_normalization = "dB",                 // Sets default graph normalization mode. Accepts "dB" or "Hz"
       default_norm_db = 60,                         // Sets default dB normalization point
@@ -13,11 +13,11 @@ const init_phones = ["Kinera Celest Plutus Beast Balanced", "Neutral Tilt Target
       alt_header_new_tab = true,                    // Clicking alt_header links opens in new tab
       alt_tutorial = true,                         // Display a configurable frequency response guide below the graph
       alt_augment = true,                          // Display augment card in phone list, e.g. review sore, shop link
-      site_url = 'graph.html',                      // URL of your graph "homepage"
+      site_url = '../graph.html',                      // URL of your graph "homepage"
       share_url = true,                             // If true, enables shareable URLs
       watermark_text = "",                           // Optional. Watermark appears behind graphs
-      watermark_image_url = "fossy-logo.svg",   // Optional. If image file is in same directory as config, can be just the filename
-      page_title = "Fossy Graph",                     // Optional. Appended to the page title if share URLs are enabled
+      watermark_image_url = "",   // Optional. If image file is in same directory as config, can be just the filename
+      page_title = "Dreamscape Graph Tool",                     // Optional. Appended to the page title if share URLs are enabled
       page_description = "View and compare frequency response graphs for IEMs",
       accessories = true,                          // If true, displays specified HTML at the bottom of the page. Configure further below
       externalLinksBar = true,                      // If true, displays row of pill-shaped links at the bottom of the page. Configure further below
@@ -34,52 +34,46 @@ const init_phones = ["Kinera Celest Plutus Beast Balanced", "Neutral Tilt Target
       extraUploadEnabled = true,                    // Enable upload function
       extraEQEnabled = true,                        // Enable parametic eq function
       extraEQBands = 10,                            // Default EQ bands available
-      extraEQBandsMax = 20                          // Max EQ bands available
+      extraEQBandsMax = 20                         // Max EQ bands available
 
 // Specify which targets to display
 const targets = [
-    { type: "Δ",                files:["Δ", "JM-1", "IEF Comp"] },
-    { type: "Tilt",             files:["Preference Tilt", "Neutral Tilt", "Pleasant Tilt", "Cosmic Brownie Tilt", "Kierke Tilt"]},
-    { type: "JM-1 Tilt",        files:["Charlie Marks Tilt", "Charlie Marks Bass Tilt", "Hadoe Tilt", "fesdonomist IE"]},
-    { type: "Personal",         files:["Preference", "Neutral", "Pleasant"] },
+    { type: "Δ",                files:["Generic JM-1"] },
+    { type: "Rollo",            files:["Preference", "Neutral", "Pleasant"] },
     { type: "Neutral",          files:["Diffuse Field", "Diffuse Field Unsmoothened", "Etymotic", "Free Field", "Innerfidelity ID"] },
-    { type: "Community",        files:["Haruto 2024", "Haruto 2021", "Brownie", "Helene", "Xiao 2.0", "Runatera v4.3.1", "Mokou Bassmaxxing", "Mokou Beta 1", "Rennsport v3", "Razan Neutral V2.0", "DK8365"] },
-    { type: "Reviewer",         files:["IEF Neutral 2023", "IEF Neutral", "Antdroid", "HBB", "Banbeucmas", "OB ODIO 2024 Balanced v4", "OB ODIO 2024 Neutral", "Practiphile Balanced", "Practiphile Neutral", "Precogvision", "Super 22", "Timmy", "VSG"] },
-    { type: "Reviewer Tilt",    files:["HBB Tilt", "Timmy Tilt"] },
+    { type: "Reviewer",         files:["IEF Neutral 2023", "IEF Neutral"] },
     { type: "Harman",           files:["Harman IE 2016", "Harman IE 2017v1", "Harman IE 2017v2", "Harman IE 2019v2"] },
-    { type: "Preference",       files:["USound1V1", "USound1V1 Flat Bass", "Tork V5", "RTings", "Sonarworks", "VDSF"] }
+    { type: "Preference",       files:["USound1V1", "USound1V1 Flat Bass", "Tork V5", "VDSF"] }
 ];
 
 // Haruto's Addons
 const  preference_bounds_name = "Preference Bounds RAW",    // Preference bounds name
-       preference_bounds_dir = "pref_bounds/",              // Preference bounds directory
+       preference_bounds_dir = "../pref_bounds/",           // Preference bounds directory
        preference_bounds_startup = false,                   // If true, preference bounds are displayed on startup
        PHONE_BOOK = "phone_book.json",                      // Path to phone book JSON file
-       default_DF_name = "Δ",                               // Default RAW DF name
+       default_DF_name = "Generic JM-1",                    // Default RAW DF name
        dfBaseline = true,                                   // If true, DF is used as baseline when custom df tilt is on
        default_bass_shelf = 3,                              // Default Custom DF bass shelf value
        default_tilt = -1,                                   // Default Custom DF tilt value
        default_ear = 0,                                     // Default Custom DF ear gain value
        default_treble = 0,                                  // Default Custom DF treble gain value
-       tiltableTargets = ["Δ", "JM-1"],                     // Targets that are allowed to be tilted
-       compTargets = ["Δ", "JM-1"],                         // Targets that are allowed to be used for compensation
-       allowCreatorSupport = false;                         // Allow the creator to have a button top right to support them
+       tiltableTargets = ["Generic JM-1"],                  // Targets that are allowed to be tilted
+       compTargets = ["Generic JM-1"],                      // Targets that are allowed to be used for compensation
+       allowCreatorSupport = false;  
 
 // *************************************************************
 // Functions to support config options set above; probably don't need to change these
 // *************************************************************
 
-// But I will anyways haha - Haruto
-
 // Set up the watermark, based on config options above
 function watermark(svg) {
     let wm = svg.append("g")
         .attr("transform", "translate("+(pad.l+W/2)+","+(pad.t+H/2-20)+")")
-        .attr("opacity",0.2);
+        .attr("opacity",0.4);
     
     if ( watermark_image_url ) {
         wm.append("image")
-            .attrs({x:-64, y:-64, width:128, height:128, "xlink:href":watermark_image_url});
+            .attrs({x:-128, y:-128, width:256, height:256, "xlink:href":watermark_image_url});
     }
     
     if ( watermark_text ) {
@@ -133,11 +127,11 @@ const
     // Short text, center-aligned, useful for a little side info, credits, links to measurement setup, etc. 
     simpleAbout = `
         <p class="center">
-        This web software is based on a modified <a href="https://github.com/mlochbaum/CrinGraph"><b>CrinGraph</b></a> open source software project by <a href="https://github.com/HarutoHiroki/PublicGraphTool"><b>HarutoHiroki.</b></a>
+        This web software is based on the <a href="https://github.com/mlochbaum/CrinGraph"><b>CrinGraph</b></a> open source software project.
         <br>
-        Measurements uploaded are made with a clone IEC 60318-4 coupler from <a href="http://www.aliexpress.com/item/4000789796521.html"><b>Sounds Good Store.</b></a>
+        Measurements uploaded are made with a clone IEC 60318-4 coupler from <a href="http://www.aliexpress.com/item/4000789796521.html"><b>Sounds Good Store</b></a>
         <br>
-        And the use of <a href="https://www.roomeqwizard.com/"><b>Room EQ Wizard</b></a> or <a href="https://apps.apple.com/us/app/audiotools-db-sound-audio/id325307477"><b>iOS AudioTools</b></a> as software of choice.
+        And the use of <a href="https://www.roomeqwizard.com/"><b>Room EQ Wizard</b></a> as software of choice.
         <br>
         <br>
         Resonance peak is either 8k peak fundamental or a 16k 1st harmonic. This is for cases where an IEM has a lot of  8k Hz that I can't even see the changes when inserting deeper or shallower. 16k is harder to hit as it's more delicate, but it's a fallback.
@@ -163,15 +157,15 @@ const
     widgets = `
         <div class="accessories-widgets">
             <div class="widget">
-                <img width="200" src="cringraph-logo.svg"/>
+                <img width="200" src="../cringraph-logo.svg"/>
             </div>
 
             <div class="widget">
-                <img width="200" src="cringraph-logo.svg"/>
+                <img width="200" src="../cringraph-logo.svg"/>
             </div>
 
             <div class="widget">
-                <img width="200" src="cringraph-logo.svg"/>
+                <img width="200" src="../cringraph-logo.svg"/>
             </div>
         </div>
     `,
@@ -180,35 +174,6 @@ const
 
 // Configure external links to appear at the bottom of the page. Displayed only if externalLinksBar (above) is true
 const linkSets = [
-    {
-        label: "Hosted databases",
-        links: [
-            {
-                name: "Brownie",
-                url: "/Brownie"
-            },
-            {
-                name: "Dreamscape",
-                url: "/Dreamscape"
-            },
-            {
-                name: "Lestat",
-                url: "/Lestat"
-            },
-            {
-                name: "Nota",
-                url: "/Nota"
-            },
-            {
-                name: "OB ODIO",
-                url: "/OBODIO"
-            },
-            {
-                name: "SBG",
-                url: "/SBG"
-            },
-        ]
-    },
     {
         label: "Other IEM databases",
         links: [
@@ -227,10 +192,6 @@ const linkSets = [
             {
                 name: "Audio Discourse",
                 url: "https://iems.audiodiscourse.com/"
-            },
-            {
-                name: "HawaiiBadBoy (BGGAR)",
-                url: "https://hbbdatabase.github.io/"
             },
             {
                 name: "Banbeucmas",
@@ -256,10 +217,6 @@ const linkSets = [
             {
                 name: "Listener's Graph Tool",
                 url: "https://listener800.github.io/"
-            },
-            {
-                name: "Placeholder Graph Tool",
-                url: "graph_hp.html"
             }
         ]
     }
@@ -283,20 +240,12 @@ setupGraphAnalytics();
 
 
 // If alt_header is enabled, these are the items added to the header
-let headerLogoText = "",
-    headerLogoImgUrl = "fossy-logo-long.svg",
+let headerLogoText = "Dreamscape Graph Tool",
+    headerLogoImgUrl = "../cringraph-logo.svg",
     headerLinks = [
     {
-        name: "Ranking List",
-        url: "https://docs.google.com/spreadsheets/d/12gYzaCKeFOki6aWa3t8clZwyyqY3JLS0U--ROE0Uw-A/edit?usp=share_link"
-    },
-    {
-        name: "Misc. Data",
-        url: "https://docs.google.com/spreadsheets/d/1VgCy0LiGyIfdHTKx4jtNQoLFO3MiWNlnUcjGb45h4w8/edit?usp=share_link"
-    },
-    {
-        name: "Squig.link",
-        url: "https://therollo9.squig.link/"
+        name: "Fossy Graph Tool",
+        url: "../graph.html"
     }
 ];
 
