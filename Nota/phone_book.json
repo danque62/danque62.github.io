@@ -1,11 +1,24 @@
 [
     {
+        "name": "Cosmo Mods",
+        "phones": [
+            {
+                "name": "Hexa:Green",
+                "file": "Cosmo Hexa Green"
+            }
+        ]
+    },
+    {
         "name": "AFUL",
         "phones": [
             {
                 "name": "MagicOne",
-                "file": ["AFUL MagicOne"],
-                "suffix": ["(broken)"]
+                "file": [
+                    "AFUL MagicOne"
+                ],
+                "suffix": [
+                    "(broken)"
+                ]
             }
         ]
     },
@@ -25,8 +38,12 @@
             {
                 "name": "DaVinci",
                 "collab": "Gizaudio",
-                "file": ["DUNU x Gizaudio DaVinci SnS"],
-                "suffix": ["w/ DUNU S&S Tips"]
+                "file": [
+                    "DUNU x Gizaudio DaVinci SnS"
+                ],
+                "suffix": [
+                    "w/ DUNU S&S Tips"
+                ]
             }
         ]
     },
@@ -49,10 +66,13 @@
             {
                 "name": "DUSK",
                 "collab": "crinacle",
-                "file": ["Moondrop Dusk Analog"],
-                "suffix": ["(3.5mm)"]
+                "file": [
+                    "Moondrop Dusk Analog"
+                ],
+                "suffix": [
+                    "(3.5mm)"
+                ]
             }
-
         ]
     },
     {
