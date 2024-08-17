@@ -2074,9 +2074,9 @@ d3.json(typeof PHONE_BOOK !== "undefined" ? PHONE_BOOK
         }
         // Bass Shelf
         let filters = [
-            {disabled: false, type:"LSQ", freq:105, q:0.7759, gain:boost},
-            {disabled: false, type:"PK", freq:2800, q:1.8, gain:ear},
-            {disabled: false, type:"HSQ", freq:2500, q:0.3913, gain:treble}
+            {disabled: false, type:"LSQ",   freq:105,   q:0.707,    gain:boost},
+            {disabled: false, type:"PK",    freq:2800,  q:1.000,    gain:ear},
+            {disabled: false, type:"HSQ",   freq:2500,  q:0.420,    gain:treble}
         ]; 
         let bass = df.rawChannels.map(c => c ? Equalizer.apply(c, filters) : null);
         // Tilt
