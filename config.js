@@ -40,7 +40,7 @@ const init_phones = ["Kinera Celest Plutus Beast Balanced", "Neutral Tilt Target
 const targets = [
     { type: "Δ",                files:["Δ", "JM-1", "ISO 11904-1 DF (711 Z)", "IEF Comp"] },
     { type: "Tilt",             files:["Preference Tilt", "Neutral Tilt", "Pleasant Tilt", "Cosmic Brownie Tilt", "Kierke Tilt"]},
-    { type: "JM-1 Tilt",        files:["Chaos Neutral Tilt", "Chaos Warm Tilt", "Charlie Marks Tilt", "Charlie Marks Bass Tilt", "Hadoe Tilt", "fesdonomist IE"]},
+    { type: "JM-1 Tilt",        files:["Chaos Neutral Tilt", "Chaos Warm Tilt", "Charlie Marks Tilt", "Hadoe Tilt", "fesdonomist IE"]},
     { type: "ISO Tilt",         files:["Razan Tilt"]},
     { type: "Personal",         files:["Preference", "Neutral", "Pleasant"] },
     { type: "Neutral",          files:["Diffuse Field", "Diffuse Field Unsmoothened", "Etymotic", "Free Field", "Innerfidelity ID"] },
