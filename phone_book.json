@@ -7,7 +7,7 @@
                 "file": "64 Audio Duo",
                 "reviewScore": "7.34/10",
                 "price": "$1100",
-                "shopLink": "https://www.64audio.com/products/duo" 
+                "shopLink": "https://www.64audio.com/products/duo"
             },
             {
                 "name": "tia Trio",
@@ -111,7 +111,7 @@
                 "file": "7Hz Salnotes x crinacle Zero 2",
                 "price": "$25",
                 "reviewScore": "6.05/10",
-                "shopLink":"https://hangout.audio/products/zero2"
+                "shopLink": "https://hangout.audio/products/zero2"
             }
         ]
     },
@@ -138,15 +138,21 @@
                     "AFUL Explorer Spring",
                     "AFUL Explorer CP145",
                     "AFUL Explorer W1",
-                    "AFUL Explorer Velvet"
+                    "AFUL Explorer Velvet",
+                    "AFUL Explorer S2",
+                    "AFUL Explorer S2 Velvet",
+                    "AFUL Explorer S2 Velvet Wide"
                 ],
                 "suffix": [
-                    "",
-                    "w/ white tips",
-                    "w/ Spring tips",
-                    "w/ Spinfits CP145 tips",
-                    "w/ Spinfits W1 tips",
-                    "w/ Divinus Velvet tips"
+                    "S1 ",
+                    "S1 w/ white tips",
+                    "S1 w/ Spring tips",
+                    "S1 w/ Spinfits CP145 tips",
+                    "S1 w/ Spinfits W1 tips",
+                    "S1 w/ Divinus Velvet tips",
+                    "S2",
+                    "S2 w/ Divinus Velvet tips",
+                    "S2 w/ Divinus Velvet Wide tips"
                 ],
                 "reviewScore": "6.88/10",
                 "price": "$120",
@@ -747,7 +753,14 @@
         "phones": [
             {
                 "name": "Mega5EST",
-                "file": "Hisenior Mega5EST",
+                "file": [
+                    "Hisenior Mega5EST",
+                    "Hisenior Mega5EST S2"
+                ],
+                "suffix": [
+                    "S1",
+                    "S2"
+                ],
                 "reviewScore": "8.04/10",
                 "price": "$550",
                 "shopLink": "https://www.hisenior-iem.com/products/mega5est-hybrid-iem"
@@ -834,7 +847,14 @@
             },
             {
                 "name": "INM8",
-                "file": "INM Audio INM8",
+                "file": [
+                    "INM Audio INM8",
+                    "INM Audio INM8 S2"
+                ],
+                "suffix": [
+                    "S1",
+                    "S2"
+                ],
                 "reviewScore": "8.06/10",
                 "price": "$8000",
                 "shopLink": "https://www.facebook.com/inmaudio/"
@@ -931,6 +951,15 @@
                 "price": "$30",
                 "reviewScore": "2.84/10",
                 "shopLink": "https://www.jbl.com.ph/gaming/QUANTUM50-.html"
+            }
+        ]
+    },
+    {
+        "name": "JH Audio",
+        "phones": [
+            {
+                "name": "Roxanne 1",
+                "file": "JH Audio Roxanne 1"
             }
         ]
     },
@@ -1040,6 +1069,19 @@
                 "shopLink": "https://www.kztws.com/products/kz-castor"
             },
             {
+                "name": "EDC Pro",
+                "file": [
+                    "KZ EDC Pro S2 Ares S 8W",
+                    "KZ EDC Pro S2 Cadmus 8W",
+                    "KZ EDC Pro S1"
+                ],
+                "suffix": [
+                    "S2 w/ Effect Audio Ares S 8W cable",
+                    "S2 w/ Effect Audio Cadmus 8W cable",
+                    "S1"
+                ]
+            },
+            {
                 "name": "EDX",
                 "file": "KZ EDX",
                 "price": "$8",
@@ -1104,7 +1146,14 @@
             },
             {
                 "name": "Merga",
-                "file": "KZ Merga",
+                "file": [
+                    "KZ Merga",
+                    "KZ Merga S2"
+                ],
+                "suffix": [
+                    "S1",
+                    "S2"
+                ],
                 "price": "$13",
                 "reviewScore": "4.60/10",
                 "shopLink": "https://www.kztws.com/products/kz-merga"
@@ -1537,6 +1586,15 @@
         ]
     },
     {
+        "name": "Noble Audio",
+        "phones": [
+            {
+                "name": "Noble 4",
+                "file": "Noble Audio Noble 4"
+            }
+        ]
+    },
+    {
         "name": "OnePlus",
         "phones": [
             {
@@ -1852,6 +1910,24 @@
                 "price": "$40",
                 "reviewLink": "https://youtu.be/IKfTAsbdmgY",
                 "shopLink": "https://www.linsoul.com/products/simgot-ew200"
+            },
+            {
+                "name": "EW300",
+                "file": [
+                    "Simgot EW300 S1 Silver"
+                ],
+                "suffix": [
+                    "(silver nozzle)"
+                ]
+            },
+            {
+                "name": "EW300 DSP",
+                "file": [
+                    "Simgot EW300 DSP S1 Gold"
+                ],
+                "suffix": [
+                    "(gold nozzle)"
+                ]
             }
         ]
     },

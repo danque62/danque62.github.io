@@ -1,4 +1,20 @@
 # [Access to the graph tool.](graph)
+# Updates (August 23, 2024 - Meetup Haul)
+Added IEMs:
+- AFUL Explorer (sample 2)
+- Hisenior Mega5EST (sample 2 - 7th Anniversary)
+- INM Audio INM8 (sample 2)
+- JH Audio Roxanne 1
+- KZ EDC Pro (2 samples)
+- KZ Merga (sample 2)
+- Noble Audio Noble 4
+- Simgot EW300 (silver nozzle only)
+- Simgot EW300 DSP (gold nozzle only)
+
+Added headphones:
+- Audio-Technica ATH-AVA500
+- Hifiman Ananda V3
+- Sennheiser HD58x
 # Updates (August 7, 2024 - Squig at home)
 Added IEM: 
 - Belkin SoundForm Motion (sample 2)

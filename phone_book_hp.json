@@ -49,6 +49,15 @@
         ]
     },
     {
+        "name": "Audio-Technica",
+        "phones": [
+            {
+                "name": "ATH-AVA500",
+                "file": "Audio-Technica ATH-AVA500"
+            }
+        ]
+    },
+    {
         "name": "Beyerdynamic",
         "phones": [
             {
@@ -113,6 +122,10 @@
     {
         "name": "Hifiman",
         "phones": [
+            {
+                "name": "Ananda V3",
+                "file": "Hifiman Ananda V3"
+            },
             {
                 "name": "HE560 V1.5",
                 "file": "Hifiman HE560"
@@ -218,6 +231,12 @@
                 "file": "Sennheiser HD560s",
                 "shopLink": "",
                 "reviewScore": "6.86/10"
+            },
+            {
+                "name": "HD58x",
+                "collab": "Drop",
+                "file": ["Sennheiser HD58x", "Sennheiser HD58x No Back Foam"],
+                "suffix": ["", "w/o back foam"]
             },
             {
                 "name": "HD600",
