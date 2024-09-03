@@ -3,6 +3,10 @@
         "name": "7Hz",
         "phones": [
             {
+                "name": "Aurora",
+                "file": "7Hz Aurora"
+            },
+            {
                 "name": "Timeless AE",
                 "file": "7Hz Timeless AE"
             }
@@ -60,6 +64,15 @@
         ]
     },
     {
+        "name": "BLON",
+        "phones": [
+            {
+                "name": "BL03",
+                "file": "BLON BL03"
+            }
+        ]
+    },
+    {
         "name": "Campfire Audio",
         "phones": [
             {
@@ -83,6 +96,15 @@
         ]
     },
     {
+        "name": "Denon",
+        "phones": [
+            {
+                "name": "AH-C820",
+                "file": "Denon AH-C820"
+            }
+        ]
+    },
+    {
         "name": "Elysian Acoustic Labs",
         "phones": [
             {
@@ -95,6 +117,15 @@
                     "S1",
                     "S2"
                 ]
+            }
+        ]
+    },
+    {
+        "name": "Fearless",
+        "phones": [
+            {
+                "name": "S6Rui",
+                "file": "Fearless S6Rui"
             }
         ]
     },
@@ -145,6 +176,19 @@
             {
                 "name": "Rosefinch",
                 "file": "KBEAR Rosefinch"
+            }
+        ]
+    },
+    {
+        "name": "Kefine",
+        "phones": [
+            {
+                "name": "Delci",
+                "file": "Kefine Delci"
+            },
+            {
+                "name": "Klanar",
+                "file": "Kefine Klanar"
             }
         ]
     },
@@ -208,6 +252,15 @@
         ]
     },
     {
+        "name": "Myer-Audio",
+        "phones": [
+            {
+                "name": "SLIIVO SL-41",
+                "file": "Myer Audio SLIIVO SL-41"
+            }
+        ]
+    },
+    {
         "name": "Penon",
         "phones": [
             {
@@ -223,6 +276,24 @@
                 "name": "Hades",
                 "collab": "HBB",
                 "file": "QKZ x HBB Hades"
+            }
+        ]
+    },
+    {
+        "name": "Raptgo",
+        "phones": [
+            {
+                "name": "Hook X",
+                "file": "Raptgo Hook X"
+            }
+        ]
+    },
+    {
+        "name": "Simgot",
+        "phones": [
+            {
+                "name": "EA1000",
+                "file": "Simgot EA1000"
             }
         ]
     },
@@ -245,6 +316,23 @@
         ]
     },
     {
+        "name": "Tanchjim",
+        "phones": [
+            {
+                "name": "Ola",
+                "file": "Tanchjim Ola"
+            },
+            {
+                "name": "Origin",
+                "file": "Tanchjim Origin"
+            },
+            {
+                "name": "Zero",
+                "file": "Tanchjim Zero"
+            }
+        ]
+    },
+    {
         "name": "TangZu",
         "phones": [
             {
@@ -259,8 +347,20 @@
                 ]
             },
             {
+                "name": "Zetian Wu: HeyDay",
+                "collab": "HBB",
+                "file": "TangZu x HBB Zetian Wu HeyDay"
+            },
+            {
                 "name": "Xuanwu Gate",
-                "file": "TangZu Xuanwu Gate"
+                "file": [
+                    "TangZu Xuanwu Gate",
+                    "TangZu Xuanwu Gate S2"
+                ],
+                "suffix": [
+                    "S1",
+                    "S2"
+                ]
             }
         ]
     },
@@ -299,6 +399,20 @@
             {
                 "name": "Hola",
                 "file": "Truthear Hola"
+            },
+            {
+                "name": "Nova",
+                "file": "Truthear Nova"
+            }
+        ]
+    },
+    {
+        "name": "ZiiGaat",
+        "phones": [
+            {
+                "name": "Arete",
+                "collab": "Fresh Reviews",
+                "file": "ZiiGaat x Fresh Reviews Arete"
             }
         ]
     }
