@@ -22,6 +22,10 @@
         "name": "Floaudio",
         "phones": [
             {
+                "name": "Bluelover",
+                "file": "Floaudio Bluelover"
+            },
+            {
                 "name": "Lily",
                 "file": "Floaudio Lily"
             }
@@ -34,10 +38,12 @@
                 "name": "Mega5EST",
                 "file": [
                     "Hisenior Mega5EST",
+                    "Hisenior Mega5EST UM Petal",
                     "Hisenior Mega5EST Baroque"
                 ],
                 "suffix": [
                     "",
+                    "w/ Unique Melody Petal Tips",
                     "w/ Eletech Baroque Tips"
                 ]
             }
@@ -67,6 +73,15 @@
             {
                 "name": "Origin",
                 "file": "Tanchjim Origin"
+            }
+        ]
+    },
+    {
+        "name": "Truthear",
+        "phones": [
+            {
+                "name": "Gate",
+                "file": "Truthear Gate"
             }
         ]
     }
