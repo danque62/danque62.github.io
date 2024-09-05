@@ -22,6 +22,10 @@
         "name": "Floaudio",
         "phones": [
             {
+                "name": "Bluelover",
+                "file": "Floaudio Bluelover"
+            },
+            {
                 "name": "Lily",
                 "file": "Floaudio Lily"
             }
@@ -67,6 +71,15 @@
             {
                 "name": "Origin",
                 "file": "Tanchjim Origin"
+            }
+        ]
+    },
+    {
+        "name": "Truthear",
+        "phones": [
+            {
+                "name": "Gate",
+                "file": "Truthear Gate"
             }
         ]
     }
