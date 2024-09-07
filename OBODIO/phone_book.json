@@ -308,6 +308,23 @@
 		"name": "Kiwi Ears",
 		"phones": [
 			{
+				"name": "Canta",
+				"file": "canta m2"
+			},
+			{
+				"name": "KE4",
+				"file": [
+					"ke4 ke",
+					"ke4 cl",
+					"ke4 sbc"
+				],
+				"suffix": [
+					"Kiwi Ears Flex Eartips",
+					"TRI Clarion Eartips",
+					"Stock Black Eartips (Kiwi Ears Canta)"
+				]
+			},
+			{
 				"name": "Quartet",
 				"file": [
 					"quatro dd",
@@ -652,6 +669,19 @@
 		"name": "Simgot",
 		"phones": [
 			{
+				"name": "EA500",
+				"file": [
+					"ea500 rn",
+					"ea500 bn",
+					"ea500 dsp bn"
+				],
+				"suffix": [
+					"Red Ring Nozzle",
+					"Black Ring Nozzle",
+					"with EW300 DSPs cable (Black Ring Nozzle)"
+				]
+			},
+			{
 				"name": "EA500LM",
 				"file": [
 					"ea500lm g",
@@ -687,7 +717,14 @@
 			},
 			{
 				"name": "EW200",
-				"file": "ew200"
+				"file": [
+					"ew200",
+					"ew200 dsp"
+				],
+				"suffix": [
+					"Stock",
+					"with EW300 DSPs cable"
+				]
 			},
 			{
 				"name": "Supermix 4",
