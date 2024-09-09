@@ -108,7 +108,20 @@
             {
                 "name": "Zero:2",
                 "collab": "crinacle",
-                "file": "7Hz Salnotes x crinacle Zero 2",
+                "file": [
+                    "7Hz Salnotes x crinacle Zero 2",
+                    "7Hz Salnotes x crinacle Zero 2 Spring",
+                    "7Hz Salnotes x crinacle Zero 2 CP145",
+                    "7Hz Salnotes x crinacle Zero 2 W1",
+                    "7Hz Salnotes x crinacle Zero 2 Velvet"
+                ],
+                "suffix": [
+                    "",
+                    "w/ Spring tips",
+                    "w/ Spinfits CP145 tips",
+                    "w/ Spinfits W1 tips",
+                    "w/ Divinus Velvet tips"
+                ],
                 "price": "$25",
                 "reviewScore": "6.05/10",
                 "shopLink": "https://hangout.audio/products/zero2"
@@ -134,7 +147,10 @@
                 "name": "Explorer",
                 "file": [
                     "AFUL Explorer",
-                    "AFUL Explorer White",
+                    "AFUL Explorer 25 Ohm",
+                    "AFUL Explorer 50 Ohm",
+                    "AFUL Explorer 75 Ohm",
+                    "AFUL Explorer white",
                     "AFUL Explorer Spring",
                     "AFUL Explorer CP145",
                     "AFUL Explorer W1",
@@ -144,7 +160,10 @@
                     "AFUL Explorer S2 Velvet Wide"
                 ],
                 "suffix": [
-                    "S1 ",
+                    "S1",
+                    "S1 w/ 25 Ohm adapter",
+                    "S1 w/ 50 Ohm adapter",
+                    "S1 w/ 75 Ohm adapter",
                     "S1 w/ white tips",
                     "S1 w/ Spring tips",
                     "S1 w/ Spinfits CP145 tips",

@@ -1,4 +1,8 @@
 # [Access to the graph tool.](graph)
+# Updates (September 9, 2024 - Remeasurements)
+Remeasured IEMs:
+- AFUL Explorer (sample 1)
+- 7Hz Salnotes x crinacle Zero:2
 # Updates (August 23, 2024 - Meetup Haul)
 Added IEMs:
 - AFUL Explorer (sample 2)
