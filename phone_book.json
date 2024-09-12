@@ -1167,10 +1167,24 @@
                 "name": "Merga",
                 "file": [
                     "KZ Merga",
+                    "KZ Merga 25 Ohm",
+                    "KZ Merga 50 Ohm",
+                    "KZ Merga 75 Ohm",
+                    "KZ Merga Spring",
+                    "KZ Merga CP145",
+                    "KZ Merga W1",
+                    "KZ Merga Velvet",
                     "KZ Merga S2"
                 ],
                 "suffix": [
                     "S1",
+                    "S1 w/ 25 Ohm adapter",
+                    "S1 w/ 50 Ohm adapter",
+                    "S1 w/ 75 Ohm adapter",
+                    "S1 w/ Spring tips",
+                    "S1 w/ Spinfits CP145 tips",
+                    "S1 w/ Spinfits W1 tips",
+                    "S1 w/ Divinus Velvet tips",
                     "S2"
                 ],
                 "price": "$13",
@@ -2148,13 +2162,21 @@
                     "Tanchjim 4U Atmosphere",
                     "Tanchjim 4U Pop",
                     "Tanchjim 4U Natural",
-                    "Tanchjim 4U Monitoring"
+                    "Tanchjim 4U Monitoring",
+                    "Tanchjim 4U Spring",
+                    "Tanchjim 4U CP145",
+                    "Tanchjim 4U W1",
+                    "Tanchjim 4U Velvet"
                 ],
                 "suffix": [
                     "(Atmosphere)",
                     "(Pop)",
                     "(Natural)",
-                    "(Monitoring)"
+                    "(Monitoring)",
+                    "(Atmosphere) w/ Spring tips",
+                    "(Atmosphere) w/ Spinfits CP145 tips",
+                    "(Atmosphere) w/ Spinfits W1 tips",
+                    "(Atmosphere) w/ Divinus Velvet tips"
                 ],
                 "reviewScore": "6.39/10",
                 "shopLink": "https://hifigo.com/products/tanchjim-4u"

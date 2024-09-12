@@ -1,4 +1,8 @@
 # [Access to the graph tool.](graph)
+# Updates (September 12, 2024 - Remeasurements)
+Remeasured IEMs:
+- KZ Merga (sample 1)
+- Tanchjim 4U
 # Updates (September 9, 2024 - Remeasurements)
 Remeasured IEMs:
 - AFUL Explorer (sample 1)
