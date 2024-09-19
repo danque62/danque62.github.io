@@ -40,7 +40,7 @@ doc.html(`
         <div class="yscaler">
           <span>Y-axis Scale:</span>
           <div>
-            <button id="yscalebtn" class="50db">50dB</button>
+            <button id="yscalebtn" class="40db">40dB</button>
           </div>
         </div>
 
@@ -571,26 +571,28 @@ function changeScaling(y_scale) {
         case "30db":
             button.className = "40db";
             button.innerHTML = "40dB";
-            updateYScaling(75.95, 172);
+            updateYScaling(dB.H, defY);
             break;
         case "40db":
             button.className = "50db";
             button.innerHTML = "50dB";
-            updateYScaling(dB.H, defY);
+            updateYScaling(60.79, 172);
             break;
         case "50db":
+            //button.classList.remove("50db");
             button.className = "crin";
             button.innerHTML = "Crin";
             updateYScaling(54.77, 156.94);
             break;
         case "crin":
+            //button.classList.remove("crin");
             button.className = "20db";
             button.innerHTML = "20dB";
             updateYScaling(152, 172);
             break;
         default:
-            button.className = "50db";
-            button.innerHTML = "50dB";
+            button.className = "40db";
+            button.innerHTML = "40dB";
             updateYScaling(dB.H, defY);
             break;
     }
