@@ -1462,10 +1462,12 @@
             {
                 "name": "Quarks",
                 "file": [
+                    "Moondrop Quarks S2",
                     "Moondrop Quarks B"
                 ],
                 "suffix": [
-                    "(right channel only)"
+                    "S2",
+                    "S1 (right channel only)"
                 ],
                 "price": "$10",
                 "reviewScore": "N/A (Not Tried)",
