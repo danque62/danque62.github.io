@@ -47,10 +47,13 @@ const targets = [
     { type:"Preference",    files:["Harman IE 2019v2", "USound1V1", "USound1V1 Flat Bass", "RTings", "Sonarworks", "VDSF"] }
 ];
 
-const  preference_bounds_name = "Preference Bounds RAW",                        // Preference bounds name
-       preference_bounds_dir = "../pref_bounds/",                               // Preference bounds directory
-       preference_bounds_startup = false,                                       // If true, preference bounds are displayed on startup
-       PHONE_BOOK = "phone_book.json",                                          // Path to phone book JSON file
+// Haruto's Addons
+const  preference_bounds_name = "Preference Bounds RAW",            // Preference bounds name
+       preference_bounds_dir = "../pref_bounds/",                      // Preference bounds directory
+       preference_bounds_startup = false,                           // If true, preference bounds are displayed on startup
+       allowSquigDownload = true,                                  // If true, allows download of measurement data
+       PHONE_BOOK = "phone_book.json",                              // Path to phone book JSON file
+       default_y_scale = "crin",                                    // Default Y scale; values: ["20db", "30db", "40db", "50db", "crin"]
        default_DF_name = "Generic JM-1",                                        // Default RAW DF name
        dfBaseline = true,                                                       // If true, DF is used as baseline when custom df tilt is on
        default_bass_shelf = 3,                                                  // Default Custom DF bass shelf value

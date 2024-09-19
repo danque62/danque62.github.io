@@ -48,10 +48,12 @@ const targets = [
 ];
 
 // Haruto's Addons
-const  preference_bounds_name = "Preference Bounds RAW",                        // Preference bounds name
-       preference_bounds_dir = "../pref_bounds/",                               // Preference bounds directory
-       preference_bounds_startup = false,                                       // If true, preference bounds are displayed on startup
-       PHONE_BOOK = "phone_book.json",                                          // Path to phone book JSON file
+const  preference_bounds_name = "Preference Bounds RAW",            // Preference bounds name
+       preference_bounds_dir = "../pref_bounds/",                      // Preference bounds directory
+       preference_bounds_startup = false,                           // If true, preference bounds are displayed on startup
+       allowSquigDownload = false,                                  // If true, allows download of measurement data
+       PHONE_BOOK = "phone_book.json",                              // Path to phone book JSON file
+       default_y_scale = "50db",
        default_DF_name = "Generic JM-1",                                        // Default RAW DF name
        dfBaseline = true,                                                       // If true, DF is used as baseline when custom df tilt is on
        default_bass_shelf = 3,                                                  // Default Custom DF bass shelf value
