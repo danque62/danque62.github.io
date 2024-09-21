@@ -74,7 +74,16 @@
         "phones": [
             {
                 "name": "Studio 4",
-                "file": "Softears Studio 4"
+                "file": [
+                    "Softears Studio 4",
+                    "Softears Studio 4 ASMR",
+                    "Softears Studio 4 Final E"
+                ],
+                "suffix": [
+                    "",
+                    "w/ AZLA SednaEarfit MAX ASMR Tips",
+                    "w/ Final Type E Tips"
+                ]
             }
         ]
     },
