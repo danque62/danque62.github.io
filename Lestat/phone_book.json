@@ -70,6 +70,15 @@
         ]
     },
     {
+        "name": "Softears",
+        "phones": [
+            {
+                "name": "Studio 4",
+                "file": "Softears Studio 4"
+            }
+        ]
+    },
+    {
         "name": "Tanchjim",
         "phones": [
             {
