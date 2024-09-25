@@ -331,7 +331,7 @@ let x = d3.scaleLog()
     .domain([20,20000])
     .range([pad.l,pad.l+W]);
 
-let yD = [35,85], // Decibels
+let yD = [40,80], // Decibels
     yR = [pad.t+H,pad.t+10];
 let y = d3.scaleLinear().domain(yD).range(yR);
 
