@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Symphonium",
+        "phones": [
+            {
+                "name": "Meteor",
+                "file": [
+                    "Symphonium Meteor (64audio cable)",
+                    "Symphonium Meteor (heyday stock cable)",
+                    "Symphonium Meteor (tanch oxygen cable)",
+                    "Symphonium Meteor (Truthear Hola cable)",
+                    "Symphonium Meteor (UM PW cable)"
+                ],
+                "suffix": [
+                    "(right channel only) w/ 64 Audio cable",
+                    "(right channel only) w/ TangZu HeyDay stock cable",
+                    "(right channel only) w/ Tanchjim Oxygen stock cable",
+                    "(right channel only) w/ Truthear Hola stock cable",
+                    "(right channel only) w/ UM PW stock cable"
+                ]
+            }
+        ]
+    }
+]
