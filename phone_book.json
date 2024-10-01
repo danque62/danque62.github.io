@@ -229,6 +229,15 @@
         ]
     },
     {
+        "name": "Aolon",
+        "phones": [
+            {
+                "name": "RM-680",
+                "file": "Aolon RM-680"
+            }
+        ]
+    },
+    {
         "name": "Astell&Kern",
         "phones": [
             {
