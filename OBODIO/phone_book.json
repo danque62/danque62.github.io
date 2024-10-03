@@ -507,8 +507,16 @@
 				"file": "libra"
 			},
 			{
+				"name": "PRX",
+				"file": "prx"
+			},
+			{
 				"name": "PR3",
 				"file": "pr3"
+			},
+			{
+				"name": "Saga Bass",
+				"file": "saga bass"
 			},
 			{
 				"name": "Symphony",
