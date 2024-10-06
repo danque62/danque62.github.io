@@ -1,7 +1,266 @@
 [
     {
+        "name": "64 Audio",
+        "phones": [
+            {
+                "name": "U4s",
+                "file": [
+                    "64 Audio U4s M20"
+                ],
+                "suffix": [
+                    "(M20)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Artti",
+        "phones": [
+            {
+                "name": "R3",
+                "file": "Artti R3"
+            }
+        ]
+    },
+    {
+        "name": "Beats",
+        "phones": [
+            {
+                "name": "Solo Buds",
+                "file": "Beats Solo Buds"
+            }
+        ]
+    },
+    {
+        "name": "Campfire Audio",
+        "phones": [
+            {
+                "name": "Andromeda 2020",
+                "file": "Campfire Audio Andromeda 2020"
+            },
+            {
+                "name": "Vega 2020",
+                "file": "Campfire Audio Vega 2020"
+            }
+        ]
+    },
+    {
+        "name": "CCA",
+        "phones": [
+            {
+                "name": "CXS",
+                "file": "CCA CXS"
+            },
+            {
+                "name": "Duo",
+                "file": "CCA Duo"
+            }
+        ]
+    },
+    {
+        "name": "DITA",
+        "phones": [
+            {
+                "name": "Project M",
+                "file": "DITA Project M"
+            }
+        ]
+    },
+    {
+        "name": "DUNU",
+        "phones": [
+            {
+                "name": "DaVinci",
+                "collab": "Gizaudio",
+                "file": [
+                    "DUNU DaVinci Candy tips"
+                ],
+                "suffix": [
+                    "w/ DUNU Candy tips"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Effect Audio",
+        "phones": [
+            {
+                "name": "Pilgrim Noir",
+                "collab": "Elysian Acoustic Labs",
+                "file": "Effect Audio Pilgrim Noir"
+            }
+        ]
+    },
+    {
+        "name": "Elysian Acoustic Labs",
+        "phones": [
+            {
+                "name": "Annihilator",
+                "file": "Elysian Annihilator"
+            },
+            {
+                "name": "Diva",
+                "file": [
+                    "Elysian Diva (blue)",
+                    "Elysian Diva (red)",
+                    "Elysian Diva (white)"
+                ],
+                "suffix": [
+                    "(blue)",
+                    "(red)",
+                    "(white)"
+                ]
+            },
+            {
+                "name": "Pilgrim",
+                "file": "Elysian Pilgrim"
+            }
+        ]
+    },
+    {
+        "name": "Final Audio",
+        "phones": [
+            {
+                "name": "A8000",
+                "file": "Final Audio A8000"
+            }
+        ]
+    },
+    {
+        "name": "Hidizs",
+        "phones": [
+            {
+                "name": "MS1 Galaxy",
+                "file": "Hidizs MS1 Galaxy"
+            }
+        ]
+    },
+    {
+        "name": "Jialai",
+        "phones": [
+            {
+                "name": "Carat",
+                "file": "Jialai Carat"
+            }
+        ]
+    },
+    {
+        "name": "Kinera",
+        "phones": [
+            {
+                "name": "Celest Wyvern",
+                "file": "Kinera Celest Wyvern"
+            }
+        ]
+    },
+    {
+        "name": "KZ",
+        "phones": [
+            {
+                "name": "Castor",
+                "file": [
+                    "KZ Castor UUUU",
+                    "KZ Castor DDDD"
+                ],
+                "suffix": [
+                    "(UUUU)",
+                    "(DDDD)"
+                ]
+            },
+            {
+                "name": "Castor Bass",
+                "file": [
+                    "KZ Castor Bass UUUU",
+                    "KZ Castor Bass DDDD"
+                ],
+                "suffix": [
+                    "(UUUU)",
+                    "(DDDD)"
+                ]
+            },
+            {
+                "name": "Krila",
+                "file": [
+                    "KZ Krila UUUU",
+                    "KZ Krila DDDD"
+                ],
+                "suffix": [
+                    "(UUUU)",
+                    "(DDDD)"
+                ]
+            },
+            {
+                "name": "ZS10 Pro X",
+                "file": "KZ ZS10 Pro X"
+            },
+            {
+                "name": "ZSN Pro 2",
+                "file": "KZ ZSN Pro 2"
+            }
+        ]
+    },
+    {
+        "name": "Moondrop",
+        "phones": [
+            {
+                "name": "DUSK",
+                "collab": "crinacle",
+                "file": [
+                    "Moondrop DUSK"
+                ],
+                "suffix": [
+                    "(3.5mm)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Oriveti",
+        "phones": [
+            {
+                "name": "OD100",
+                "file": "Oriveti OD100"
+            }
+        ]
+    },
+    {
+        "name": "Sony",
+        "phones": [
+            {
+                "name": "IER-M7",
+                "file": "Sony IER-M7"
+            },
+            {
+                "name": "IER-M9",
+                "file": "Sony IER-M9"
+            },
+            {
+                "name": "IER-Z1R",
+                "file": "Sony IER-Z1R"
+            }
+        ]
+    },
+    {
+        "name": "Subtonic",
+        "phones": [
+            {
+                "name": "Storm",
+                "file": [
+                    "Subtonic Storm"
+                ],
+                "suffix": [
+                    "(right channel only)"
+                ]
+            }
+        ]
+    },
+    {
         "name": "Symphonium",
         "phones": [
+            {
+                "name": "Crimson",
+                "file": "Symphonium Crimson"
+            },
             {
                 "name": "Meteor",
                 "file": [
@@ -18,6 +277,162 @@
                     "(right channel only) w/ Truthear Hola stock cable",
                     "(right channel only) w/ UM PW stock cable"
                 ]
+            },
+            {
+                "name": "Titan",
+                "file": "Symphonium Titan"
+            }
+        ]
+    },
+    {
+        "name": "Tanchjim",
+        "phones": [
+            {
+                "name": "Oxygen",
+                "file": "Tanchjim Oxygen"
+            }
+        ]
+    },
+    {
+        "name": "TangZu",
+        "phones": [
+            {
+                "name": "Fudu",
+                "collab": "Divinus",
+                "file": "TangZu Fudu"
+            }
+        ]
+    },
+    {
+        "name": "TFZ",
+        "phones": [
+            {
+                "name": "King II",
+                "file": "TFZ King II"
+            },
+            {
+                "name": "No.3 19th Edition",
+                "file": "TFZ No.3 19th Edition"
+            },
+            {
+                "name": "Queen 2023",
+                "file": "TFZ Queen 2023"
+            }
+        ]
+    },
+    {
+        "name": "Thieaudio",
+        "phones": [
+            {
+                "name": "Hype 2",
+                "file": "Thieaudio Hype 2"
+            },
+            {
+                "name": "Hype 4",
+                "file": "Thieaudio Hype 4"
+            },
+            {
+                "name": "Hype 10",
+                "file": "Thieaudio Hype 10"
+            },
+            {
+                "name": "Oracle MK3",
+                "file": "Thieaudio Oracle MK3"
+            },
+            {
+                "name": "Prestige LTD",
+                "file": "Thieaudio Prestige LTD"
+            }
+        ]
+    },
+    {
+        "name": "Truthear",
+        "phones": [
+            {
+                "name": "Nova",
+                "file": "Truthear Nova"
+            }
+        ]
+    },
+    {
+        "name": "Ultimate Ears",
+        "phones": [
+            {
+                "name": "UE 150",
+                "file": "Ultimate Ears UE 150"
+            },
+            {
+                "name": "UE 250",
+                "file": "Ultimate Ears UE 250"
+            },
+            {
+                "name": "UE 350",
+                "file": "Ultimate Ears UE 350"
+            },
+            {
+                "name": "UE Reference Remastered (RR)",
+                "file": "Ultimate Ears UE RR"
+            }
+        ]
+    },
+    {
+        "name": "Unique Melody",
+        "phones": [
+            {
+                "name": "3DT",
+                "file": "Unique Melody 3DT"
+            },
+            {
+                "name": "Maven",
+                "file": "Unique Melody Maven"
+            },
+            {
+                "name": "Maven II",
+                "file": "Unique Melody Maven II"
+            },
+            {
+                "name": "MEXT",
+                "file": "Unique Melody MEXT"
+            }
+        ]
+    },
+    {
+        "name": "Vision Ears",
+        "phones": [
+            {
+                "name": "Elysium",
+                "file": "Vision Ears Elysium"
+            },
+            {
+                "name": "PHNIX",
+                "file": "Vision Ears PHNIX"
+            },
+            {
+                "name": "VE10",
+                "file": [
+                    "Vision Ears VE10"
+                ],
+                "suffix": [
+                    "(broken)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Whizzer",
+        "phones": [
+            {
+                "name": "BS1",
+                "file": "Whizzer BS1"
+            }
+        ]
+    },
+    {
+        "name": "THE FUNNI",
+        "phones": [
+            {
+                "name": "Lazer buds",
+                "file": "Lazer buds"
             }
         ]
     }
