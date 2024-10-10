@@ -238,14 +238,18 @@
 			{
 				"name": "Xeno",
 				"file": [
+					"0.11 xeno",
 					"xeno 0.8",
 					"xeno",
-					"XENOBIE"
+					"XENOBIE",
+					"0.11 xenobie"
 				],
 				"suffix": [
+					"Firmware 0.11",
 					"Firmware 0.8",
 					"Firmware 0.6",
-					"OB ver."
+					"0.8 OB ver.",
+					"0.11 xenobie"
 				]
 			}
 		]
@@ -625,6 +629,24 @@
 			{
 				"name": "SSR",
 				"file": "md ssr"
+			}
+		]
+	},
+	{
+		"name": "Moritz",
+		"phones": [
+			{
+				"name": "Paradise",
+				"file": [
+					"paradise natural",
+					"paradise vocal",
+					"paradise texture"
+				],
+				"suffix": [
+					"Natural Mode (DUD)",
+					"Vocal Mode (DDU)",
+					"Texture (UDD)"
+				]
 			}
 		]
 	},
