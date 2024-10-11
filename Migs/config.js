@@ -131,7 +131,7 @@ const
         <p class="center">
         This web software is based on the <a href="https://github.com/mlochbaum/CrinGraph"><b>CrinGraph</b></a> open source software project.
         <br>
-        Measurements uploaded are made with a clone IEC 60318-4 coupler from <a href="https://www.lazada.com.ph//products/i3608243611-s18734797450.html"><b>Yisunder.sun</b></a>
+        Measurements uploaded are made with a clone IEC 60318-4 coupler from <a href="http://www.aliexpress.com/item/4000789796521.html"><b>Sounds Good Store.</b></a>
         <br>
         And the use of <a href="https://www.roomeqwizard.com/"><b>Room EQ Wizard</b></a> as software of choice.
         <br>
