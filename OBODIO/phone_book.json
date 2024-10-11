@@ -170,6 +170,10 @@
 				]
 			},
 			{
+				"name": "Kima 2",
+				"file": "kima 2"
+			},
+			{
 				"name": "Titan S2",
 				"file": "titan s2"
 			}
@@ -639,7 +643,7 @@
 				"name": "Paradise",
 				"file": [
 					"paradise natural",
-					"paradise vocal",
+					"Paradise",
 					"paradise texture"
 				],
 				"suffix": [
@@ -708,6 +712,10 @@
 			{
 				"name": "DB2",
 				"file": "db2"
+			},
+			{
+				"name": "F1 Pro",
+				"file": "f1 pro"
 			}
 		]
 	},
