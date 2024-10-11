@@ -3,6 +3,10 @@
         "name": "64 Audio",
         "phones": [
             {
+                "name": "Solo",
+                "file": "64 Audio Solo"
+            },
+            {
                 "name": "U4s",
                 "file": [
                     "64 Audio U4s M20"
@@ -10,6 +14,27 @@
                 "suffix": [
                     "(M20)"
                 ]
+            }
+        ]
+    },
+    {
+        "name": "Audio-Technica",
+        "phones": [
+            {
+                "name": "ATH-CK2000Ti",
+                "file": "Audio-Technica ATH-CK2000Ti"
+            },
+            {
+                "name": "ATH-E40",
+                "file": "Audio-Technica ATH-E40"
+            },
+            {
+                "name": "ATH-IEX1",
+                "file": "Audio-Technica ATH-IEX1"
+            },
+            {
+                "name": "ATH-LS50iS",
+                "file": "Audio-Technica ATH-LS50iS"
             }
         ]
     },
@@ -120,6 +145,10 @@
     {
         "name": "Final Audio",
         "phones": [
+            {
+                "name": "A5000",
+                "file": "Final Audio A5000"
+            },
             {
                 "name": "A8000",
                 "file": "Final Audio A8000"
