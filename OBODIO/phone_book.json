@@ -1,5 +1,23 @@
 [
 	{
+		"name": "7th Acoustics",
+		"phones": [
+			{
+				"name": "Supernova",
+				"file": "supernova"
+			}
+		]
+	},
+	{
+		"name": "Aful",
+		"phones": [
+			{
+				"name": "Explorer",
+				"file": "explorer"
+			}
+		]
+	},
+	{
 		"name": "CCA",
 		"phones": [
 			{
@@ -150,6 +168,15 @@
 		]
 	},
 	{
+		"name": "Dita",
+		"phones": [
+			{
+				"name": "Project M",
+				"file": "projectm"
+			}
+		]
+	},
+	{
 		"name": "Dunu",
 		"phones": [
 			{
@@ -176,6 +203,37 @@
 			{
 				"name": "Titan S2",
 				"file": "titan s2"
+			}
+		]
+	},
+	{
+		"name": "Elysian",
+		"phones": [
+			{
+				"name": "Diva 2023",
+				"file": [
+					"diva red",
+					"diva white",
+					"diva blue"
+				],
+				"suffix": [
+					"Red Switch",
+					"White Switch",
+					"Blue Switch"
+				]
+			},
+			{
+				"name": "Pilgrim :(",
+				"file": "pilgrim jbc"
+			}
+		]
+	},
+	{
+		"name": "Empire Ears",
+		"phones": [
+			{
+				"name": "Merlin",
+				"file": "ee merlin"
 			}
 		]
 	},
@@ -918,14 +976,27 @@
 		"name": "Tangzu",
 		"phones": [
 			{
-				"name": "Xuan NV",
+				"name": "Xuan Ji",
 				"file": [
-					"xuannv",
-					"xuanv hurl"
+					"xuanji matte",
+					"xuanji"
 				],
 				"suffix": [
 					"S1",
 					"S2"
+				]
+			},
+			{
+				"name": "Xuan NV",
+				"file": [
+					"xuannv",
+					"xuanv hurl",
+					"xuan nv rev"
+				],
+				"suffix": [
+					"S1",
+					"S2",
+					"S3 (Odo measured)"
 				]
 			},
 			{
@@ -935,6 +1006,19 @@
 			{
 				"name": "Wan'er S.G.",
 				"file": "waner sg"
+			}
+		]
+	},
+	{
+		"name": "Thieaudio",
+		"phones": [
+			{
+				"name": "Oracle MK1 (2024)",
+				"file": "oracle 1 2024"
+			},
+			{
+				"name": "Oracle MK3",
+				"file": "oracle3"
 			}
 		]
 	},
@@ -963,6 +1047,10 @@
 	{
 		"name": "Tripowin",
 		"phones": [
+			{
+				"name": "Picolo",
+				"file": "picolo"
+			},
 			{
 				"name": "x HBB Kailua",
 				"file": "kailua"
