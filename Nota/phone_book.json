@@ -1,5 +1,15 @@
 [
     {
+        "name": "7Hz",
+        "phones": [
+            {
+                "name": "Zero:2",
+                "collab": "crinacle",
+                "file": "7Hz Salnotes x crinacle Zero 2"
+            }
+        ]
+    },
+    {
         "name": "Cosmo Mods",
         "phones": [
             {
@@ -14,10 +24,12 @@
             {
                 "name": "MagicOne",
                 "file": [
+                    "AFUL MagicOne S2",
                     "AFUL MagicOne"
                 ],
                 "suffix": [
-                    "(broken)"
+                    "S2",
+                    "S1 (broken)"
                 ]
             }
         ]
@@ -48,11 +60,37 @@
         ]
     },
     {
+        "name": "FATfreq",
+        "phones": [
+            {
+                "name": "Deuce",
+                "collab": "HBB",
+                "file": [
+                    "FATfreq x HBB Deuce",
+                    "FATfreq x HBB Deuce 10 ohm"
+                ],
+                "suffix": [
+                    "",
+                    "w/ 10 Ohm adapter"
+                ]
+            }
+        ]
+    },
+    {
         "name": "Hisenior",
         "phones": [
             {
                 "name": "Mega5-EST",
                 "file": "Hisenior Mega5-EST"
+            }
+        ]
+    },
+    {
+        "name": "Kinera",
+        "phones": [
+            {
+                "name": "Celest Wyvern Abyss",
+                "file": "Kinera Celest Wyvern Abyss"
             }
         ]
     },
@@ -72,6 +110,49 @@
                 "suffix": [
                     "(3.5mm)"
                 ]
+            },
+            {
+                "name": "Quark 2",
+                "file": "Moondrop Quark 2"
+            }
+        ]
+    },
+    {
+        "name": "QKZ",
+        "phones": [
+            {
+                "name": "Hades",
+                "collab": "HBB",
+                "file": "QKZ x HBB Hades"
+            }
+        ]
+    },
+    {
+        "name": "Sony",
+        "phones": [
+            {
+                "name": "WF-1000XM4",
+                "file": "Sony WF-1000XM4"
+            }
+        ]
+    },
+    {
+        "name": "Tanchjim",
+        "phones": [
+            {
+                "name": "4U",
+                "file": [
+                    "Tanchjim 4U Atmosphere",
+                    "Tanchjim 4U Pop",
+                    "Tanchjim 4U Natural",
+                    "Tanchjim 4U Monitoring"
+                ],
+                "suffix": [
+                    "(Atmosphere)",
+                    "(Pop)",
+                    "(Natural)",
+                    "(Monitoring)"
+                ]
             }
         ]
     },
@@ -81,6 +162,40 @@
             {
                 "name": "Wan'er",
                 "file": "Tangzu Waner"
+            },
+            {
+                "name": "Wan'er SE",
+                "file": "Tangzu Waner SE"
+            }
+        ]
+    },
+    {
+        "name": "Truthear",
+        "phones": [
+            {
+                "name": "Gate",
+                "file": "Truthear Gate"
+            },
+            {
+                "name": "Zero:RED",
+                "collab": "crinacle",
+                "file": [
+                    "Truthear Zero RED",
+                    "Truthear Zero RED 10 ohm"
+                ],
+                "suffix": [
+                    "",
+                    "w/ Bass+ adapter"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ZiiGaat",
+        "phones": [
+            {
+                "name": "Nuo",
+                "file": "ZiiGaat Nuo"
             }
         ]
     }
