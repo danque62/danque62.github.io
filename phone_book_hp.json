@@ -190,7 +190,18 @@
             },
             {
                 "name": "SHP9500",
-                "file": "Philips SHP9500",
+                "file": [
+                    "Philips SHP9500",
+                    "Philips SHP9500 Misodiko",
+                    "Philips SHP9500 S2",
+                    "Philips SHP9500 S2 Misodiko"
+                ],
+                "suffix": [
+                    "S1",
+                    "S1 w/ Misodiko pads",
+                    "S2",
+                    "S2 w/ Misodiko pads"
+                ],
                 "shopLink": "https://www.amazon.com/Philips-SHP9500S-Precision-Over-ear-Headphones/dp/B00ENMK1DW",
                 "reviewScore": "4.42/10"
             }
@@ -235,8 +246,14 @@
             {
                 "name": "HD58x",
                 "collab": "Drop",
-                "file": ["Sennheiser HD58x", "Sennheiser HD58x No Back Foam"],
-                "suffix": ["", "w/o back foam"]
+                "file": [
+                    "Sennheiser HD58x",
+                    "Sennheiser HD58x No Back Foam"
+                ],
+                "suffix": [
+                    "",
+                    "w/o back foam"
+                ]
             },
             {
                 "name": "HD600",

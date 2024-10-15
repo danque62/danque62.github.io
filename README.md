@@ -1,4 +1,11 @@
 # [Access to the graph tool.](graph)
+# Updates (October 15, 2024 - Remeasuring)
+Added headphones:
+- Philips SHP9500 (sample 2)
+
+Remeasured headphones: 
+- Philips SHP9500 (sample 1)
+- Sennheiser HD58x
 # Updates (September 19, 2024 - Random squig)
 Added IEM:
 - Aolon RM-680
