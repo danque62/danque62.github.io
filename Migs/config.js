@@ -1,5 +1,5 @@
 // Configuration options
-const init_phones = ["Generic JM-1 Target", "Campfire Audio Andromeda 2020"],                // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
+const init_phones = ["Generic JM-1 Target", "Sony IER-M7"],                // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
       DIR = "data/",                                // Directory where graph files are stored
       default_channels = ["L","R"],                 // Which channels to display. Avoid javascript errors if loading just one channel per phone
       default_normalization = "dB",                 // Sets default graph normalization mode. Accepts "dB" or "Hz"
@@ -55,7 +55,7 @@ const  preference_bounds_name = "Preference Bounds RAW",            // Preferenc
        default_y_scale = "50db",
        default_DF_name = "Generic JM-1",                                        // Default RAW DF name
        dfBaseline = true,                                                       // If true, DF is used as baseline when custom df tilt is on
-       default_bass_shelf = 6,                                                  // Default Custom DF bass shelf value
+       default_bass_shelf = 3,                                                  // Default Custom DF bass shelf value
        default_tilt = -1,                                                       // Default Custom DF tilt value
        default_ear = -3,                                                         // Default Custom DF ear gain value
        default_treble = -1.6,                                                      // Default Custom DF treble gain value

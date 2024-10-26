@@ -39,6 +39,15 @@
         ]
     },
     {
+        "name": "Audiofly",
+        "phones": [
+            {
+                "name": "AF78M",
+                "file": "Audiofly AF78M"
+            }
+        ]
+    },
+    {
         "name": "Artti",
         "phones": [
             {
