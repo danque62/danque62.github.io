@@ -9,6 +9,15 @@
         ]
     },
     {
+        "name": "Audiosense",
+        "phones": [
+            {
+                "name": "DT200",
+                "file": "Audiosense DT200"
+            }
+        ]
+    },
+    {
         "name": "DUNU",
         "phones": [
             {
@@ -57,6 +66,15 @@
             {
                 "name": "S12 Pro",
                 "file": "Letshuoer S12 Pro"
+            }
+        ]
+    },
+    {
+        "name": "Moondrop",
+        "phones": [
+            {
+                "name": "Aria SE",
+                "file": "Moondrop Aria SE"
             }
         ]
     },

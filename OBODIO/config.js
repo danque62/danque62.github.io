@@ -41,7 +41,7 @@ const init_phones = ["OB ODIO 2024 Neutral Target", "panda"],                // 
 // Specify which targets to display
 const targets = [
     { type: "Δ",            files:["Generic JM-1", "Generic ISO 11904-1 DF (711 Z)"] },
-    { type:"OB ODIO",       files:["OB ODIO 2024 Neutral", "OB ODIO 2024 Balanced v4"] },
+    { type:"OB ODIO",       files:["OB ODIO Neutral 2024 v2", "OB ODIO 2024 Balanced v4", "OB ODIO 2024 Basshead"] },
     { type:"Neutral",       files:["Diffuse Field", "Etymotic", "Free Field", "Innerfidelity ID", "IEF Neutral 2023"] },
     { type:"Reviewer",      files:["Antdroid", "Bad Guy", "Bad Guy 2022", "Banbeucmas", "DisYaBoiRalph Preference", "DisYaBoiRalph Neutral", "DisYaBoiRalph Pleasant", "IEF Neutral 2020", "Hobby Talk Preference", "Practiphile Balanced", "Practiphile Neutral", "Precogvision", "Timmy", "Super Review"] },
     { type:"Preference",    files:["Harman IE 2019v2", "USound1V1", "USound1V1 Flat Bass", "RTings", "Sonarworks", "VDSF"] }

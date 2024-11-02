@@ -1,5 +1,5 @@
 // Configuration options
-const init_phones = ["Generic JM-1 Target", "Hisenior Mega5EST"],                // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
+const init_phones = ["Generic JM-1 Target", "Softears Studio 4"],                // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
       DIR = "data/",                                // Directory where graph files are stored
       default_channels = ["L","R"],                 // Which channels to display. Avoid javascript errors if loading just one channel per phone
       default_normalization = "dB",                 // Sets default graph normalization mode. Accepts "dB" or "Hz"
@@ -190,6 +190,10 @@ const linkSets = [
             {
                 name: "Listener's Graph Tool",
                 url: "https://listener800.github.io/iems"
+            },
+            {
+                name: "Camille",
+                url: "https://graphtool.layer7.me/"
             },
             {
                 name: "Audio Discourse",
