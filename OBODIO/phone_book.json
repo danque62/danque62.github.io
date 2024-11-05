@@ -180,6 +180,10 @@
 		"name": "Dunu",
 		"phones": [
 			{
+				"name": "DK3001BD",
+				"file": "dk3001bd"
+			},
+			{
 				"name": "x Gizaudio DaVinci",
 				"file": "dabinky"
 			},
@@ -258,6 +262,10 @@
 					"(Clarion)",
 					"(Stock Tips)"
 				]
+			},
+			{
+				"name": "Q5 Pro",
+				"file": "q5 pro"
 			}
 		]
 	},
@@ -416,6 +424,19 @@
 			{
 				"name": "Delci",
 				"file": "delci"
+			},
+			{
+				"name": "Klean",
+				"file": [
+					"klean silver",
+					"klean black",
+					"klean none"
+				],
+				"suffix": [
+					"Silver Filter",
+					"Black Filter",
+					"No Filter"
+				]
 			}
 		]
 	},
@@ -462,6 +483,10 @@
 			{
 				"name": "Vampire",
 				"file": "vamp"
+			},
+			{
+				"name": "Zephyr",
+				"file": "zephyr"
 			}
 		]
 	},
@@ -976,7 +1001,7 @@
 		"name": "Tangzu",
 		"phones": [
 			{
-				"name": "Xuan Ji",
+				"name": "Yu Xuan Ji",
 				"file": [
 					"xuanji matte",
 					"xuanji"
