@@ -330,7 +330,7 @@
         "name": "Ugreen",
         "phones": [
             {
-                "name": "HiTune Max5C",
+                "name": "HiTune Max5C ANC mode",
                 "file": [
                     "Ugreen HiTune Max5C Classic ANC",
                     "Ugreen HiTune Max5C Jazz ANC",
@@ -343,15 +343,65 @@
                     "Ugreen HiTune Max5C Spatial ANC"
                 ],
                 "suffix": [
-                    "(Classic Preset) ANC mode",
-                    "(Jazz Preset) ANC mode",
-                    "(Electronic Preset) ANC mode",
-                    "(Popularity Preset) ANC mode",
-                    "(Classical Preset) ANC mode",
-                    "(Rock Preset) ANC mode",
-                    "(Bass Preset) ANC mode",
-                    "(Treble Preset) ANC mode",
-                    "(Spatial ON) ANC mode"
+                    "(Classic Preset)",
+                    "(Jazz Preset)",
+                    "(Electronic Preset)",
+                    "(Popularity Preset)",
+                    "(Classical Preset)",
+                    "(Rock Preset)",
+                    "(Bass Preset)",
+                    "(Treble Preset)",
+                    "(Spatial ON)"
+                ]
+            },
+            {
+                "name": "HiTune Max5C Passive mode",
+                "file": [
+                    "Ugreen HiTune Max5C Classic Passive",
+                    "Ugreen HiTune Max5C Jazz Passive",
+                    "Ugreen HiTune Max5C Electronic Passive",
+                    "Ugreen HiTune Max5C Popularity Passive",
+                    "Ugreen HiTune Max5C Classical Passive",
+                    "Ugreen HiTune Max5C Rock Passive",
+                    "Ugreen HiTune Max5C Bass Passive",
+                    "Ugreen HiTune Max5C Treble Passive",
+                    "Ugreen HiTune Max5C Spatial Passive"
+                ],
+                "suffix": [
+                    "(Classic Preset)",
+                    "(Jazz Preset)",
+                    "(Electronic Preset)",
+                    "(Popularity Preset)",
+                    "(Classical Preset)",
+                    "(Rock Preset)",
+                    "(Bass Preset)",
+                    "(Treble Preset)",
+                    "(Spatial ON)"
+                ]
+            },
+            {
+                "name": "HiTune Max5C Ambient mode",
+                "file": [
+                    "Ugreen HiTune Max5C Classic Ambient",
+                    "Ugreen HiTune Max5C Jazz Ambient",
+                    "Ugreen HiTune Max5C Electronic Ambient",
+                    "Ugreen HiTune Max5C Popularity Ambient",
+                    "Ugreen HiTune Max5C Classical Ambient",
+                    "Ugreen HiTune Max5C Rock Ambient",
+                    "Ugreen HiTune Max5C Bass Ambient",
+                    "Ugreen HiTune Max5C Treble Ambient",
+                    "Ugreen HiTune Max5C Spatial Ambient"
+                ],
+                "suffix": [
+                    "(Classic Preset)",
+                    "(Jazz Preset)",
+                    "(Electronic Preset)",
+                    "(Popularity Preset)",
+                    "(Classical Preset)",
+                    "(Rock Preset)",
+                    "(Bass Preset)",
+                    "(Treble Preset)",
+                    "(Spatial ON)"
                 ]
             }
         ]
