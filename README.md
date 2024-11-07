@@ -1,4 +1,7 @@
 # [Access to the graph tool.](graph)
+# Updates (November 7, 2024 - I hate life)
+Added headphones:
+- Ugreen HiTune Max5C
 # Updates (October 15, 2024 - Remeasuring)
 Added headphones:
 - Philips SHP9500 (sample 2)

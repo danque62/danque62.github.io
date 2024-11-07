@@ -217,20 +217,6 @@
         ]
     },
     {
-        "name": "Sendy Audio",
-        "phones": [
-            {
-                "name": "Apollo",
-                "file": [
-                    "Sendy Audio Apollo Sivga Phoenix Pads"
-                ],
-                "suffix": [
-                    "w/ Sivga Phoenix Pads"
-                ]
-            }
-        ]
-    },
-    {
         "name": "Sennheiser",
         "phones": [
             {
@@ -337,6 +323,36 @@
                 "name": "Ghost",
                 "file": "Thieaudio Ghost",
                 "shopLink": "https://www.linsoul.com/products/thieaudio-ghost"
+            }
+        ]
+    },
+    {
+        "name": "Ugreen",
+        "phones": [
+            {
+                "name": "HiTune Max5C",
+                "file": [
+                    "Ugreen HiTune Max5C Classic ANC",
+                    "Ugreen HiTune Max5C Jazz ANC",
+                    "Ugreen HiTune Max5C Electronic ANC",
+                    "Ugreen HiTune Max5C Popularity ANC",
+                    "Ugreen HiTune Max5C Classical ANC",
+                    "Ugreen HiTune Max5C Rock ANC",
+                    "Ugreen HiTune Max5C Bass ANC",
+                    "Ugreen HiTune Max5C Treble ANC",
+                    "Ugreen HiTune Max5C Spatial ANC"
+                ],
+                "suffix": [
+                    "(Classic Preset) ANC mode",
+                    "(Jazz Preset) ANC mode",
+                    "(Electronic Preset) ANC mode",
+                    "(Popularity Preset) ANC mode",
+                    "(Classical Preset) ANC mode",
+                    "(Rock Preset) ANC mode",
+                    "(Bass Preset) ANC mode",
+                    "(Treble Preset) ANC mode",
+                    "(Spatial ON) ANC mode"
+                ]
             }
         ]
     },
