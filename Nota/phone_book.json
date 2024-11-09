@@ -18,6 +18,7 @@
             }
         ]
     },
+    
     {
         "name": "AFUL",
         "phones": [
@@ -45,6 +46,15 @@
         ]
     },
     {
+        "name": "Delta",
+        "phones": [
+            {
+                "name": "FreeBuds",
+                "file": "Delta FreeBuds"
+            }
+        ]
+    },
+    {
         "name": "DUNU",
         "phones": [
             {
@@ -63,6 +73,25 @@
         "name": "FATfreq",
         "phones": [
             {
+                "name": "Grand Maestro",
+                "file": [
+                    "FATfreq Grand Maestro Black D",
+                    "FATfreq Grand Maestro Black U",
+                    "FATfreq Grand Maestro Black2 D",
+                    "FATfreq Grand Maestro Black2 U",
+                    "FATfreq Grand Maestro Blue D",
+                    "FATfreq Grand Maestro Blue U"
+                ],
+                "suffix": [
+                    "(OFF) Black Module",
+                    "(ON) Black Module",
+                    "(OFF) Black2 Module",
+                    "(ON) Black2 Module",
+                    "(OFF) Blue Module",
+                    "(ON) Blue Module"
+                ]
+            },
+            {
                 "name": "Deuce",
                 "collab": "HBB",
                 "file": [
@@ -73,6 +102,11 @@
                     "",
                     "w/ 10 Ohm adapter"
                 ]
+            },
+            {
+                "name": "Maestro Mini",
+                "file": ["FATfreq Maestro Mini Clarions"],
+                "suffix": ["w/ TRI Clarions"]
             }
         ]
     },
@@ -137,6 +171,17 @@
         ]
     },
     {
+        "name": "Symphonium",
+        "phones": [
+            {
+                "name": "Meteor",
+                "collab": "Nightjar Acoustics",
+                "file": ["Symphonium Meteor", "Symphonium Meteor Clarions"], 
+                "suffix": ["", "w/ TRI Clarions"]
+            }
+        ]
+    },
+    {
         "name": "Tanchjim",
         "phones": [
             {
@@ -161,11 +206,11 @@
         "phones": [
             {
                 "name": "Wan'er",
-                "file": "Tangzu Waner"
+                "file": "TangZu Waner"
             },
             {
                 "name": "Wan'er SE",
-                "file": "Tangzu Waner SE"
+                "file": "TangZu Waner SE"
             }
         ]
     },
