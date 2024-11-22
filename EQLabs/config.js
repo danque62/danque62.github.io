@@ -40,11 +40,11 @@ const init_phones = ["Flat Target"],                // Optional. Which graphs to
 const targets = [
     // you gotta figure out the naming here, move all the targets into /data_eqpg/targets
     { type: "Flat",                 files:["Flat"]},
-    { type: "Rollo",                files:["Preference", "Neutral", "Pleasant"] },
+    { type: "Personal",                files:["Preference", "Neutral", "Pleasant"] },
     { type: "5128 (HP)",            files:["5128 DF", "SoundGuys", "LMG 0.6"] },
     { type: "5128 (IEM)",           files:["JM-1 DF", "ISO 11904-1 DF", "WIP-H (5128)"] },
     { type: "711 (HP)",             files:["KEMAR DF (KB006x)", "KEMAR DF (KB50xx)", "4128 DF", "HMSii.3 DF (RTINGS)", "Harman In-Room Flat", "ISO 11904-2 DF","IEC 60318-7 DF"] },
-    { type: "711 (IEM)",            files:["∆ WIP DF", "∆ JM-1 DF", "∆ ISO 11904-1 DF", "∆ 5128 DF"]},
+    { type: "711 (IEM)",            files:["Δ WIP DF", "Δ JM-1 DF", "Δ ISO 11904-1 DF", "Δ 5128 DF"]},
     { type: "Various (711 HP)",     files:["Harman 2013", "Harman 2015", "Harman 2018", "IEF Neutral", "USOUND 3V0 Optimum Hifi"] },
     { type: "Various (711 IEM)",    files:["Harman 2016", "Harman 2017", "Harman 2019v2", "IEF Neutral 2023", "IEF Neutral 2020", "USOUND 1V1 Oratory1990", "Etymotic"] },
     { type: "Misc.",                files:["HMSii.3 DF (InnerFidelity)", "ISO 11904-1 DF Inverted", "ISO 11904-2 DF Inverted", "711 to 5128", "711 to 5128 (DD Bass)", "KEMAR DF (KB50xx, Smooth)", "Listener Type 3.3 JM-1", "ISO 11904 Blocked Canal DF"] }
@@ -63,8 +63,8 @@ const  preference_bounds_name = "Preference Bounds RAW",            // Preferenc
        default_tilt = -1,                                                       // Default Custom DF tilt value
        default_ear = 0,                                                         // Default Custom DF ear gain value
        default_treble = 0,                                                      // Default Custom DF treble gain value
-       tiltableTargets = ["Flat","ISO 11904-1 DF","5128 DF","JM-1 DF","KEMAR DF (KB006x)","KEMAR DF (KB50xx)","4128 DF","HMSii.3 DF (RTINGS)","HMSii.3 DF (InnerFidelity)","Harman In-Room Flat","ISO 11904-2 DF","IEC 60318-7 DF","∆ WIP DF","∆ 5128 DF","∆ JM-1 DF","∆ ISO 11904-1 DF","KEMAR DF (KB50xx, Smooth)","Listener ISO 006x to 5128","Listener Type 3.3 JM-1","ISO 11904 Blocked Canal DF"], // Targets that are allowed to be tilted
-       compTargets = ["ISO 11904-1 DF","5128 DF","JM-1 DF","KEMAR DF (KB006x)","KEMAR DF (KB50xx)","4128 DF","HMSii.3 DF (RTINGS)","HMSii.3 DF (InnerFidelity)","Harman In-Room Flat","ISO 11904-2 DF","IEC 60318-7 DF","∆ WIP DF","∆ 5128 DF","∆ JM-1 DF","∆ ISO 11904-1 DF","ISO 11904-1 DF Inverted","ISO 11904-2 DF Inverted","711 to 5128","711 to 5128 (DD Bass)","KEMAR DF (KB50xx, Smooth)","Listener Type 3.3 JM-1","ISO 11904 Blocked Canal DF"];    // Targets that are allowed to be used for compensation
+       tiltableTargets = ["Flat","ISO 11904-1 DF","5128 DF","JM-1 DF","KEMAR DF (KB006x)","KEMAR DF (KB50xx)","4128 DF","HMSii.3 DF (RTINGS)","HMSii.3 DF (InnerFidelity)","Harman In-Room Flat","ISO 11904-2 DF","IEC 60318-7 DF","Δ WIP DF","Δ 5128 DF","Δ JM-1 DF","Δ ISO 11904-1 DF","KEMAR DF (KB50xx, Smooth)","Listener ISO 006x to 5128","Listener Type 3.3 JM-1","ISO 11904 Blocked Canal DF"], // Targets that are allowed to be tilted
+       compTargets = ["ISO 11904-1 DF","5128 DF","JM-1 DF","KEMAR DF (KB006x)","KEMAR DF (KB50xx)","4128 DF","HMSii.3 DF (RTINGS)","HMSii.3 DF (InnerFidelity)","Harman In-Room Flat","ISO 11904-2 DF","IEC 60318-7 DF","Δ WIP DF","Δ 5128 DF","Δ JM-1 DF","Δ ISO 11904-1 DF","ISO 11904-1 DF Inverted","ISO 11904-2 DF Inverted","711 to 5128","711 to 5128 (DD Bass)","KEMAR DF (KB50xx, Smooth)","Listener Type 3.3 JM-1","ISO 11904 Blocked Canal DF"];    // Targets that are allowed to be used for compensation
        allowCreatorSupport = false;  
 
 // *************************************************************
