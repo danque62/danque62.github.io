@@ -1,0 +1,265 @@
+[
+	{"name":"CCA",
+		"phones":[
+			{
+				"name": "Duo",
+				"file": "duo"
+			},
+			{
+				"name": "Pianist",
+				"file": "pianist"
+			},			
+			{
+				"name": "Polaris",
+				"file": [
+				"polaris dddd",
+				"polaris dddu",
+				"polaris dduu",
+				"polaris duuu",
+				"polaris uuuu",
+				"polaris dddu",
+				"polaris dduu",
+				"polaris duuu"
+			],
+				"suffix": [
+				"DDDD",
+				"DDDU",
+				"DDUU",
+				"DUUU",
+				"UUUU",	
+				"UUUD",	
+				"UUDD",	
+				"UDDD"					
+			]
+			},
+			{
+				"name": "Rhapsody",
+				"file": [
+				"rhap DDDD",
+				"rhap DDDU",
+				"rhap DDUU",
+				"rhap DUUU",
+				"rhap UUUU",
+				"rhap UUUD",
+				"rhap UUDD",
+				"rhap UUDD"
+			],
+				"suffix": [
+				"DDDD",
+				"DDDU",
+				"DDUU",
+				"DUUU",
+				"UUUU",	
+				"UUUD",	
+				"UUDD",	
+				"UDDD"					
+			]
+			},
+			{
+				"name": "Trio",
+				"file": [
+				"trio dddd",
+				"trio dddu",
+				"trio dduu",
+				"trio duuu",
+				"trio uuuu",
+				"trio dddu",
+				"trio dduu",
+				"trio duuu"
+			],
+				"suffix": [
+				"DDDD",
+				"DDDU",
+				"DDUU",
+				"DUUU",
+				"UUUU",	
+				"UUUD",	
+				"UUDD",	
+				"UDDD"					
+			]
+			}						
+		]
+	},
+	{
+		"name": "Celest",
+		"phones": [
+			{
+				"name": "Phoenixcall",
+				"file": "phxcall"
+			},
+			{
+				"name": "Wyvern Pro",
+				"file": "wyvernp"
+			}
+				]
+	},
+	{
+		"name":"EPZ",
+		"phones":[
+			{
+				"name": "K1",
+				"file": "K1"
+			}	
+				]
+	},
+	{
+		"name":"HZSound",
+		"phones": [
+			{
+				"name": "Heart Mirror",
+				"file": [
+					"HM",
+					"obmirror"
+				],
+				"suffix": [
+					"Stock",
+					"OB ODIO Modded"
+				]
+
+			}	
+		]
+	},
+	{
+		"name":"KBEar",
+		"phones":[
+			{
+				"name":"Flash",
+				"file":"flash"
+			},
+			{
+				"name": "KWI",
+				"file": "kw1"
+			}
+		]
+	},
+	{
+		"name":"Kiwi Ears",
+		"phones":[
+			{
+				"name":"Quartet",
+				"file":[
+					"quatro dd",
+					"quatro du",
+					"quatro ud",
+					"quatro uu"	
+					],
+				"suffix": [
+					"DD",
+					"DU",
+					"UD",
+					"UU"
+					]
+			}
+		]		
+	},
+	{
+		"name":"KZ",
+		"phones":[
+			{"name":"DQ6 (foam mod","file":"KZ DQ6 foam"},
+			{"name":"ZS3","file":"KZ ZS3"}
+		]
+	},
+	{
+		"name":"Letshuoer",
+		"phones":[
+			{"name":"Cadenza","file":"Letshuoer Cadenza"},
+			{"name":"x Gizaudio Galileo","file":"Galileo"}
+		]
+	},
+	{
+		"name":"Moondrop",
+		"phones":[
+			{"name":"Kato (broken)","file":"MD Kato"},
+			{"name":"SSR","file":"ssr"}
+		]
+	},
+	{
+		"name":"ND",
+		"phones":[
+			{"name":"NSK","file":"ND NSK"},
+			{"name":"NSK (broken)","file":"nsk broken"}
+		]
+	},
+	{
+		"name":"QKZ",
+		"phones":[
+			{"name":"AK6 (stock)","file":"QKZ AK6 Stock"},
+			{"name":"AK6 (retune)","file":"QKZ AK6 Retune"},
+			{"name":"x HBB","file":"QKZ x HBB"}
+		]
+	},
+	{
+		"name":"SeeAudio",
+		"phones":[
+			{"name":"Yume 2 (broken)","file":"Yume 2"}
+		]
+	},
+	{
+		"name":"Shozy",
+		"phones":[
+			{"name":"x AAW Hibiki MK1","file":"Shozy Hibiki MK1"}
+		]
+	},
+	{
+		"name":"Sony",
+		"phones":[
+			{"name":"MDR-EX310LP","file":"MDR 310"},
+			{"name":"MDR-EX500LP","file":"MDR 500"},
+			{"name":"MDR-EX700SL","file":"MDR 700"},
+			{"name":"MDR-NWNC33","file":"NWNC33"},
+			{"name":"MH755","file":"MH755"}
+		]
+	},
+	{
+		"name":"Simgot",
+		"phones":[
+			{"name":"EA500 RED","file":"EA5 RNZ"},
+			{"name":"EA500 BLACK","file":"EA5 BNZ"},
+			{"name":"EA500 KATO","file":"EA5 KNZ"},
+			{"name":"EA500 BLACK (avani)","file":"ea500 black"},
+			{"name":"EA500 RED (avani)","file":"ea500 red"}
+		]
+	},
+	{
+		"name":"TangZu",
+		"phones": [
+			{"name":"Fudu (IEC711)","file":"TZFudu"},
+			{"name":"Wan'er","file":"TangZu Waner S.G."},
+			{"name":"Heyday","file":"Heyday"},
+			{"name":"Shimin Li Encounter","file":"encounter"}
+
+		]			
+    },
+    {
+        "name":   "Tin Hifi",
+        "phones": [
+            {"name":"C2 Mech Warrior","file":"TIN HiFi C2 Mech Warrior"},
+	    	{"name":"C3","file":"TIN HiFi C3"},
+			{"name":"T2+","file":"t2+"},
+			{"name":"T3+ (preproduction)","file":"t3+ preprod"}
+        ]
+	},
+	{
+		"name":"TRI",
+		"phones":[
+			{"name":"Star River (Pop Genre)","file":"starriver up up"},
+			{"name":"Star River (Enhanced Low Frequency)","file":"starriver up down"},
+			{"name":"Star River (Transparent Vocal)","file":"starriver down up"},
+			{"name":"Star River (Balanced and Neutral)","file":"starriver down down"},
+			{"name":"x HBB Kai","file":"TRI KAI"}
+		]
+	},
+	{
+		"name":"TRN",
+		"phones":[
+			{"name":"Xuan Wu","file":"TRN Xuan Wu"}
+		]
+	},
+	{
+		"name":"Westone",
+		"phones":[
+			{"name":"UM1","file":"Westone UM1"}
+		]
+	}
+	
+]

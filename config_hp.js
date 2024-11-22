@@ -269,7 +269,11 @@ let headerLogoText = "",
     },
     {
         name: "Squig.link",
-        url: "https://therollo9.squig.link/"
+        url: "https://therollo9.squig.link/headphones"
+    },
+    {
+        name: "EQ Labs",
+        url: "/EQLabs"
     }
 ];
 

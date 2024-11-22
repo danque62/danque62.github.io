@@ -58,8 +58,21 @@
         ]
     },
     {
+        "name": "Aune",
+        "phones": [
+            {
+                "name": "AR5000",
+                "file": "Aune AR5000"
+            }
+        ]
+    },
+    {
         "name": "Beyerdynamic",
         "phones": [
+            {
+                "name": "DT880 600 Ohm",
+                "file": "Beyerdynamic DT880 600 Ohm"
+            },
             {
                 "name": "T90",
                 "file": [
@@ -69,6 +82,17 @@
                 "suffix": [
                     "",
                     "w/ aftermarket leather pads"
+                ]
+            },
+            {
+                "name": "Tygr 300R",
+                "file": [
+                    "Beyerdynamic Tygr 300R",
+                    "Beyerdynamic Tygr 300R DT880 pads"
+                ],
+                "suffix": [
+                    "",
+                    "w/ DT880 pads"
                 ]
             }
         ]
@@ -90,6 +114,10 @@
                 "name": "Aeon 2 Closed",
                 "file": "DCA Aeon 2 Closed",
                 "shopLink": "https://danclarkaudio.com/aeon-2.html"
+            },
+            {
+                "name": "Aeon Flow Closed",
+                "file": "DCA Aeon Flow Closed"
             }
         ]
     },
@@ -124,7 +152,14 @@
         "phones": [
             {
                 "name": "Ananda V3",
-                "file": "Hifiman Ananda V3"
+                "file": [
+                    "Hifiman Ananda V3",
+                    "Hifiman Ananda aftermarket"
+                ],
+                "suffix": [
+                    "",
+                    "w/ aftermarket pads"
+                ]
             },
             {
                 "name": "HE560 V1.5",
@@ -208,6 +243,15 @@
         ]
     },
     {
+        "name": "Pioneer",
+        "phones": [
+            {
+                "name": "SE-500",
+                "file": "Pioneer SE-500"
+            }
+        ]
+    },
+    {
         "name": "Samsung",
         "phones": [
             {
@@ -225,7 +269,14 @@
             },
             {
                 "name": "HD560s",
-                "file": "Sennheiser HD560s",
+                "file": [
+                    "Sennheiser HD560s",
+                    "Sennheiser HD560s S2"
+                ],
+                "suffix": [
+                    "S1",
+                    "S2 (pad diff)"
+                ],
                 "shopLink": "",
                 "reviewScore": "6.86/10"
             },
@@ -245,11 +296,13 @@
                 "name": "HD600",
                 "file": [
                     "Sennheiser HD600 S1",
-                    "Sennheiser HD600 Dekoni Elite Hybrid"
+                    "Sennheiser HD600 Dekoni Elite Hybrid",
+                    "Sennheiser HD600 S2 Misodiko"
                 ],
                 "suffix": [
                     "S1",
-                    "S2 w/ Dekoni Elite Hybrid Pads"
+                    "S2 w/ Dekoni Elite Hybrid Pads",
+                    "S2 w/ Misodiko pads"
                 ],
                 "shopLink": "https://www.amazon.com/Sennheiser-Open-Back-Professional-Headphone/dp/B00004SY4H",
                 "reviewScore": "7.68/10"
@@ -303,6 +356,15 @@
             {
                 "name": "MDR-XB700",
                 "file": "Sony MDR-XB700"
+            },
+            {
+                "name": "MDR-XB1000",
+                "file": [
+                    "Sony MDR-XB1000 aftermarket"
+                ],
+                "suffix": [
+                    "w/ aftermarket pads"
+                ]
             },
             {
                 "name": "MDR-Z1R",

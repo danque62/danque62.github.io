@@ -14,6 +14,10 @@
 			{
 				"name": "Explorer",
 				"file": "explorer"
+			},
+			{
+				"name": "P5+2",
+				"file": "ap52"
 			}
 		]
 	},
@@ -23,6 +27,10 @@
 			{
 				"name": "CRA (2024)",
 				"file": "cra 2024"
+			},
+			{
+				"name": "CRA (OG)",
+				"file": "CRA OG"
 			},
 			{
 				"name": "Duo",
@@ -371,6 +379,23 @@
 		]
 	},
 	{
+		"name": "INM Audio",
+		"phones": [
+			{
+				"name": "INM1 Vanila",
+				"file": "INM1"
+			},
+			{
+				"name": "INM8 Prestige",
+				"file": "INM8"
+			},
+			{
+				"name": "INM X (prototype)",
+				"file": "INM11"
+			}
+		]
+	},
+	{
 		"name": "Intuaura",
 		"phones": [
 			{
@@ -551,6 +576,10 @@
 				]
 			},
 			{
+				"name": "Dawn",
+				"file": "dawn"
+			},
+			{
 				"name": "D-Fi (switches)",
 				"file": [
 					"dfi dddd",
@@ -681,6 +710,15 @@
 		]
 	},
 	{
+		"name": "Lafitear",
+		"phones": [
+			{
+				"name": "LV-C",
+				"file": "lvc"
+			}
+		]
+	},
+	{
 		"name": "Letshuoer",
 		"phones": [
 			{
@@ -709,6 +747,10 @@
 	{
 		"name": "Moondrop",
 		"phones": [
+			{
+				"name": "Chu Spring",
+				"file": "Chu Spring"
+			},
 			{
 				"name": "Kato",
 				"file": "KATO"
@@ -848,7 +890,7 @@
 		"phones": [
 			{
 				"name": "x HBB",
-				"file": "qkz hbb"
+				"file": "qkzhbb"
 			},
 			{
 				"name": "x HBB Hades",
@@ -862,6 +904,24 @@
 			{
 				"name": "QT9 MK3",
 				"file": "qt9mk3"
+			}
+		]
+	},
+	{
+		"name": "Salnotes (7hz)",
+		"phones": [
+			{
+				"name": "Zero 2",
+				"file": "SalZero 2"
+			}
+		]
+	},
+	{
+		"name": "Sgor",
+		"phones": [
+			{
+				"name": "Luna",
+				"file": "sgluna"
 			}
 		]
 	},
@@ -975,6 +1035,24 @@
 					"Silver Nozzle",
 					"Analogue Cable (Gold Nozzle)",
 					"Analogue Cable (Silver nozzle)"
+				]
+			}
+		]
+	},
+	{
+		"name": "Sound Rhyme",
+		"phones": [
+			{
+				"name": "SP01",
+				"file": [
+					"sp01 bl",
+					"sp01 c",
+					"sp01 r"
+				],
+				"suffix": [
+					"Black Ring Nozzle",
+					"Clear Nozzle",
+					"Red Nozzle"
 				]
 			}
 		]
@@ -1096,6 +1174,34 @@
 					"Black",
 					"Blue",
 					"Red"
+				]
+			},
+			{
+				"name": "V10 Pro",
+				"file": "v10 pro"
+			}
+		]
+	},
+	{
+		"name": "Truthear",
+		"phones": [
+			{
+				"name": "Hola",
+				"file": "Hola"
+			},
+			{
+				"name": "x Crinacle Zero Blue",
+				"file": "Truthear Zero"
+			},
+			{
+				"name": "x Crinacle Zero RED",
+				"file": [
+					"Zero Red",
+					"Zero Red Bass+"
+				],
+				"suffix": [
+					"Stock",
+					"Bass+"
 				]
 			}
 		]

@@ -1,4 +1,32 @@
 # [Access to the graph tool.](graph)
+# Updates (November 22, 2024 - November HiFi 2024 Haul)
+Added IEMs:
+- FATFreq BabyFreq
+- FATFreq x HBB Deuce
+- Hisenior Mega5P (sample 2)
+- INM Audio INM2 Stage
+- INM Audio INM3 Stage
+- INM Audio INM11/X/10+1 (I really don't know the exact name I'll update when I see the official name)
+- Kinera Celest Relentless
+- Kiwi Ears KE4
+- Moritz Paradise
+- Simgot Supermix 4
+
+Remeasured IEMs:
+- Simgot EW300 DSP (now with 3.5mm and all nozzles)
+
+Added headphones:
+- Aune AR5000
+- Beyerdynamic DT880 600 Ohm
+- Beyerdynamic Tygr 300R
+- DCA Aeon Flow Closed
+- Pioneer SE-500
+- Sennheiser HD560s (sample 2)
+- Sony MDR-XB1000
+
+Remeasured headphones
+- Hifiman Ananda V3 (w/ aftermarket pads)
+- Sennheiser HD600 (sample 2 w/ Misodiko pads)
 # Updates (November 7, 2024 - I hate life)
 Added headphones:
 - Ugreen HiTune Max5C

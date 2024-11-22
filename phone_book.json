@@ -590,6 +590,22 @@
         "name": "FATfreq",
         "phones": [
             {
+                "name": "BabyFreq",
+                "file": "FATFreq BabyFreq"
+            },
+            {
+                "name": "Deuce",
+                "collab": "HBB",
+                "file": [
+                    "FATFreq x HBB Deuce",
+                    "FATFreq x HBB Deuce IMP"
+                ],
+                "suffix": [
+                    "",
+                    "w/ impedance adapter"
+                ]
+            },
+            {
                 "name": "Scarlet Mini",
                 "file": [
                     "FATfreq Scarlet Mini Velvet"
@@ -712,6 +728,15 @@
                 "reviewScore": "6.38/10",
                 "price": "$1700",
                 "shopLink": "https://flipears.com/shop/universal-iem/artha-argentum/"
+            },
+            {
+                "name": "NovFi BC",
+                "file": [
+                    "Flipears NovFi BC"
+                ],
+                "suffix": [
+                    "(event exclusive)"
+                ]
             }
         ]
     },
@@ -797,11 +822,19 @@
                 "name": "Mega5P",
                 "file": [
                     "Hisenior Mega5p",
-                    "Hisenior Mega5p Final Type E"
+                    "Hisenior Mega5p Final Type E",
+                    "Hisenior Mega5P S2 ASMR",
+                    "Hisenior Mega5P S2 Sancai Wide",
+                    "Hisenior Mega5P S2 Sancai Narrow",
+                    "Hisenior Mega5P S2 Velvet Wide"
                 ],
                 "suffix": [
-                    "w/ Spinfits W1 tips",
-                    "w/ Final Type E tips"
+                    "S1 w/ Spinfits W1 tips",
+                    "S1 w/ Final Type E tips",
+                    "S2 w/ Azla SednaEarfit MAX ASMR tips",
+                    "S2 w/ TangZu Sancai Wide tips",
+                    "S2 w/ TangZu Sancai Narrow tips",
+                    "S2 w/ Divinus Velvet Wide tips"
                 ],
                 "price": "$300",
                 "reviewScore": "6.64/10"
@@ -863,6 +896,10 @@
         "name": "INM Audio",
         "phones": [
             {
+                "name": "INM2 Stage",
+                "file": "INM Audio INM2 Stage"
+            },
+            {
                 "name": "INM3",
                 "file": [
                     "INM Audio INM3"
@@ -872,6 +909,10 @@
                 ],
                 "reviewScore": "N/A (Need to Redemo)",
                 "shopLink": "https://www.facebook.com/inmaudio/"
+            },
+            {
+                "name": "INM3 Stage",
+                "file": "INM Audio INM3 Stage"
             },
             {
                 "name": "INM8",
@@ -886,6 +927,10 @@
                 "reviewScore": "8.06/10",
                 "price": "$8000",
                 "shopLink": "https://www.facebook.com/inmaudio/"
+            },
+            {
+                "name": "INM11",
+                "file": "INM Audio INM11"
             }
         ]
     },
@@ -1041,12 +1086,46 @@
                 "reviewScore": "3",
                 "shopLink": "https://hifigo.com/products/kinera-celest-plutus-beast",
                 "reviewLink": "https://youtu.be/hZx4Kj8KEN8"
+            },
+            {
+                "name": "Celest Relentless",
+                "file": [
+                    "Kinera Celest Relentless Balanced",
+                    "Kinera Celest Relentless Balanced 25 Ohm",
+                    "Kinera Celest Relentless Balanced 50 Ohm",
+                    "Kinera Celest Relentless Balanced 75 Ohm",
+                    "Kinera Celest Relentless Vocal",
+                    "Kinera Celest Relentless Foam"
+                ],
+                "suffix": [
+                    "w/ balanced (red) eartips",
+                    "w/ balanced (red) eartips & 25 Ohm adapter",
+                    "w/ balanced (red) eartips & 50 Ohm adapter",
+                    "w/ balanced (red) eartips & 75 Ohm adapter",
+                    "w/ vocal (black) eartips",
+                    "w/ foam tips"
+                ]
             }
         ]
     },
     {
         "name": "Kiwi Ears",
         "phones": [
+            {
+                "name": "KE4",
+                "file": [
+                    "Kiwi Ears KE4",
+                    "Kiwi Ears KE4 25 Ohm",
+                    "Kiwi Ears KE4 50 Ohm",
+                    "Kiwi Ears KE4 75 Ohm"
+                ],
+                "suffix": [
+                    "",
+                    "w/ 25 Ohm adapter",
+                    "w/ 50 Ohm adapter",
+                    "w/ 75 Ohm adapter"
+                ]
+            },
             {
                 "name": "Quartet",
                 "file": [
@@ -1577,6 +1656,24 @@
         ]
     },
     {
+        "name": "Moritz",
+        "phones": [
+            {
+                "name": "Paradise",
+                "file": [
+                    "Moritz Paradise UDD",
+                    "Moritz Paradise DUD",
+                    "Moritz Paradise DDU"
+                ],
+                "suffix": [
+                    "(UDD)",
+                    "(DUD)",
+                    "(DDU)"
+                ]
+            }
+        ]
+    },
+    {
         "name": "ND Earphone",
         "phones": [
             {
@@ -1967,10 +2064,43 @@
             {
                 "name": "EW300 DSP",
                 "file": [
-                    "Simgot EW300 DSP S1 Gold"
+                    "Simgot EW300 DSP S1 Gold",
+                    "Simgot EW300 DSP S1 Silver",
+                    "Simgot EW300 DSP S1 3.5mm Gold",
+                    "Simgot EW300 DSP S1 3.5mm Gold 25 Ohm",
+                    "Simgot EW300 DSP S1 3.5mm Gold 50 Ohm",
+                    "Simgot EW300 DSP S1 3.5mm Gold 75 Ohm",
+                    "Simgot EW300 DSP S1 3.5mm Silver",
+                    "Simgot EW300 DSP S1 3.5mm Silver 25 Ohm",
+                    "Simgot EW300 DSP S1 3.5mm Silver 50 Ohm",
+                    "Simgot EW300 DSP S1 3.5mm Silver 75 Ohm"
                 ],
                 "suffix": [
-                    "(gold nozzle)"
+                    "(gold nozzle)",
+                    "(silver nozzle)",
+                    "3.5mm (gold nozzle)",
+                    "3.5mm (gold nozzle) w/ 25 Ohm adapter",
+                    "3.5mm (gold nozzle) w/ 50 Ohm adapter",
+                    "3.5mm (gold nozzle) w/ 75 Ohm adapter",
+                    "3.5mm (silver nozzle)",
+                    "3.5mm (silver nozzle) w/ 25 Ohm adapter",
+                    "3.5mm (silver nozzle) w/ 50 Ohm adapter",
+                    "3.5mm (silver nozzle) w/ 75 Ohm adapter"
+                ]
+            },
+            {
+                "name": "Supermix 4",
+                "file": [
+                    "Simgot Supermix 4",
+                    "Simgot Supermix 4 25 Ohm",
+                    "Simgot Supermix 4 50 Ohm",
+                    "Simgot Supermix 4 75 Ohm"
+                ],
+                "suffix": [
+                    "",
+                    "w/ 25 Ohm adapter",
+                    "w/ 50 Ohm adapter",
+                    "w/ 75 Ohm adapter"
                 ]
             }
         ]
