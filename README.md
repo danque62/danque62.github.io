@@ -3,7 +3,7 @@
 Added IEMs:
 - FATFreq BabyFreq
 - FATFreq x HBB Deuce
-- Hisenior Mega5P (sample 2)
+- Hisenior Mega5P Ultra (sample 2)
 - INM Audio INM2 Stage
 - INM Audio INM3 Stage
 - INM Audio INM11/X/10+1 (I really don't know the exact name I'll update when I see the official name)

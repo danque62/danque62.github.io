@@ -822,19 +822,11 @@
                 "name": "Mega5P",
                 "file": [
                     "Hisenior Mega5p",
-                    "Hisenior Mega5p Final Type E",
-                    "Hisenior Mega5P S2 ASMR",
-                    "Hisenior Mega5P S2 Sancai Wide",
-                    "Hisenior Mega5P S2 Sancai Narrow",
-                    "Hisenior Mega5P S2 Velvet Wide"
+                    "Hisenior Mega5p Final Type E"
                 ],
                 "suffix": [
                     "S1 w/ Spinfits W1 tips",
-                    "S1 w/ Final Type E tips",
-                    "S2 w/ Azla SednaEarfit MAX ASMR tips",
-                    "S2 w/ TangZu Sancai Wide tips",
-                    "S2 w/ TangZu Sancai Narrow tips",
-                    "S2 w/ Divinus Velvet Wide tips"
+                    "S1 w/ Final Type E tips"
                 ],
                 "price": "$300",
                 "reviewScore": "6.64/10"
@@ -842,12 +834,20 @@
             {
                 "name": "Mega5P Ultra",
                 "file": [
+                    "Hisenior Mega5P Ultra S2 ASMR",
+                    "Hisenior Mega5P Ultra S2 Sancai Wide",
+                    "Hisenior Mega5P Ultra S2 Sancai Narrow",
+                    "Hisenior Mega5P Ultra S2 Velvet Wide",
                     "Hisenior Mega5P Ultra Velvet"
                 ],
                 "suffix": [
+                    "S2 w/ Azla SednaEarfit MAX ASMR tips",
+                    "S2 w/ TangZu Sancai Wide tips",
+                    "S2 w/ TangZu Sancai Narrow tips",
+                    "S2 w/ Divinus Velvet Wide tips",
                     "(left channel only) w/ Divinus Velvet tips"
                 ],
-                "reviewScore": "N/A (Imbalanced)",
+                "reviewScore": "N/A (haven't tried)",
                 "price": "$300",
                 "shopLink": "https://www.hisenior-iem.com/products/mega5pultra"
             }

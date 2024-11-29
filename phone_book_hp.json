@@ -270,12 +270,10 @@
             {
                 "name": "HD560s",
                 "file": [
-                    "Sennheiser HD560s",
-                    "Sennheiser HD560s S2"
+                    "Sennheiser HD560s"
                 ],
                 "suffix": [
-                    "S1",
-                    "S2 (pad diff)"
+                    "S1"
                 ],
                 "shopLink": "",
                 "reviewScore": "6.86/10"
