@@ -14,11 +14,17 @@
         "phones": [
             {
                 "name": "Hexa:Green",
-                "file": "Cosmo Hexa Green"
+                "file": [
+                    "Cosmo Hexa Green",
+                    "Cosmo Hexa Green 10 ohm"
+                ],
+                "suffix": [
+                    "",
+                    "w/ 10-ohm impedance adapter"
+                ]
             }
         ]
     },
-    
     {
         "name": "AFUL",
         "phones": [
@@ -96,17 +102,21 @@
                 "collab": "HBB",
                 "file": [
                     "FATfreq x HBB Deuce",
-                    "FATfreq x HBB Deuce 10 ohm"
+                    "FATfreq x HBB Deuce IMP"
                 ],
                 "suffix": [
                     "",
-                    "w/ 10 Ohm adapter"
+                    "w/ impedance adapter"
                 ]
             },
             {
                 "name": "Maestro Mini",
-                "file": ["FATfreq Maestro Mini Clarions"],
-                "suffix": ["w/ TRI Clarions"]
+                "file": [
+                    "FATfreq Maestro Mini Clarions"
+                ],
+                "suffix": [
+                    "w/ TRI Clarions"
+                ]
             }
         ]
     },
@@ -114,8 +124,17 @@
         "name": "Hisenior",
         "phones": [
             {
-                "name": "Mega5-EST",
-                "file": "Hisenior Mega5-EST"
+                "name": "Mega5EST",
+                "file": [
+                    "Hisenior Mega5EST",
+                    "Hisenior Mega5EST W1",
+                    "Hisenior Mega5EST W1 IMP"
+                ],
+                "suffix": [
+                    "",
+                    "w/ Spinfits W1 tips",
+                    "(FATfreq impedance adapter) w/ Spinfits W1 tips"
+                ]
             }
         ]
     },
@@ -152,6 +171,34 @@
         ]
     },
     {
+        "name": "Nightjar Acoustics",
+        "phones": [
+            {
+                "name": "Duality",
+                "file": [
+                    "Nightjar Duality S-",
+                    "Nightjar Duality S- IMP",
+                    "Nightjar Duality S+",
+                    "Nightjar Duality S+ IMP",
+                    "Nightjar Duality BH S-",
+                    "Nightjar Duality BH S- IMP",
+                    "Nightjar Duality BH S+",
+                    "Nightjar Duality BH S+ IMP"
+                ],
+                "suffix": [
+                    "Switch Down",
+                    "Switch Down w/ impedance adapter",
+                    "Switch Up",
+                    "Switch Up w/ impedance adapter",
+                    "(Blue Hour) Switch Down",
+                    "(Blue Hour) Switch Down w/ impedance adapter",
+                    "(Blue Hour) Switch Up",
+                    "(Blue Hour) Switch Up w/ impedance adapter"
+                ]
+            }
+        ]
+    },
+    {
         "name": "QKZ",
         "phones": [
             {
@@ -176,8 +223,14 @@
             {
                 "name": "Meteor",
                 "collab": "Nightjar Acoustics",
-                "file": ["Symphonium Meteor", "Symphonium Meteor Clarions"], 
-                "suffix": ["", "w/ TRI Clarions"]
+                "file": [
+                    "Symphonium Meteor",
+                    "Symphonium Meteor Clarions"
+                ],
+                "suffix": [
+                    "",
+                    "w/ TRI Clarions"
+                ]
             }
         ]
     },
