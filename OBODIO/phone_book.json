@@ -138,6 +138,10 @@
 		"name": "Celest",
 		"phones": [
 			{
+				"name": "Ignite X Beast",
+				"file": "ignite x beast"
+			},
+			{
 				"name": "Pandamon",
 				"file": "panda"
 			},
@@ -329,6 +333,10 @@
 					"0.8 OB ver.",
 					"0.11 xenobie"
 				]
+			},
+			{
+				"name": "Yacht 10",
+				"file": "yacht"
 			}
 		]
 	},
@@ -706,6 +714,23 @@
 					"UUDD",
 					"UDDD"
 				]
+			},
+			{
+				"name": "Zenith",
+				"file": [
+					"zenith uuuu",
+					"zenith uuud",
+					"zenith uudd",
+					"zenith uddd",
+					"zenith dddd"
+				],
+				"suffix": [
+					"UUUU",
+					"UUUD",
+					"UUDD",
+					"UDDD",
+					"DDDD"
+				]
 			}
 		]
 	},
@@ -721,6 +746,10 @@
 	{
 		"name": "Letshuoer",
 		"phones": [
+			{
+				"name": "Cadenza 12 (2025)",
+				"file": "lc12 2025"
+			},
 			{
 				"name": "D13",
 				"file": [
@@ -841,6 +870,10 @@
 			{
 				"name": "F1 Pro",
 				"file": "f1 pro"
+			},
+			{
+				"name": "NX8",
+				"file": "nx8"
 			}
 		]
 	},
@@ -901,6 +934,10 @@
 	{
 		"name": "Rose Technics",
 		"phones": [
+			{
+				"name": "QTX",
+				"file": "qtx"
+			},
 			{
 				"name": "QT9 MK3",
 				"file": "qt9mk3"
@@ -1082,11 +1119,13 @@
 				"name": "Yu Xuan Ji",
 				"file": [
 					"xuanji matte",
-					"xuanji"
+					"xuanji",
+					"xuanji meshless"
 				],
 				"suffix": [
 					"S1",
-					"S2"
+					"S2",
+					"Meshless"
 				]
 			},
 			{
