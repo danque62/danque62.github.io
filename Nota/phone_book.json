@@ -15,12 +15,16 @@
             {
                 "name": "Hexa:Green",
                 "file": [
-                    "Cosmo Hexa Green",
-                    "Cosmo Hexa Green 10 ohm"
+                    "Cosmo Mods Hexa Green",
+                    "Cosmo Mods Hexa Green 10 ohm",
+                    "Cosmo Mods Hexa Green S2 Narrow",
+                    "Cosmo Mods Hexa Green S2 Wide"
                 ],
                 "suffix": [
-                    "",
-                    "w/ 10-ohm impedance adapter"
+                    "S1",
+                    "S1 w/ 10-ohm impedance adapter",
+                    "S2 w/ stock tips",
+                    "S2 w/ stock wide tips"
                 ]
             }
         ]
@@ -273,6 +277,29 @@
             {
                 "name": "Gate",
                 "file": "Truthear Gate"
+            },
+            {
+                "name": "Hexa",
+                "file": [
+                    "Truthear Hexa Narrow",
+                    "Truthear Hexa Wide",
+                    "Truthear Hexa Polarity Swap Narrow",
+                    "Truthear Hexa Polarity Swap Wide",
+                    "Truthear Hexa Polarity Swap Filt Narrow",
+                    "Truthear Hexa Polarity Swap Filt Wide",
+                    "Truthear Hexa Polarity Swap Filt Blocked Vent Narrow",
+                    "Truthear Hexa Polarity Swap Filt Blocked Vent Wide"
+                ],
+                "suffix": [
+                    "w/ stock tips",
+                    "w/ stock wide tips",
+                    "(Polarity Swap) w/ stock tips",
+                    "(Polarity Swap) w/ stock wide tips",
+                    "(Polarity Swap, and bass filter) w/ stock tips",
+                    "(Polarity Swap, and bass filter) w/ stock wide tips",
+                    "(Polarity Swap, bass filter, and blocked vent) w/ stock tips",
+                    "(Polarity Swap, bass filter, and blocked vent) w/ stock wide tips"
+                ]
             },
             {
                 "name": "Zero:RED",
